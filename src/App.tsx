@@ -29,6 +29,30 @@ function ImageWithFallback({ src, alt, className }: { src?: string; alt: string;
   );
 }
 
+function PriceDisplay({ productId }: { productId: string }) {
+  const currentPrice = priceService.getCurrent(productId);
+  const latestPrice = priceService.getLatest(productId);
+
+  if (currentPrice) {
+    return <span>السعر المتحقق منه: {currentPrice.price.toLocaleString()} جنيه — تحقق بتاريخ {currentPrice.priceDate}</span>;
+  }
+
+  if (latestPrice && !latestPrice.isHistorical && latestPrice.verificationStatus !== 'Verified') {
+    const timestamp = new Date(latestPrice.priceDate).getTime();
+    const ageInDays = (Date.now() - timestamp) / (1000 * 60 * 60 * 24);
+    if (Number.isFinite(timestamp) && ageInDays >= 0 && ageInDays <= 30) {
+      return (
+        <span className="price-estimate">
+          <strong>السعر التقريبي: {latestPrice.price.toLocaleString()} جنيه تقريباً</strong>
+          <small>سعر استرشادي غير مؤكد، مسجل بتاريخ {latestPrice.priceDate}. الأسعار قد تتغير حسب البائع والتوفر والعروض والضرائب؛ تأكد من السعر النهائي لدى البائع قبل الشراء.</small>
+        </span>
+      );
+    }
+  }
+
+  return <span>لا يوجد سعر حالي موثق أو تقديري حديث متاح</span>;
+}
+
 function Layout({ children }: { children: ReactNode }) {
   const [menuOpen, setMenuOpen] = useState(false);
 
@@ -107,7 +131,7 @@ function ProductCard({ product }: { product: Product }) {
         <p>{product.description}</p>
         <div className="meta-row">
           <strong>السعر المرجعي:</strong>
-          <span>{latestPrice ? `${latestPrice.price.toLocaleString()} جنيه — مسجل بتاريخ ${latestPrice.priceDate}` : 'غير متوفر في المصدر الموثق'}</span>
+          <PriceDisplay productId={product.id} />
         </div>
         <div className="meta-row">
           <strong>المصدر:</strong>
@@ -354,7 +378,7 @@ function ProductDetailPage() {
           <li>استهلاك الطاقة: {product.energyInformation || 'غير متوفر في المصدر الموثق'}</li>
           <li>الضمان: {product.warranty || 'غير متوفر في المصدر الموثق'}</li>
           <li>التوفر المسجل: {product.availability || 'غير محدد — يرجى التأكيد'}</li>
-          <li>السعر المرجعي: {latestPrice ? `${latestPrice.price.toLocaleString()} جنيه — مسجل بتاريخ ${latestPrice.priceDate}` : 'لا يوجد سعر حديث موثق'}</li>
+          <li>السعر: <PriceDisplay productId={product.id} /></li>
           <li>حالة التحقق: {product.verificationStatus} — راجع المصدر قبل الشراء</li>
         </ul>
         <section className="specifications-block">
@@ -406,8 +430,8 @@ function ComparePage() {
         <tbody>
           <tr>
             <td>السعر المرجعي الموثق وتاريخ التسجيل</td>
-            <td>{productA ? (priceService.getCurrent(productA.id) ? `${priceService.getCurrent(productA.id)!.price.toLocaleString()} جنيه — ${priceService.getCurrent(productA.id)!.priceDate}` : 'لا يوجد سعر حديث موثق بالكامل') : 'لا يوجد سعر حديث موثق بالكامل'}</td>
-            <td>{productB ? (priceService.getCurrent(productB.id) ? `${priceService.getCurrent(productB.id)!.price.toLocaleString()} جنيه — ${priceService.getCurrent(productB.id)!.priceDate}` : 'لا يوجد سعر حديث موثق بالكامل') : 'لا يوجد سعر حديث موثق بالكامل'}</td>
+            <td>{productA ? <PriceDisplay productId={productA.id} /> : 'لا يوجد سعر متاح'}</td>
+            <td>{productB ? <PriceDisplay productId={productB.id} /> : 'لا يوجد سعر متاح'}</td>
           </tr>
           <tr>
             <td>استهلاك الطاقة</td>
