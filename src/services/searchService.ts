@@ -52,8 +52,7 @@ export const searchService = {
     if (!normalized) return catalogProducts;
 
     const terms = normalized.split(/\s+/).filter(Boolean);
-    return products.filter((product) => {
-      if (!product.published) return false;
+    return catalogProducts.filter((product) => {
       const haystack = searchableText(product);
       return terms.every((word) => haystack.includes(word));
     });
