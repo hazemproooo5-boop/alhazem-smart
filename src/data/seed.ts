@@ -1,4 +1,5 @@
 import { Brand, NewsItem, PriceRecord, Product, SiteSettings, Supplier, Tip } from '../types';
+import { cairoSalesBrands, cairoSalesProducts, cairoSalesPrices } from './cairoSalesCatalog';
 
 export const siteSettings: SiteSettings = {
   brandName: 'AL HAZEM SMART',
@@ -90,6 +91,7 @@ export const brands: Brand[] = [
     createdAt: '2026-05-15T00:00:00Z',
     updatedAt: '2026-05-15T00:00:00Z',
   },
+  ...cairoSalesBrands,
 ];
 
 export const products: Product[] = [
@@ -167,6 +169,7 @@ export const products: Product[] = [
     updatedAt: '2026-05-15',
     imageUrl: '',
   },
+  ...cairoSalesProducts,
 ];
 
 export const prices: PriceRecord[] = [
@@ -206,6 +209,7 @@ export const prices: PriceRecord[] = [
     verificationStatus: 'Partially Verified',
     createdAt: '2026-05-14T00:00:00Z',
   },
+  ...cairoSalesPrices,
 ];
 
 export const news: NewsItem[] = [
