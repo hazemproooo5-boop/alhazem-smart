@@ -1,4 +1,4 @@
-import { ReactNode, useState } from 'react';
+import { FormEvent, ReactNode, useState } from 'react';
 import { Link, NavLink, Route, Routes, useNavigate, useParams, useSearchParams } from 'react-router-dom';
 import { academyItems, auditLog, brands, competitions, news, offers, products, siteSettings, suppliers, tips } from './data/seed';
 import { companyDirectory, wholesaleMarketDirectory } from './data/companyDirectory';
@@ -125,7 +125,7 @@ function HomePage() {
   const navigate = useNavigate();
   const [homeSearchTerm, setHomeSearchTerm] = useState('');
 
-  const handleHomeSearch = (event: React.FormEvent<HTMLFormElement>) => {
+  const handleHomeSearch = (event: FormEvent<HTMLFormElement>) => {
     event.preventDefault();
     const term = homeSearchTerm.trim();
     navigate(term ? `/smart-search?term=${encodeURIComponent(term)}` : '/smart-search');
