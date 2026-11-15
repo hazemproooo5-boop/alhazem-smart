@@ -34,7 +34,7 @@ function PriceDisplay({ productId }: { productId: string }) {
   const latestPrice = priceService.getLatest(productId);
 
   if (currentPrice) {
-    return <span>السعر المتحقق منه: {currentPrice.price.toLocaleString()} جنيه — تحقق بتاريخ {currentPrice.priceDate}</span>;
+    return <span>السعر المتحقق منه: {currentPrice.price.toLocaleString()} جنيه — تحقق بتاريخ {currentPrice.priceDate}{currentPrice.sourceUrl ? <> — <a href={currentPrice.sourceUrl} target="_blank" rel="noreferrer">مصدر السعر</a></> : null}</span>;
   }
 
   if (latestPrice && !latestPrice.isHistorical && latestPrice.verificationStatus !== 'Verified') {
@@ -44,7 +44,7 @@ function PriceDisplay({ productId }: { productId: string }) {
       return (
         <span className="price-estimate">
           <strong>السعر التقريبي: {latestPrice.price.toLocaleString()} جنيه تقريباً</strong>
-          <small>سعر استرشادي غير مؤكد، مسجل بتاريخ {latestPrice.priceDate}. الأسعار قد تتغير حسب البائع والتوفر والعروض والضرائب؛ تأكد من السعر النهائي لدى البائع قبل الشراء.</small>
+          <small>سعر استرشادي غير مؤكد، مسجل بتاريخ {latestPrice.priceDate}. الأسعار قد تتغير حسب البائع والتوفر والعروض والضرائب؛ تأكد من السعر النهائي لدى البائع قبل الشراء.{latestPrice.sourceUrl ? <> <a href={latestPrice.sourceUrl} target="_blank" rel="noreferrer">راجع مصدر السعر المسجل</a>.</> : null}</small>
         </span>
       );
     }
@@ -129,7 +129,7 @@ function ProductCard({ product }: { product: Product }) {
         <h3>{product.name}</h3>
         <p>{product.description}</p>
         <div className="meta-row">
-          <strong>السعر المرجعي:</strong>
+          <strong>السعر:</strong>
           <PriceDisplay productId={product.id} />
         </div>
         <div className="meta-row">
@@ -175,7 +175,7 @@ function HomePage() {
           </div>
           <div className="mini-stat">
             <strong>{catalogProducts.filter((product) => product.published).length}</strong>
-            <span>منتجات منشورة</span>
+            <span>منتجات مستوفية لشروط التوثيق</span>
           </div>
           <div className="mini-stat">
             <strong>قبل الشراء</strong>
@@ -221,6 +221,7 @@ function HomePage() {
             <ProductCard key={product.id} product={product} />
           ))}
         </div>
+        {catalogProducts.filter((product) => product.published).length === 0 ? <div className="result-box" role="status">لا توجد منتجات اجتازت التوثيق الكامل حتى الآن. نحتفظ بالسجلات الناقصة للمراجعة ولا نعرضها كمنتجات موثقة أو نختلق صوراً ومواصفات لها. <Link to="/support">تواصل معنا للاستفسار عن المنتجات المتاحة.</Link></div> : null}
       </section>
 
       <section className="section-block">
@@ -349,7 +350,7 @@ function SmartSearchPage() {
       </div>
 
       <div className="cards-grid">
-        {results.length ? results.map((product) => <ProductCard key={product.id} product={product} />) : <div className="feature-card">لا توجد نتائج في المصدر الموثق</div>}
+        {results.length ? results.map((product) => <ProductCard key={product.id} product={product} />) : <div className="feature-card" role="status">لا توجد منتجات موثقة تطابق البحث حالياً. يمكنك التواصل مع خدمة العملاء للاستفسار عن التوفر والسعر الحالي. <Link to="/support">خدمة العملاء</Link></div>}
       </div>
     </div>
   );
@@ -568,6 +569,7 @@ function BrandDetailPage() {
           <ProductCard key={product.id} product={product} />
         ))}
       </div>
+      {catalogProducts.every((product) => product.brandId !== brand.id) ? <div className="result-box" role="status">لا توجد منتجات موثقة لهذه الماركة حالياً. بيانات الماركة لا تعني أن موديلاتها أو أسعارها أو توفرها قد تم التحقق منها.</div> : null}
     </div>
   );
 }
@@ -576,7 +578,7 @@ function CatalogCenterPage() {
   return (
     <div className="container page-block">
       <h1>كتالوج المنتجات الموثقة</h1>
-      <p>لا يظهر هنا إلا الجهاز الذي اجتاز التحقق من الموديل والصورة والمصدر والمواصفات والسعر الحديث وحالة التوفر.</p>
+      <p>لا يظهر هنا إلا الجهاز الذي اجتاز التحقق من الموديل والصورة والمصدر والمواصفات وحالة التوفر. حالة السعر تُعرض بصورة مستقلة: موثق بتاريخ تحقق، أو تقريبي إذا كان حديثاً وغير موثق.</p>
       {catalogProducts.length === 0 ? <div className="result-box" role="status">لا توجد أجهزة مستوفية لجميع شروط التوثيق حالياً. المنتجات غير المكتملة محفوظة للمراجعة ولا تُعرض كمنتجات موثقة.</div> : null}
       <div className="cards-grid">
         {catalogProducts.map((product) => <ProductCard key={product.id} product={product} />)}
@@ -586,11 +588,14 @@ function CatalogCenterPage() {
 }
 
 function ACPage() {
+  const airConditioners = catalogProducts.filter((product) => product.categoryId === 'ac');
   return (
     <div className="container page-block">
       <h1>التكييف</h1>
+      <p>نعرض أجهزة التكييف التي اجتازت التحقق من الموديل والصورة والمصدر والمواصفات وحالة التوفر.</p>
+      {airConditioners.length === 0 ? <div className="result-box" role="status">لا توجد أجهزة تكييف مستوفية لشروط التوثيق حالياً. لا نعرض أجهزة أو أسعاراً غير متحققة على أنها مؤكدة. <Link to="/support">اطلب استشارة أو تحققاً من التوفر.</Link></div> : null}
       <div className="cards-grid">
-        {catalogProducts.filter((product) => product.categoryId === 'ac').map((product) => <ProductCard key={product.id} product={product} />)}
+        {airConditioners.map((product) => <ProductCard key={product.id} product={product} />)}
       </div>
     </div>
   );
