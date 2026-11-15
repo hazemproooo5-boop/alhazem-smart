@@ -182,7 +182,7 @@ function HomePage() {
       <section className="section-block">
         <h2>الأجهزة المنزلية</h2>
         <div className="cards-grid">
-          {products.slice(0, 2).map((product) => (
+          {products.filter((product) => product.published).map((product) => (
             <ProductCard key={product.id} product={product} />
           ))}
         </div>
