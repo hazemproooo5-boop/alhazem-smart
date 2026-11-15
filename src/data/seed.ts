@@ -1,5 +1,5 @@
 import { Brand, NewsItem, PriceRecord, Product, SiteSettings, Supplier, Tip } from '../types';
-import { cairoSalesBrands, cairoSalesProducts, cairoSalesPrices, cairoSalesCookwareProducts, cairoSalesCookwarePrices } from './cairoSalesCatalog';
+import { cairoSalesBrands, cairoSalesProducts, cairoSalesPrices, cairoSalesCookwareProducts, cairoSalesCookwarePrices, cairoSalesSmallApplianceProducts, cairoSalesSmallAppliancePrices } from './cairoSalesCatalog';
 import { brandDirectoryNames } from './brandDirectory';
 
 const existingBrandKeys = new Set(['samsung', 'lg', 'bosch', 'beko', 'aux', ...cairoSalesBrands.map((brand) => brand.name.toLocaleLowerCase())]);
@@ -191,6 +191,7 @@ export const products: Product[] = [
   },
   ...cairoSalesProducts,
   ...cairoSalesCookwareProducts,
+  ...cairoSalesSmallApplianceProducts,
 ];
 
 export const prices: PriceRecord[] = [
@@ -232,6 +233,7 @@ export const prices: PriceRecord[] = [
   },
   ...cairoSalesPrices,
   ...cairoSalesCookwarePrices,
+  ...cairoSalesSmallAppliancePrices,
 ];
 
 export const news: NewsItem[] = [
