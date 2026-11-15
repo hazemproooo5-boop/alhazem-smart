@@ -2,9 +2,9 @@ name: Verify AlHazem Vite
 
 on:
   push:
-    branches: ["111111", "fix/alhazem-vite-integration-2026-11-07"]
+    branches: ["main", "feat/**", "fix/**"]
   pull_request:
-    branches: ["111111"]
+    branches: ["main"]
 
 concurrency:
   group: alhazem-vite-verify-${{ github.ref }}
