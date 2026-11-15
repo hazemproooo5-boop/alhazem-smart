@@ -429,7 +429,7 @@ function ComparePage() {
         </thead>
         <tbody>
           <tr>
-            <td>السعر المرجعي الموثق وتاريخ التسجيل</td>
+            <td>السعر وحالة التوثيق وتاريخ التسجيل</td>
             <td>{productA ? <PriceDisplay productId={productA.id} /> : 'لا يوجد سعر متاح'}</td>
             <td>{productB ? <PriceDisplay productId={productB.id} /> : 'لا يوجد سعر متاح'}</td>
           </tr>
@@ -668,7 +668,7 @@ function TransparencyPage() {
         </article>
         <article className="feature-card">
           <strong>الأسعار</strong>
-          <p>الأسعار الحالية المعروضة بيانات تجريبية محلية مؤرخة، ويجب مراجعة المصدر قبل اتخاذ قرار الشراء.</p>
+          <p>السعر الموثق يُعرض مع تاريخ التحقق. وأي سعر حديث غير موثق يُعرض بوضوح بعبارة «السعر التقريبي» و«تقريباً» مع تنبيه استرشادي؛ أما السعر القديم أو التاريخي فلا يُعرض كسعر حالي. لا تعني كلمة «تقريباً» ضمان السعر أو إعفاء المنصة من مسؤولية دقة البيانات.</p>
         </article>
         <article className="feature-card">
           <strong>سجل الأحداث</strong>
