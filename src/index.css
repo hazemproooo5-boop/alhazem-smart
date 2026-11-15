@@ -410,3 +410,22 @@ img {
     flex-direction: column;
   }
 }
+
+
+/* Product media and specification readability */
+.image-frame { position: relative; overflow: hidden; display: flex; align-items: center; justify-content: center; background: #eef0f3; border-radius: inherit; }
+.image-frame > img { display: block; width: 100%; height: 100%; object-fit: contain; }
+.image-frame.image-unavailable { min-height: 180px; }
+.image-fallback { display: none; color: #596273; font-size: .9rem; text-align: center; padding: 1rem; }
+.image-frame.image-unavailable .image-fallback { display: block; }
+.image-frame:not(.image-unavailable) .image-fallback { display: none; }
+.product-image { width: 100%; height: 220px; }
+.detail-image { width: 100%; min-height: 280px; max-height: 440px; }
+.brand-logo-image { width: 100%; height: 64px; background: transparent; }
+.specifications-block { margin-top: 1.5rem; }
+.specifications-list { display: grid; grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)); gap: .75rem; margin: 1rem 0; }
+.specifications-list > div { padding: .8rem; border: 1px solid #e2e5ea; border-radius: 10px; background: #fff; }
+.specifications-list dt { font-weight: 700; margin-bottom: .3rem; }
+.specifications-list dd { margin: 0; color: #475166; }
+.source-links { display: flex; flex-wrap: wrap; gap: 1rem; margin-top: 1rem; }
+.source-links a { color: #9a6b13; text-decoration: underline; }

@@ -15,6 +15,18 @@ const categoryList = [
   { id: 'lighting', label: 'Lighting' },
 ];
 
+function ImageWithFallback({ src, alt, className }: { src?: string; alt: string; className: string }) {
+  return (
+    <div className={`image-frame ${className} ${src ? '' : 'image-unavailable'}`}>
+      {src ? <img src={src} alt={alt} onError={(event) => {
+        event.currentTarget.hidden = true;
+        event.currentTarget.parentElement?.classList.add('image-unavailable');
+      }} /> : null}
+      <span className="image-fallback">الصورة غير متاحة حالياً</span>
+    </div>
+  );
+}
+
 function Layout({ children }: { children: ReactNode }) {
   const [menuOpen, setMenuOpen] = useState(false);
 
@@ -85,7 +97,7 @@ function ProductCard({ product }: { product: Product }) {
 
   return (
     <article className="product-card">
-      <img src={product.imageUrl} alt={product.name} className="product-image" />
+      <ImageWithFallback src={product.imageUrl} alt={product.name} className="product-image" />
       <div className="product-body">
         <span className="badge">{product.verificationStatus}</span>
         <h3>{product.name}</h3>
@@ -159,7 +171,7 @@ function HomePage() {
         <div className="brand-grid">
           {brands.map((brand) => (
             <Link key={brand.id} to={`/brand/${brand.slug}`} className="brand-card">
-              <img src={brand.logo} alt={brand.name} />
+              <ImageWithFallback src={brand.logo} alt={brand.name} className="brand-logo-image" />
               <strong>{brand.name}</strong>
               <small>{brand.country}</small>
             </Link>
@@ -315,17 +327,37 @@ function ProductDetailPage() {
 
   return (
     <div className="container page-block product-detail">
-      <img src={product.imageUrl} alt={product.name} className="detail-image" />
+      <ImageWithFallback src={product.imageUrl} alt={product.name} className="detail-image" />
       <div>
         <span className="badge">{product.verificationStatus}</span>
         <h1>{product.name}</h1>
         <p>{product.description}</p>
         <ul className="detail-list">
-          <li>الموديل: {product.model}</li>
+          <li>الماركة: {brands.find((brand) => brand.id === product.brandId)?.name ?? 'غير محدد'}</li>
+          <li>الموديل: {product.model || 'غير متوفر في المصدر الموثق'}</li>
+          <li>رقم المنتج: {product.sku || 'غير متوفر'}</li>
+          <li>السعة / القدرة: {product.capacity || 'غير متوفر في المصدر الموثق'}</li>
+          <li>الأبعاد: {product.dimensions || 'غير متوفرة في المصدر الموثق'}</li>
+          <li>استهلاك الطاقة: {product.energyInformation || 'غير متوفر في المصدر الموثق'}</li>
+          <li>الضمان: {product.warranty || 'غير متوفر في المصدر الموثق'}</li>
+          <li>التوفر المسجل: {product.availability || 'غير محدد — يرجى التأكيد'}</li>
           <li>السعر المرجعي: {latestPrice ? `${latestPrice.price.toLocaleString()} جنيه — مسجل بتاريخ ${latestPrice.priceDate}` : 'لا يوجد سعر حديث موثق'}</li>
-          <li>الضمان: {product.warranty ?? 'غير متوفر في المصدر الموثق'}</li>
-          <li>المصدر: {product.sourceUrl}</li>
+          <li>حالة التحقق: {product.verificationStatus} — راجع المصدر قبل الشراء</li>
         </ul>
+        <section className="specifications-block">
+          <h2>المواصفات المسجلة</h2>
+          {Object.keys(product.specifications).length ? (
+            <dl className="specifications-list">
+              {Object.entries(product.specifications).map(([label, value]) => (
+                <div key={label}><dt>{label}</dt><dd>{value}</dd></div>
+              ))}
+            </dl>
+          ) : <p>لا توجد مواصفات تفصيلية موثقة لهذا المنتج حتى الآن.</p>}
+        </section>
+        <div className="source-links">
+          {product.officialProductUrl ? <a href={product.officialProductUrl} target="_blank" rel="noreferrer">صفحة المنتج لدى الشركة المصنعة</a> : null}
+          {product.sourceUrl ? <a href={product.sourceUrl} target="_blank" rel="noreferrer">فتح مصدر البيانات المسجل</a> : null}
+        </div>
       </div>
     </div>
   );
@@ -432,7 +464,7 @@ function BrandsPage() {
       <div className="brand-grid">
         {brands.map((brand) => (
           <Link to={`/brand/${brand.slug}`} key={brand.id} className="brand-card">
-            <img src={brand.logo} alt={brand.name} />
+            <ImageWithFallback src={brand.logo} alt={brand.name} className="brand-logo-image" />
             <strong>{brand.name}</strong>
             <small>{brand.country}</small>
           </Link>
