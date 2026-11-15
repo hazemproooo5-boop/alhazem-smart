@@ -1,6 +1,7 @@
 import { ReactNode, useState } from 'react';
 import { Link, NavLink, Route, Routes, useParams } from 'react-router-dom';
 import { academyItems, auditLog, brands, competitions, news, offers, products, siteSettings, suppliers, tips } from './data/seed';
+import { companyDirectory, wholesaleMarketDirectory } from './data/companyDirectory';
 import { NeedProfile, Product } from './types';
 import { advisorService } from './services/advisorService';
 import { priceService } from './services/priceService';
@@ -52,6 +53,7 @@ function Layout({ children }: { children: ReactNode }) {
             <NavLink to="/smart-search">البحث الذكي</NavLink>
             <NavLink to="/compare">المقارنة</NavLink>
             <NavLink to="/brands">مركز الماركات</NavLink>
+            <NavLink to="/companies">الشركات والمصانع</NavLink>
             <NavLink to="/catalog-center">كتالوج المنتجات</NavLink>
             <NavLink to="/ac">التكييف</NavLink>
             <NavLink to="/smart-advisor">المستشار الذكي</NavLink>
@@ -474,6 +476,49 @@ function BrandsPage() {
   );
 }
 
+function CompaniesDirectoryPage() {
+  const retailKinds = ['موزع تجزئة للأجهزة والإلكترونيات','متجر/موزع أجهزة منزلية','متجر تجزئة للأجهزة والإلكترونيات','موزع أجهزة منزلية'];
+  const groups = [
+    { title: 'الشركات والمصانع والعلامات التجارية', items: companyDirectory.filter((item) => !retailKinds.includes(item.kind)) },
+    { title: 'موزعو التجزئة والمتاجر الكبرى', items: companyDirectory.filter((item) => retailKinds.includes(item.kind)) },
+  ];
+  return (
+    <div className="container page-block">
+      <h1>دليل الشركات والمصانع والموزعين</h1>
+      <p>دليل أولي للجهات وروابطها كما وردت في البيانات المقدمة. إدراج جهة هنا لا يعني اعتمادها أو ثبوت الوكالة أو استمرار نشاطها.</p>
+      {groups.map((group) => (
+        <section key={group.title}>
+          <h2>{group.title}</h2>
+          <div className="cards-grid">
+            {group.items.map((item) => (
+              <article className="feature-card" key={item.id}>
+                <h3>{item.name}</h3>
+                <p>{item.kind}</p>
+                <p>{item.note}</p>
+                {item.url ? <a href={item.url} target="_blank" rel="noreferrer">{item.url.replace('https://', '').replace('http://', '')}</a> : <small>لا يوجد رابط مباشر محدد في القائمة</small>}
+                {'facebook' in item && item.facebook ? <p>{item.facebook.startsWith('https://') ? <a href={item.facebook} target="_blank" rel="noreferrer">صفحة فيسبوك</a> : <small>{item.facebook}</small>}</p> : null}
+                <small>حالة الرابط والبيانات: غير متحقق منها</small>
+              </article>
+            ))}
+          </div>
+        </section>
+      ))}
+      <section>
+        <h2>مراكز وأسواق تجارة الجملة</h2>
+        <div className="cards-grid">
+          {wholesaleMarketDirectory.map((market) => (
+            <article className="feature-card" key={market.id}>
+              <h3>{market.name}</h3>
+              <p>{market.description}</p>
+              <small>الموقع والتفاصيل التشغيلية تحتاج إلى تحقق ميداني</small>
+            </article>
+          ))}
+        </div>
+      </section>
+    </div>
+  );
+}
+
 function BrandDetailPage() {
   const { slug } = useParams();
   const brand = brands.find((item) => item.slug === slug);
@@ -673,6 +718,7 @@ function App() {
         <Route path="/compare" element={<ComparePage />} />
         <Route path="/smart-advisor" element={<SmartAdvisorPage />} />
         <Route path="/brands" element={<BrandsPage />} />
+        <Route path="/companies" element={<CompaniesDirectoryPage />} />
         <Route path="/brand/:slug" element={<BrandDetailPage />} />
         <Route path="/catalog-center" element={<CatalogCenterPage />} />
         <Route path="/ac" element={<ACPage />} />

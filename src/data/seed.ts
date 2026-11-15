@@ -1,4 +1,24 @@
 import { Brand, NewsItem, PriceRecord, Product, SiteSettings, Supplier, Tip } from '../types';
+import { cairoSalesBrands, cairoSalesProducts, cairoSalesPrices, cairoSalesCookwareProducts, cairoSalesCookwarePrices, cairoSalesSmallApplianceProducts, cairoSalesSmallAppliancePrices } from './cairoSalesCatalog';
+import { brandDirectoryNames } from './brandDirectory';
+
+const existingBrandKeys = new Set(['samsung', 'lg', 'bosch', 'beko', 'aux', ...cairoSalesBrands.map((brand) => brand.name.toLocaleLowerCase())]);
+const additionalDirectoryBrands: Brand[] = brandDirectoryNames
+  .filter((name, index, all) => all.findIndex((item) => item.toLocaleLowerCase() === name.toLocaleLowerCase()) === index && !existingBrandKeys.has(name.toLocaleLowerCase()))
+  .map((name) => ({
+    id: name.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, ''),
+    name,
+    slug: name.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, ''),
+    country: 'غير محدد',
+    description: 'ماركة مدرجة في دليل الماركات المقدم. بلد المنشأ والاعتماد والتوفر والبيانات الفنية تحتاج إلى توثيق مستقل.',
+    technology: 'غير محدد',
+    categories: ['غير مصنف'],
+    officialUrl: '',
+    logo: '',
+    sourceStatus: 'Monitoring',
+    createdAt: '2026-11-15T00:00:00Z',
+    updatedAt: '2026-11-15T00:00:00Z',
+  }));
 
 export const siteSettings: SiteSettings = {
   brandName: 'AL HAZEM SMART',
@@ -90,6 +110,8 @@ export const brands: Brand[] = [
     createdAt: '2026-05-15T00:00:00Z',
     updatedAt: '2026-05-15T00:00:00Z',
   },
+  ...cairoSalesBrands,
+  ...additionalDirectoryBrands,
 ];
 
 export const products: Product[] = [
@@ -167,6 +189,9 @@ export const products: Product[] = [
     updatedAt: '2026-05-15',
     imageUrl: '',
   },
+  ...cairoSalesProducts,
+  ...cairoSalesCookwareProducts,
+  ...cairoSalesSmallApplianceProducts,
 ];
 
 export const prices: PriceRecord[] = [
@@ -206,6 +231,9 @@ export const prices: PriceRecord[] = [
     verificationStatus: 'Partially Verified',
     createdAt: '2026-05-14T00:00:00Z',
   },
+  ...cairoSalesPrices,
+  ...cairoSalesCookwarePrices,
+  ...cairoSalesSmallAppliancePrices,
 ];
 
 export const news: NewsItem[] = [
