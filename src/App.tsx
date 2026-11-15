@@ -477,9 +477,10 @@ function BrandsPage() {
 }
 
 function CompaniesDirectoryPage() {
+  const retailKinds = ['موزع تجزئة للأجهزة والإلكترونيات','متجر/موزع أجهزة منزلية','متجر تجزئة للأجهزة والإلكترونيات','موزع أجهزة منزلية'];
   const groups = [
-    { title: 'الشركات والمصانع والعلامات التجارية', items: companyDirectory.filter((item) => ['مصنّع أجهزة منزلية','مصنّع/علامة أجهزة منزلية','علامة أجهزة منزلية','مصنّع أجهزة منزلية وتكييف','شركة/علامة أدوات منزلية','أجهزة صغيرة ومطبخ','مجموعة/موزع وأدوات منزلية','مجموعة صناعية وموزع','مصنّع أدوات منزلية','مصنّع أدوات منزلية وبلاستيك','مصنّع أدوات مائدة ميلامين','أدوات منزلية ومنتجات بلاستيكية','أواني طهي استانلس ستيل','أواني طهي جرانيت وسيراميك','علامة أدوات طهي','مصنّع أدوات طهي','أطقم أواني طهي','مصنّع بورسلين وصيني','مصنّع خزف وصيني','علامة أطقم صيني ومائدة','مصنّع ميلامين','علامة أجهزة مطبخ صغيرة','علامة أجهزة منزلية وإلكترونيات','مصنّع أجهزة منزلية','علامة أجهزة منزلية','علامة أجهزة منزلية وإلكترونيات','أجهزة منزلية صغيرة'].includes(item.kind)) },
-    { title: 'موزعو التجزئة والمتاجر الكبرى', items: companyDirectory.filter((item) => ['موزع تجزئة للأجهزة والإلكترونيات','متجر/موزع أجهزة منزلية','متجر تجزئة للأجهزة والإلكترونيات','موزع أجهزة منزلية'].includes(item.kind)) },
+    { title: 'الشركات والمصانع والعلامات التجارية', items: companyDirectory.filter((item) => !retailKinds.includes(item.kind)) },
+    { title: 'موزعو التجزئة والمتاجر الكبرى', items: companyDirectory.filter((item) => retailKinds.includes(item.kind)) },
   ];
   return (
     <div className="container page-block">
@@ -494,7 +495,7 @@ function CompaniesDirectoryPage() {
                 <h3>{item.name}</h3>
                 <p>{item.kind}</p>
                 <p>{item.note}</p>
-                {item.url ? <a href={item.url} target="_blank" rel="noreferrer">{item.url.replace(/^https?:\\/\\//, '')}</a> : <small>لا يوجد رابط مباشر محدد في القائمة</small>}
+                {item.url ? <a href={item.url} target="_blank" rel="noreferrer">{item.url.replace('https://', '').replace('http://', '')}</a> : <small>لا يوجد رابط مباشر محدد في القائمة</small>}
                 <small>حالة الرابط والبيانات: غير متحقق منها</small>
               </article>
             ))}
