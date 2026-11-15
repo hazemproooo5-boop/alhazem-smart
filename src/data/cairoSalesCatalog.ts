@@ -2554,3 +2554,432 @@ export const cairoSalesPrices: PriceRecord[] = [
     "createdAt": "2026-11-15T00:00:00Z"
   }
 ];
+
+
+// Twelve cookware items transcribed from the user's current-page list.
+// Prices and discounts are retained as supplied and are not independently verified.
+export const cairoSalesCookwareProducts: Product[] = [
+  {
+    "id": "cs-066",
+    "name": "جهاز طهي الأرز المنزلي هوم (500 واط، 1.5 لتر)",
+    "slug": "cairo-sales-cs-066-cookware",
+    "brandId": "home",
+    "manufacturerId": "home-manufacturer",
+    "categoryId": "kitchen",
+    "model": "JR2201",
+    "sku": "JR2201",
+    "description": "بيانات المنتج والأسعار من قائمة Cairo Sales التي قدمها المستخدم؛ لم يتم التحقق المستقل من صفحة المنتج أو التوفر أو السعر.",
+    "specifications": {
+      "السعر الأصلي بالقائمة": "2,443 EGP",
+      "نسبة الخصم بالقائمة": "10%"
+    },
+    "availability": "يحتاج تأكيد التوفر لدى المورد",
+    "sourceUrl": "",
+    "sourceType": "Unverified Market",
+    "verificationStatus": "Unverified",
+    "published": true,
+    "createdAt": "2026-11-15",
+    "updatedAt": "2026-11-15",
+    "imageUrl": ""
+  },
+  {
+    "id": "cs-067",
+    "name": "حلة طهي جرانيت نوفيرا برو (20 سم، كاندى روز)",
+    "slug": "cairo-sales-cs-067-cookware",
+    "brandId": "nuvira",
+    "manufacturerId": "nuvira-manufacturer",
+    "categoryId": "kitchen",
+    "model": "NUVIRA-6223013812406",
+    "sku": "NUVIRA-6223013812406",
+    "description": "بيانات المنتج والأسعار من قائمة Cairo Sales التي قدمها المستخدم؛ لم يتم التحقق المستقل من صفحة المنتج أو التوفر أو السعر.",
+    "specifications": {
+      "السعر الأصلي بالقائمة": "1,301 EGP",
+      "نسبة الخصم بالقائمة": "12%"
+    },
+    "availability": "يحتاج تأكيد التوفر لدى المورد",
+    "sourceUrl": "",
+    "sourceType": "Unverified Market",
+    "verificationStatus": "Unverified",
+    "published": true,
+    "createdAt": "2026-11-15",
+    "updatedAt": "2026-11-15",
+    "imageUrl": ""
+  },
+  {
+    "id": "cs-068",
+    "name": "طقم حلل جرانيت سافلون يد استانلس (12 قطعة، رمادي)",
+    "slug": "cairo-sales-cs-068-cookware",
+    "brandId": "saflon",
+    "manufacturerId": "saflon-manufacturer",
+    "categoryId": "kitchen",
+    "model": "8697450170920",
+    "sku": "8697450170920",
+    "description": "بيانات المنتج والأسعار من قائمة Cairo Sales التي قدمها المستخدم؛ لم يتم التحقق المستقل من صفحة المنتج أو التوفر أو السعر.",
+    "specifications": {
+      "السعر الأصلي بالقائمة": "20,344 EGP",
+      "نسبة الخصم بالقائمة": "13%"
+    },
+    "availability": "يحتاج تأكيد التوفر لدى المورد",
+    "sourceUrl": "",
+    "sourceType": "Unverified Market",
+    "verificationStatus": "Unverified",
+    "published": true,
+    "createdAt": "2026-11-15",
+    "updatedAt": "2026-11-15",
+    "imageUrl": ""
+  },
+  {
+    "id": "cs-069",
+    "name": "حلة طهي استانلس ستيل عبود (38 سم، فضي)",
+    "slug": "cairo-sales-cs-069-cookware",
+    "brandId": "aboud",
+    "manufacturerId": "aboud-manufacturer",
+    "categoryId": "kitchen",
+    "model": "6223005010117",
+    "sku": "6223005010117",
+    "description": "بيانات المنتج والأسعار من قائمة Cairo Sales التي قدمها المستخدم؛ لم يتم التحقق المستقل من صفحة المنتج أو التوفر أو السعر.",
+    "specifications": {
+      "السعر الأصلي بالقائمة": "3,260 EGP",
+      "نسبة الخصم بالقائمة": "8%"
+    },
+    "availability": "يحتاج تأكيد التوفر لدى المورد",
+    "sourceUrl": "",
+    "sourceType": "Unverified Market",
+    "verificationStatus": "Unverified",
+    "published": true,
+    "createdAt": "2026-11-15",
+    "updatedAt": "2026-11-15",
+    "imageUrl": ""
+  },
+  {
+    "id": "cs-070",
+    "name": "حلة استانلس ستيل كوركماز استرا (24 سم)",
+    "slug": "cairo-sales-cs-070-cookware",
+    "brandId": "korkmaz",
+    "manufacturerId": "korkmaz-manufacturer",
+    "categoryId": "kitchen",
+    "model": "A1903",
+    "sku": "A1903",
+    "description": "بيانات المنتج والأسعار من قائمة Cairo Sales التي قدمها المستخدم؛ لم يتم التحقق المستقل من صفحة المنتج أو التوفر أو السعر.",
+    "specifications": {
+      "السعر الأصلي بالقائمة": "2,768 EGP",
+      "نسبة الخصم بالقائمة": "10%"
+    },
+    "availability": "يحتاج تأكيد التوفر لدى المورد",
+    "sourceUrl": "",
+    "sourceType": "Unverified Market",
+    "verificationStatus": "Unverified",
+    "published": true,
+    "createdAt": "2026-11-15",
+    "updatedAt": "2026-11-15",
+    "imageUrl": ""
+  },
+  {
+    "id": "cs-071",
+    "name": "قالب غير لاصق نيوفلام (24 سم)",
+    "slug": "cairo-sales-cs-071-cookware",
+    "brandId": "neoflam",
+    "manufacturerId": "neoflam-manufacturer",
+    "categoryId": "kitchen",
+    "model": "N-6901649163245",
+    "sku": "N-6901649163245",
+    "description": "بيانات المنتج والأسعار من قائمة Cairo Sales التي قدمها المستخدم؛ لم يتم التحقق المستقل من صفحة المنتج أو التوفر أو السعر.",
+    "specifications": {
+      "السعر الأصلي بالقائمة": "666 EGP",
+      "نسبة الخصم بالقائمة": "10%"
+    },
+    "availability": "يحتاج تأكيد التوفر لدى المورد",
+    "sourceUrl": "",
+    "sourceType": "Unverified Market",
+    "verificationStatus": "Unverified",
+    "published": true,
+    "createdAt": "2026-11-15",
+    "updatedAt": "2026-11-15",
+    "imageUrl": ""
+  },
+  {
+    "id": "cs-072",
+    "name": "حلة جرانيت سافلون باور لاين مربعة (26 سم، أسود)",
+    "slug": "cairo-sales-cs-072-cookware",
+    "brandId": "saflon",
+    "manufacturerId": "saflon-manufacturer",
+    "categoryId": "kitchen",
+    "model": "S-6649",
+    "sku": "S-6649",
+    "description": "بيانات المنتج والأسعار من قائمة Cairo Sales التي قدمها المستخدم؛ لم يتم التحقق المستقل من صفحة المنتج أو التوفر أو السعر.",
+    "specifications": {
+      "السعر الأصلي بالقائمة": "3,194 EGP",
+      "نسبة الخصم بالقائمة": "13%"
+    },
+    "availability": "يحتاج تأكيد التوفر لدى المورد",
+    "sourceUrl": "",
+    "sourceType": "Unverified Market",
+    "verificationStatus": "Unverified",
+    "published": true,
+    "createdAt": "2026-11-15",
+    "updatedAt": "2026-11-15",
+    "imageUrl": ""
+  },
+  {
+    "id": "cs-073",
+    "name": "مقلاية كريب جرانيت سافلون دائرية (28 سم، شوكولاتة)",
+    "slug": "cairo-sales-cs-073-cookware",
+    "brandId": "saflon",
+    "manufacturerId": "saflon-manufacturer",
+    "categoryId": "kitchen",
+    "model": "S-3396",
+    "sku": "S-3396",
+    "description": "بيانات المنتج والأسعار من قائمة Cairo Sales التي قدمها المستخدم؛ لم يتم التحقق المستقل من صفحة المنتج أو التوفر أو السعر.",
+    "specifications": {
+      "السعر الأصلي بالقائمة": "1,137 EGP",
+      "نسبة الخصم بالقائمة": "13%"
+    },
+    "availability": "يحتاج تأكيد التوفر لدى المورد",
+    "sourceUrl": "",
+    "sourceType": "Unverified Market",
+    "verificationStatus": "Unverified",
+    "published": true,
+    "createdAt": "2026-11-15",
+    "updatedAt": "2026-11-15",
+    "imageUrl": ""
+  },
+  {
+    "id": "cs-074",
+    "name": "صينية فرن مستطيلة جرانيت توب شيف (مقاس 35)",
+    "slug": "cairo-sales-cs-074-cookware",
+    "brandId": "top-chef",
+    "manufacturerId": "top-chef-manufacturer",
+    "categoryId": "kitchen",
+    "model": "T-6223008052923",
+    "sku": "T-6223008052923",
+    "description": "بيانات المنتج والأسعار من قائمة Cairo Sales التي قدمها المستخدم؛ لم يتم التحقق المستقل من صفحة المنتج أو التوفر أو السعر.",
+    "specifications": {
+      "السعر الأصلي بالقائمة": "1,755 EGP",
+      "نسبة الخصم بالقائمة": "8%"
+    },
+    "availability": "يحتاج تأكيد التوفر لدى المورد",
+    "sourceUrl": "",
+    "sourceType": "Unverified Market",
+    "verificationStatus": "Unverified",
+    "published": true,
+    "createdAt": "2026-11-15",
+    "updatedAt": "2026-11-15",
+    "imageUrl": ""
+  },
+  {
+    "id": "cs-075",
+    "name": "صينية فرن مستطيلة جرانيت توب شيف (مقاس 35)",
+    "slug": "cairo-sales-cs-075-cookware",
+    "brandId": "top-chef",
+    "manufacturerId": "top-chef-manufacturer",
+    "categoryId": "kitchen",
+    "model": "T-6223008052930",
+    "sku": "T-6223008052930",
+    "description": "بيانات المنتج والأسعار من قائمة Cairo Sales التي قدمها المستخدم؛ لم يتم التحقق المستقل من صفحة المنتج أو التوفر أو السعر.",
+    "specifications": {
+      "السعر الأصلي بالقائمة": "1,630 EGP",
+      "نسبة الخصم بالقائمة": "8%"
+    },
+    "availability": "يحتاج تأكيد التوفر لدى المورد",
+    "sourceUrl": "",
+    "sourceType": "Unverified Market",
+    "verificationStatus": "Unverified",
+    "published": true,
+    "createdAt": "2026-11-15",
+    "updatedAt": "2026-11-15",
+    "imageUrl": ""
+  },
+  {
+    "id": "cs-076",
+    "name": "صينية فرن مستطيلة جرانيت توب شيف (مقاس 35)",
+    "slug": "cairo-sales-cs-076-cookware",
+    "brandId": "top-chef",
+    "manufacturerId": "top-chef-manufacturer",
+    "categoryId": "kitchen",
+    "model": "T-6223008052909",
+    "sku": "T-6223008052909",
+    "description": "بيانات المنتج والأسعار من قائمة Cairo Sales التي قدمها المستخدم؛ لم يتم التحقق المستقل من صفحة المنتج أو التوفر أو السعر.",
+    "specifications": {
+      "السعر الأصلي بالقائمة": "1,630 EGP",
+      "نسبة الخصم بالقائمة": "8%"
+    },
+    "availability": "يحتاج تأكيد التوفر لدى المورد",
+    "sourceUrl": "",
+    "sourceType": "Unverified Market",
+    "verificationStatus": "Unverified",
+    "published": true,
+    "createdAt": "2026-11-15",
+    "updatedAt": "2026-11-15",
+    "imageUrl": ""
+  },
+  {
+    "id": "cs-077",
+    "name": "جريل جرانيت كوكين عبود (28 سم، أسود)",
+    "slug": "cairo-sales-cs-077-cookware",
+    "brandId": "cookin",
+    "manufacturerId": "cookin-manufacturer",
+    "categoryId": "kitchen",
+    "model": "6223011170331",
+    "sku": "6223011170331",
+    "description": "بيانات المنتج والأسعار من قائمة Cairo Sales التي قدمها المستخدم؛ لم يتم التحقق المستقل من صفحة المنتج أو التوفر أو السعر.",
+    "specifications": {
+      "السعر الأصلي بالقائمة": "1,151 EGP",
+      "نسبة الخصم بالقائمة": "8%"
+    },
+    "availability": "يحتاج تأكيد التوفر لدى المورد",
+    "sourceUrl": "",
+    "sourceType": "Unverified Market",
+    "verificationStatus": "Unverified",
+    "published": true,
+    "createdAt": "2026-11-15",
+    "updatedAt": "2026-11-15",
+    "imageUrl": ""
+  }
+];
+
+export const cairoSalesCookwarePrices: PriceRecord[] = [
+  {
+    "id": "cs-price-066",
+    "productId": "cs-066",
+    "price": 2199,
+    "currency": "EGP",
+    "priceType": "Unverified Market Price",
+    "source": "Cairo Sales — قائمة أدوات الطهي المقدمة من المستخدم؛ يلزم التحقق من صفحة المنتج",
+    "sourceUrl": "",
+    "priceDate": "2026-11-15",
+    "verificationStatus": "Unverified",
+    "createdAt": "2026-11-15T00:00:00Z"
+  },
+  {
+    "id": "cs-price-067",
+    "productId": "cs-067",
+    "price": 1145,
+    "currency": "EGP",
+    "priceType": "Unverified Market Price",
+    "source": "Cairo Sales — قائمة أدوات الطهي المقدمة من المستخدم؛ يلزم التحقق من صفحة المنتج",
+    "sourceUrl": "",
+    "priceDate": "2026-11-15",
+    "verificationStatus": "Unverified",
+    "createdAt": "2026-11-15T00:00:00Z"
+  },
+  {
+    "id": "cs-price-068",
+    "productId": "cs-068",
+    "price": 17699,
+    "currency": "EGP",
+    "priceType": "Unverified Market Price",
+    "source": "Cairo Sales — قائمة أدوات الطهي المقدمة من المستخدم؛ يلزم التحقق من صفحة المنتج",
+    "sourceUrl": "",
+    "priceDate": "2026-11-15",
+    "verificationStatus": "Unverified",
+    "createdAt": "2026-11-15T00:00:00Z"
+  },
+  {
+    "id": "cs-price-069",
+    "productId": "cs-069",
+    "price": 2999,
+    "currency": "EGP",
+    "priceType": "Unverified Market Price",
+    "source": "Cairo Sales — قائمة أدوات الطهي المقدمة من المستخدم؛ يلزم التحقق من صفحة المنتج",
+    "sourceUrl": "",
+    "priceDate": "2026-11-15",
+    "verificationStatus": "Unverified",
+    "createdAt": "2026-11-15T00:00:00Z"
+  },
+  {
+    "id": "cs-price-070",
+    "productId": "cs-070",
+    "price": 2491,
+    "currency": "EGP",
+    "priceType": "Unverified Market Price",
+    "source": "Cairo Sales — قائمة أدوات الطهي المقدمة من المستخدم؛ يلزم التحقق من صفحة المنتج",
+    "sourceUrl": "",
+    "priceDate": "2026-11-15",
+    "verificationStatus": "Unverified",
+    "createdAt": "2026-11-15T00:00:00Z"
+  },
+  {
+    "id": "cs-price-071",
+    "productId": "cs-071",
+    "price": 599,
+    "currency": "EGP",
+    "priceType": "Unverified Market Price",
+    "source": "Cairo Sales — قائمة أدوات الطهي المقدمة من المستخدم؛ يلزم التحقق من صفحة المنتج",
+    "sourceUrl": "",
+    "priceDate": "2026-11-15",
+    "verificationStatus": "Unverified",
+    "createdAt": "2026-11-15T00:00:00Z"
+  },
+  {
+    "id": "cs-price-072",
+    "productId": "cs-072",
+    "price": 2779,
+    "currency": "EGP",
+    "priceType": "Unverified Market Price",
+    "source": "Cairo Sales — قائمة أدوات الطهي المقدمة من المستخدم؛ يلزم التحقق من صفحة المنتج",
+    "sourceUrl": "",
+    "priceDate": "2026-11-15",
+    "verificationStatus": "Unverified",
+    "createdAt": "2026-11-15T00:00:00Z"
+  },
+  {
+    "id": "cs-price-073",
+    "productId": "cs-073",
+    "price": 989,
+    "currency": "EGP",
+    "priceType": "Unverified Market Price",
+    "source": "Cairo Sales — قائمة أدوات الطهي المقدمة من المستخدم؛ يلزم التحقق من صفحة المنتج",
+    "sourceUrl": "",
+    "priceDate": "2026-11-15",
+    "verificationStatus": "Unverified",
+    "createdAt": "2026-11-15T00:00:00Z"
+  },
+  {
+    "id": "cs-price-074",
+    "productId": "cs-074",
+    "price": 1615,
+    "currency": "EGP",
+    "priceType": "Unverified Market Price",
+    "source": "Cairo Sales — قائمة أدوات الطهي المقدمة من المستخدم؛ يلزم التحقق من صفحة المنتج",
+    "sourceUrl": "",
+    "priceDate": "2026-11-15",
+    "verificationStatus": "Unverified",
+    "createdAt": "2026-11-15T00:00:00Z"
+  },
+  {
+    "id": "cs-price-075",
+    "productId": "cs-075",
+    "price": 1500,
+    "currency": "EGP",
+    "priceType": "Unverified Market Price",
+    "source": "Cairo Sales — قائمة أدوات الطهي المقدمة من المستخدم؛ يلزم التحقق من صفحة المنتج",
+    "sourceUrl": "",
+    "priceDate": "2026-11-15",
+    "verificationStatus": "Unverified",
+    "createdAt": "2026-11-15T00:00:00Z"
+  },
+  {
+    "id": "cs-price-076",
+    "productId": "cs-076",
+    "price": 1500,
+    "currency": "EGP",
+    "priceType": "Unverified Market Price",
+    "source": "Cairo Sales — قائمة أدوات الطهي المقدمة من المستخدم؛ يلزم التحقق من صفحة المنتج",
+    "sourceUrl": "",
+    "priceDate": "2026-11-15",
+    "verificationStatus": "Unverified",
+    "createdAt": "2026-11-15T00:00:00Z"
+  },
+  {
+    "id": "cs-price-077",
+    "productId": "cs-077",
+    "price": 1059,
+    "currency": "EGP",
+    "priceType": "Unverified Market Price",
+    "source": "Cairo Sales — قائمة أدوات الطهي المقدمة من المستخدم؛ يلزم التحقق من صفحة المنتج",
+    "sourceUrl": "",
+    "priceDate": "2026-11-15",
+    "verificationStatus": "Unverified",
+    "createdAt": "2026-11-15T00:00:00Z"
+  }
+];
