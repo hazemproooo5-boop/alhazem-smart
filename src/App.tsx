@@ -496,7 +496,7 @@ function CompaniesDirectoryPage() {
                 <p>{item.kind}</p>
                 <p>{item.note}</p>
                 {item.url ? <a href={item.url} target="_blank" rel="noreferrer">{item.url.replace('https://', '').replace('http://', '')}</a> : <small>لا يوجد رابط مباشر محدد في القائمة</small>}
-                {item.facebook ? <p>{item.facebook.startsWith('https://') ? <a href={item.facebook} target="_blank" rel="noreferrer">صفحة فيسبوك</a> : <small>{item.facebook}</small>}</p> : null}
+                {'facebook' in item && item.facebook ? <p>{item.facebook.startsWith('https://') ? <a href={item.facebook} target="_blank" rel="noreferrer">صفحة فيسبوك</a> : <small>{item.facebook}</small>}</p> : null}
                 <small>حالة الرابط والبيانات: غير متحقق منها</small>
               </article>
             ))}
