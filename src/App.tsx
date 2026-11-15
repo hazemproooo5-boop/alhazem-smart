@@ -1,5 +1,5 @@
 import { ReactNode, useState } from 'react';
-import { Link, NavLink, Route, Routes, useParams } from 'react-router-dom';
+import { Link, NavLink, Route, Routes, useNavigate, useParams, useSearchParams } from 'react-router-dom';
 import { academyItems, auditLog, brands, competitions, news, offers, products, siteSettings, suppliers, tips } from './data/seed';
 import { companyDirectory, wholesaleMarketDirectory } from './data/companyDirectory';
 import { NeedProfile, Product } from './types';
@@ -122,6 +122,15 @@ function ProductCard({ product }: { product: Product }) {
 }
 
 function HomePage() {
+  const navigate = useNavigate();
+  const [homeSearchTerm, setHomeSearchTerm] = useState('');
+
+  const handleHomeSearch = (event: React.FormEvent<HTMLFormElement>) => {
+    event.preventDefault();
+    const term = homeSearchTerm.trim();
+    navigate(term ? `/smart-search?term=${encodeURIComponent(term)}` : '/smart-search');
+  };
+
   return (
     <div className="container page-block">
       <section className="hero-card">
@@ -153,10 +162,10 @@ function HomePage() {
 
       <section className="section-block">
         <h2>البحث الذكي</h2>
-        <div className="search-box">
-          <input placeholder="ابحث عن مكيف، غسالة، ثلاجة، مطبخ..." />
-          <Link to="/smart-search" className="primary-button">بحث</Link>
-        </div>
+        <form className="search-box" onSubmit={handleHomeSearch}>
+          <input value={homeSearchTerm} onChange={(event) => setHomeSearchTerm(event.target.value)} placeholder="ابحث عن مكيف، غسالة، ثلاجة، مطبخ..." aria-label="ابحث عن منتج" />
+          <button type="submit" className="primary-button">بحث</button>
+        </form>
       </section>
 
       <section className="section-block">
@@ -304,7 +313,8 @@ function NeedAssessmentPage() {
 }
 
 function SmartSearchPage() {
-  const [term, setTerm] = useState('');
+  const [searchParams] = useSearchParams();
+  const [term, setTerm] = useState(searchParams.get('term') ?? '');
   const results = searchService.search({ term });
 
   return (
