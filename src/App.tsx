@@ -17,7 +17,7 @@ const categoryList = [
 
 function ImageWithFallback({ src, alt, className }: { src?: string; alt: string; className: string }) {
   return (
-    <div className={`image-frame ${className}`}>
+    <div className={`image-frame ${className} ${src ? '' : 'image-unavailable'}`}>
       {src ? <img src={src} alt={alt} onError={(event) => {
         event.currentTarget.hidden = true;
         event.currentTarget.parentElement?.classList.add('image-unavailable');
