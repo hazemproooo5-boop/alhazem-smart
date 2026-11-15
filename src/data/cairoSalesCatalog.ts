@@ -3,39 +3,7 @@ import { Brand, PriceRecord, Product } from '../types';
 // Imported from the Cairo Sales product list supplied in the project conversation.
 // All prices and product details remain Unverified until matched to live product pages/documents.
 export const cairoSalesBrands: Brand[] = [
-  {
-    "id": "lg",
-    "name": "LG",
-    "slug": "lg",
-    "country": "كوريا الجنوبية",
-    "description": "ماركة مدرجة ضمن قائمة Cairo Sales المقدمة؛ بيانات الماركة تحتاج مراجعة مستقلة.",
-    "technology": "غير محدد",
-    "categories": [
-      "Appliances"
-    ],
-    "officialUrl": "https://www.lg.com",
-    "logo": "",
-    "sourceStatus": "Monitoring",
-    "createdAt": "2026-11-15T00:00:00Z",
-    "updatedAt": "2026-11-15T00:00:00Z"
-  },
-  {
-    "id": "samsung",
-    "name": "Samsung",
-    "slug": "samsung",
-    "country": "كوريا الجنوبية",
-    "description": "ماركة مدرجة ضمن قائمة Cairo Sales المقدمة؛ بيانات الماركة تحتاج مراجعة مستقلة.",
-    "technology": "غير محدد",
-    "categories": [
-      "Appliances"
-    ],
-    "officialUrl": "https://www.samsung.com",
-    "logo": "",
-    "sourceStatus": "Monitoring",
-    "createdAt": "2026-11-15T00:00:00Z",
-    "updatedAt": "2026-11-15T00:00:00Z"
-  },
-  {
+    {
     "id": "okka",
     "name": "OKKA",
     "slug": "okka",
