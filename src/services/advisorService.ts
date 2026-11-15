@@ -1,11 +1,11 @@
 import { NeedProfile, Product } from '../types';
-import { products } from '../data/seed';
+import { catalogProducts } from './catalogService';
 import { priceService } from './priceService';
 
 export const advisorService = {
   recommend: (profile: NeedProfile): { products: Product[]; explanations: string[] } => {
     const budget = profile.budget ?? Number.MAX_SAFE_INTEGER;
-    const filtered = products.filter((product) => {
+    const filtered = catalogProducts.filter((product) => {
       if (!product.published) return false;
       const matchesCategory = profile.category === 'all' || product.categoryId === profile.category;
       const currentPrice = priceService.getCurrent(product.id);
@@ -21,7 +21,7 @@ export const advisorService = {
       return aPrice - bPrice;
     });
 
-    const categoryProducts = products.filter((product) =>
+    const categoryProducts = catalogProducts.filter((product) =>
       product.published && (profile.category === 'all' || product.categoryId === profile.category)
     );
     const withoutCurrentPrice = categoryProducts.filter((product) => priceService.getCurrent(product.id)?.verificationStatus !== 'Verified').length;
