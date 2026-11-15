@@ -120,7 +120,6 @@ function Layout({ children }: { children: ReactNode }) {
 }
 
 function ProductCard({ product }: { product: Product }) {
-  const latestPrice = priceService.getCurrent(product.id);
 
   return (
     <article className="product-card">
@@ -360,7 +359,6 @@ function ProductDetailPage() {
   const { slug } = useParams();
   const product = catalogProducts.find((item) => item.slug === slug);
   if (!product) return <NotFoundPage />;
-  const latestPrice = priceService.getCurrent(product.id);
 
   return (
     <div className="container page-block product-detail">
