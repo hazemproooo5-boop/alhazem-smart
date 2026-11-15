@@ -464,7 +464,7 @@ function BrandsPage() {
       <div className="brand-grid">
         {brands.map((brand) => (
           <Link to={`/brand/${brand.slug}`} key={brand.id} className="brand-card">
-            <img src={brand.logo} alt={brand.name} />
+            <ImageWithFallback src={brand.logo} alt={brand.name} className="brand-logo-image" />
             <strong>{brand.name}</strong>
             <small>{brand.country}</small>
           </Link>
