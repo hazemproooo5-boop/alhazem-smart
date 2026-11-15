@@ -1,5 +1,6 @@
 import { Product } from '../types';
-import { brands, products } from '../data/seed';
+import { brands } from '../data/seed';
+import { catalogProducts } from './catalogService';
 
 const normalize = (value: string): string =>
   value
@@ -48,7 +49,7 @@ const searchableText = (product: Product): string => {
 export const searchService = {
   search: ({ term = '' }: { term?: string } = {}) => {
     const normalized = normalize(term);
-    if (!normalized) return products.filter((product) => product.published);
+    if (!normalized) return catalogProducts;
 
     const terms = normalized.split(/\s+/).filter(Boolean);
     return products.filter((product) => {
