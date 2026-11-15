@@ -7,6 +7,7 @@ import { advisorService } from './services/advisorService';
 import { priceService } from './services/priceService';
 import { verificationService } from './services/verificationService';
 import { searchService } from './services/searchService';
+import { catalogProducts } from './services/catalogService';
 
 const categoryList = [
   { id: 'ac', label: 'AC' },
@@ -150,7 +151,7 @@ function HomePage() {
             <span>ماركات مدرجة</span>
           </div>
           <div className="mini-stat">
-            <strong>{products.filter((product) => product.published).length}</strong>
+            <strong>{catalogProducts.filter((product) => product.published).length}</strong>
             <span>منتجات منشورة</span>
           </div>
           <div className="mini-stat">
@@ -193,7 +194,7 @@ function HomePage() {
       <section className="section-block">
         <h2>الأجهزة المنزلية</h2>
         <div className="cards-grid">
-          {products.filter((product) => product.published).map((product) => (
+          {catalogProducts.filter((product) => product.published).map((product) => (
             <ProductCard key={product.id} product={product} />
           ))}
         </div>
@@ -202,7 +203,7 @@ function HomePage() {
       <section className="section-block">
         <h2>التكييف</h2>
         <div className="cards-grid">
-          {products.filter((p) => p.categoryId === 'ac').map((product) => (
+          {catalogProducts.filter((p) => p.categoryId === 'ac').map((product) => (
             <ProductCard key={product.id} product={product} />
           ))}
         </div>
@@ -333,7 +334,7 @@ function SmartSearchPage() {
 
 function ProductDetailPage() {
   const { slug } = useParams();
-  const product = products.find((item) => item.slug === slug);
+  const product = catalogProducts.find((item) => item.slug === slug);
   if (!product) return <NotFoundPage />;
   const latestPrice = priceService.getCurrent(product.id);
 
@@ -376,21 +377,21 @@ function ProductDetailPage() {
 }
 
 function ComparePage() {
-  const [left, setLeft] = useState(products[0]?.id ?? '');
-  const [right, setRight] = useState(products[1]?.id ?? '');
+  const [left, setLeft] = useState(catalogProducts[0]?.id ?? '');
+  const [right, setRight] = useState(catalogProducts[1]?.id ?? '');
 
-  const productA = products.find((item) => item.id === left) ?? products[0];
-  const productB = products.find((item) => item.id === right) ?? products[1];
+  const productA = products.find((item) => item.id === left) ?? catalogProducts[0];
+  const productB = products.find((item) => item.id === right) ?? catalogProducts[1];
 
   return (
     <div className="container page-block">
       <h1>مقارنة المنتجات</h1>
       <div className="compare-controls">
         <select value={left} onChange={(e) => setLeft(e.target.value)}>
-          {products.map((product) => <option key={product.id} value={product.id}>{product.name}</option>)}
+          {catalogProducts.map((product) => <option key={product.id} value={product.id}>{product.name}</option>)}
         </select>
         <select value={right} onChange={(e) => setRight(e.target.value)}>
-          {products.map((product) => <option key={product.id} value={product.id}>{product.name}</option>)}
+          {catalogProducts.map((product) => <option key={product.id} value={product.id}>{product.name}</option>)}
         </select>
       </div>
 
@@ -541,7 +542,7 @@ function BrandDetailPage() {
       <p>بلد المنشأ: {brand.country}</p>
       <p>التكنولوجيا: {brand.technology}</p>
       <div className="cards-grid">
-        {products.filter((product) => product.brandId === brand.id).map((product) => (
+        {catalogProducts.filter((product) => product.brandId === brand.id).map((product) => (
           <ProductCard key={product.id} product={product} />
         ))}
       </div>
@@ -552,9 +553,11 @@ function BrandDetailPage() {
 function CatalogCenterPage() {
   return (
     <div className="container page-block">
-      <h1>كتالوج المنتجات</h1>
+      <h1>كتالوج المنتجات الموثقة</h1>
+      <p>لا يظهر هنا إلا الجهاز الذي اجتاز التحقق من الموديل والصورة والمصدر والمواصفات والسعر الحديث وحالة التوفر.</p>
+      {catalogProducts.length === 0 ? <div className="result-box" role="status">لا توجد أجهزة مستوفية لجميع شروط التوثيق حالياً. المنتجات غير المكتملة محفوظة للمراجعة ولا تُعرض كمنتجات موثقة.</div> : null}
       <div className="cards-grid">
-        {products.map((product) => <ProductCard key={product.id} product={product} />)}
+        {catalogProducts.map((product) => <ProductCard key={product.id} product={product} />)}
       </div>
     </div>
   );
@@ -565,7 +568,7 @@ function ACPage() {
     <div className="container page-block">
       <h1>التكييف</h1>
       <div className="cards-grid">
-        {products.filter((product) => product.categoryId === 'ac').map((product) => <ProductCard key={product.id} product={product} />)}
+        {catalogProducts.filter((product) => product.categoryId === 'ac').map((product) => <ProductCard key={product.id} product={product} />)}
       </div>
     </div>
   );
