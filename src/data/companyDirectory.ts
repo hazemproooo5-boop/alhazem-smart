@@ -8,7 +8,8 @@ export const companyDirectory = [
     "url": "https://kiriazi.com",
     "source": "قائمة الروابط المقدمة من المستخدم",
     "verificationStatus": "Unverified",
-    "note": "الرابط مقدم ضمن قائمة المستخدم؛ يلزم التحقق من النطاق وصفحة الشركة."
+    "note": "الرابط مقدم ضمن قائمة المستخدم؛ يلزم التحقق من النطاق وصفحة الشركة.",
+    "facebook": "اسم صفحة فيسبوك المذكور: Kiriazi Premiere؛ الرابط المباشر غير محدد في القائمة."
   },
   {
     "id": "white-whale",
@@ -17,7 +18,8 @@ export const companyDirectory = [
     "url": "https://whitewhaleegypt.com",
     "source": "قائمة الروابط المقدمة من المستخدم",
     "verificationStatus": "Unverified",
-    "note": "الرابط مقدم ضمن قائمة المستخدم؛ يلزم التحقق من النطاق وصفحة الشركة."
+    "note": "الرابط مقدم ضمن قائمة المستخدم؛ يلزم التحقق من النطاق وصفحة الشركة.",
+    "facebook": "اسم صفحة فيسبوك المذكور: White Whale Egypt؛ الرابط المباشر غير محدد في القائمة."
   },
   {
     "id": "zanussi-egypt",
@@ -26,7 +28,8 @@ export const companyDirectory = [
     "url": "https://zanussi.com.eg",
     "source": "قائمة الروابط المقدمة من المستخدم",
     "verificationStatus": "Unverified",
-    "note": "الرابط مقدم ضمن قائمة المستخدم؛ يلزم التحقق من النطاق وصفحة الشركة."
+    "note": "الرابط مقدم ضمن قائمة المستخدم؛ يلزم التحقق من النطاق وصفحة الشركة.",
+    "facebook": "اسم صفحة فيسبوك المذكور: Zanussi Egypt؛ الرابط المباشر غير محدد في القائمة."
   },
   {
     "id": "unionaire",
@@ -107,7 +110,8 @@ export const companyDirectory = [
     "url": "https://elarabygroup.com",
     "source": "قائمة الروابط المقدمة من المستخدم",
     "verificationStatus": "Unverified",
-    "note": "الرابط مقدم ضمن قائمة المستخدم؛ يلزم التحقق من علاقات العلامات التجارية."
+    "note": "الرابط مقدم ضمن قائمة المستخدم؛ يلزم التحقق من علاقات العلامات التجارية.",
+    "facebook": "https://facebook.com/elarabygroup"
   },
   {
     "id": "btech",
@@ -296,7 +300,8 @@ export const companyDirectory = [
     "url": "https://www.lg.com/eg_ar",
     "source": "قائمة الروابط المقدمة من المستخدم",
     "verificationStatus": "Unverified",
-    "note": "الرابط مقدم ضمن قائمة المستخدم."
+    "note": "الرابط مقدم ضمن قائمة المستخدم.",
+    "facebook": "https://facebook.com/LGEgypt"
   },
   {
     "id": "samsung-egypt",
@@ -305,7 +310,8 @@ export const companyDirectory = [
     "url": "https://www.samsung.com/eg",
     "source": "قائمة الروابط المقدمة من المستخدم",
     "verificationStatus": "Unverified",
-    "note": "الرابط مقدم ضمن قائمة المستخدم."
+    "note": "الرابط مقدم ضمن قائمة المستخدم.",
+    "facebook": "ورد اسم صفحة فيسبوك فقط دون رابط صفحة محدد."
   },
   {
     "id": "fresh",
@@ -314,7 +320,8 @@ export const companyDirectory = [
     "url": "https://fresh.com.eg",
     "source": "قائمة الروابط المقدمة من المستخدم",
     "verificationStatus": "Unverified",
-    "note": "الرابط مقدم ضمن قائمة المستخدم."
+    "note": "الرابط مقدم ضمن قائمة المستخدم.",
+    "facebook": "ورد اسم صفحة فيسبوك فقط دون رابط صفحة محدد."
   },
   {
     "id": "midea",
