@@ -1,6 +1,6 @@
 import { FormEvent, ReactNode, useState } from 'react';
 import { Link, NavLink, Route, Routes, useNavigate, useParams, useSearchParams } from 'react-router-dom';
-import { academyItems, auditLog, brands, competitions, news, offers, products, siteSettings, suppliers, tips } from './data/seed';
+import { academyItems, auditLog, brands, competitions, news, offers, siteSettings, suppliers, tips } from './data/seed';
 import { companyDirectory, wholesaleMarketDirectory } from './data/companyDirectory';
 import { NeedProfile, Product } from './types';
 import { advisorService } from './services/advisorService';
@@ -380,8 +380,8 @@ function ComparePage() {
   const [left, setLeft] = useState(catalogProducts[0]?.id ?? '');
   const [right, setRight] = useState(catalogProducts[1]?.id ?? '');
 
-  const productA = products.find((item) => item.id === left) ?? catalogProducts[0];
-  const productB = products.find((item) => item.id === right) ?? catalogProducts[1];
+  const productA = catalogProducts.find((item) => item.id === left) ?? catalogProducts[0];
+  const productB = catalogProducts.find((item) => item.id === right) ?? catalogProducts[1];
 
   return (
     <div className="container page-block">
