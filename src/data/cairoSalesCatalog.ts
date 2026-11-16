@@ -836,8 +836,8 @@ export const cairoSalesProducts: Product[] = [
       "السعر الأصلي بالقائمة": "5,727 EGP"
     },
     "availability": "يحتاج تأكيد التوفر لدى المورد",
-    "sourceUrl": "",
-    "sourceType": "Unverified Market",
+    "sourceUrl": "https://arzumegypt.com/wp-content/uploads/2026/06/ArzumOKKARichPro.pdf",
+    "sourceType": "Official",
     "verificationStatus": "Unverified",
     "published": true,
     "createdAt": "2026-11-15",
@@ -858,8 +858,8 @@ export const cairoSalesProducts: Product[] = [
       "السعر الأصلي بالقائمة": "4,480 EGP"
     },
     "availability": "يحتاج تأكيد التوفر لدى المورد",
-    "sourceUrl": "",
-    "sourceType": "Unverified Market",
+    "sourceUrl": "https://www.tornadohome.com/ar/large-home-appliances/cooking-products/electric-ovens/tornado-teo-48dge-k",
+    "sourceType": "Official",
     "verificationStatus": "Unverified",
     "published": true,
     "createdAt": "2026-11-15",
@@ -880,8 +880,8 @@ export const cairoSalesProducts: Product[] = [
       "السعر الأصلي بالقائمة": "3,803 EGP"
     },
     "availability": "يحتاج تأكيد التوفر لدى المورد",
-    "sourceUrl": "",
-    "sourceType": "Unverified Market",
+    "sourceUrl": "https://www.beko.com/eg-en/products/cookers-and-fryers/fryer-air-1500-w-frl-2244-b",
+    "sourceType": "Official",
     "verificationStatus": "Unverified",
     "published": true,
     "createdAt": "2026-11-15",
@@ -902,8 +902,8 @@ export const cairoSalesProducts: Product[] = [
       "السعر الأصلي بالقائمة": "3,162 EGP"
     },
     "availability": "يحتاج تأكيد التوفر لدى المورد",
-    "sourceUrl": "",
-    "sourceType": "Unverified Market",
+    "sourceUrl": "https://www.toshiba-lifestyle.com/eg/small-appliances/fans/toshiba-stand-fan-18-inch-black-remote-control-f-ase60eg-k",
+    "sourceType": "Official",
     "verificationStatus": "Unverified",
     "published": true,
     "createdAt": "2026-11-15",
