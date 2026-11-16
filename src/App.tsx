@@ -231,6 +231,12 @@ function HomePage() {
             <ProductCard key={product.id} product={product} />
           ))}
         </div>
+        {catalogProducts.every((product) => product.categoryId !== 'ac') ? (
+          <div className="result-box" role="status">
+            لا توجد أجهزة تكييف اجتازت شروط التوثيق حالياً. يمكنك طلب استشارة أو التحقق من موديل وتوفر جهاز معين دون عرض بيانات غير مؤكدة.
+            {' '}<Link to="/ac">تفاصيل قسم التكييف</Link> أو <Link to="/support">تواصل مع خدمة العملاء</Link>.
+          </div>
+        ) : null}
       </section>
 
       <section className="section-block">
@@ -403,47 +409,71 @@ function ComparePage() {
   const [left, setLeft] = useState(catalogProducts[0]?.id ?? '');
   const [right, setRight] = useState(catalogProducts[1]?.id ?? '');
 
-  const productA = catalogProducts.find((item) => item.id === left) ?? catalogProducts[0];
-  const productB = catalogProducts.find((item) => item.id === right) ?? catalogProducts[1];
+  const productA = catalogProducts.find((item) => item.id === left);
+  const productB = catalogProducts.find((item) => item.id === right);
 
   return (
     <div className="container page-block">
       <h1>مقارنة المنتجات</h1>
-      <div className="compare-controls">
-        <select value={left} onChange={(e) => setLeft(e.target.value)}>
-          {catalogProducts.map((product) => <option key={product.id} value={product.id}>{product.name}</option>)}
-        </select>
-        <select value={right} onChange={(e) => setRight(e.target.value)}>
-          {catalogProducts.map((product) => <option key={product.id} value={product.id}>{product.name}</option>)}
-        </select>
-      </div>
+      {catalogProducts.length < 2 ? (
+        <div className="result-box" role="status">
+          <strong>المقارنة غير متاحة حالياً</strong>
+          <p>{catalogProducts.length === 0
+            ? 'لا توجد منتجات موثقة متاحة للمقارنة حتى الآن.'
+            : 'يتوفر منتج موثق واحد فقط؛ نحتاج إلى منتجين موثقين على الأقل لإجراء مقارنة عادلة.'}</p>
+          <p>لن نعرض مقارنة ناقصة أو نستخدم بيانات غير متحققة لاستكمال الجدول.</p>
+          <Link to="/catalog-center" className="secondary-button small">عرض الكتالوج</Link>
+          <Link to="/support" className="primary-button small">اطلب المساعدة</Link>
+        </div>
+      ) : (
+        <>
+          <div className="compare-controls">
+            <label>
+              المنتج الأول
+              <select aria-label="اختر المنتج الأول للمقارنة" value={left} onChange={(e) => setLeft(e.target.value)}>
+                {catalogProducts.map((product) => <option key={product.id} value={product.id}>{product.name}</option>)}
+              </select>
+            </label>
+            <label>
+              المنتج الثاني
+              <select aria-label="اختر المنتج الثاني للمقارنة" value={right} onChange={(e) => setRight(e.target.value)}>
+                {catalogProducts.map((product) => <option key={product.id} value={product.id}>{product.name}</option>)}
+              </select>
+            </label>
+          </div>
 
-      <table className="compare-table">
-        <thead>
-          <tr>
-            <th>المعيار</th>
-            <th>{productA?.name}</th>
-            <th>{productB?.name}</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>السعر وحالة التوثيق وتاريخ التسجيل</td>
-            <td>{productA ? <PriceDisplay productId={productA.id} /> : 'لا يوجد سعر متاح'}</td>
-            <td>{productB ? <PriceDisplay productId={productB.id} /> : 'لا يوجد سعر متاح'}</td>
-          </tr>
-          <tr>
-            <td>استهلاك الطاقة</td>
-            <td>{productA?.energyInformation ?? 'غير متوفر في المصدر الموثق'}</td>
-            <td>{productB?.energyInformation ?? 'غير متوفر في المصدر الموثق'}</td>
-          </tr>
-          <tr>
-            <td>الضمان</td>
-            <td>{productA?.warranty ?? 'غير متوفر في المصدر الموثق'}</td>
-            <td>{productB?.warranty ?? 'غير متوفر في المصدر الموثق'}</td>
-          </tr>
-        </tbody>
-      </table>
+          {productA && productB ? (
+            <table className="compare-table">
+              <thead>
+                <tr>
+                  <th>المعيار</th>
+                  <th>{productA.name}</th>
+                  <th>{productB.name}</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>السعر وحالة التوثيق وتاريخ التسجيل</td>
+                  <td><PriceDisplay productId={productA.id} /></td>
+                  <td><PriceDisplay productId={productB.id} /></td>
+                </tr>
+                <tr>
+                  <td>استهلاك الطاقة</td>
+                  <td>{productA.energyInformation ?? 'غير متوفر في المصدر الموثق'}</td>
+                  <td>{productB.energyInformation ?? 'غير متوفر في المصدر الموثق'}</td>
+                </tr>
+                <tr>
+                  <td>الضمان</td>
+                  <td>{productA.warranty ?? 'غير متوفر في المصدر الموثق'}</td>
+                  <td>{productB.warranty ?? 'غير متوفر في المصدر الموثق'}</td>
+                </tr>
+              </tbody>
+            </table>
+          ) : (
+            <div className="result-box" role="status">اختر منتجين موثقين لإظهار المقارنة.</div>
+          )}
+        </>
+      )}
     </div>
   );
 }
