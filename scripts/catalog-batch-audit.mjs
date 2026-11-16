@@ -1,18 +1,15 @@
 import fs from 'node:fs';
 import path from 'node:path';
 
-const catalogPath = 'src/data/cairoSalesCatalog.ts';
-const brandsPath = 'src/data/brandDirectory.ts';
-const catalog = fs.readFileSync(catalogPath, 'utf8');
-const brandSource = fs.readFileSync(brandsPath, 'utf8');
-
+const catalog = fs.readFileSync('src/data/cairoSalesCatalog.ts', 'utf8');
+const brandSource = fs.readFileSync('src/data/brandDirectory.ts', 'utf8');
 const productsStart = catalog.indexOf('export const cairoSalesProducts');
 if (productsStart < 0) throw new Error('cairoSalesProducts declaration not found');
 const productsSource = catalog.slice(productsStart);
-const records = productsSource.split(/(?=  \\{\\n    "id": "cs-)/).filter(part => /^  \\{\\n    "id": "cs-/.test(part));
+const records = productsSource.split(/(?=  \{\n    "id": "cs-)/).filter(part => /^  \{\n    "id": "cs-/.test(part));
 
 const read = (block, key) => {
-  const match = block.match(new RegExp('"' + key + '"\\\\s*:\\\\s*"([^"]*)"'));
+  const match = block.match(new RegExp('"' + key + '"\\s*:\\s*"([^"]*)"'));
   return match?.[1] ?? '';
 };
 const rows = records.map(block => ({
@@ -25,15 +22,14 @@ const rows = records.map(block => ({
   sourceUrl: read(block, 'sourceUrl'),
   imageUrl: read(block, 'imageUrl'),
   availability: read(block, 'availability'),
-  published: /"published"\\s*:\\s*true/.test(block),
-  hasSpecifications: /"specifications"\\s*:\\s*\\{\\s*"/.test(block),
+  published: /"published"\s*:\s*true/.test(block),
+  hasSpecifications: /"specifications"\s*:\s*\{\s*"/.test(block),
 }));
 
-const brandSection = brandSource.match(/export const brandDirectoryNames: string\\[\\] = \\[([\\s\\S]*?)\\];/);
+const brandSection = brandSource.match(/export const brandDirectoryNames: string\[\] = \[([\s\S]*?)\];/);
 if (!brandSection) throw new Error('brandDirectoryNames declaration not found');
-const brandNames = [...brandSection[1].matchAll(/^\\s*"([^"]+)",?\\s*$/gm)].map(match => match[1]);
-
-const counts = (key) => rows.reduce((acc, row) => {
+const brandNames = [...brandSection[1].matchAll(/^\s*"([^"]+)",?\s*$/gm)].map(match => match[1]);
+const counts = key => rows.reduce((acc, row) => {
   const value = row[key] || 'Missing';
   acc[value] = (acc[value] || 0) + 1;
   return acc;
@@ -54,8 +50,8 @@ const summary = {
 
 const outDir = 'reports';
 fs.mkdirSync(outDir, { recursive: true });
-fs.writeFileSync(path.join(outDir, 'catalog-audit-summary.json'), JSON.stringify(summary, null, 2) + '\\n');
+fs.writeFileSync(path.join(outDir, 'catalog-audit-summary.json'), JSON.stringify(summary, null, 2) + '\n');
 const columns = ['id','name','brandId','categoryId','model','verificationStatus','sourceUrl','imageUrl','availability','published','hasSpecifications'];
-const csv = [columns.join(','), ...rows.map(row => columns.map(key => '"' + String(row[key] ?? '').replaceAll('"','""') + '"').join(','))].join('\\n');
-fs.writeFileSync(path.join(outDir, 'catalog-audit.csv'), csv + '\\n');
+const csv = [columns.join(','), ...rows.map(row => columns.map(key => '"' + String(row[key] ?? '').replaceAll('"','""') + '"').join(','))].join('\n');
+fs.writeFileSync(path.join(outDir, 'catalog-audit.csv'), csv + '\n');
 console.log(JSON.stringify(summary, null, 2));
