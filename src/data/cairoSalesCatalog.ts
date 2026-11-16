@@ -924,8 +924,8 @@ export const cairoSalesProducts: Product[] = [
       "السعر الأصلي بالقائمة": "3,045 EGP"
     },
     "availability": "يحتاج تأكيد التوفر لدى المورد",
-    "sourceUrl": "https://www.toshiba-lifestyle.com/eg/small-appliances/fans",
-    "sourceType": "Official",
+    "sourceUrl": "",
+    "sourceType": "Unverified Market",
     "verificationStatus": "Unverified",
     "published": true,
     "createdAt": "2026-11-15",
