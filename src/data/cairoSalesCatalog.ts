@@ -352,11 +352,16 @@ export const cairoSalesProducts: Product[] = [
     "sku": "75QNED85B6T",
     "description": "قائمة Cairo Sales المقدمة من المستخدم. السعر والبيانات التجارية غير متحقق منها مستقلاً؛ يلزم الرجوع إلى صفحة المنتج والمورد قبل الاعتماد.",
     "specifications": {
-      "السعر الأصلي بالقائمة": "86,449 EGP"
+      "تقنية الشاشة": "QNED evo AI QNED85 Mini LED",
+      "الدقة": "4K",
+      "المقاس": "75 بوصة",
+      "النظام": "webOS مع ميزات الذكاء الاصطناعي",
+      "السعر الأصلي بالقائمة": "86,449 EGP — سعر قائمة مستورد غير معتمد"
     },
     "availability": "يحتاج تأكيد التوفر لدى المورد",
-    "sourceUrl": "",
-    "sourceType": "Unverified Market",
+    "officialProductUrl": "https://www.lg.com/eg_ar/tv-soundbars/qned-evo/75qned85b6t/",
+    "sourceUrl": "https://www.lg.com/eg_ar/tv-soundbars/qned-evo/75qned85b6t/",
+    "sourceType": "Official",
     "verificationStatus": "Unverified",
     "published": true,
     "createdAt": "2026-11-15",
