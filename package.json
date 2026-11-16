@@ -6,7 +6,8 @@
     "dev": "vite --host 0.0.0.0",
     "build": "tsc --noEmit && vite build",
     "start": "vite preview --host 0.0.0.0",
-    "lint": "tsc --noEmit"
+    "lint": "tsc --noEmit",
+    "audit:catalog": "node scripts/catalog-batch-audit.mjs"
   },
   "dependencies": {
     "@supabase/ssr": "^0.7.0",
