@@ -401,29 +401,29 @@ export const wholesaleMarketDirectory = [
   {
     "id": "abu-nemres",
     "name": "سوق أبو النمرس (أبو النمرس)",
-    "description": "منطقة معروفة بتجارة أواني الطهي، ومنها أواني التفلون والألومنيوم والجرانيت؛ نوع البضاعة والمورد والسعر يتغير حسب التاجر ويحتاج تحققاً ميدانياً.",
-    "source": "Faydety — دليل جهاز العروسة؛ وصف سوق أبو النمرس",
+    "description": "منطقة أبو النمرس معروفة بتجارة أواني الطهي والجرانيت والتيفال والألومنيوم وأطقم المائدة والمفروشات والبلاستيك وبعض الأجهزة المنزلية. توجد تقارير صحفية عن تجارة الجملة ومخازن التجار، لكنها قديمة نسبياً ولا تثبت مخزون أو أسعار أو هوية مورد بعينه. يلزم تحقق ميداني حديث من كل تاجر.",
+    "source": "Veto Gate 2018: https://www.vetogate.com/3039350 ؛ Al Shorouk 2016: https://www.shorouknews.com/news/view.aspx?cdate=22072016&id=b30cd4a9-c616-4f02-9f9e-224b4ff6483c",
     "verificationStatus": "Unverified"
   },
   {
     "id": "hamam-talat",
     "name": "حمام التلات – الموسكي",
-    "description": "شارع/تجمع تجاري في الموسكي تظهر به محلات أدوات منزلية ومستلزمات مطبخ؛ لا يوجد دليل كافٍ لتخصيصه بأطقم الصيني والكاسات فقط.",
-    "source": "Egypt Yellow Pages — أدلة محلات أدوات منزلية بشارع حمام التلات",
+    "description": "شارع حمام التلات بالموسكي يضم محلات أدوات منزلية وأطقم صيني وميلامين وأوانٍ وأدوات تقديم، مع أدلة محلات متعددة. لا يُفترض أن كل محل يبيع جملة أو أن جميع الأصناف متاحة حالياً.",
+    "source": "الأخبار المسائي 2023: https://almsaey.akhbarelyom.com/news/newdetails/3369292/1 ؛ Yellow Pages: https://yellowpages.com.eg/ar/category/الموسكى-منتجات-ادوات-منزلية/3144",
     "verificationStatus": "Unverified"
   },
   {
     "id": "darb-saada",
     "name": "درب سعادة",
-    "description": "منطقة تجارة مستلزمات وأدوات منزلية في القاهرة التاريخية، وتظهر بها محلات أدوات منزلية وأدوات مطبخ؛ يلزم التحقق من التجار والمخزون ميدانياً.",
-    "source": "Egypt Yellow Pages؛ Comilmart — دليل أسواق الجملة بالقاهرة",
+    "description": "درب سعادة سوق معروف للأدوات المنزلية وأطقم جهاز العروس، ويضم تجارة أواني الطهي والتيفال والجرانيت والألومنيوم والستانلس والصيني والميلامين والزجاج والكريستال. نوع البيع وسعر الجملة والتوفر يتغير حسب المحل والتاجر.",
+    "source": "اليوم السابع 2024: https://www.youm7.com/story/2024/11/6/6767250 ؛ Projects Egy: https://projectsegy.com/housewares-companies/",
     "verificationStatus": "Unverified"
   },
   {
     "id": "hara-yahud",
     "name": "حارة اليهود",
-    "description": "منطقة تجارية تاريخية؛ يصنفها مرجع UN-Habitat ضمن تجارة الخشب والورق والإكسسوارات، ولا يوجد دليل موثوق كافٍ لتصنيفها كسوق جملة عام للأدوات المنزلية.",
-    "source": "UN-Habitat — Cairo 2050, Targeted Wholesale Districts",
+    "description": "حارة اليهود والرواعي مصنفتان في مرجع UN-Habitat ضمن تجارة الخشب والورق والإكسسوارات، وليستا سوق جملة عاماً مثبتاً للأجهزة المنزلية. لا يُنصح بتوجيه مشتري الأجهزة المنزلية إليها دون دليل حديث على النشاط المطلوب.",
+    "source": "UN-Habitat — Targeted Wholesale Districts: https://mirror.unhabitat.org/downloads/docs/8635_42944_AymanEl-hefnawi.pdf ؛ ITDA 2025: https://www.itda.gov.eg/CRM/888/CRA110.pdf",
     "verificationStatus": "Unverified"
   }
 ] as const;
