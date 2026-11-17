@@ -3146,7 +3146,7 @@ export const cairoSalesSmallApplianceProducts: Product[] = [
       "السرعات": "سرعة واحدة مع Pulse",
       "السعر الأصلي بالقائمة": "1,646 EGP — غير معتمد"
     },
-    "availability": "يحتاج تأكيد التوفر لدى المورد",
+    "availability": "متاح لدى Carrefour Egypt وقت التحقق 18 نوفمبر 2026؛ صفحة الفئة الحالية تعرض الموديل BL1291G بكمية «قطعتان متبقيتان»، وسعر 1,549 جنيه شامل VAT وتوصيل مجاني غداً حسب المنطقة. صفحة المنتج: https://www.carrefouregypt.com/mafegy/en/blender/mienta-blender-bl1291g-700w-bk/p/674732",
     "sourceUrl": "https://www.carrefouregypt.com/mafegy/en/blender/mienta-blender-bl1291g-700w-bk/p/674732",
     "sourceType": "Unverified Market",
     "verificationStatus": "Unverified",
@@ -3377,7 +3377,7 @@ export const cairoSalesSmallApplianceProducts: Product[] = [
     "sku": "HB111938A",
     "description": "خلاط يدوي Mienta Vitesse موديل HB111938A أبيض؛ صفحة Carrefour Egypt تطابق الموديل والقدرة 450 واط وكوب 600 مل وسرعة واحدة مع Turbo ومضرب خفق وعمود ستانلس مانع للتناثر. لا يُعتمد السعر أو التوفر دون إعادة تحقق مباشرة.",
     "specifications": {"السعر الأصلي بالقائمة":"1,099 EGP — غير معتمد","الموديل":"HB111938A","السلسلة":"Vitesse","القدرة":"450 واط","السعة":"600 مل","السرعات":"سرعة واحدة + Turbo","الملحقات":"كوب مدرج ومضرب خفق","عمود الخلط":"ستانلس ستيل مانع للتناثر"},
-    "availability": "يحتاج تأكيد التوفر لدى المورد",
+    "availability": "متاح لدى Carrefour Egypt وقت التحقق 18 نوفمبر 2026؛ صفحة الفئة الحالية تعرض الموديل HB111938A بكمية «قطعتان متبقيتان»، وسعر 899 جنيه شامل VAT وتوصيل مجاني غداً حسب المنطقة. صفحة المنتج: https://www.carrefouregypt.com/mafegy/en/blender/mienta-hand-blender-hb111938a-450w/p/674730",
     "sourceUrl": "https://www.carrefouregypt.com/mafegy/en/blender/mienta-hand-blender-hb111938a-450w/p/674730",
     "sourceType": "Unverified Market",
     "verificationStatus": "Unverified",
@@ -3942,5 +3942,31 @@ export const cairoSalesSmallAppliancePrices: PriceRecord[] = [
     "verificationStatus": "Unverified",
     "isHistorical": false,
     "createdAt": "2026-11-18T00:58:00+02:00"
+  },
+  {
+    "id": "cs-price-122",
+    "productId": "cs-078",
+    "price": 1549,
+    "currency": "EGP",
+    "priceType": "Unverified Market Price",
+    "source": "سعر تقريبي 1,549 جنيه تقريباً — صفحة المنتج المطابقة على Carrefour تعرض السعر شاملاً VAT، وصفحة الفئة المحدثة اليوم تعرض قطعتين متبقيتين. السعر قابل للتغير حسب العنوان والعرض.",
+    "sourceUrl": "https://www.carrefouregypt.com/mafegy/en/blender/mienta-blender-bl1291g-700w-bk/p/674732",
+    "priceDate": "2026-11-18",
+    "verificationStatus": "Unverified",
+    "isHistorical": false,
+    "createdAt": "2026-11-18T01:02:00+02:00"
+  },
+  {
+    "id": "cs-price-123",
+    "productId": "cs-088",
+    "price": 899,
+    "currency": "EGP",
+    "priceType": "Unverified Market Price",
+    "source": "سعر تقريبي 899 جنيه تقريباً — صفحة المنتج المطابقة على Carrefour تعرض السعر شاملاً VAT، وصفحة الفئة المحدثة اليوم تعرض قطعتين متبقيتين. السعر قابل للتغير حسب العنوان والعرض.",
+    "sourceUrl": "https://www.carrefouregypt.com/mafegy/en/blender/mienta-hand-blender-hb111938a-450w/p/674730",
+    "priceDate": "2026-11-18",
+    "verificationStatus": "Unverified",
+    "isHistorical": false,
+    "createdAt": "2026-11-18T01:02:00+02:00"
   }
 ];
