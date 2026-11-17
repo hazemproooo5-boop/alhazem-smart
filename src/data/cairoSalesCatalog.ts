@@ -2718,7 +2718,8 @@ export const cairoSalesPrices: PriceRecord[] = [
     "sourceUrl": "https://www.abdulaziz-stores.com/en/samsung-smart-4k-tv-uhd-neo-qled-55-inch-frameless-built-in-receiver-qa55qn70hauxeg",
     "priceDate": "2026-11-18",
     "verificationStatus": "Verified",
-    "createdAt": "2026-11-18T00:00:00Z"  },
+    "createdAt": "2026-11-18T00:00:00Z"
+  },
   {
     "id": "cs-price-115",
     "productId": "cs-034",
