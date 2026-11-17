@@ -3103,7 +3103,7 @@ export const cairoSalesSmallApplianceProducts: Product[] = [
     "imageUrl": "https://www.electronichouseegypt.com/cdn/shop/files/51LpKVfGMCL._AC_SL1024.jpg?v=1768397461",
     "imageSourceUrl": "https://www.electronichouseegypt.com/products/mienta-blender-700-watt-with-free-gift-bl1291g",
     "imageVerifiedDate": "2026-11-18"
-  },
+  },,
   {
     "id": "cs-079",
     "name": "كبة 700 وات 2 لتر",
@@ -3154,7 +3154,7 @@ export const cairoSalesSmallApplianceProducts: Product[] = [
     "imageUrl": "https://elghazawy.b-cdn.net/247137/mdrb-byd-myanta-500-oat-5-sraaat-asod-HM13729A--1.webp",
     "imageSourceUrl": "https://elghazawy.com/en/product/38074270292994/page/about-us",
     "imageVerifiedDate": "2026-11-18"
-  },
+  },,
   {
     "id": "cs-081",
     "name": "شواية كهربائية 2000 وات لون أحمر",
@@ -3230,7 +3230,7 @@ export const cairoSalesSmallApplianceProducts: Product[] = [
     "imageUrl": "https://cdn.mafrservices.com/pim-content/EGY/media/product/668969/1766582689/668969_main.jpg",
     "imageSourceUrl": "https://www.carrefouregypt.com/mafegy/en/air-fryer/fresh-a-f-faf-d1500b-5l-digital/p/668969",
     "imageVerifiedDate": "2026-11-18"
-  },
+  },,
   {
     "id": "cs-084",
     "name": "محضر طعام 28 وظيفة 1000 وات 2.5 لتر مع خلاط ومطحنة أسود",
@@ -3312,7 +3312,7 @@ export const cairoSalesSmallApplianceProducts: Product[] = [
     "imageUrl": "https://casselesprix.com/cdn/shop/files/U498_3.jpg?v=1757044534&width=600",
     "imageSourceUrl": "https://casselesprix.com/products/u498",
     "imageVerifiedDate": "2026-11-18"
-  },
+  },,
   {
     "id": "cs-088",
     "name": "فيتيس هاند بليندر 450 وات بالملحقات لون أبيض",
