@@ -747,7 +747,7 @@ export const cairoSalesProducts: Product[] = [
     "sku": "98U9000H",
     "description": "تلفزيون Samsung Crystal UHD U9000H مقاس 98 بوصة؛ تمت مطابقة الموديل والمقاس والمواصفات الأساسية مع صفحة Samsung Egypt الرسمية. لا يعتمد السعر الظاهر خارج مصر كسعر محلي.",
     "specifications": {"نوع الشاشة":"Crystal UHD LED","المقاس":"98 بوصة","الدقة":"3840 × 2160 (4K)","معدل التحديث":"144Hz مع VRR","المعالج":"NQ4 AI Gen2","النظام":"Tizen","الصوت":"OTS Lite وQ-Symphony","السلسلة":"U9000H 2026"},
-    "availability": "متاح لدى Carrefour Egypt وقت التحقق 18 نوفمبر 2026؛ صفحة المنتج المطابقة لـ98U9000H تعرض قطعة واحدة متبقية والسعر شامل VAT. رابط البائع: https://www.carrefouregypt.com/mafegy/en/lifestyle-tv/samsung-led-tv98-98u9000h-sm-uhd-rc/p/687963",
+    "availability": "متاح لدى Carrefour Egypt وقت التحقق 18 نوفمبر 2026؛ صفحة المنتج المطابقة لـ98U9000H تعرض وحدتين متبقيتين والسعر الحالي 104,666 جنيه شامل VAT. رابط البائع: https://www.carrefouregypt.com/mafegy/en/lifestyle-tv/samsung-led-tv98-98u9000h-sm-uhd-rc/p/687963",
     "officialProductUrl": "https://www.samsung.com/eg/tvs/uhd-4k-tv/u9000h-98-inch-crystal-uhd-4k-smart-tv-ua98u9000huxeg/",
     "sourceUrl": "https://www.samsung.com/eg/tvs/uhd-4k-tv/u9000h-98-inch-crystal-uhd-4k-smart-tv-ua98u9000huxeg/",
     "sourceType": "Official",
@@ -815,7 +815,7 @@ export const cairoSalesProducts: Product[] = [
     "sku": "55QN70H",
     "description": "تلفزيون Samsung Neo QLED QN70H مقاس 55 بوصة؛ تمت مطابقة الموديل والمقاس والميزات الأساسية مع صفحة Samsung Egypt الرسمية. الصفحة تشير إلى أنه غير مخصص للبيع وقت الرصد.",
     "specifications": {"نوع الشاشة":"Neo QLED Mini LED","المقاس":"55 بوصة","الدقة":"4K","السلسلة":"QN70H 2026","المعالج":"NQ4 AI","ميزات الذكاء الاصطناعي":"Samsung Vision AI","التصميم":"AirSlim"},
-    "availability": "متوفر في المخزون لدى Ehab Center وقت التحقق 18 نوفمبر 2026؛ صفحة المنتج المطابقة لـ55QN70H تعرض إضافة إلى السلة وحالة In stock. رابط البائع: https://ehabcenter.com/product/samsung-neo-qled-4k-smart-ai-vision-55-inch-55qn70h/",
+    "availability": "صفحة Ehab Center تعرض موديل 55QN70H بسعر 33,249 جنيه وحالة In stock؛ الصفحة لا تعرض لاحقة SKU الإقليمية QA55QN70HAUXEG، لذلك يبقى توفر النسخة الإقليمية بحاجة تأكيد. رابط البائع: https://ehabcenter.com/product/samsung-neo-qled-4k-smart-ai-vision-55-inch-55qn70h/",
     "officialProductUrl": "https://www.samsung.com/eg/tvs/qled-tv/qn70h-55-inch-neo-qled-4k-mini-led-smart-tv-qa55qn70hauxeg/",
     "sourceUrl": "https://www.samsung.com/eg/tvs/qled-tv/qn70h-55-inch-neo-qled-4k-mini-led-smart-tv-qa55qn70hauxeg/",
     "sourceType": "Official",
@@ -2734,18 +2734,7 @@ export const cairoSalesPrices: PriceRecord[] = [
     "verificationStatus": "Verified",
     "createdAt": "2026-11-18T00:00:00Z"
   },
-  {
-    "id": "cs-price-124",
-    "productId": "cs-017",
-    "price": 109999,
-    "currency": "EGP",
-    "priceType": "Trusted Market Price",
-    "source": "Carrefour Egypt — صفحة المنتج المباشرة لـSamsung 98U9000H تعرض 109,999 جنيه شامل VAT وقطعة واحدة متبقية وقت التحقق 18 نوفمبر 2026.",
-    "sourceUrl": "https://www.carrefouregypt.com/mafegy/en/lifestyle-tv/samsung-led-tv98-98u9000h-sm-uhd-rc/p/687963",
-    "priceDate": "2026-11-18",
-    "verificationStatus": "Verified",
-    "createdAt": "2026-11-18T01:08:00+02:00"
-  },
+
   {
     "id": "cs-price-125",
     "productId": "cs-001",
@@ -2764,10 +2753,10 @@ export const cairoSalesPrices: PriceRecord[] = [
     "price": 33249,
     "currency": "EGP",
     "priceType": "Trusted Market Price",
-    "source": "Ehab Center — Samsung 55QN70H، المنتج في المخزون وصفحة البائع تعرض 33,249 جنيه؛ معاملة الضريبة غير موضحة في الصفحة، checked 18 Nov 2026.",
+    "source": "Ehab Center — صفحة البائع تعرض 55QN70H بسعر 33,249 جنيه وIn stock، لكنها لا تعرض لاحقة SKU الإقليمية QA55QN70HAUXEG؛ السعر إرشادي وغير معتمد للنسخة الكاملة، والمعالجة الضريبية غير مذكورة؛ checked 18 Nov 2026.",
     "sourceUrl": "https://ehabcenter.com/product/samsung-neo-qled-4k-smart-ai-vision-55-inch-55qn70h/",
     "priceDate": "2026-11-18",
-    "verificationStatus": "Verified",
+    "verificationStatus": "Unverified",
     "createdAt": "2026-11-18T01:08:00+02:00"
   }
 ];
