@@ -1618,17 +1618,15 @@ export const cairoSalesProducts: Product[] = [
     "categoryId": "home",
     "model": "RIC-CHAIR",
     "sku": "RIC-CHAIR",
-    "description": "قائمة Cairo Sales المقدمة من المستخدم. السعر والبيانات التجارية غير متحقق منها مستقلاً؛ يلزم الرجوع إلى صفحة المنتج والمورد قبل الاعتماد.",
-    "specifications": {
-      "السعر الأصلي بالقائمة": "13,977 EGP"
-    },
+    "description": "كرسي Ric Chair من Woodandmore؛ تمت مطابقة الاسم ورمز RIC-CHAIR مع صفحة المنتج المباشرة للبائع. الصفحة تعرض أثاثاً خارجياً بمقاسات 50×70×80 سم وخامة هيكل فولاذي وقماش خارجي مقاوم للماء. السعر والتوفر والضمان يحتاجون تحققاً مستقلاً.",
+    "specifications": {"الموديل":"RIC-CHAIR","العلامة/البائع":"Woodandmore","النوع":"كرسي استرخاء/هزاز خارجي","الأبعاد":"50 × 70 × 80 سم","الخامات":"هيكل فولاذي وقماش خارجي مقاوم للماء","السعر الأصلي بالقائمة":"13,977 EGP — غير معتمد"},
     "availability": "يحتاج تأكيد التوفر لدى المورد",
-    "sourceUrl": "",
+    "sourceUrl": "https://woodandmoreeg.com/products/ric-chair",
     "sourceType": "Unverified Market",
     "verificationStatus": "Unverified",
     "published": true,
     "createdAt": "2026-11-15",
-    "updatedAt": "2026-11-15",
+    "updatedAt": "2026-11-17",
     "imageUrl": ""
   },
   {
@@ -1662,17 +1660,15 @@ export const cairoSalesProducts: Product[] = [
     "categoryId": "home",
     "model": "E84-30-06",
     "sku": "E84-30-06",
-    "description": "قائمة Cairo Sales المقدمة من المستخدم. السعر والبيانات التجارية غير متحقق منها مستقلاً؛ يلزم الرجوع إلى صفحة المنتج والمورد قبل الاعتماد.",
-    "specifications": {
-      "السعر الأصلي بالقائمة": "3,117 EGP"
-    },
+    "description": "سلة مهملات Prima Nova E84-30-06؛ صفحة بائع تركي تطابق رمز المنتج M-E84-30-06 والسعة 40 لتراً والهيكل الستانلس. لا يثبت المصدر السعر أو التوفر أو الضمان في مصر.",
+    "specifications": {"الموديل":"E84-30-06 / M-E84-30-06","النوع":"سلة مهملات استانلس بغطاء قبة","السعة":"40 لتر","الخامة":"ستانلس ستيل","الغطاء":"إغلاق هادئ Soft-close","السعر الأصلي بالقائمة":"3,117 EGP — غير معتمد"},
     "availability": "يحتاج تأكيد التوفر لدى المورد",
-    "sourceUrl": "",
+    "sourceUrl": "https://akayev.com.tr/primanova-paslanmaz-celik-bombe-kapakli-cop-kovasi-40-litre-inox",
     "sourceType": "Unverified Market",
     "verificationStatus": "Unverified",
     "published": true,
     "createdAt": "2026-11-15",
-    "updatedAt": "2026-11-15",
+    "updatedAt": "2026-11-17",
     "imageUrl": ""
   },
   {
@@ -1684,17 +1680,15 @@ export const cairoSalesProducts: Product[] = [
     "categoryId": "home",
     "model": "8002524058255",
     "sku": "8002524058255",
-    "description": "قائمة Cairo Sales المقدمة من المستخدم. السعر والبيانات التجارية غير متحقق منها مستقلاً؛ يلزم الرجوع إلى صفحة المنتج والمورد قبل الاعتماد.",
-    "specifications": {
-      "السعر الأصلي بالقائمة": "2,612 EGP"
-    },
+    "description": "منشر غسيل Metaltex Breva، رقم المنتج 405825 003 والباركود 8002524058255؛ تمت مطابقة الباركود مع كتالوج Metaltex الرسمي. لا يثبت المصدر توفر المنتج أو ضمانه في مصر.",
+    "specifications": {"الموديل/رقم المنتج":"405825 003","EAN":"8002524058255","الاسم":"Breva Wing laundry dryer","طول التجفيف":"25 متراً","المقاس":"58 × 133 × 106 سم","الطلاء":"Epotherm","الضمان المعلن من المصنع":"5 سنوات","بلد المنشأ المعلن":"إيطاليا","السعر الأصلي بالقائمة":"2,612 EGP — غير معتمد"},
     "availability": "يحتاج تأكيد التوفر لدى المورد",
-    "sourceUrl": "",
-    "sourceType": "Unverified Market",
+    "sourceUrl": "https://app.metaltex.com/INT-en/category.php?id=5725",
+    "sourceType": "Official",
     "verificationStatus": "Unverified",
     "published": true,
     "createdAt": "2026-11-15",
-    "updatedAt": "2026-11-15",
+    "updatedAt": "2026-11-17",
     "imageUrl": ""
   },
   {
@@ -1706,17 +1700,15 @@ export const cairoSalesProducts: Product[] = [
     "categoryId": "home",
     "model": "SF-6526A",
     "sku": "SF-6526A",
-    "description": "قائمة Cairo Sales المقدمة من المستخدم. السعر والبيانات التجارية غير متحقق منها مستقلاً؛ يلزم الرجوع إلى صفحة المنتج والمورد قبل الاعتماد.",
-    "specifications": {
-      "السعر الأصلي بالقائمة": "1,025 EGP"
-    },
+    "description": "موزع روائح Sonifer SF-6526A؛ صفحة متجر مصري تعرض الموديل بالاسم، ومصادر بيع مباشرة أخرى تطابق سعة 560 مل والقدرة 15 وات. لا يوجد مصدر مصنع أولي في هذه الدورة؛ السعر والتوفر غير معتمدين.",
+    "specifications": {"الموديل":"SF-6526A","النوع":"موزع روائح/مرطب عطري","سعة الخزان":"560 مل","القدرة":"15 وات","الجهد":"100–240 فولت بحسب بيانات البائع","السعر الأصلي بالقائمة":"1,025 EGP — غير معتمد"},
     "availability": "يحتاج تأكيد التوفر لدى المورد",
-    "sourceUrl": "",
+    "sourceUrl": "https://www.totalstores-eg.com/store/department/Small-household-%20appliances",
     "sourceType": "Unverified Market",
     "verificationStatus": "Unverified",
     "published": true,
     "createdAt": "2026-11-15",
-    "updatedAt": "2026-11-15",
+    "updatedAt": "2026-11-17",
     "imageUrl": ""
   },
   {
@@ -1750,17 +1742,15 @@ export const cairoSalesProducts: Product[] = [
     "categoryId": "home",
     "model": "PBUM08073-EX",
     "sku": "PBUM08073-EX",
-    "description": "قائمة Cairo Sales المقدمة من المستخدم. السعر والبيانات التجارية غير متحقق منها مستقلاً؛ يلزم الرجوع إلى صفحة المنتج والمورد قبل الاعتماد.",
-    "specifications": {
-      "السعر الأصلي بالقائمة": "453 EGP"
-    },
+    "description": "لمبة Panasonic PBUM08073-EX بقدرة 7 وات؛ تمت مطابقة الموديل والقدرة واللون الدافئ مع صفحة بائع مصرية مباشرة. الصفحة تعرض المنتج غير متاح وقت الفحص؛ لا يثبت ذلك عدم توفره لدى جميع الموردين.",
+    "specifications": {"الموديل":"PBUM08073-EX","القدرة":"7 وات","النوع":"لمبة LED","لون الإضاءة":"أصفر دافئ 3000K","القاعدة":"E27","الجهد":"220–240 فولت بحسب صفحة البائع","الحالة لدى البائع المصدر":"غير متاح وقت التحقق","السعر الأصلي بالقائمة":"453 EGP — غير معتمد"},
     "availability": "يحتاج تأكيد التوفر لدى المورد",
-    "sourceUrl": "",
+    "sourceUrl": "https://egypt.sharafdg.com/product/panasonic-pbum08073-ex-warm-light-led-bulb-7w/",
     "sourceType": "Unverified Market",
     "verificationStatus": "Unverified",
     "published": true,
     "createdAt": "2026-11-15",
-    "updatedAt": "2026-11-15",
+    "updatedAt": "2026-11-17",
     "imageUrl": ""
   },
   {
@@ -1772,17 +1762,15 @@ export const cairoSalesProducts: Product[] = [
     "categoryId": "home",
     "model": "PBUM08053-EX",
     "sku": "PBUM08053-EX",
-    "description": "قائمة Cairo Sales المقدمة من المستخدم. السعر والبيانات التجارية غير متحقق منها مستقلاً؛ يلزم الرجوع إلى صفحة المنتج والمورد قبل الاعتماد.",
-    "specifications": {
-      "السعر الأصلي بالقائمة": "419 EGP"
-    },
+    "description": "لمبة Panasonic PBUM08053-EX بقدرة 5 وات؛ تمت مطابقة الموديل والقدرة والقاعدة واللون مع صفحة بائع مصري مباشر. الصفحة تعرض نفاد المخزون وقت الفحص؛ لا يثبت ذلك عدم توفرها لدى جميع الموردين.",
+    "specifications": {"الموديل":"PBUM08053-EX","القدرة":"5 وات","النوع":"لمبة LED","لون الإضاءة":"أصفر دافئ 3000K","القاعدة":"E27","الجهد":"140–275 فولت بحسب صفحة البائع","الحالة لدى البائع المصدر":"غير متاح وقت التحقق","السعر الأصلي بالقائمة":"419 EGP — غير معتمد"},
     "availability": "يحتاج تأكيد التوفر لدى المورد",
-    "sourceUrl": "",
+    "sourceUrl": "https://radiotalaat.com/en/panasonic-led-bulb-5-w-e27-warm-white-3000k-pbum08053-ex-17059.html",
     "sourceType": "Unverified Market",
     "verificationStatus": "Unverified",
     "published": true,
     "createdAt": "2026-11-15",
-    "updatedAt": "2026-11-15",
+    "updatedAt": "2026-11-17",
     "imageUrl": ""
   }
 ];
