@@ -816,7 +816,7 @@ export const cairoSalesProducts: Product[] = [
     "sku": "55QN70H",
     "description": "تلفزيون Samsung Neo QLED QN70H مقاس 55 بوصة؛ تمت مطابقة الموديل والمقاس والميزات الأساسية مع صفحة Samsung Egypt الرسمية. الصفحة تشير إلى أنه غير مخصص للبيع وقت الرصد.",
     "specifications": {"نوع الشاشة":"Neo QLED Mini LED","المقاس":"55 بوصة","الدقة":"4K","السلسلة":"QN70H 2026","المعالج":"NQ4 AI","ميزات الذكاء الاصطناعي":"Samsung Vision AI","التصميم":"AirSlim"},
-    "availability": "صفحة Ehab Center تعرض موديل 55QN70H بسعر 33,249 جنيه وحالة In stock؛ الصفحة لا تعرض لاحقة SKU الإقليمية QA55QN70HAUXEG، لذلك يبقى توفر النسخة الإقليمية بحاجة تأكيد. رابط البائع: https://ehabcenter.com/product/samsung-neo-qled-4k-smart-ai-vision-55-inch-55qn70h/",
+    "availability": "صفحة Ehab Center تعرض موديل 55QN70H بسعر 33,249 جنيه وحالة In stock، لكنها لا تعرض لاحقة SKU الإقليمية QA55QN70HAUXEG؛ التوفر للنسخة الإقليمية يحتاج تأكيداً من المورد قبل اعتماد الحالة. رابط البائع: https://ehabcenter.com/product/samsung-neo-qled-4k-smart-ai-vision-55-inch-55qn70h/",
     "officialProductUrl": "https://www.samsung.com/eg/tvs/qled-tv/qn70h-55-inch-neo-qled-4k-mini-led-smart-tv-qa55qn70hauxeg/",
     "sourceUrl": "https://www.samsung.com/eg/tvs/qled-tv/qn70h-55-inch-neo-qled-4k-mini-led-smart-tv-qa55qn70hauxeg/",
     "sourceType": "Official",
@@ -3223,7 +3223,7 @@ export const cairoSalesSmallApplianceProducts: Product[] = [
       "الضمان الخارجي": "سنة",
       "الضمان الداخلي": "سنة"
     },
-    "availability": "متاح لدى El-Iraqi وقت التحقق 18 نوفمبر 2026؛ صفحة البائع تعرض Fresh CH-700 بقدرة 700W وسعة 2L بسعر 1,240 جنيه وزر Add to cart. معالجة VAT غير موضحة. رابط البائع: https://eliraqi.com.eg/en/fresh?orderby=0&pagenumber=4&viewmode=list",
+    "availability": "قائمة El-Iraqi تعرض Fresh CH-700 بسعر 1,240 جنيه وزر إضافة إلى السلة، لكنها لا تعرض حالة مخزون صريحة في الصفحة الحالية؛ التوفر الفعلي يحتاج تأكيداً من البائع. VAT غير موضح. رابط القائمة: https://eliraqi.com.eg/en/fresh?orderby=0&pagenumber=4&viewmode=list",
     "officialProductUrl": "https://fresh.com.eg/ar/products/fresh-chopper-ch-700-2-liters-700-w",
     "sourceUrl": "https://fresh.com.eg/ar/products/fresh-chopper-ch-700-2-liters-700-w",
     "sourceType": "Official",
