@@ -2557,18 +2557,15 @@ export const cairoSalesCookwareProducts: Product[] = [
     "categoryId": "kitchen",
     "model": "JR2201",
     "sku": "JR2201",
-    "description": "بيانات المنتج والأسعار من قائمة Cairo Sales التي قدمها المستخدم؛ لم يتم التحقق المستقل من صفحة المنتج أو التوفر أو السعر.",
-    "specifications": {
-      "السعر الأصلي بالقائمة": "2,443 EGP",
-      "نسبة الخصم بالقائمة": "10%"
-    },
+    "description": "حلة أرز Home موديل JR2201؛ صفحة بائع مباشر تعرض الموديل نفسه وتطابق 500 وات وسعة 1.5 لتر. السعر والضمان والتوفر الظاهر في صفحة قديمة لا يُعتمد كحالة حالية.",
+    "specifications": {"الموديل":"JR2201","القدرة":"500 وات","السعة":"1.5 لتر","الجهد":"220–240V، 50–60Hz بحسب البائع","الوعاء":"داخلي غير لاصق وقابل للإزالة","الميزات":"طهي أوتوماتيكي وحماية من الحرارة الزائدة","مصدر المطابقة":"صفحة بائع مباشر؛ يلزم تحقق حديث للسعر والتوفر"},
     "availability": "يحتاج تأكيد التوفر لدى المورد",
-    "sourceUrl": "",
+    "sourceUrl": "https://www.noon.com/egypt-ar/home-egypt-rice-cooker-500-watt-1-5-liter-jr2201/Z336DA9BF3BD268F4107EZ/p/",
     "sourceType": "Unverified Market",
     "verificationStatus": "Unverified",
     "published": true,
     "createdAt": "2026-11-15",
-    "updatedAt": "2026-11-15",
+    "updatedAt": "2026-11-17",
     "imageUrl": ""
   },
   {
@@ -2646,18 +2643,15 @@ export const cairoSalesCookwareProducts: Product[] = [
     "categoryId": "kitchen",
     "model": "A1903",
     "sku": "A1903",
-    "description": "بيانات المنتج والأسعار من قائمة Cairo Sales التي قدمها المستخدم؛ لم يتم التحقق المستقل من صفحة المنتج أو التوفر أو السعر.",
-    "specifications": {
-      "السعر الأصلي بالقائمة": "2,768 EGP",
-      "نسبة الخصم بالقائمة": "10%"
-    },
+    "description": "حلة Korkmaz Astra موديل A1903 مقاس 24×14 سم؛ صفحة Korkmaz Egypt الرسمية تطابق السعة 6.3 لتر ورقم SKU 8691607019308 وتوضح الستانلس 18/10 والقاعدة Solar Base. لا يعتمد السعر أو التوفر المحلي دون إعادة تحقق.",
+    "specifications": {"الموديل":"A1903","السلسلة":"Astra","المقاس":"24 × 14 سم","السعة":"6.3 لتر","الخامة":"ستانلس ستيل 18/10 Cr-Ni","القاعدة":"Solar Base","SKU / EAN":"8691607019308"},
     "availability": "يحتاج تأكيد التوفر لدى المورد",
-    "sourceUrl": "",
-    "sourceType": "Unverified Market",
+    "sourceUrl": "https://korkmazeg.com/product/korkmaz-astra-casserole-24x14-cm/",
+    "sourceType": "Official",
     "verificationStatus": "Unverified",
     "published": true,
     "createdAt": "2026-11-15",
-    "updatedAt": "2026-11-15",
+    "updatedAt": "2026-11-17",
     "imageUrl": ""
   },
   {
@@ -2669,18 +2663,15 @@ export const cairoSalesCookwareProducts: Product[] = [
     "categoryId": "kitchen",
     "model": "N-6901649163245",
     "sku": "N-6901649163245",
-    "description": "بيانات المنتج والأسعار من قائمة Cairo Sales التي قدمها المستخدم؛ لم يتم التحقق المستقل من صفحة المنتج أو التوفر أو السعر.",
-    "specifications": {
-      "السعر الأصلي بالقائمة": "666 EGP",
-      "نسبة الخصم بالقائمة": "10%"
-    },
+    "description": "قالب نيوفلام Springform مقاس 24 سم؛ صفحة بائع مصرية تطابق الباركود 6901649163245 والمقاس 24 سم واللون الرمادي وطلاء غير لاصق. المصدر بائع وليس صفحة المصنع.",
+    "specifications": {"الباركود":"6901649163245","المقاس":"24 سم","النوع":"قالب كيك Springform بقاعدة قابلة للفك","اللون":"رمادي","الطلاء":"غير لاصق وفق صفحة البائع","مصدر المطابقة":"بائع تجزئة مصري؛ لا يعتمد السعر أو التوفر الحالي"},
     "availability": "يحتاج تأكيد التوفر لدى المورد",
-    "sourceUrl": "",
+    "sourceUrl": "https://tulipe.com/eg_en/springform-pan-24cm.html",
     "sourceType": "Unverified Market",
     "verificationStatus": "Unverified",
     "published": true,
     "createdAt": "2026-11-15",
-    "updatedAt": "2026-11-15",
+    "updatedAt": "2026-11-17",
     "imageUrl": ""
   },
   {
@@ -2807,18 +2798,15 @@ export const cairoSalesCookwareProducts: Product[] = [
     "categoryId": "kitchen",
     "model": "6223011170331",
     "sku": "6223011170331",
-    "description": "بيانات المنتج والأسعار من قائمة Cairo Sales التي قدمها المستخدم؛ لم يتم التحقق المستقل من صفحة المنتج أو التوفر أو السعر.",
-    "specifications": {
-      "السعر الأصلي بالقائمة": "1,151 EGP",
-      "نسبة الخصم بالقائمة": "8%"
-    },
+    "description": "جريل Cookin Aboud Bio Granite مقاس 28 سم؛ صفحة Aboud المباشرة تطابق الباركود 6223011170331 واسم المنتج. لا تعتمد السعر أو التوفر الظاهر إلا بعد إعادة تحقق.",
+    "specifications": {"الباركود":"6223011170331","المقاس":"28 سم","النوع":"جريل Bio Granite","العلامة":"Cookin Aboud","مصدر المطابقة":"صفحة Aboud المباشرة"},
     "availability": "يحتاج تأكيد التوفر لدى المورد",
-    "sourceUrl": "",
+    "sourceUrl": "https://shop-aboud.com/product/28-cm-grill-bio-granite/",
     "sourceType": "Unverified Market",
     "verificationStatus": "Unverified",
     "published": true,
     "createdAt": "2026-11-15",
-    "updatedAt": "2026-11-15",
+    "updatedAt": "2026-11-17",
     "imageUrl": ""
   }
 ];
@@ -3127,19 +3115,15 @@ export const cairoSalesSmallApplianceProducts: Product[] = [
     "categoryId": "appliances",
     "model": "FP141535G",
     "sku": "FP141535G",
-    "description": "محضر طعام. البيانات والأسعار من ملف Cairo Sales المرفق؛ لم يتم التحقق المستقل من صفحة المنتج أو التوفر أو السعر.",
-    "specifications": {
-      "الصنف الفرعي": "محضر طعام",
-      "السعر الأصلي بالقائمة": "3,952 EGP",
-      "نسبة الخصم بالقائمة": "15%"
-    },
+    "description": "محضر طعام Mienta FP141535G؛ صفحة بائع مصري تطابق رقم الموديل وتذكر 28 وظيفة وسعة 2.5 لتر وقدرة 1000 وات مع ملحقات الخلاط والمطحنة. يوجد اختلاف في صفحة البائع بين ملخص الضمان وتفاصيله؛ لم يتم اعتماد الضمان.",
+    "specifications": {"الموديل":"FP141535G","القدرة":"1000 وات","السعة":"2.5 لتر","الوظائف":"28 وظيفة بحسب وصف البائع","الملحقات":"خلاط ومطحنة ضمن المجموعة","مصدر المطابقة":"بائع تجزئة مصري؛ الضمان يحتاج تأكيداً مستقلاً"},
     "availability": "يحتاج تأكيد التوفر لدى المورد",
-    "sourceUrl": "",
+    "sourceUrl": "https://www.abdulaziz-stores.com/ar/mienta-food-processor-mille-full-set-1000w-fp141535g-golden-edition-1001400390028",
     "sourceType": "Unverified Market",
     "verificationStatus": "Unverified",
     "published": true,
     "createdAt": "2026-11-15",
-    "updatedAt": "2026-11-15",
+    "updatedAt": "2026-11-17",
     "imageUrl": ""
   },
   {
@@ -3151,19 +3135,15 @@ export const cairoSalesSmallApplianceProducts: Product[] = [
     "categoryId": "appliances",
     "model": "YN5240",
     "sku": "YN5240",
-    "description": "حلة طهي وموقد كهربائي. البيانات والأسعار من ملف Cairo Sales المرفق؛ لم يتم التحقق المستقل من صفحة المنتج أو التوفر أو السعر.",
-    "specifications": {
-      "الصنف الفرعي": "حلة طهي وموقد كهربائي",
-      "السعر الأصلي بالقائمة": "710 EGP",
-      "نسبة الخصم بالقائمة": "10%"
-    },
+    "description": "موقد كهربائي Home موديل YN5240؛ صفحة بائع مصري تطابق الموديل وتذكر عيناً واحدة وقدرة 500 وات ومؤشر تشغيل وتحكماً حرارياً. لم يعتمد السعر أو التوفر أو الضمان كحالة حالية.",
+    "specifications": {"الموديل":"YN5240","النوع":"موقد كهربائي عين واحدة","القدرة":"500 وات","اللون":"أبيض/أسود بحسب صفحة البائع","الميزات":"ثرموستات قابل للضبط، مؤشر تشغيل، إيقاف أمان","مصدر المطابقة":"بائع تجزئة مصري"},
     "availability": "يحتاج تأكيد التوفر لدى المورد",
-    "sourceUrl": "",
+    "sourceUrl": "https://www.almorshedymarts.net/en/products/1155014000007",
     "sourceType": "Unverified Market",
     "verificationStatus": "Unverified",
     "published": true,
     "createdAt": "2026-11-15",
-    "updatedAt": "2026-11-15",
+    "updatedAt": "2026-11-17",
     "imageUrl": ""
   },
   {
@@ -3219,19 +3199,15 @@ export const cairoSalesSmallApplianceProducts: Product[] = [
     "categoryId": "appliances",
     "model": "HB111938A",
     "sku": "HB111938A",
-    "description": "خلاطات / هاند بلندر. البيانات والأسعار من ملف Cairo Sales المرفق؛ لم يتم التحقق المستقل من صفحة المنتج أو التوفر أو السعر.",
-    "specifications": {
-      "الصنف الفرعي": "خلاطات / هاند بلندر",
-      "السعر الأصلي بالقائمة": "1,058 EGP",
-      "نسبة الخصم بالقائمة": "15%"
-    },
+    "description": "هاند بلندر Mienta Vitesse موديل HB111938A؛ صفحة Carrefour Egypt تطابق رقم الموديل واللون الأبيض والقدرة 450 وات وكوب 600 مل. صفحة بائع أخرى تذكر منشأ مصر وضمان سنتين، لكن لا نعتمد ذلك قبل تأكيد شروط الضمان المحلية.",
+    "specifications": {"الموديل":"HB111938A","السلسلة":"Vitesse","القدرة":"450 وات","السعة":"600 مل","السرعات":"سرعة واحدة مع Turbo","الملحقات":"كوب مدرج وعمود خلط ستانلس","اللون":"أبيض","مصدر المطابقة":"Carrefour Egypt؛ الضمان والمنشأ بحاجة تأكيد منفصل"},
     "availability": "يحتاج تأكيد التوفر لدى المورد",
-    "sourceUrl": "",
+    "sourceUrl": "https://www.carrefouregypt.com/mafegy/en/blender/mienta-hand-blender-hb111938a-450w/p/674730",
     "sourceType": "Unverified Market",
     "verificationStatus": "Unverified",
     "published": true,
     "createdAt": "2026-11-15",
-    "updatedAt": "2026-11-15",
+    "updatedAt": "2026-11-17",
     "imageUrl": ""
   },
   {
@@ -3243,19 +3219,15 @@ export const cairoSalesSmallApplianceProducts: Product[] = [
     "categoryId": "appliances",
     "model": "BLENDER-PRO-2000",
     "sku": "BLENDER-PRO-2000",
-    "description": "خلاطات. البيانات والأسعار من ملف Cairo Sales المرفق؛ لم يتم التحقق المستقل من صفحة المنتج أو التوفر أو السعر.",
-    "specifications": {
-      "الصنف الفرعي": "خلاطات",
-      "السعر الأصلي بالقائمة": "16,166 EGP",
-      "نسبة الخصم بالقائمة": "10%"
-    },
+    "description": "خلاط BRIVA Blender Pro 2000؛ صفحة بائع مصرية تطابق الاسم والقدرة 2000 وات وسعة 4.2 لتر وSKU 87854. صفحة الوكيل المعتمد EL-ALFY تعرض نفس الموديل، لكن التوفر متعارض بين البائع والوكيل؛ لا يعتمد التوفر الحالي." ,
+    "specifications": {"الموديل":"BLENDER PRO 2000","SKU الوكيل":"87854","القدرة":"2000 وات","السعة":"4.2 لتر","البرامج":"5 برامج مسبقة مع تحكم يدوي","الضمان":"سنتان وفق صفحة البائع/الوكيل؛ يلزم التحقق من شروط النسخة المحلية"},
     "availability": "يحتاج تأكيد التوفر لدى المورد",
-    "sourceUrl": "",
+    "sourceUrl": "https://alreyadastore.com/products/%D8%AE%D9%84%D8%A7%D8%B7-%D8%A8%D8%B1%D9%8A%D9%81%D8%A7",
     "sourceType": "Unverified Market",
     "verificationStatus": "Unverified",
     "published": true,
     "createdAt": "2026-11-15",
-    "updatedAt": "2026-11-15",
+    "updatedAt": "2026-11-17",
     "imageUrl": ""
   }
 ];
