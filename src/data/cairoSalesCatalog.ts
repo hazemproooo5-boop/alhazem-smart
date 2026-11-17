@@ -1581,7 +1581,7 @@ export const cairoSalesProducts: Product[] = [
     "createdAt": "2026-11-15",
     "updatedAt": "2026-11-17",
     "imageUrl": "https://www.jbl.com.pe/dw/image/v2/BFND_PRD/on/demandware.static/-/Sites-masterCatalog_Harman/default/dwbdf1d30e/JBL_PARTYLIGHT_BEAM_HERO_51615_x8.png?sh=1605&sw=1605",
-    "imageSourceUrl": "https://www.jbl.com.pe/PARTYLIGHT-BEAM.html",
+    "imageSourceUrl": "https://www.jbl.com/PARTYLIGHT-BEAM.html",
     "imageVerifiedDate": "2026-11-17"
   },
   {
