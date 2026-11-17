@@ -2666,7 +2666,55 @@ export const cairoSalesPrices: PriceRecord[] = [
     "priceDate": "2026-11-15",
     "verificationStatus": "Unverified",
     "createdAt": "2026-11-15T00:00:00Z"
-  }
+  },
+  {
+    "id": "cs-price-108",
+    "productId": "cs-001",
+    "price": 81899,
+    "currency": "EGP",
+    "priceType": "Official Price",
+    "source": "LG Egypt official online store — 75QNED85B6T; standard public price, member price excluded; checked 2026-11-18",
+    "sourceUrl": "https://www.lg.com/eg_ar/tv-soundbars/all-tvs/?sortCriteria=%40ec_stock_status+ascending%2C%40ec_model_release_date+descending",
+    "priceDate": "2026-11-18",
+    "verificationStatus": "Verified",
+    "createdAt": "2026-11-18T00:00:00Z"
+  },
+  {
+    "id": "cs-price-109",
+    "productId": "cs-003",
+    "price": 67199,
+    "currency": "EGP",
+    "priceType": "Official Price",
+    "source": "LG Egypt official online store — 75QNED84B6T; standard public price, member price excluded; checked 2026-11-18",
+    "sourceUrl": "https://www.lg.com/eg_ar/tv-soundbars/all-tvs/?sortCriteria=%40ec_stock_status+ascending%2C%40ec_model_release_date+descending",
+    "priceDate": "2026-11-18",
+    "verificationStatus": "Verified",
+    "createdAt": "2026-11-18T00:00:00Z"
+  },
+  {
+    "id": "cs-price-110",
+    "productId": "cs-017",
+    "price": 104666,
+    "currency": "EGP",
+    "priceType": "Trusted Market Price",
+    "source": "Carrefour Egypt — 98U9000H; EGP 104,666 including VAT, 2 units remaining on listing; checked 2026-11-18",
+    "sourceUrl": "https://www.carrefouregypt.com/mafegy/ar/lifestyle-tv/samsung-led-tv98-98u9000h-sm-uhd-rc/p/687963",
+    "priceDate": "2026-11-18",
+    "verificationStatus": "Verified",
+    "createdAt": "2026-11-18T00:00:00Z"
+  },
+  {
+    "id": "cs-price-111",
+    "productId": "cs-020",
+    "price": 31499,
+    "currency": "EGP",
+    "priceType": "Trusted Market Price",
+    "source": "Abdul Aziz Stores Egypt — Samsung QA55QN70HAUXEG; 1 unit remaining on seller page; VAT treatment not stated; checked 2026-11-18",
+    "sourceUrl": "https://www.abdulaziz-stores.com/en/samsung-smart-4k-tv-uhd-neo-qled-55-inch-frameless-built-in-receiver-qa55qn70hauxeg",
+    "priceDate": "2026-11-18",
+    "verificationStatus": "Verified",
+    "createdAt": "2026-11-18T00:00:00Z"
+  },
 ];
 
 
