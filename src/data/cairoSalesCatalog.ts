@@ -1292,15 +1292,15 @@ export const cairoSalesProducts: Product[] = [
     "categoryId": "audio",
     "model": "HT-A9000",
     "sku": "HT-A9000",
-    "description": "Sony BRAVIA Theatre Bar 9 موديل HT-A9000؛ تمت مطابقة الموديل مع صفحة الدعم الرسمية من Sony. مصدر الدعم أمريكي ولا يثبت توفر أو ضمان مصر.",
-    "specifications": {"السعر الأصلي بالقائمة":"51,716 EGP — غير معتمد","الموديل":"HT-A9000 / BRAVIA Theatre Bar 9","النوع":"ساوند بار رئيسي","الصوت":"Dolby Atmos وDTS:X","تقنيات الصوت":"360 Spatial Sound Mapping","المصدر":"صفحة دعم Sony الرسمية"},
+    "description": "Sony BRAVIA Theatre Bar 9 موديل HT-A9000؛ صفحة دعم Sony Middle East الرسمية تطابق الموديل وتعرض مواصفات المضخم والقنوات والاتصال. لا يثبت المصدر توفر النسخة أو سعرها في مصر.",
+    "specifications": {"السعر الأصلي بالقائمة":"51,716 EGP","الموديل":"HT-A9000 / BRAVIA Theatre Bar 9","قنوات المضخم":"13 قناة","نوع المضخم":"Digital S-Master HX","الاتصال":"Wi-Fi وBluetooth 5.2","المداخل":"HDMI eARC/ARC، S-Center Out","الأبعاد":"1300 × 64 × 113 مم"},
     "availability": "يحتاج تأكيد التوفر لدى المورد",
-    "sourceUrl": "https://www.sony.com/electronics/support/sound-bars-home-theater-systems-sound-bars-surround-speakers/ht-a9000",
+    "sourceUrl": "https://www.sony-mea.com/ar/electronics/support/sound-bars-home-theater-systems-sound-bars-surround-speakers/ht-a9000/specifications",
     "sourceType": "Official",
     "verificationStatus": "Unverified",
     "published": true,
     "createdAt": "2026-11-15",
-    "updatedAt": "2026-11-15",
+    "updatedAt": "2026-11-17",
     "imageUrl": ""
   },
   {
@@ -1312,17 +1312,15 @@ export const cairoSalesProducts: Product[] = [
     "categoryId": "audio",
     "model": "HT-S700RF",
     "sku": "HT-S700RF",
-    "description": "قائمة Cairo Sales المقدمة من المستخدم. السعر والبيانات التجارية غير متحقق منها مستقلاً؛ يلزم الرجوع إلى صفحة المنتج والمورد قبل الاعتماد.",
-    "specifications": {
-      "السعر الأصلي بالقائمة": "29,353 EGP"
-    },
+    "description": "نظام Sony HT-S700RF المسرحي المنزلي؛ صفحة Sony Middle East الرسمية تطابق الموديل وتؤكد نظام 5.1 قناة وخرج 1000 واط وبلوتوث. لا يثبت المصدر توفر النسخة أو سعرها في مصر.",
+    "specifications": {"السعر الأصلي بالقائمة":"29,353 EGP","الموديل":"HT-S700RF","القنوات":"5.1 قناة","إجمالي خرج القدرة":"1000 واط","نوع مضخم الصوت":"Digital S-Master","الاتصال":"Bluetooth","نوع الصبووفر":"سلكي"},
     "availability": "يحتاج تأكيد التوفر لدى المورد",
-    "sourceUrl": "",
-    "sourceType": "Unverified Market",
+    "sourceUrl": "https://www.sony-mea.com/ar/electronics/support/sound-bars-home-theater-systems-sound-bars-surround-speakers/ht-s700rf/specifications",
+    "sourceType": "Official",
     "verificationStatus": "Unverified",
     "published": true,
     "createdAt": "2026-11-15",
-    "updatedAt": "2026-11-15",
+    "updatedAt": "2026-11-17",
     "imageUrl": ""
   },
   {
@@ -1334,17 +1332,15 @@ export const cairoSalesProducts: Product[] = [
     "categoryId": "audio",
     "model": "HT-S500RF",
     "sku": "HT-S500RF",
-    "description": "قائمة Cairo Sales المقدمة من المستخدم. السعر والبيانات التجارية غير متحقق منها مستقلاً؛ يلزم الرجوع إلى صفحة المنتج والمورد قبل الاعتماد.",
-    "specifications": {
-      "السعر الأصلي بالقائمة": "24,549 EGP"
-    },
+    "description": "نظام Sony HT-S500RF المسرحي المنزلي؛ صفحة Sony Middle East الرسمية تطابق الموديل وتؤكد 5.1 قناة و1000 واط وBluetooth. لا يثبت المصدر توفر النسخة أو سعرها في مصر.",
+    "specifications": {"السعر الأصلي بالقائمة":"24,549 EGP","الموديل":"HT-S500RF","القنوات":"5.1 قناة","إجمالي خرج القدرة":"1000 واط","نوع مضخم الصوت":"Digital S-Master","الاتصال":"Bluetooth","نوع الصبووفر":"سلكي"},
     "availability": "يحتاج تأكيد التوفر لدى المورد",
-    "sourceUrl": "",
-    "sourceType": "Unverified Market",
+    "sourceUrl": "https://www.sony-mea.com/ar/electronics/support/sound-bars-home-theater-systems-sound-bars-surround-speakers/ht-s500rf/specifications",
+    "sourceType": "Official",
     "verificationStatus": "Unverified",
     "published": true,
     "createdAt": "2026-11-15",
-    "updatedAt": "2026-11-15",
+    "updatedAt": "2026-11-17",
     "imageUrl": ""
   },
   {
@@ -1356,15 +1352,15 @@ export const cairoSalesProducts: Product[] = [
     "categoryId": "audio",
     "model": "HT-S40R",
     "sku": "HT-S40R",
-    "description": "Sony HT-S40R نظام مسرح منزلي 5.1 قناة مع سماعات خلفية لاسلكية؛ تمت مطابقة الموديل مع صفحة دعم Sony الرسمية. المصدر لا يثبت توفر أو ضمان مصر.",
-    "specifications": {"السعر الأصلي بالقائمة":"19,147 EGP — غير معتمد","الموديل":"HT-S40R","القنوات":"5.1 قناة","النوع":"مسرح منزلي مع سماعات خلفية لاسلكية","المصدر":"صفحة دعم Sony الرسمية"},
+    "description": "نظام Sony HT-S40R المسرحي المنزلي؛ صفحة دعم Sony الرسمية تطابق الموديل وتؤكد نظام 5.1 قناة وخرج 600 واط وBluetooth 5.0. لا يثبت المصدر توفر النسخة أو سعرها في مصر.",
+    "specifications": {"السعر الأصلي بالقائمة":"19,147 EGP","الموديل":"HT-S40R","القنوات":"5.1 قناة","إجمالي خرج القدرة":"600 واط","الاتصال":"Bluetooth 5.0","نوع الصبووفر":"سلكي","مدخل HDMI":"ARC"},
     "availability": "يحتاج تأكيد التوفر لدى المورد",
-    "sourceUrl": "https://www.sony.com/electronics/support/home-theater-sound-bars-home-theater-systems/ht-s40r",
+    "sourceUrl": "https://www.sony-mea.com/ar/electronics/support/sound-bars-home-theater-systems-sound-bars-surround-speakers/ht-s40r/specifications",
     "sourceType": "Official",
     "verificationStatus": "Unverified",
     "published": true,
     "createdAt": "2026-11-15",
-    "updatedAt": "2026-11-15",
+    "updatedAt": "2026-11-17",
     "imageUrl": ""
   },
   {
@@ -1480,17 +1476,15 @@ export const cairoSalesProducts: Product[] = [
     "categoryId": "audio",
     "model": "JBLBOOMBOX4BLUUK",
     "sku": "JBLBOOMBOX4BLUUK",
-    "description": "قائمة Cairo Sales المقدمة من المستخدم. السعر والبيانات التجارية غير متحقق منها مستقلاً؛ يلزم الرجوع إلى صفحة المنتج والمورد قبل الاعتماد.",
-    "specifications": {
-      "السعر الأصلي بالقائمة": "30,078 EGP"
-    },
+    "description": "مكبر JBL Boombox 4 باللون الأزرق؛ صفحة JBL UK الرسمية تطابق رقم الطلب JBLBOOMBOX4BLUUK. مواصفات القدرة والبطارية والحماية موثقة من الشركة؛ لا يثبت المصدر سعر أو توفر النسخة في مصر.",
+    "specifications": {"السعر الأصلي بالقائمة":"30,078 EGP","الموديل":"JBLBOOMBOX4BLUUK","اللون":"أزرق","قدرة الخرج":"2 × 65 واط RMS للووفر + 2 × 40 واط RMS للتويتر في وضع الكهرباء","التردد":"37Hz–20kHz","مقاومة الماء والغبار":"IP68","Bluetooth":"5.4","زمن التشغيل":"حتى 28 ساعة، مع Playtime Boost إضافي"},
     "availability": "يحتاج تأكيد التوفر لدى المورد",
-    "sourceUrl": "",
-    "sourceType": "Unverified Market",
+    "sourceUrl": "https://uk.jbl.com/JBLBOOMBOX4BLUUK.html",
+    "sourceType": "Official",
     "verificationStatus": "Unverified",
     "published": true,
     "createdAt": "2026-11-15",
-    "updatedAt": "2026-11-15",
+    "updatedAt": "2026-11-17",
     "imageUrl": ""
   },
   {
@@ -1502,17 +1496,15 @@ export const cairoSalesProducts: Product[] = [
     "categoryId": "audio",
     "model": "JBLPB130BLKUK",
     "sku": "JBLPB130BLKUK",
-    "description": "قائمة Cairo Sales المقدمة من المستخدم. السعر والبيانات التجارية غير متحقق منها مستقلاً؛ يلزم الرجوع إلى صفحة المنتج والمورد قبل الاعتماد.",
-    "specifications": {
-      "السعر الأصلي بالقائمة": "23,260 EGP"
-    },
+    "description": "مكبر الحفلات JBL PartyBox 130 باللون الأسود؛ صفحة JBL UK الرسمية تطابق رقم الطلب JBLPB130BLKUK. السعر والتوفر المحلي غير معتمدين.",
+    "specifications": {"السعر الأصلي بالقائمة":"23,260 EGP","الموديل":"JBLPB130BLKUK","قدرة الخرج":"200 واط RMS","عمر التشغيل":"حتى 15 ساعة","مقاومة الرذاذ":"IPX4","Bluetooth":"6.0","الميزات":"AI Sound Boost وAuracast ومدخلان للميكروفون والجيتار"},
     "availability": "يحتاج تأكيد التوفر لدى المورد",
-    "sourceUrl": "",
-    "sourceType": "Unverified Market",
+    "sourceUrl": "https://uk.jbl.com/JBLPB130BLKUK.html",
+    "sourceType": "Official",
     "verificationStatus": "Unverified",
     "published": true,
     "createdAt": "2026-11-15",
-    "updatedAt": "2026-11-15",
+    "updatedAt": "2026-11-17",
     "imageUrl": ""
   },
   {
@@ -1524,17 +1516,15 @@ export const cairoSalesProducts: Product[] = [
     "categoryId": "audio",
     "model": "JBLAUTH200BLKUK",
     "sku": "JBLAUTH200BLKUK",
-    "description": "قائمة Cairo Sales المقدمة من المستخدم. السعر والبيانات التجارية غير متحقق منها مستقلاً؛ يلزم الرجوع إلى صفحة المنتج والمورد قبل الاعتماد.",
-    "specifications": {
-      "السعر الأصلي بالقائمة": "20,517 EGP"
-    },
+    "description": "مكبر JBL Authentics 200 الذكي باللون الأسود؛ صفحة JBL UK الرسمية تطابق رقم الطلب JBLAUTH200BLKUK وتؤكد المواصفات الصوتية والاتصال اللاسلكي. السعر والتوفر المحلي غير معتمدين.",
+    "specifications": {"السعر الأصلي بالقائمة":"20,517 EGP","الموديل":"JBLAUTH200BLKUK","النظام الصوتي":"Stereo 2.0","قدرة الخرج":"90 واط","المشغلات":"2 × 25 مم Tweeter و5 بوصة Woofer","الاتصال":"Wi-Fi وBluetooth 5.3 وEthernet","المساعدات الصوتية":"Google Assistant وAmazon Alexa حيثما تتوفر"},
     "availability": "يحتاج تأكيد التوفر لدى المورد",
-    "sourceUrl": "",
-    "sourceType": "Unverified Market",
+    "sourceUrl": "https://uk.jbl.com/JBLAUTH200BLKUK.html",
+    "sourceType": "Official",
     "verificationStatus": "Unverified",
     "published": true,
     "createdAt": "2026-11-15",
-    "updatedAt": "2026-11-15",
+    "updatedAt": "2026-11-17",
     "imageUrl": ""
   },
   {
@@ -1546,17 +1536,15 @@ export const cairoSalesProducts: Product[] = [
     "categoryId": "audio",
     "model": "JBLXTREME4",
     "sku": "JBLXTREME4",
-    "description": "قائمة Cairo Sales المقدمة من المستخدم. السعر والبيانات التجارية غير متحقق منها مستقلاً؛ يلزم الرجوع إلى صفحة المنتج والمورد قبل الاعتماد.",
-    "specifications": {
-      "السعر الأصلي بالقائمة": "17,828 EGP"
-    },
+    "description": "مكبر JBL Xtreme 4 المحمول؛ صفحة JBL الرسمية تطابق سلسلة الموديل وتعرض القدرة والبطارية ومقاومة الماء والغبار. يلزم تأكيد رقم SKU الإقليمي واللون لدى المورد المصري.",
+    "specifications": {"السعر الأصلي بالقائمة":"17,828 EGP","الموديل":"JBLXTREME4","قدرة الخرج":"2 × 30 واط RMS للووفر + 2 × 20 واط RMS للتويتر في وضع الكهرباء","Bluetooth":"5.3","مقاومة الماء والغبار":"IP67","زمن التشغيل":"حتى 24 ساعة"},
     "availability": "يحتاج تأكيد التوفر لدى المورد",
-    "sourceUrl": "",
-    "sourceType": "Unverified Market",
+    "sourceUrl": "https://www.jbl.com/XTREME-4.html",
+    "sourceType": "Official",
     "verificationStatus": "Unverified",
     "published": true,
     "createdAt": "2026-11-15",
-    "updatedAt": "2026-11-15",
+    "updatedAt": "2026-11-17",
     "imageUrl": ""
   },
   {
@@ -1568,17 +1556,15 @@ export const cairoSalesProducts: Product[] = [
     "categoryId": "audio",
     "model": "JBLPLBEAMEU",
     "sku": "JBLPLBEAMEU",
-    "description": "قائمة Cairo Sales المقدمة من المستخدم. السعر والبيانات التجارية غير متحقق منها مستقلاً؛ يلزم الرجوع إلى صفحة المنتج والمورد قبل الاعتماد.",
-    "specifications": {
-      "السعر الأصلي بالقائمة": "8,028 EGP"
-    },
+    "description": "إضاءة الحفلات JBL PartyLight Beam؛ صفحة JBL الرسمية تطابق اسم المنتج وتشرح المزامنة مع عروض إضاءة PartyBox والتحكم عبر تطبيق JBL One. رقم SKU JBLPLBEAMEU مطابق في مصدر بائع، ويلزم تأكيد النسخة والتوفر المحلي.",
+    "specifications": {"السعر الأصلي بالقائمة":"8,028 EGP","الموديل":"JBLPLBEAMEU","النوع":"Bluetooth Projection Party Light","التوافق":"مزامنة مع عروض إضاءة JBL PartyBox","التحكم":"JBL One / PartyBox App","مساحة التغطية":"تصل إلى 40 م² بحسب مواصفات المنتج المنشورة"},
     "availability": "يحتاج تأكيد التوفر لدى المورد",
-    "sourceUrl": "",
-    "sourceType": "Unverified Market",
+    "sourceUrl": "https://www.jbl.com/PARTYLIGHT-BEAM.html",
+    "sourceType": "Official",
     "verificationStatus": "Unverified",
     "published": true,
     "createdAt": "2026-11-15",
-    "updatedAt": "2026-11-15",
+    "updatedAt": "2026-11-17",
     "imageUrl": ""
   },
   {
@@ -1590,17 +1576,15 @@ export const cairoSalesProducts: Product[] = [
     "categoryId": "audio",
     "model": "JBLPBM100BLK",
     "sku": "JBLPBM100BLK",
-    "description": "قائمة Cairo Sales المقدمة من المستخدم. السعر والبيانات التجارية غير متحقق منها مستقلاً؛ يلزم الرجوع إلى صفحة المنتج والمورد قبل الاعتماد.",
-    "specifications": {
-      "السعر الأصلي بالقائمة": "2,369 EGP"
-    },
+    "description": "ميكروفون JBL PBM100 السلكي الديناميكي؛ صفحة JBL الرسمية تطابق عائلة الموديل وتعرض خصائص الالتقاط والتوصيل. لا يثبت المصدر سعر أو توفر النسخة المحلية.",
+    "specifications": {"السعر الأصلي بالقائمة":"2,369 EGP","الموديل":"JBLPBM100BLK","نمط الالتقاط":"Cardioid","الاستجابة الترددية":"50Hz–15kHz","الممانعة":"600 Ohms","المخرج":"6.3mm audio out","الوزن":"110 جرام"},
     "availability": "يحتاج تأكيد التوفر لدى المورد",
-    "sourceUrl": "",
-    "sourceType": "Unverified Market",
+    "sourceUrl": "https://www.jbl.com/JBLPBM100BLKAM.html",
+    "sourceType": "Official",
     "verificationStatus": "Unverified",
     "published": true,
     "createdAt": "2026-11-15",
-    "updatedAt": "2026-11-15",
+    "updatedAt": "2026-11-17",
     "imageUrl": ""
   },
   {
