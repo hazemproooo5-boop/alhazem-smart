@@ -31,3 +31,18 @@
 - Sokany بقيت بحاجة إلى مصدر مالك/مصنع أولي.
 - لم يتم اعتماد أي وكالة أو ضمان محلي من مجرد ظهور علامة في متجر.
 - لم تُعدّل حالات التحقق في البيانات أو بيانات المنتجات والأسعار.
+
+
+## ملحق توثيق ملكية العلامات والتراخيص الإقليمية
+
+أضيفت هذه الملاحظات لتجنب الخلط بين العلامة والمالك والموزع:
+
+- **T-Fal وTefal:** اسمان إقليميان لنفس عائلة العلامة التابعة إلى Groupe SEB؛ يُحتفظ بالتهجئتين كـaliases تحت كيان علامة واحد. المصادر: https://www.t-fal.com/about-us ؛ https://www.tefal.com.eg/en/about-tefal.
+- **Kenwood وBraun Household وAriete:** ضمن محفظة De’Longhi؛ تقرير المجموعة يذكر استحواذ Kenwood عام 2001 وترخيص Braun للأجهزة المنزلية الصغيرة منذ 2012. لا تُعمم علاقة Braun هذه على العناية الشخصية. المصدر: https://www.delonghigroup.com/en/brand/portfolio.
+- **Moulinex:** علامة Groupe SEB منذ 2001 وفق الموقع المصري. المصدر: https://www.moulinex.com.eg/about-us.
+- **Samsung Mobile:** قطاع داخل Samsung Electronics، وليس شركة منفصلة. المصدر: https://images.samsung.com/is/content/samsung/assets/global/ir/docs/2025_con_quarter04_all.pdf.
+- **GREE/Gree:** تكرار حالة أحرف لنفس العلامة، وقد عولج سجل الدليل في PR #73 مع حفظ GREE كـalias. المصدر: https://global.gree.com/channels/113.html.
+- **Hoover:** الملكية والتشغيل إقليميان؛ TTI Floor Care North America في أمريكا، وCandy Hoover Group في أوروبا، وTTI EMEA للشرق الأوسط وفق صفحات الاتصال الرسمية. لا تفترض مالكاً أو ضماناً واحداً عالمياً. المصادر: https://hoover.com/pages/about-hoover ؛ https://hoover.com/pages/international-contacts.
+- **Beko/Arçelik:** بعض العلامات ضمن المجموعة مملوكة وبعضها مستخدم بترخيص محدود حسب السوق؛ يجب توثيق الترخيص الإقليمي قبل تسجيلها كشركات تابعة. المصدر: https://www.bekocorporate.com/company/about-us/overview/.
+
+لا تمنح هذه العلاقات أي موزع مصري صفة وكيل معتمد أو ضماناً محلياً؛ ذلك يحتاج مستنداً مستقلاً من مالك العلامة أو وكيلها الإقليمي.
