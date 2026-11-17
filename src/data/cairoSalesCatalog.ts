@@ -604,7 +604,8 @@ export const cairoSalesProducts: Product[] = [
     "published": true,
     "createdAt": "2026-11-15",
     "updatedAt": "2026-11-15",
-    "imageUrl": ""
+    "imageUrl": "",
+    "imageCandidateUrl": "https://www.worldwidestereo.com/cdn/shop/files/Samsung-QN83S95HAEXZA-S95H-83-4K-OLED-TV-Image-01.jpg?v=1778268468"
   },
   {
     "id": "cs-012",
@@ -646,7 +647,8 @@ export const cairoSalesProducts: Product[] = [
     "published": true,
     "createdAt": "2026-11-15",
     "updatedAt": "2026-11-17",
-    "imageUrl": ""
+    "imageUrl": "",
+    "imageCandidateUrl": "https://fillion.ca/cdn/shop/files/QA77S95HAEXXS_5_8bba3bc0-c26a-431e-ac29-f9634ba8577c.jpg?v=1775592003&width=700"
   },
   {
     "id": "cs-014",
@@ -666,7 +668,8 @@ export const cairoSalesProducts: Product[] = [
     "published": true,
     "createdAt": "2026-11-15",
     "updatedAt": "2026-11-17",
-    "imageUrl": ""
+    "imageUrl": "",
+    "imageCandidateUrl": "https://static.ollo.it/img/catalog/2048x2048/samsung-83-oled-s85h-4k-vision-ai-smart-tv-2026_1692160_961158.jpg"
   },
   {
     "id": "cs-015",
@@ -686,7 +689,8 @@ export const cairoSalesProducts: Product[] = [
     "published": true,
     "createdAt": "2026-11-15",
     "updatedAt": "2026-11-17",
-    "imageUrl": ""
+    "imageUrl": "",
+    "imageCandidateUrl": "https://www.tanradio.com/_next/image?q=75&url=%2Fimages%2Fpromos%2Fsamsung-m90h%2Fhero-front.jpg&w=3840"
   },
   {
     "id": "cs-016",
@@ -729,7 +733,8 @@ export const cairoSalesProducts: Product[] = [
     "published": true,
     "createdAt": "2026-11-15",
     "updatedAt": "2026-11-15",
-    "imageUrl": ""
+    "imageUrl": "",
+    "imageCandidateUrl": "https://sonxplusrockland.com/cdn/shop/files/U9000HFXZC_02_700x700.jpg?v=1780430025"
   },
   {
     "id": "cs-018",
@@ -749,7 +754,8 @@ export const cairoSalesProducts: Product[] = [
     "published": true,
     "createdAt": "2026-11-15",
     "updatedAt": "2026-11-17",
-    "imageUrl": ""
+    "imageUrl": "",
+    "imageCandidateUrl": "https://media.binglee.com.au/cdn-cgi/image/fit%3Dscale-down%2Cf%3Dauto%2Cw%3D1079/a/a/3/2/aa3291990bcfa993c841f318667aeddbe5700bcd_QA75LS03HEWXXY__proddim.jpg"
   },
   {
     "id": "cs-019",
@@ -792,7 +798,8 @@ export const cairoSalesProducts: Product[] = [
     "published": true,
     "createdAt": "2026-11-15",
     "updatedAt": "2026-11-15",
-    "imageUrl": ""
+    "imageUrl": "",
+    "imageCandidateUrl": "https://www.pcrichard.com/on/demandware.static/-/Sites-pcrichard-master-product-catalog/default/dw35b3faf1/images/hires/Z_QN55QN70H.jpg"
   },
   {
     "id": "cs-021",
@@ -1266,7 +1273,9 @@ export const cairoSalesProducts: Product[] = [
     "createdAt": "2026-11-15",
     "updatedAt": "2026-11-17",
     "imageCandidateUrl": "https://www.fillion-electronics.com/media/catalog/product/cache/86a8a71d07f0c1e48c50f35e3ef41f0a/0/1/01_4_8.jpg",
-    "imageUrl": ""
+    "imageUrl": "",
+    "imageSourceUrl": "https://www.fillion-electronics.com/sony-ht-a7000-7-1-2ch-dolby-atmos-soundbar",
+    "imageVerifiedDate": "2026-11-17"
   },
   {
     "id": "cs-041",
@@ -1310,7 +1319,9 @@ export const cairoSalesProducts: Product[] = [
     "createdAt": "2026-11-15",
     "updatedAt": "2026-11-17",
     "imageCandidateUrl": "https://www.audiotrends.com.au/assets/full/HTA9000.jpeg?20240110160009",
-    "imageUrl": ""
+    "imageUrl": "",
+    "imageSourceUrl": "https://www.sony.com/electronics/support/product/ht-a9000",
+    "imageVerifiedDate": "2026-11-17"
   },
   {
     "id": "cs-043",
@@ -1331,7 +1342,9 @@ export const cairoSalesProducts: Product[] = [
     "createdAt": "2026-11-15",
     "updatedAt": "2026-11-17",
     "imageCandidateUrl": "https://bf1af2.akinoncloudcdn.com/products/2024/09/07/45021/baf16a37-e863-470a-bf75-d6df3f43891a.jpg",
-    "imageUrl": ""
+    "imageUrl": "",
+    "imageSourceUrl": "https://www.sony-mea.com/ar/electronics/support/sound-bars-home-theater-systems-sound-bars-surround-speakers/ht-s700rf/specifications",
+    "imageVerifiedDate": "2026-11-17"
   },
   {
     "id": "cs-044",
@@ -1374,7 +1387,9 @@ export const cairoSalesProducts: Product[] = [
     "createdAt": "2026-11-15",
     "updatedAt": "2026-11-17",
     "imageCandidateUrl": "https://cdn.multitronic.fi/images/prod/7/5/HTS40R.CEL-1.webp",
-    "imageUrl": ""
+    "imageUrl": "",
+    "imageSourceUrl": "https://www.sony-mea.com/ar/electronics/support/sound-bars-home-theater-systems-sound-bars-surround-speakers/ht-s40r/specifications",
+    "imageVerifiedDate": "2026-11-17"
   },
   {
     "id": "cs-046",
@@ -1395,7 +1410,9 @@ export const cairoSalesProducts: Product[] = [
     "createdAt": "2026-11-15",
     "updatedAt": "2026-11-15",
     "imageCandidateUrl": "https://hiraoka.com.pe/media/catalog/product/u/l/ultmic1_1.jpg?bg-color=255%2C255%2C255&canvas=700%3A560&fit=bounds&height=560&quality=85&width=700",
-    "imageUrl": ""
+    "imageUrl": "",
+    "imageSourceUrl": "https://www.sony.com/en-eg/wireless-speakers/products/ultmic1",
+    "imageVerifiedDate": "2026-11-17"
   },
   {
     "id": "cs-047",
@@ -1416,7 +1433,9 @@ export const cairoSalesProducts: Product[] = [
     "createdAt": "2026-11-15",
     "updatedAt": "2026-11-15",
     "imageCandidateUrl": "https://s3.amazonaws.com/pr-prd-preview-dolphin-upload-cfn/sites/260/2025/03/26014046/WF-C710N_Black_Standard-Large.jpg",
-    "imageUrl": ""
+    "imageUrl": "",
+    "imageSourceUrl": "https://www.sony.com/en-eg/headphones/products/wf-c710n",
+    "imageVerifiedDate": "2026-11-17"
   },
   {
     "id": "cs-048",
@@ -1437,7 +1456,9 @@ export const cairoSalesProducts: Product[] = [
     "createdAt": "2026-11-15",
     "updatedAt": "2026-11-15",
     "imageCandidateUrl": "https://cdn.shopify.com/s/files/1/0630/5362/7541/files/WFC510B.CE7_1.jpg?v=1760707910",
-    "imageUrl": ""
+    "imageUrl": "",
+    "imageSourceUrl": "https://www.sony.com/ar-eg/headphones/products/wf-c510",
+    "imageVerifiedDate": "2026-11-17"
   },
   {
     "id": "cs-049",
@@ -1459,7 +1480,9 @@ export const cairoSalesProducts: Product[] = [
     "createdAt": "2026-11-15",
     "updatedAt": "2026-11-17",
     "imageCandidateUrl": "https://www.pbtech.com/pacific/imgprod/S/P/SPKJBL6628266__5.jpg",
-    "imageUrl": ""
+    "imageUrl": "",
+    "imageSourceUrl": "https://www.pbtech.com/pacific/product/SPKJBL6628266/JBL-PartyBox-720-800W-Wireless-Portable-Party-Spea",
+    "imageVerifiedDate": "2026-11-17"
   },
   {
     "id": "cs-050",
@@ -1503,7 +1526,9 @@ export const cairoSalesProducts: Product[] = [
     "createdAt": "2026-11-15",
     "updatedAt": "2026-11-17",
     "imageCandidateUrl": "https://i5.walmartimages.com/asr/2c4cffc8-7e30-483b-82b8-c8971bbcd4dc.90cc4bceccdf8fd734bd6322b95a8b80.jpeg",
-    "imageUrl": ""
+    "imageUrl": "",
+    "imageSourceUrl": "https://www.walmart.com.mx/ip/jbl-boombox-4-azul-bocina-portatil/00005003641325",
+    "imageVerifiedDate": "2026-11-17"
   },
   {
     "id": "cs-052",
@@ -1546,7 +1571,9 @@ export const cairoSalesProducts: Product[] = [
     "createdAt": "2026-11-15",
     "updatedAt": "2026-11-17",
     "imageCandidateUrl": "https://www.studio7thailand.com/wp-content/uploads/2023/11/JBL-Authentics-200-Black-1.png",
-    "imageUrl": ""
+    "imageUrl": "",
+    "imageSourceUrl": "https://uk.jbl.com/JBLAUTH200BLKUK.html",
+    "imageVerifiedDate": "2026-11-17"
   },
   {
     "id": "cs-054",
@@ -1567,7 +1594,9 @@ export const cairoSalesProducts: Product[] = [
     "createdAt": "2026-11-15",
     "updatedAt": "2026-11-17",
     "imageCandidateUrl": "https://bf1af2.akinoncloudcdn.com/products/2024/04/30/33328/80ab22a2-64b2-4f87-975e-d58fefb9b0c4.jpg",
-    "imageUrl": ""
+    "imageUrl": "",
+    "imageSourceUrl": "https://www.jbl.com/XTREME-4.html",
+    "imageVerifiedDate": "2026-11-17"
   },
   {
     "id": "cs-055",
@@ -1610,7 +1639,9 @@ export const cairoSalesProducts: Product[] = [
     "createdAt": "2026-11-15",
     "updatedAt": "2026-11-17",
     "imageCandidateUrl": "https://images.tcdn.com.br/img/img_prod/1315379/microfone_jbl_pbm100_com_fio_dinmico_preto_1_20251014151624_71dec58b724b.jpg",
-    "imageUrl": ""
+    "imageUrl": "",
+    "imageSourceUrl": "https://www.jbl.com/JBLPBM100BLKAM.html",
+    "imageVerifiedDate": "2026-11-17"
   },
   {
     "id": "cs-057",
