@@ -40,8 +40,8 @@ const rows = [
     sourceUrl: readSeed(block, 'sourceUrl'),
     imageUrl: readSeed(block, 'imageUrl'),
     availability: readSeed(block, 'availability'),
-    published: /published:\\s*true/.test(block),
-    hasSpecifications: /specifications:\\s*\\{/.test(block),
+    published: /published:\s*true/.test(block),
+    hasSpecifications: /specifications:\s*\{\s*['\"]/.test(block),
   })),
   ...productBlocks.map(block => ({
   id: read(block, 'id'),
@@ -71,6 +71,11 @@ const summary = {
   generatedAt: new Date().toISOString(),
   products: rows.length,
   priceHistoryRecords: priceBlocks.length,
+  seedProductAudit: {
+    total: seedProductBlocks.length,
+    published: rows.filter(row => row.id.startsWith('prod-') && row.published).length,
+    withSpecifications: rows.filter(row => row.id.startsWith('prod-') && row.hasSpecifications).length,
+  },
   productSections: [
     { name: 'seed.products', records: seedProductBlocks.length },
     ...productSections.map(section => ({ name: section.name, records: parseObjects(section.source).length })),
