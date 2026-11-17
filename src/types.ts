@@ -39,6 +39,8 @@ export type Product = {
   createdAt: string;
   updatedAt: string;
   imageUrl: string;
+  imageSourceUrl?: string;
+  imageVerifiedDate?: string;
 };
 
 export type PriceRecord = {
