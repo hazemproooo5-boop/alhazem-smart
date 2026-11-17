@@ -163,9 +163,9 @@ export const companyDirectory = [
     "name": "الزنوكي جروب",
     "kind": "مجموعة تصنيع أواني طهي وأجهزة منزلية",
     "url": "https://elzenouki.com",
-    "source": "قائمة الروابط المقدمة من المستخدم",
+    "source": "موقع مجموعة الزنوكي الرسمي",
     "verificationStatus": "Unverified",
-    "note": "الرابط مقدم ضمن قائمة المستخدم؛ يلزم التحقق من العلامات التابعة."
+    "note": "الموقع الرسمي يذكر خمس علامات تابعة تشمل Trueval وZinox وMaster وTop Chef وTouch؛ لا تُعامل العلامات التابعة كشركات مستقلة."
   },
   {
     "id": "helal-star",
@@ -183,7 +183,7 @@ export const companyDirectory = [
     "url": "https://alsharifmelamine.com",
     "source": "قائمة الروابط المقدمة من المستخدم",
     "verificationStatus": "Unverified",
-    "note": "الرابط مقدم ضمن قائمة المستخدم؛ يلزم التحقق من النطاق."
+    "note": "احتمال تكرار مع سجل alsherif-melamine بسبب اختلاف التهجئة والنطاق؛ لا يدمج السجلان قبل مطابقة السجل التجاري والعنوان."
   },
   {
     "id": "midstar",
@@ -273,7 +273,7 @@ export const companyDirectory = [
     "url": "https://alsherifmelamine.com",
     "source": "قائمة الروابط المقدمة من المستخدم",
     "verificationStatus": "Unverified",
-    "note": "الرابط مقدم ضمن قائمة المستخدم؛ يلزم التحقق من النطاق."
+    "note": "احتمال تكرار مع سجل alsharif-melamine بسبب اختلاف التهجئة والنطاق؛ لا يدمج السجلان قبل مطابقة السجل التجاري والعنوان."
   },
   {
     "id": "t-fal",
