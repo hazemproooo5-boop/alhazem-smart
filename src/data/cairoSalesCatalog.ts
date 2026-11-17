@@ -3336,8 +3336,8 @@ export const cairoSalesSmallApplianceProducts: Product[] = [
     "specifications": {"السعر الأصلي بالقائمة":"14,999 EGP — غير معتمد","الموديل لدى البائع":"BLENDER-PRO-2000-87854","الموديل في القائمة":"BLENDER-PRO-2000","القدرة":"2000 واط","السعة":"4.2 لتر","الخامة":"Polycarbonate / Tritan BPA-Free","المحرك":"نحاسي 100% بحسب وصف البائع","التحكم":"لوحة LED تعمل باللمس","البرامج":"5 برامج معدة مسبقاً","الوصلة":"معدنية"},
     "availability": "يحتاج تأكيد التوفر لدى المورد",
     "sourceUrl": "https://briva-haus.de/en/product/briva-blender-pro-2000/",
-    "sourceType": "Official",,
-    "officialProductUrl": "https://briva-haus.de/en/product/briva-blender-pro-2000/"
+    "sourceType": "Official",
+    "officialProductUrl": "https://briva-haus.de/en/product/briva-blender-pro-2000/",
     "verificationStatus": "Unverified",
     "published": true,
     "createdAt": "2026-11-15",
