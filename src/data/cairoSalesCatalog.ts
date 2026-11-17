@@ -670,9 +670,9 @@ export const cairoSalesProducts: Product[] = [
     "description": "Samsung OLED S85H مقاس 83 بوصة؛ ملف حملة Samsung الرسمي لعام 2026 يسرد 83S85H بمقاس 83 بوصة. لا يتوفر في هذه المراجعة رقم SKU إقليمي مصري أو صفحة منتج مصرية كاملة، لذلك لا تعتمد مواصفات تفصيلية أو سعراً أو ضماناً محلياً.",
     "specifications": {"السعر الأصلي بالقائمة":"215,898 EGP — غير معتمد","نوع الشاشة":"OLED","المقاس":"83 بوصة ضمن مقاسات سلسلة S85H 2026 الرسمية","الدقة":"4K","المعالج":"NQ4 AI Gen2","المصدر":"صفحة مجموعة OLED الرسمية من Samsung Egypt"},
     "availability": "يحتاج تأكيد التوفر لدى المورد",
-    "sourceCandidateUrl": "",
-    "sourceUrl": "https://images.samsung.com/is/content/samsung/assets/at/downloads/terms/2026/Teilnahmebedingungen_2026-06.pdf",
-    "sourceType": "Official",
+    "sourceCandidateUrl": "https://images.samsung.com/is/content/samsung/assets/at/downloads/terms/2026/Teilnahmebedingungen_2026-06.pdf",
+    "sourceUrl": "",
+    "sourceType": "Unverified Market",
     "verificationStatus": "Unverified",
     "published": true,
     "createdAt": "2026-11-15",
@@ -699,7 +699,9 @@ export const cairoSalesProducts: Product[] = [
     "published": true,
     "createdAt": "2026-11-15",
     "updatedAt": "2026-11-17",
-    "imageUrl": "",
+    "imageUrl": "https://images.samsung.com/is/image/samsung/p6pim/ph/ua100m90hgxxp/gallery/ph-mini-led-m90h-ua100m90hgxxp-553106794?%241164_776_PNG%24=",
+    "imageSourceUrl": "https://www.samsung.com/ph/tvs/mini-led-tv/m90h-100-inch-4k-smart-tv-ua100m90hgxxp/",
+    "imageVerifiedDate": "2026-11-18",
     "imageCandidateUrl": "https://www.tanradio.com/_next/image?q=75&url=%2Fimages%2Fpromos%2Fsamsung-m90h%2Fhero-front.jpg&w=3840"
   },
   {
@@ -1225,7 +1227,8 @@ export const cairoSalesProducts: Product[] = [
       "السعر الأصلي بالقائمة": "999 EGP"
     },
     "availability": "يحتاج تأكيد التوفر لدى المورد",
-    "sourceUrl": "https://www.carrefouregypt.com/mafegy/en/oven-tray/neoflam-cake-pan-springform-28-cm/p/509110",
+    "sourceUrl": "",
+    "sourceCandidateUrl": "https://www.carrefouregypt.com/mafegy/en/oven-tray/neoflam-cake-pan-springform-28-cm/p/509110",
     "sourceType": "Unverified Market",
     "verificationStatus": "Unverified",
     "published": true,
@@ -2690,7 +2693,8 @@ export const cairoSalesCookwareProducts: Product[] = [
       "نسبة الخصم بالقائمة": "13%"
     },
     "availability": "يحتاج تأكيد التوفر لدى المورد",
-    "sourceUrl": "https://elghazawy.com/en/product/38074270308777/Saflon%2BPower%2BLine%2B12-Piece%2BGranite%2BCookware%2BSet%2BSquare-Shaped%2Bwith%2BStainless%2BSteel%2BHandles%2B-%2BGray",
+    "sourceUrl": "",
+    "sourceCandidateUrl": "https://elghazawy.com/en/product/38074270308777/Saflon%2BPower%2BLine%2B12-Piece%2BGranite%2BCookware%2BSet%2BSquare-Shaped%2Bwith%2BStainless%2BSteel%2BHandles%2B-%2BGray",
     "sourceType": "Unverified Market",
     "verificationStatus": "Unverified",
     "published": true,
