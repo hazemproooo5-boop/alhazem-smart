@@ -4020,11 +4020,11 @@ export const cairoSalesSmallAppliancePrices: PriceRecord[] = [
     "productId": "cs-079",
     "price": 1240,
     "currency": "EGP",
-    "priceType": "Trusted Market Price",
-    "source": "El-Iraqi Company — listing for Fresh CH-700, 700W/2L, shows EGP 1,240 and Add to cart on 18 Nov 2026. VAT treatment is not stated.",
+    "priceType": "Unverified Market Price",
+    "source": "سعر تقريبي — قائمة تصنيف El-Iraqi تعرض CH-700 بقدرة 700W وسعة 2L بسعر 1,240 جنيه وزر Add to cart؛ VAT والمخزون النهائي غير مؤكدين.",
     "sourceUrl": "https://eliraqi.com.eg/en/fresh?orderby=0&pagenumber=4&viewmode=list",
     "priceDate": "2026-11-18",
-    "verificationStatus": "Verified",
+    "verificationStatus": "Unverified",
     "createdAt": "2026-11-18T01:12:00+02:00"
   }
 ];
