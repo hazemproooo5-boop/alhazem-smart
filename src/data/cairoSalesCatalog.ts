@@ -1298,8 +1298,6 @@ export const cairoSalesProducts: Product[] = [
     "imageUrl": "https://cdn.uc.assets.prezly.com/6a49da4c-a106-487c-89ce-ec1a10f21f1d/-/format/auto/ucr4Y76AB",
     "imageSourceUrl": "https://www.sony.dk/presscentre/sony-lancerer-deres-nye-7-1-2-kanals-soundbar-ht-a7000",
     "imageVerifiedDate": "2026-11-18",
-    "imageSourceUrl": "https://www.fillion-electronics.com/sony-ht-a7000-7-1-2ch-dolby-atmos-soundbar",
-    "imageVerifiedDate": "2026-11-17"
   },
   {
     "id": "cs-041",
@@ -1414,8 +1412,6 @@ export const cairoSalesProducts: Product[] = [
     "imageUrl": "https://www.sony.ie/image/3d3a90045fd945574b42b191f60f34e6?bgc=FFFFFF&bgcolor=FFFFFF&fmt=pjpeg&hei=1320&wid=2515",
     "imageSourceUrl": "https://www.sony.ie/electronics/sound-bars/ht-s40r",
     "imageVerifiedDate": "2026-11-18",
-    "imageSourceUrl": "https://www.sony-mea.com/ar/electronics/support/sound-bars-home-theater-systems-sound-bars-surround-speakers/ht-s40r/specifications",
-    "imageVerifiedDate": "2026-11-17"
   },
   {
     "id": "cs-046",
@@ -1462,8 +1458,6 @@ export const cairoSalesProducts: Product[] = [
     "imageUrl": "https://s3.amazonaws.com/pr-prd-preview-dolphin-upload-cfn/sites/260/2025/03/26014046/WF-C710N_Black_Standard-Large.jpg",
     "imageSourceUrl": "https://www.sony-asia.com/pressrelease?prName=sony-announces-the-wf-c710n-truly-wireless-noise-canceling-earbuds-and-adds-new-colours-to-the-wh-ch720n-and-wh-ch520-wireless-headphones",
     "imageVerifiedDate": "2026-11-18",
-    "imageSourceUrl": "https://www.sony.com/en-eg/headphones/products/wf-c710n",
-    "imageVerifiedDate": "2026-11-17"
   },
   {
     "id": "cs-048",
@@ -1485,8 +1479,6 @@ export const cairoSalesProducts: Product[] = [
     "updatedAt": "2026-11-15",
     "imageCandidateUrl": "https://cdn.shopify.com/s/files/1/0397/7166/8635/files/WF-C510BlueMAIN.png?v=1756966416",
      "imageUrl": "",
-    "imageSourceUrl": "https://www.sony.com/ar-eg/headphones/products/wf-c510",
-    "imageVerifiedDate": "2026-11-17"
   },
   {
     "id": "cs-049",
