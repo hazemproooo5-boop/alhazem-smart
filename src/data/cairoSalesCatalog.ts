@@ -1034,17 +1034,16 @@ export const cairoSalesProducts: Product[] = [
     "categoryId": "cookware",
     "model": "A1610",
     "sku": "A1610",
-    "description": "قائمة Cairo Sales المقدمة من المستخدم. السعر والبيانات التجارية غير متحقق منها مستقلاً؛ يلزم الرجوع إلى صفحة المنتج والمورد قبل الاعتماد.",
-    "specifications": {
-      "السعر الأصلي بالقائمة": "10,803 EGP"
-    },
+    "description": "طقم Korkmaz Alfa Plus الموديل A1610؛ كتالوج Korkmaz الرسمي يطابق رمز A1610 ويعرض 11 قطعة ومقاسات الأواني وسعاتها. صفحة Korkmaz Egypt تعرض مجموعة Alfa Plus 11 قطعة محلياً، لكنها لا تعرض رمز A1610 نفسه؛ لذلك تبقى مطابقة SKU المحلي بحاجة تأكيد.",
+    "specifications": {"السعر الأصلي بالقائمة":"14,999 EGP — غير معتمد","الموديل":"A1610","السلسلة":"Alfa Plus","عدد القطع":"11 قطعة","الخامة":"18/10 Cr-Ni Stainless Steel بحسب كتالوج الشركة","الأحجام والسعات":"18×10 سم/2.5 لتر، 20×11/3.5 لتر، 24×12/4 لتر، 28×14/8.5 لتر، 26×8/4.2 لتر، مقلاة 24×6/2.7 لتر","القاعدة":"ثلاثية الطبقات وفق وصف السلسلة الرسمية"},
     "availability": "يحتاج تأكيد التوفر لدى المورد",
-    "sourceUrl": "",
-    "sourceType": "Unverified Market",
+    "sourceUrl": "https://www.korkmaz.com.tr/Global/Discovery/images/Korkmaz%20Collection%202020.pdf",
+    "officialProductUrl": "https://korkmazeg.com/product/korkmaz-alfa-plus-stainless-steel-cookware-set-11-pcs/",
+    "sourceType": "Official",
     "verificationStatus": "Unverified",
     "published": true,
     "createdAt": "2026-11-15",
-    "updatedAt": "2026-11-15",
+    "updatedAt": "2026-11-17",
     "imageUrl": ""
   },
   {
@@ -1056,17 +1055,15 @@ export const cairoSalesProducts: Product[] = [
     "categoryId": "cookware",
     "model": "Z-330040131",
     "sku": "Z-330040131",
-    "description": "قائمة Cairo Sales المقدمة من المستخدم. السعر والبيانات التجارية غير متحقق منها مستقلاً؛ يلزم الرجوع إلى صفحة المنتج والمورد قبل الاعتماد.",
-    "specifications": {
-      "السعر الأصلي بالقائمة": "6,178 EGP"
-    },
+    "description": "طقم طهي Zahran استانلس 8 قطع بمقاسات 18 و20 و24 و28 سم؛ صفحة Carrefour Egypt تطابق الاسم وعدد القطع ونطاق المقاسات، لكنها لا تعرض كود Z-330040131 الوارد في القائمة، لذلك لا تعتبر مطابقة SKU نهائية. السعر والتوفر المعروضان لدى Carrefour يحتاجان تحققاً مباشراً قبل الاعتماد.",
+    "specifications": {"السعر الأصلي بالقائمة":"5,499 EGP — غير معتمد","العلامة":"Zahran","النوع":"Stainless Steel Cooking Set","عدد القطع":"8","المقاسات الظاهرة":"18، 20، 24، 28 سم","رمز القائمة":"Z-330040131","رمز صفحة Carrefour":"646278 — ليس رمز موديل مثبتاً"},
     "availability": "يحتاج تأكيد التوفر لدى المورد",
-    "sourceUrl": "",
+    "sourceUrl": "https://www.carrefouregypt.com/mafegy/en/cooking-set/zahran-ss-cooking-set-8p-18-28/p/646278",
     "sourceType": "Unverified Market",
     "verificationStatus": "Unverified",
     "published": true,
     "createdAt": "2026-11-15",
-    "updatedAt": "2026-11-15",
+    "updatedAt": "2026-11-17",
     "imageUrl": ""
   },
   {
@@ -1100,17 +1097,16 @@ export const cairoSalesProducts: Product[] = [
     "categoryId": "cookware",
     "model": "M-8429113111786",
     "sku": "M-8429113111786",
-    "description": "قائمة Cairo Sales المقدمة من المستخدم. السعر والبيانات التجارية غير متحقق منها مستقلاً؛ يلزم الرجوع إلى صفحة المنتج والمورد قبل الاعتماد.",
-    "specifications": {
-      "السعر الأصلي بالقائمة": "2,549 EGP"
-    },
+    "description": "طقم سكاكين Magefesa Blade من 6 قطع؛ كتالوج Magefesa الرسمي يطابق EAN 8429113111786 ورمز التصنيع 01CUTACO05N ويحدد مكونات السكاكين الخمس مع الحامل. صفحة Gaballah Egypt تعرض المنتج برقم M-8429113111786، ما يدعم تطابق النسخة المتداولة محلياً.",
+    "specifications": {"السعر الأصلي بالقائمة":"3,266 EGP — غير معتمد","العلامة":"Magefesa","النوع":"Blade Knife Set","عدد القطع":"6 (5 سكاكين + حامل)","MGF Code":"01CUTACO05N","EAN-13":"8429113111786","الخامة":"شفرات ستانلس ستيل ومقابض مانعة للانزلاق","الأطوال":"20 سم Chef، 20 سم Slicing، 20 سم Bread، 9 سم Paring، 13 سم Utility","صفحة البائع المصري":"https://gaballah.com/ar/products/magefesa-6-piece-spanish-knife-set-black-stand-stainless-steel-chefs-knife-bread-knife-slicing-knife-utility-knife-paring-knife-knife-holder"},
     "availability": "يحتاج تأكيد التوفر لدى المورد",
-    "sourceUrl": "",
-    "sourceType": "Unverified Market",
+    "sourceUrl": "https://magefesa.com/wp-content/uploads/2022/02/CAT_MGF_ES_ING_2022_.pdf",
+    "officialProductUrl": "https://magefesa.com/wp-content/uploads/2026/02/CAT-MGF-2026.pdf",
+    "sourceType": "Official",
     "verificationStatus": "Unverified",
     "published": true,
     "createdAt": "2026-11-15",
-    "updatedAt": "2026-11-15",
+    "updatedAt": "2026-11-17",
     "imageUrl": ""
   },
   {
@@ -1226,17 +1222,15 @@ export const cairoSalesProducts: Product[] = [
     "categoryId": "cookware",
     "model": "L-6224003222045",
     "sku": "L-6224003222045",
-    "description": "قائمة Cairo Sales المقدمة من المستخدم. السعر والبيانات التجارية غير متحقق منها مستقلاً؛ يلزم الرجوع إلى صفحة المنتج والمورد قبل الاعتماد.",
-    "specifications": {
-      "السعر الأصلي بالقائمة": "710 EGP"
-    },
+    "description": "مقلاة Alma من الحديد الزهر مقاس 15 سم؛ صفحة متجر Cairo Sales على Qarenly تعرض الاسم والباركود 6224003222045، وتعرض 639 جنيه ومتاحة وقت الفحص. السعر والتوفر المعروضان لم يُعتمدا كسعر حالي للكتالوج، ويحتاجان تأكيداً من البائع المباشر.",
+    "specifications": {"السعر الأصلي بالقائمة":"710 EGP — غير معتمد","العلامة":"Alma","النوع":"Cast Iron Skillet","المقاس":"15 سم","EAN-13":"6224003222045","سعر المصدر الظاهر":"639 EGP — غير معتمد","حالة المصدر":"متوفر على صفحة Cairo Sales وقت الفحص"},
     "availability": "يحتاج تأكيد التوفر لدى المورد",
-    "sourceUrl": "",
+    "sourceUrl": "https://qarenly.com/ar/store/cairosales",
     "sourceType": "Unverified Market",
     "verificationStatus": "Unverified",
     "published": true,
     "createdAt": "2026-11-15",
-    "updatedAt": "2026-11-15",
+    "updatedAt": "2026-11-17",
     "imageUrl": ""
   },
   {
@@ -1248,17 +1242,16 @@ export const cairoSalesProducts: Product[] = [
     "categoryId": "audio",
     "model": "HT-A7000",
     "sku": "HT-A7000",
-    "description": "قائمة Cairo Sales المقدمة من المستخدم. السعر والبيانات التجارية غير متحقق منها مستقلاً؛ يلزم الرجوع إلى صفحة المنتج والمورد قبل الاعتماد.",
-    "specifications": {
-      "السعر الأصلي بالقائمة": "97,288 EGP"
-    },
+    "description": "Sony HT-A7000 Dolby Atmos / DTS:X Soundbar؛ صفحة دعم Sony الرسمية تطابق الموديل وتعرض نظام 7.1.2 قناة ومضخماً رقمياً وخصائص الاتصال. لا يثبت المصدر توفر النسخة أو ضمانها في مصر.",
+    "specifications": {"السعر الأصلي بالقائمة":"49,999 EGP — غير معتمد","الموديل":"HT-A7000","التكوين الصوتي":"7.1.2 قناة","قنوات المضخم":"11 قناة","قدرة الخرج":"500 واط","الصبووفر":"مدمج","الاتصال":"Wi-Fi وBluetooth 5.0","المداخل":"HDMI eARC/ARC وHDMI in"},
     "availability": "يحتاج تأكيد التوفر لدى المورد",
-    "sourceUrl": "",
-    "sourceType": "Unverified Market",
+    "sourceUrl": "https://www.sony.com/electronics/support/sound-bars-home-theater-systems-sound-bars-surround-speakers/ht-a7000",
+    "officialProductUrl": "https://www.sony.com/electronics/support/product/ht-a7000",
+    "sourceType": "Official",
     "verificationStatus": "Unverified",
     "published": true,
     "createdAt": "2026-11-15",
-    "updatedAt": "2026-11-15",
+    "updatedAt": "2026-11-17",
     "imageUrl": ""
   },
   {
@@ -1270,17 +1263,16 @@ export const cairoSalesProducts: Product[] = [
     "categoryId": "audio",
     "model": "HT-A5000",
     "sku": "HT-A5000",
-    "description": "قائمة Cairo Sales المقدمة من المستخدم. السعر والبيانات التجارية غير متحقق منها مستقلاً؛ يلزم الرجوع إلى صفحة المنتج والمورد قبل الاعتماد.",
-    "specifications": {
-      "السعر الأصلي بالقائمة": "60,864 EGP"
-    },
+    "description": "Sony HT-A5000 Dolby Atmos / DTS:X Soundbar؛ صفحة مواصفات Sony الرسمية تطابق الموديل وتعرض نظام 5.1.2 قناة وخرج 450 واط وBluetooth 5.0 وWi-Fi. لا يثبت المصدر توفر النسخة أو ضمانها في مصر.",
+    "specifications": {"السعر الأصلي بالقائمة":"39,999 EGP — غير معتمد","الموديل":"HT-A5000","التكوين الصوتي":"5.1.2 قناة","قنوات المضخم":"9 قنوات","قدرة الخرج":"450 واط","الصبووفر":"مدمج","الاتصال":"Wi-Fi وBluetooth 5.0","المداخل":"HDMI eARC/ARC"},
     "availability": "يحتاج تأكيد التوفر لدى المورد",
-    "sourceUrl": "",
-    "sourceType": "Unverified Market",
+    "sourceUrl": "https://www.sony.com/en-ae/electronics/sound-bars/ht-a5000/specifications",
+    "officialProductUrl": "https://www.sony.com/electronics/support/product/ht-a5000",
+    "sourceType": "Official",
     "verificationStatus": "Unverified",
     "published": true,
     "createdAt": "2026-11-15",
-    "updatedAt": "2026-11-15",
+    "updatedAt": "2026-11-17",
     "imageUrl": ""
   },
   {
@@ -1432,17 +1424,16 @@ export const cairoSalesProducts: Product[] = [
     "categoryId": "audio",
     "model": "JBLPARTYBOX720EU",
     "sku": "JBLPARTYBOX720EU",
-    "description": "قائمة Cairo Sales المقدمة من المستخدم. السعر والبيانات التجارية غير متحقق منها مستقلاً؛ يلزم الرجوع إلى صفحة المنتج والمورد قبل الاعتماد.",
-    "specifications": {
-      "السعر الأصلي بالقائمة": "45,544 EGP"
-    },
+    "description": "مكبر JBL PartyBox 720 موديل JBLPARTYBOX720EU؛ صفحة JBL الرسمية تطابق رقم الطلب والباركود وتؤكد أنه إصدار No Battery، وأن البطاريات قابلة للاستبدال وتباع منفصلة. لا يثبت المصدر توفر أو سعر النسخة في مصر.",
+    "specifications": {"السعر الأصلي بالقائمة":"84,000 EGP — غير معتمد","الموديل":"JBLPARTYBOX720EU","قدرة الخرج":"800 واط RMS","السماعات":"2 × 9 بوصة Woofer و2 × 1.25 بوصة Tweeter","مقاومة الرذاذ":"IPX4","Bluetooth":"5.4","التشغيل بالبطاريات الاختيارية":"حتى 15 ساعة باستخدام بطاريتين JBL Battery 600","الأبعاد":"416 × 942 × 406 مم","الوزن":"31 كجم","EAN-13":"1200130025822"},
     "availability": "يحتاج تأكيد التوفر لدى المورد",
-    "sourceUrl": "",
-    "sourceType": "Unverified Market",
+    "sourceUrl": "https://global.jbl.com/party-speakers/JBLPARTYBOX720EU.html",
+    "officialProductUrl": "https://global.jbl.com/party-speakers/JBLPARTYBOX720EU.html",
+    "sourceType": "Official",
     "verificationStatus": "Unverified",
     "published": true,
     "createdAt": "2026-11-15",
-    "updatedAt": "2026-11-15",
+    "updatedAt": "2026-11-17",
     "imageUrl": ""
   },
   {
@@ -1454,17 +1445,16 @@ export const cairoSalesProducts: Product[] = [
     "categoryId": "audio",
     "model": "JBLPB330BLKUK",
     "sku": "JBLPB330BLKUK",
-    "description": "قائمة Cairo Sales المقدمة من المستخدم. السعر والبيانات التجارية غير متحقق منها مستقلاً؛ يلزم الرجوع إلى صفحة المنتج والمورد قبل الاعتماد.",
-    "specifications": {
-      "السعر الأصلي بالقائمة": "33,710 EGP"
-    },
+    "description": "مكبر JBL PartyBox 330 باللون الأسود؛ صفحة JBL UK تطابق رقم الطلب JBLPB330BLKUK والباركود. المواصفات الرسمية تشمل حتى 18 ساعة تشغيل وIPX4 وBluetooth 6.0 وAuracast. لا يثبت المصدر ضمان أو توفر النسخة في مصر.",
+    "specifications": {"السعر الأصلي بالقائمة":"44,999 EGP — غير معتمد","الموديل":"JBLPB330BLKUK","اللون":"أسود","عمر التشغيل":"حتى 18 ساعة","مقاومة الرذاذ":"IPX4","Bluetooth":"6.0","الميزات":"AI Sound Boost وAuracast وإضاءة متزامنة ومقبض بعجلات","المداخل":"ميكروفونان ومدخل جيتار","EAN-13":"1200130037573"},
     "availability": "يحتاج تأكيد التوفر لدى المورد",
-    "sourceUrl": "",
-    "sourceType": "Unverified Market",
+    "sourceUrl": "https://uk.jbl.com/JBLPB330BLKUK.html",
+    "officialProductUrl": "https://uk.jbl.com/JBLPB330BLKUK.html",
+    "sourceType": "Official",
     "verificationStatus": "Unverified",
     "published": true,
     "createdAt": "2026-11-15",
-    "updatedAt": "2026-11-15",
+    "updatedAt": "2026-11-17",
     "imageUrl": ""
   },
   {
@@ -1596,17 +1586,16 @@ export const cairoSalesProducts: Product[] = [
     "categoryId": "home",
     "model": "E-5710",
     "sku": "E-5710",
-    "description": "قائمة Cairo Sales المقدمة من المستخدم. السعر والبيانات التجارية غير متحقق منها مستقلاً؛ يلزم الرجوع إلى صفحة المنتج والمورد قبل الاعتماد.",
-    "specifications": {
-      "السعر الأصلي بالقائمة": "21,504 EGP"
-    },
+    "description": "شواية فحم Weber Original Kettle E-5710 مقاس 57 سم؛ صفحة Weber الرسمية تطابق الموديل وتعرض نظام One-Touch للتنظيف وميزان حرارة في الغطاء والضمان حسب المكونات. لا يثبت المصدر التوفر أو الضمان المحلي في مصر.",
+    "specifications": {"السعر الأصلي بالقائمة":"19,999 EGP — غير معتمد","الموديل":"E-5710 / رقم القطعة 14101004","نوع الوقود":"فحم","قطر الشواية":"57 سم","مساحة الطهي":"2342 سم²","الوزن":"16.329 كجم","الأبعاد عند إغلاق الغطاء":"107 × 65 × 67 سم","الضمان الرسمي":"10 سنوات للوعاء والغطاء، 5 سنوات لنظام One-Touch، وسنتان لبقية الأجزاء"},
     "availability": "يحتاج تأكيد التوفر لدى المورد",
-    "sourceUrl": "",
-    "sourceType": "Unverified Market",
+    "sourceUrl": "https://www.weber.com/GB/en/charcoal-barbecues/original-kettle/original-kettle-e-5710-charcoal-barbecue-57-cm/14101004.html",
+    "officialProductUrl": "https://www.weber.com/GB/en/charcoal-barbecues/original-kettle/original-kettle-e-5710-charcoal-barbecue-57-cm/14101004.html",
+    "sourceType": "Official",
     "verificationStatus": "Unverified",
     "published": true,
     "createdAt": "2026-11-15",
-    "updatedAt": "2026-11-15",
+    "updatedAt": "2026-11-17",
     "imageUrl": ""
   },
   {
