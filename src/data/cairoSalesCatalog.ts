@@ -3648,4 +3648,83 @@ export const cairoSalesSmallAppliancePrices: PriceRecord[] = [
     "isHistorical": false,
     "createdAt": "2026-11-18T00:00:00+02:00"
   }
+,
+  {
+    "id": "cs-price-109",
+    "productId": "cs-043",
+    "price": 34765,
+    "currency": "EGP",
+    "priceType": "Unverified Market Price",
+    "source": "Hero Electronics Egypt — HT-S700RF listed at this price but marked Out of Stock on the seller category page; historical reference only.",
+    "sourceUrl": "https://www.heroelectronics.net/sony",
+    "priceDate": "2026-11-18",
+    "verificationStatus": "Unverified",
+    "isHistorical": true,
+    "createdAt": "2026-11-18T00:00:00+02:00"
+  },
+  {
+    "id": "cs-price-110",
+    "productId": "cs-044",
+    "price": 42140,
+    "currency": "EGP",
+    "priceType": "Unverified Market Price",
+    "source": "Aghezty Egypt — exact HT-S500RF product page; In Stock at time of latest market check, VAT included.",
+    "sourceUrl": "https://aghezty.com/en/products/Bluetooth-Speakers/Sony-SoundbarSystem-5-1Black-HT-S500RF-28356/",
+    "priceDate": "2026-11-18",
+    "verificationStatus": "Unverified",
+    "isHistorical": false,
+    "createdAt": "2026-11-18T00:00:00+02:00"
+  },
+  {
+    "id": "cs-price-111",
+    "productId": "cs-050",
+    "price": 37999,
+    "currency": "EGP",
+    "priceType": "Unverified Market Price",
+    "source": "MoreShopping Egypt — exact black PartyBox 330 product page and SKU 1200130037573; page shows Notify Me When Available, so last listed price only.",
+    "sourceUrl": "https://moreshopping.com/products/jbl-partybox-330-up-to-18-hours-of-playtime-black",
+    "priceDate": "2026-11-18",
+    "verificationStatus": "Unverified",
+    "isHistorical": true,
+    "createdAt": "2026-11-18T00:00:00+02:00"
+  },
+  {
+    "id": "cs-price-112",
+    "productId": "cs-051",
+    "price": 30999,
+    "currency": "EGP",
+    "priceType": "Unverified Market Price",
+    "source": "2B Egypt — exact Boombox 4 Blue model/color listing; seller MPN 1200130024290 differs from UK catalog SKU JBLBOOMBOX4BLUUK, so indicative regional-variant price.",
+    "sourceUrl": "https://2b.com.eg/ar/jbl-boombox-4-portable-bluetooth-speaker-ip68-blue.html",
+    "priceDate": "2026-11-18",
+    "verificationStatus": "Unverified",
+    "isHistorical": false,
+    "createdAt": "2026-11-18T00:00:00+02:00"
+  },
+  {
+    "id": "cs-price-113",
+    "productId": "cs-052",
+    "price": 25499,
+    "currency": "EGP",
+    "priceType": "Unverified Market Price",
+    "source": "2B Egypt — PartyBox 130 Black direct product page; latest market comparison checked 13 Nov 2026 showed the 2B offer in stock at this price; regional MPN differs from UK suffix.",
+    "sourceUrl": "https://2b.com.eg/en/audio/jbl-partybox-130-portable-speaker-black.html",
+    "priceDate": "2026-11-18",
+    "verificationStatus": "Unverified",
+    "isHistorical": false,
+    "createdAt": "2026-11-18T00:00:00+02:00"
+  },
+  {
+    "id": "cs-price-114",
+    "productId": "cs-054",
+    "price": 18999,
+    "currency": "EGP",
+    "priceType": "Unverified Market Price",
+    "source": "2B Egypt — exact JBL Xtreme 4 Camo variant; only 1 left in stock at time of page check. Catalog model is generic Xtreme 4, so color variant is stated explicitly.",
+    "sourceUrl": "https://2b.com.eg/en/jbl-xtreme-4-portable-speaker-waterproof-camo.html",
+    "priceDate": "2026-11-18",
+    "verificationStatus": "Unverified",
+    "isHistorical": false,
+    "createdAt": "2026-11-18T00:00:00+02:00"
+  }
 ];
