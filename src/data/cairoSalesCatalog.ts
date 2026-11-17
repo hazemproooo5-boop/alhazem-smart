@@ -2557,18 +2557,15 @@ export const cairoSalesCookwareProducts: Product[] = [
     "categoryId": "kitchen",
     "model": "JR2201",
     "sku": "JR2201",
-    "description": "بيانات المنتج والأسعار من قائمة Cairo Sales التي قدمها المستخدم؛ لم يتم التحقق المستقل من صفحة المنتج أو التوفر أو السعر.",
-    "specifications": {
-      "السعر الأصلي بالقائمة": "2,443 EGP",
-      "نسبة الخصم بالقائمة": "10%"
-    },
+    "description": "حلة أرز Home JR2201 بقدرة 500 وات وسعة 1.5 لتر؛ صفحة Noon تطابق الموديل والمواصفات، وصفحة أرخصفين تعرض سعر Cairo Sales 2,199 جنيه ومتوفراً بتاريخ 15 نوفمبر 2026. السعر والتوفر لا يُعتمدان في حقل السعر قبل إعادة التحقق المباشر من Cairo Sales.",
+    "specifications": {"السعر الأصلي بالقائمة":"2,443 EGP — غير معتمد","الموديل":"JR2201","القدرة":"500 واط","السعة":"1.5 لتر","الجهد":"220–240V 50–60Hz","الوعاء الداخلي":"غير لاصق وقابل للإزالة","الوظائف":"طهي تلقائي وحفظ حرارة وحماية من ارتفاع الحرارة","سعر Cairo Sales المرصود":"2,199 EGP في 15-11-2026 — غير معتمد","المصدر الفني":"Noon Egypt listing"},
     "availability": "يحتاج تأكيد التوفر لدى المورد",
-    "sourceUrl": "",
+    "sourceUrl": "https://www.noon.com/egypt-ar/home-egypt-rice-cooker-500-watt-1-5-liter-jr2201/Z336DA9BF3BD268F4107EZ/p/",
     "sourceType": "Unverified Market",
     "verificationStatus": "Unverified",
     "published": true,
     "createdAt": "2026-11-15",
-    "updatedAt": "2026-11-15",
+    "updatedAt": "2026-11-17",
     "imageUrl": ""
   },
   {
@@ -2623,18 +2620,15 @@ export const cairoSalesCookwareProducts: Product[] = [
     "categoryId": "kitchen",
     "model": "6223005010117",
     "sku": "6223005010117",
-    "description": "بيانات المنتج والأسعار من قائمة Cairo Sales التي قدمها المستخدم؛ لم يتم التحقق المستقل من صفحة المنتج أو التوفر أو السعر.",
-    "specifications": {
-      "السعر الأصلي بالقائمة": "3,260 EGP",
-      "نسبة الخصم بالقائمة": "8%"
-    },
+    "description": "حلة عبود استانلس مقاس 38 سم؛ صفحة Cairo Sales على Qarenly تعرض الاسم والباركود 6223005010117 وسعراً ظاهراً 2,999 جنيه وحالة متوفر وقت الفحص. لم يُعتمد السعر أو التوفر في الكتالوج دون تحقق مباشر من البائع.",
+    "specifications": {"السعر الأصلي بالقائمة":"3,260 EGP — غير معتمد","العلامة":"Aboud","الخامة":"Stainless Steel بحسب صفحة البائع","المقاس":"38 سم","EAN-13":"6223005010117","سعر المصدر الظاهر":"2,999 EGP — غير معتمد","حالة المصدر":"متوفر لدى Cairo Sales على Qarenly وقت الفحص"},
     "availability": "يحتاج تأكيد التوفر لدى المورد",
-    "sourceUrl": "",
+    "sourceUrl": "https://qarenly.com/ar/store/cairosales",
     "sourceType": "Unverified Market",
     "verificationStatus": "Unverified",
     "published": true,
     "createdAt": "2026-11-15",
-    "updatedAt": "2026-11-15",
+    "updatedAt": "2026-11-17",
     "imageUrl": ""
   },
   {
@@ -2646,18 +2640,16 @@ export const cairoSalesCookwareProducts: Product[] = [
     "categoryId": "kitchen",
     "model": "A1903",
     "sku": "A1903",
-    "description": "بيانات المنتج والأسعار من قائمة Cairo Sales التي قدمها المستخدم؛ لم يتم التحقق المستقل من صفحة المنتج أو التوفر أو السعر.",
-    "specifications": {
-      "السعر الأصلي بالقائمة": "2,768 EGP",
-      "نسبة الخصم بالقائمة": "10%"
-    },
+    "description": "حلة Korkmaz Astra موديل A1903 مقاس 24×14 سم؛ صفحة Korkmaz Egypt تطابق السعة 6.3 لتر ورقم SKU 8691607019308 وتوضح الستانلس 18/10 والقاعدة Solar Base. لا يُعتمد السعر الظاهر أو التوفر المحلي دون إعادة تحقق.",
+    "specifications": {"السعر الأصلي بالقائمة":"2,768 EGP — غير معتمد","الموديل":"A1903","السلسلة":"Astra","المقاس":"24 × 14 سم","السعة":"6.3 لتر","الخامة":"ستانلس ستيل 18/10 Cr-Ni","القاعدة":"Super Capsule / Solar Base","SKU / EAN":"8691607019308"},
     "availability": "يحتاج تأكيد التوفر لدى المورد",
-    "sourceUrl": "",
-    "sourceType": "Unverified Market",
+    "sourceUrl": "https://korkmazeg.com/product/korkmaz-astra-casserole-24x14-cm/",
+    "officialProductUrl": "https://korkmazeg.com/product/korkmaz-astra-casserole-24x14-cm/",
+    "sourceType": "Official",
     "verificationStatus": "Unverified",
     "published": true,
     "createdAt": "2026-11-15",
-    "updatedAt": "2026-11-15",
+    "updatedAt": "2026-11-17",
     "imageUrl": ""
   },
   {
@@ -2669,18 +2661,15 @@ export const cairoSalesCookwareProducts: Product[] = [
     "categoryId": "kitchen",
     "model": "N-6901649163245",
     "sku": "N-6901649163245",
-    "description": "بيانات المنتج والأسعار من قائمة Cairo Sales التي قدمها المستخدم؛ لم يتم التحقق المستقل من صفحة المنتج أو التوفر أو السعر.",
-    "specifications": {
-      "السعر الأصلي بالقائمة": "666 EGP",
-      "نسبة الخصم بالقائمة": "10%"
-    },
+    "description": "قالب Neoflam Springform مقاس 24 سم؛ صفحة Tulipe Egypt تطابق الباركود 6901649163245 وتعرض طلاءً غير لاصق ومقاس 24 سم. السعر والتوفر المعروضان يحتاجان إعادة تحقق مباشرة قبل اعتماد السعر الحالي.",
+    "specifications": {"السعر الأصلي بالقائمة":"666 EGP — غير معتمد","العلامة":"Neoflam","الموديل/الباركود":"6901649163245","النوع":"Springform pan / قالب كيك بقاعدة قابلة للفك","المقاس":"24 سم","اللون":"رمادي","الطلاء":"Premium non-stick","العناية":"غسيل يدوي"},
     "availability": "يحتاج تأكيد التوفر لدى المورد",
-    "sourceUrl": "",
+    "sourceUrl": "https://tulipe.com/eg_en/springform-pan-24cm.html",
     "sourceType": "Unverified Market",
     "verificationStatus": "Unverified",
     "published": true,
     "createdAt": "2026-11-15",
-    "updatedAt": "2026-11-15",
+    "updatedAt": "2026-11-17",
     "imageUrl": ""
   },
   {
@@ -2692,18 +2681,15 @@ export const cairoSalesCookwareProducts: Product[] = [
     "categoryId": "kitchen",
     "model": "S-6649",
     "sku": "S-6649",
-    "description": "بيانات المنتج والأسعار من قائمة Cairo Sales التي قدمها المستخدم؛ لم يتم التحقق المستقل من صفحة المنتج أو التوفر أو السعر.",
-    "specifications": {
-      "السعر الأصلي بالقائمة": "3,194 EGP",
-      "نسبة الخصم بالقائمة": "13%"
-    },
+    "description": "حلة Saflon Powerline Granite مربعة مقاس 26 سم أسود؛ صفحة Cairo Sales على Qarenly تطابق الموديل S-6649 وتعرض سعراً 2,779 جنيه وحالة متوفر وقت الفحص. السعر والتوفر لا يُعتمدان قبل التحقق المباشر من البائع.",
+    "specifications": {"السعر الأصلي بالقائمة":"3,194 EGP — غير معتمد","الموديل":"S-6649","السلسلة":"Powerline","النوع":"حلة جرانيت مربعة","المقاس":"26 سم","اللون":"أسود","سعر المصدر الظاهر":"2,779 EGP — غير معتمد"},
     "availability": "يحتاج تأكيد التوفر لدى المورد",
-    "sourceUrl": "",
+    "sourceUrl": "https://qarenly.com/en/store/cairosales",
     "sourceType": "Unverified Market",
     "verificationStatus": "Unverified",
     "published": true,
     "createdAt": "2026-11-15",
-    "updatedAt": "2026-11-15",
+    "updatedAt": "2026-11-17",
     "imageUrl": ""
   },
   {
@@ -2715,18 +2701,15 @@ export const cairoSalesCookwareProducts: Product[] = [
     "categoryId": "kitchen",
     "model": "S-3396",
     "sku": "S-3396",
-    "description": "بيانات المنتج والأسعار من قائمة Cairo Sales التي قدمها المستخدم؛ لم يتم التحقق المستقل من صفحة المنتج أو التوفر أو السعر.",
-    "specifications": {
-      "السعر الأصلي بالقائمة": "1,137 EGP",
-      "نسبة الخصم بالقائمة": "13%"
-    },
+    "description": "مقلاة كريب Saflon دائرية 28 سم بلون Chocolate؛ صفحة Cairo Sales على Qarenly تطابق الموديل S-3396 وتعرض سعراً 989 جنيه وحالة متوفر وقت الفحص. السعر والتوفر يحتاجان تأكيداً مباشراً.",
+    "specifications": {"السعر الأصلي بالقائمة":"1,137 EGP — غير معتمد","الموديل":"S-3396","النوع":"Crepe Frypan","المقاس":"28 سم","الشكل":"دائري","اللون":"Chocolate","سعر المصدر الظاهر":"989 EGP — غير معتمد"},
     "availability": "يحتاج تأكيد التوفر لدى المورد",
-    "sourceUrl": "",
+    "sourceUrl": "https://qarenly.com/en/store/cairosales",
     "sourceType": "Unverified Market",
     "verificationStatus": "Unverified",
     "published": true,
     "createdAt": "2026-11-15",
-    "updatedAt": "2026-11-15",
+    "updatedAt": "2026-11-17",
     "imageUrl": ""
   },
   {
@@ -2738,18 +2721,15 @@ export const cairoSalesCookwareProducts: Product[] = [
     "categoryId": "kitchen",
     "model": "T-6223008052923",
     "sku": "T-6223008052923",
-    "description": "بيانات المنتج والأسعار من قائمة Cairo Sales التي قدمها المستخدم؛ لم يتم التحقق المستقل من صفحة المنتج أو التوفر أو السعر.",
-    "specifications": {
-      "السعر الأصلي بالقائمة": "1,755 EGP",
-      "نسبة الخصم بالقائمة": "8%"
-    },
+    "description": "صينية Top Chef Granite مستطيلة 35 سم باللون Beige؛ صفحة Noon Egypt تطابق رقم الموديل 6223008052923 والقياس والخامة. لا يثبت المصدر سعراً أو مخزوناً لدى مورد آخر.",
+    "specifications": {"السعر الأصلي بالقائمة":"1,755 EGP — غير معتمد","الموديل/EAN":"6223008052923","النوع":"Granite Oblong Tray","المقاس":"35 سم","اللون":"Beige","عدد القطع":"1"},
     "availability": "يحتاج تأكيد التوفر لدى المورد",
-    "sourceUrl": "",
+    "sourceUrl": "https://www.noon.com/egypt-ar/top-chef-granit-oblong-tray-35-cm-beige/ZB8880D4A13FC16064539Z/p/",
     "sourceType": "Unverified Market",
     "verificationStatus": "Unverified",
     "published": true,
     "createdAt": "2026-11-15",
-    "updatedAt": "2026-11-15",
+    "updatedAt": "2026-11-17",
     "imageUrl": ""
   },
   {
@@ -2784,18 +2764,15 @@ export const cairoSalesCookwareProducts: Product[] = [
     "categoryId": "kitchen",
     "model": "T-6223008052909",
     "sku": "T-6223008052909",
-    "description": "بيانات المنتج والأسعار من قائمة Cairo Sales التي قدمها المستخدم؛ لم يتم التحقق المستقل من صفحة المنتج أو التوفر أو السعر.",
-    "specifications": {
-      "السعر الأصلي بالقائمة": "1,630 EGP",
-      "نسبة الخصم بالقائمة": "8%"
-    },
+    "description": "صينية Top Chef Granite مستطيلة 35 سم باللون Black؛ صفحة Noon Egypt تطابق رقم الموديل 6223008052909 والقياس والخامة. لا يثبت المصدر سعراً أو مخزوناً لدى مورد آخر.",
+    "specifications": {"السعر الأصلي بالقائمة":"1,630 EGP — غير معتمد","الموديل/EAN":"6223008052909","النوع":"Granite Oblong Tray","المقاس":"35 سم","اللون":"أسود","عدد القطع":"1"},
     "availability": "يحتاج تأكيد التوفر لدى المورد",
-    "sourceUrl": "",
+    "sourceUrl": "https://www.noon.com/egypt-ar/top-chef-granit-oblong-tray-35-cm-black/Z06443236CF395B5F92FFZ/p/",
     "sourceType": "Unverified Market",
     "verificationStatus": "Unverified",
     "published": true,
     "createdAt": "2026-11-15",
-    "updatedAt": "2026-11-15",
+    "updatedAt": "2026-11-17",
     "imageUrl": ""
   },
   {
@@ -2807,18 +2784,15 @@ export const cairoSalesCookwareProducts: Product[] = [
     "categoryId": "kitchen",
     "model": "6223011170331",
     "sku": "6223011170331",
-    "description": "بيانات المنتج والأسعار من قائمة Cairo Sales التي قدمها المستخدم؛ لم يتم التحقق المستقل من صفحة المنتج أو التوفر أو السعر.",
-    "specifications": {
-      "السعر الأصلي بالقائمة": "1,151 EGP",
-      "نسبة الخصم بالقائمة": "8%"
-    },
+    "description": "جريل Cookin Aboud Bio Granite مقاس 28 سم؛ صفحة Shop Aboud تطابق رقم SKU/الباركود 6223011170331 وتعرض المنتج ضمن فئة Dark Stone. السعر الظاهر يحتاج تحققاً حديثاً من البائع ولا يعتمد كسعر حالي.",
+    "specifications": {"السعر الأصلي بالقائمة":"1,151 EGP — غير معتمد","العلامة":"Cookin Aboud","النوع":"Bio Granite Grill","المقاس":"28 سم","اللون":"أسود","SKU / EAN":"6223011170331","سعر المصدر الظاهر":"1,100 EGP — غير معتمد"},
     "availability": "يحتاج تأكيد التوفر لدى المورد",
-    "sourceUrl": "",
+    "sourceUrl": "https://shop-aboud.com/product/28-cm-grill-bio-granite/",
     "sourceType": "Unverified Market",
     "verificationStatus": "Unverified",
     "published": true,
     "createdAt": "2026-11-15",
-    "updatedAt": "2026-11-15",
+    "updatedAt": "2026-11-17",
     "imageUrl": ""
   }
 ];
@@ -3127,19 +3101,15 @@ export const cairoSalesSmallApplianceProducts: Product[] = [
     "categoryId": "appliances",
     "model": "FP141535G",
     "sku": "FP141535G",
-    "description": "محضر طعام. البيانات والأسعار من ملف Cairo Sales المرفق؛ لم يتم التحقق المستقل من صفحة المنتج أو التوفر أو السعر.",
-    "specifications": {
-      "الصنف الفرعي": "محضر طعام",
-      "السعر الأصلي بالقائمة": "3,952 EGP",
-      "نسبة الخصم بالقائمة": "15%"
-    },
+    "description": "محضر طعام Mienta Mille موديل FP141535G الذهبي؛ صفحة Abdulaziz Stores تطابق الموديل وتعرض 1000 واط و28 وظيفة وسعة وعاء فرم 2.5 لتر وخلاط 2 لتر وملحقات الطحن والتقطيع. السعر والتوفر الظاهران يحتاجان تحققاً مباشراً قبل الاعتماد.",
+    "specifications": {"السعر الأصلي بالقائمة":"4,499 EGP — غير معتمد","الموديل":"FP141535G","السلسلة":"Mille Full Set","القدرة":"1000 واط","الوظائف":"28 وظيفة","سعة وعاء الفرم":"2.5 لتر","سعة إبريق الخلاط":"2 لتر","السرعات":"سرعتان + Pulse","الملحقات":"مطحنة قهوة وتوابل، قرص تقطيع وبشر، خفاق ومضرب عجين"},
     "availability": "يحتاج تأكيد التوفر لدى المورد",
-    "sourceUrl": "",
+    "sourceUrl": "https://www.abdulaziz-stores.com/en/1000-fp141535g",
     "sourceType": "Unverified Market",
     "verificationStatus": "Unverified",
     "published": true,
     "createdAt": "2026-11-15",
-    "updatedAt": "2026-11-15",
+    "updatedAt": "2026-11-17",
     "imageUrl": ""
   },
   {
@@ -3151,19 +3121,15 @@ export const cairoSalesSmallApplianceProducts: Product[] = [
     "categoryId": "appliances",
     "model": "YN5240",
     "sku": "YN5240",
-    "description": "حلة طهي وموقد كهربائي. البيانات والأسعار من ملف Cairo Sales المرفق؛ لم يتم التحقق المستقل من صفحة المنتج أو التوفر أو السعر.",
-    "specifications": {
-      "الصنف الفرعي": "حلة طهي وموقد كهربائي",
-      "السعر الأصلي بالقائمة": "710 EGP",
-      "نسبة الخصم بالقائمة": "10%"
-    },
+    "description": "سخان/موقد كهربائي فردي Home Egypt موديل YN5240 بقدرة 500 واط؛ صفحة Noon تطابق الموديل والقدرة وتعرض منظم حرارة ومؤشر تشغيل وفصل أمان حراري. السعر والتوفر الحاليان لدى المورد يحتاجان إعادة تحقق.",
+    "specifications": {"السعر الأصلي بالقائمة":"799 EGP — غير معتمد","الموديل":"YN5240","النوع":"Electric Hot Plate","عدد العيون":"1","القدرة":"500 واط","الجهد":"220V / 50Hz","قطر سطح التسخين":"نحو 105 مم","الأمان":"Thermal fuse automatic shut-off","التحكم":"Thermostat ومؤشر تشغيل"},
     "availability": "يحتاج تأكيد التوفر لدى المورد",
-    "sourceUrl": "",
+    "sourceUrl": "https://www.noon.com/egypt-en/home-egypt-electric-hot-plate-500-watt-yn5240/Z6A292B9FF191EF3E7162Z/p/",
     "sourceType": "Unverified Market",
     "verificationStatus": "Unverified",
     "published": true,
     "createdAt": "2026-11-15",
-    "updatedAt": "2026-11-15",
+    "updatedAt": "2026-11-17",
     "imageUrl": ""
   },
   {
@@ -3175,19 +3141,15 @@ export const cairoSalesSmallApplianceProducts: Product[] = [
     "categoryId": "appliances",
     "model": "MQ50220MWH",
     "sku": "MQ50220MWH",
-    "description": "خلاطات / هاند بلندر. البيانات والأسعار من ملف Cairo Sales المرفق؛ لم يتم التحقق المستقل من صفحة المنتج أو التوفر أو السعر.",
-    "specifications": {
-      "الصنف الفرعي": "خلاطات / هاند بلندر",
-      "السعر الأصلي بالقائمة": "5,654 EGP",
-      "نسبة الخصم بالقائمة": "10%"
-    },
+    "description": "خلاط يدوي Braun MultiQuick 5 موديل MQ50220MWH باللون الأبيض؛ صفحة EHAB Center تطابق رقم الموديل والباركود 8021098004376 وتعرض 1000 واط و21 سرعة وملحقات متعددة. صفحة Braun الرسمية للعائلة MQ50220M تعرض اختلافاً في رقم النسخة/القدرة في جدولها، لذلك اعتمدنا صفحة البائع للموديل المحلي ولم نستخدم صفحة العائلة لتثبيت القدرة.",
+    "specifications": {"السعر الأصلي بالقائمة":"5,999 EGP — غير معتمد","الموديل":"MQ50220MWH","العلامة":"Braun MultiQuick 5","القدرة المعروضة لدى البائع":"1000 واط","السرعات":"21 سرعة + Turbo","العمود":"PowerBell VPlus معدني","الملحقات":"كوب 600 مل، كبة 350 مل، كوب صغير، مضرب خفق، ذراع خلط، عمود صغير","EAN-13":"8021098004376","الضمان لدى البائع":"سنتان — يحتاج تأكيد مصدر الضمان"},
     "availability": "يحتاج تأكيد التوفر لدى المورد",
-    "sourceUrl": "",
+    "sourceUrl": "https://ehabcenter.com/product/braun-hand-blender-1000w-white-with-accessories-mq50220mwh-8021098004376/",
     "sourceType": "Unverified Market",
     "verificationStatus": "Unverified",
     "published": true,
     "createdAt": "2026-11-15",
-    "updatedAt": "2026-11-15",
+    "updatedAt": "2026-11-17",
     "imageUrl": ""
   },
   {
@@ -3219,19 +3181,15 @@ export const cairoSalesSmallApplianceProducts: Product[] = [
     "categoryId": "appliances",
     "model": "HB111938A",
     "sku": "HB111938A",
-    "description": "خلاطات / هاند بلندر. البيانات والأسعار من ملف Cairo Sales المرفق؛ لم يتم التحقق المستقل من صفحة المنتج أو التوفر أو السعر.",
-    "specifications": {
-      "الصنف الفرعي": "خلاطات / هاند بلندر",
-      "السعر الأصلي بالقائمة": "1,058 EGP",
-      "نسبة الخصم بالقائمة": "15%"
-    },
+    "description": "خلاط يدوي Mienta Vitesse موديل HB111938A أبيض؛ صفحة Carrefour Egypt تطابق الموديل والقدرة 450 واط وكوب 600 مل وسرعة واحدة مع Turbo ومضرب خفق وعمود ستانلس مانع للتناثر. لا يُعتمد السعر أو التوفر دون إعادة تحقق مباشرة.",
+    "specifications": {"السعر الأصلي بالقائمة":"1,099 EGP — غير معتمد","الموديل":"HB111938A","السلسلة":"Vitesse","القدرة":"450 واط","السعة":"600 مل","السرعات":"سرعة واحدة + Turbo","الملحقات":"كوب مدرج ومضرب خفق","عمود الخلط":"ستانلس ستيل مانع للتناثر"},
     "availability": "يحتاج تأكيد التوفر لدى المورد",
-    "sourceUrl": "",
+    "sourceUrl": "https://www.carrefouregypt.com/mafegy/en/blender/mienta-hand-blender-hb111938a-450w/p/674730",
     "sourceType": "Unverified Market",
     "verificationStatus": "Unverified",
     "published": true,
     "createdAt": "2026-11-15",
-    "updatedAt": "2026-11-15",
+    "updatedAt": "2026-11-17",
     "imageUrl": ""
   },
   {
@@ -3243,19 +3201,15 @@ export const cairoSalesSmallApplianceProducts: Product[] = [
     "categoryId": "appliances",
     "model": "BLENDER-PRO-2000",
     "sku": "BLENDER-PRO-2000",
-    "description": "خلاطات. البيانات والأسعار من ملف Cairo Sales المرفق؛ لم يتم التحقق المستقل من صفحة المنتج أو التوفر أو السعر.",
-    "specifications": {
-      "الصنف الفرعي": "خلاطات",
-      "السعر الأصلي بالقائمة": "16,166 EGP",
-      "نسبة الخصم بالقائمة": "10%"
-    },
+    "description": "خلاط Briva Pro 2000 موديل BLENDER-PRO-2000-87854؛ صفحة Kaufen Egypt تطابق القدرة 2000 واط وسعة 4.2 لتر ولوحة LED اللمسية ومحرك نحاسي وغطاء عازل للصوت. سجل الكتالوج يستخدم اسم الموديل المختصر BLENDER-PRO-2000؛ يلزم تأكيد لاحقة 87854 على بطاقة الجهاز.",
+    "specifications": {"السعر الأصلي بالقائمة":"14,999 EGP — غير معتمد","الموديل لدى البائع":"BLENDER-PRO-2000-87854","الموديل في القائمة":"BLENDER-PRO-2000","القدرة":"2000 واط","السعة":"4.2 لتر","الخامة":"Polycarbonate / Tritan BPA-Free","المحرك":"نحاسي 100% بحسب وصف البائع","التحكم":"لوحة LED تعمل باللمس","البرامج":"5 برامج معدة مسبقاً","الوصلة":"معدنية"},
     "availability": "يحتاج تأكيد التوفر لدى المورد",
-    "sourceUrl": "",
+    "sourceUrl": "https://kaufenegypt.com/ar/products/briva-pro-2000-blender",
     "sourceType": "Unverified Market",
     "verificationStatus": "Unverified",
     "published": true,
     "createdAt": "2026-11-15",
-    "updatedAt": "2026-11-15",
+    "updatedAt": "2026-11-17",
     "imageUrl": ""
   }
 ];
