@@ -60,7 +60,13 @@ const rows = [
 const brandSection = brandSource.match(/export const brandDirectoryNames: string\[\] = \[([\s\S]*?)\];/);
 if (!brandSection) throw new Error('brandDirectoryNames declaration not found');
 const brandNames = [...brandSection[1].matchAll(/^\s*"([^"]+)",?\s*$/gm)].map(match => match[1]);
-const companyBlocks = parseObjects(companySource.slice(companySource.indexOf('export const companyDirectory')));
+const companyStart = companySource.indexOf('export const companyDirectory');
+const marketStart = companySource.indexOf('export const wholesaleMarketDirectory');
+if (companyStart < 0 || marketStart < 0) throw new Error('company or wholesale market directory declaration not found');
+const companyBlocks = parseObjects(companySource.slice(companyStart, marketStart));
+const marketBlocks = parseObjects(companySource.slice(marketStart));
+const supplierSection = seedSource.slice(seedSource.indexOf('export const suppliers'));
+const supplierRecords = (supplierSection.match(/\\bid:\\s*['"]sp-/g) || []).length;
 const unique = values => new Set(values.map(value => value.trim().toLocaleLowerCase()));
 const counts = key => rows.reduce((acc, row) => {
   const value = row[key] || 'Missing';
@@ -84,6 +90,8 @@ const summary = {
   brands: brandNames.length,
   uniqueBrands: unique(brandNames).size,
   companyDirectoryRecords: companyBlocks.length,
+  wholesaleMarketRecords: marketBlocks.length,
+  supplierRecords,
   categories: counts('categoryId'),
   verification: counts('verificationStatus'),
   missingModel: rows.filter(row => !row.model || /بدون كود موديل|غير محدد|غير متوفر|يلزم/i.test(row.model)).length,
