@@ -2772,7 +2772,8 @@ export const cairoSalesPrices: PriceRecord[] = [
     "sourceUrl": "https://ehabcenter.com/product/samsung-neo-qled-4k-smart-ai-vision-55-inch-55qn70h/",
     "priceDate": "2026-11-18",
     "verificationStatus": "Unverified",
-    "createdAt": "2026-11-18T01:08:00+02:00"  },
+    "createdAt": "2026-11-18T01:08:00+02:00"
+  },
   {
     "id": "cs-price-132",
     "productId": "cs-027",
