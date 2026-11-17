@@ -671,13 +671,16 @@ export const cairoSalesProducts: Product[] = [
     "specifications": {"السعر الأصلي بالقائمة":"215,898 EGP — غير معتمد","نوع الشاشة":"OLED","المقاس":"83 بوصة ضمن مقاسات سلسلة S85H 2026 الرسمية","الدقة":"4K","المعالج":"NQ4 AI Gen2","المصدر":"صفحة مجموعة OLED الرسمية من Samsung Egypt"},
     "availability": "يحتاج تأكيد التوفر لدى المورد",
     "sourceCandidateUrl": "https://www.samsung.com/eg/tvs/oled-tv/highlights/",
-    "sourceUrl": "",
-    "sourceType": "Unverified Market",
+    "sourceUrl": "https://www.samsung.com/ro/tvs/oled-tv/s85h-83-inch-4k-smart-tv-qe83s85haexxh/",
+    "sourceType": "Official",
     "verificationStatus": "Unverified",
     "published": true,
     "createdAt": "2026-11-15",
     "updatedAt": "2026-11-17",
-    "imageUrl": "",
+    "imageUrl": "https://images.samsung.com/is/image/samsung/p6pim/ro/qe83s85haexxh/gallery/ro-oled-s85h-qe83s85haexxh-552048068?%241164_776_PNG%24=",
+    "imageVerifiedDate": "2026-11-18",
+    "imageSourceUrl": "https://www.samsung.com/ro/tvs/oled-tv/s85h-83-inch-4k-smart-tv-qe83s85haexxh/",
+    "officialProductUrl": "https://www.samsung.com/ro/tvs/oled-tv/s85h-83-inch-4k-smart-tv-qe83s85haexxh/",
     "imageCandidateUrl": "https://static.ollo.it/img/catalog/2048x2048/samsung-83-oled-s85h-4k-vision-ai-smart-tv-2026_1692160_961158.jpg"
   },
   {
@@ -699,7 +702,10 @@ export const cairoSalesProducts: Product[] = [
     "published": true,
     "createdAt": "2026-11-15",
     "updatedAt": "2026-11-17",
-    "imageUrl": "",
+    "imageUrl": "https://images.samsung.com/is/image/samsung/p6pim/ph/ua100m90hgxxp/gallery/ph-mini-led-m90h-ua100m90hgxxp-553106794?%241164_776_PNG%24=",
+    "imageVerifiedDate": "2026-11-18",
+    "imageSourceUrl": "https://www.samsung.com/ph/tvs/mini-led-tv/m90h-100-inch-4k-smart-tv-ua100m90hgxxp/",
+    "officialProductUrl": "https://www.samsung.com/ph/tvs/mini-led-tv/m90h-100-inch-4k-smart-tv-ua100m90hgxxp/",
     "imageCandidateUrl": "https://www.tanradio.com/_next/image?q=75&url=%2Fimages%2Fpromos%2Fsamsung-m90h%2Fhero-front.jpg&w=3840"
   },
   {
