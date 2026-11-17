@@ -11,6 +11,9 @@
 
 | cs-063 Panasonic 4W Candle LED | https://elghazawy.com/ar/search?category=flashlights&ct=936 | صفحة Elghazawy تعرض نسختين: PBUM15043-EX ضوء دافئ 3000K وPBUM15047-EX ضوء أبيض 6500K، وكلتاهما 4W وقاعدة E14. السجل الأصلي لا يحدد أي نسخة، لذلك بقي عاماً ولم يتم تحويله إلى موديل محدد. السعر الظاهر 50 جنيه لكل نسخة غير معتمد. |
 
+
+| cs-032 Rosa D-248395 | https://www.cbhstores.com/en/product/30-piece-rosa-porcelain-dinner-set | صفحة CBH Stores تعرض طقم Rosa بورسلين 30 قطعة باسم Decala 18578 ورقم SKU 1011142200005. لا يظهر كود D-248395؛ الرابط مرجع لنفس الفئة والعدد وليس تطابق SKU مؤكداً. |
+
 ## ضوابط الثقة
 
 - أضيفت المصادر إلى السجلين مع إبقاء verificationStatus = Unverified.
