@@ -171,10 +171,10 @@ export const companyDirectory = [
     "id": "helal-star",
     "name": "الهلال والنجمة الذهبية",
     "kind": "مصنّع أدوات منزلية وبلاستيك",
-    "url": "https://elhelal-and-stargolden.com",
-    "source": "قائمة الروابط المقدمة من المستخدم",
+    "url": "https://www.itda.gov.eg/CRM/869/CRA103.pdf",
+    "source": "جهاز تنمية التجارة الداخلية — الجريدة الرسمية للأسماء التجارية",
     "verificationStatus": "Unverified",
-    "note": "الرابط مقدم ضمن قائمة المستخدم؛ يلزم التحقق من النطاق."
+    "note": "السجل الحكومي يذكر الهلال والنجمة الذهبية للصناعة والتجارة - مصر ونشاط إنشاء وتشغيل مصنع للمنتجات البلاستيكية والأدوات المنزلية وأدوات النظافة والعبوات. مصدر حكومي أولي للكيان والنشاط؛ لا يثبت علامة كل منتج دون مطابقة."
   },
   {
     "id": "alsharif-melamine",
@@ -190,9 +190,9 @@ export const companyDirectory = [
     "name": "ميد ستار",
     "kind": "أدوات منزلية ومنتجات بلاستيكية",
     "url": "https://midstar-eg.com",
-    "source": "قائمة الروابط المقدمة من المستخدم",
+    "source": "رابط مدخل الدليل يحتاج تحقق مباشر؛ ملاحظة تمييز اسمية من مصدر Medstar Misr",
     "verificationStatus": "Unverified",
-    "note": "الرابط مقدم ضمن قائمة المستخدم؛ يلزم التحقق من النطاق."
+    "note": "لم يثبت مصدر أولي أن Midstar هو Medstar Misr. توجد شركة مستقلة باسم Medstar Misr تصنع الأدوات البلاستيكية والمنزلية منذ 1976 (https://www.medstar-misr.com/about-us)؛ لا تُدمج السجلين ولا تُنسب بيانات Medstar إلى Midstar قبل مطابقة الاسم القانوني والعلامة."
   },
   {
     "id": "hinox",
@@ -243,10 +243,10 @@ export const companyDirectory = [
     "id": "fathy-mahmoud",
     "name": "فتحي محمود / ستار بورسلين",
     "kind": "مصنّع بورسلين وصيني",
-    "url": "https://fathimahmoud.com",
-    "source": "قائمة الروابط المقدمة من المستخدم",
+    "url": "https://www.fathymahmoud.com/",
+    "source": "Fathy Mahmoud official website",
     "verificationStatus": "Unverified",
-    "note": "الرابط مقدم ضمن قائمة المستخدم؛ يلزم التحقق من النطاق."
+    "note": "مصدر الشركة الرسمي هو المرجع الأول لتحديد نشاط الشركة ومنتجات Star Porcelain؛ لا تُفترض صفة مصنع أو علامة لكل منتج قبل مطابقة صفحة المنتج وبيانات الكيان."
   },
   {
     "id": "sheeni",
@@ -317,20 +317,20 @@ export const companyDirectory = [
     "id": "fresh",
     "name": "فريش",
     "kind": "مصنّع أجهزة منزلية",
-    "url": "https://fresh.com.eg",
-    "source": "قائمة الروابط المقدمة من المستخدم",
+    "url": "https://fresh.com.eg/ar/about",
+    "source": "Fresh Electric official — عن شركة فريش للأجهزة المنزلية",
     "verificationStatus": "Unverified",
-    "note": "الرابط مقدم ضمن قائمة المستخدم.",
+    "note": "الموقع الرسمي يذكر تأسيس Fresh Electric في مصر عام 1987، ومصانع في العاشر من رمضان ومدينة بدر، وأكثر من 1,000 موديل ومراكز خدمة. مصدر مباشر لهوية الشركة والتصنيع؛ تحقق من ضمان ومواصفات كل موديل منفرداً.",
     "facebook": "ورد اسم صفحة فيسبوك فقط دون رابط صفحة محدد."
   },
   {
     "id": "midea",
     "name": "ميديا",
     "kind": "علامة أجهزة منزلية",
-    "url": "https://www.midea.com",
-    "source": "قائمة الروابط المقدمة من المستخدم",
+    "url": "https://www.midea.com/global/about-midea",
+    "source": "Midea official — About Midea; Toshiba Lifestyle Egypt official",
     "verificationStatus": "Unverified",
-    "note": "الرابط مقدم ضمن قائمة المستخدم؛ يلزم تحديد نطاق مصر."
+    "note": "الموقع العالمي يثبت هوية مجموعة Midea ونشاطها الصناعي؛ موقع Toshiba Lifestyle Egypt الرسمي يعرض Toshiba في مصر ويذكر في أخبار 2025 مشاركة مجموعة Midea بعلامتي Toshiba وMidea. لا يثبت ذلك وحده الوكيل أو الضمان لكل موديل."
   },
   {
     "id": "kenwood",
@@ -345,19 +345,19 @@ export const companyDirectory = [
     "id": "sokany",
     "name": "سوكانى",
     "kind": "أجهزة منزلية صغيرة",
-    "url": "https://sokany-egypt.com",
-    "source": "قائمة الروابط المقدمة من المستخدم",
+    "url": "https://sokany.com/sokany-and-exclusive-egyptian-distributor-celebrate-five-years-of-strategic-partnership-and-market-growth.html",
+    "source": "SOKANY official — announcement of exclusive Egyptian distributor (22 Sep 2026)",
     "verificationStatus": "Unverified",
-    "note": "الرابط مقدم ضمن قائمة المستخدم."
+    "note": "الموقع الرسمي للعلامة يذكر أن SOKANY EG هو الموزع الرسمي/الحصري في مصر منذ 2020، ويحدد الشركة الأم Yiwu Mingge Electric Appliance Co., Ltd. موقع الوكيل المحلي يذكر مؤسسة المغربي وشبكة الضمان. يلزم ربط كل موديل بصفحة الضمان الخاصة به."
   },
   {
     "id": "toshina-araby",
     "name": "توشيبا للأجهزة المنزلية",
     "kind": "علامة أجهزة منزلية",
-    "url": "https://elarabygroup.com",
-    "source": "قائمة الروابط المقدمة من المستخدم",
+    "url": "https://www.toshiba-lifestyle.com/eg",
+    "source": "Toshiba Lifestyle Egypt official website",
     "verificationStatus": "Unverified",
-    "note": "المستخدم ذكر إدارة منتجاتها عبر العربي؛ يلزم توثيق الصفة التجارية."
+    "note": "موقع Toshiba Lifestyle Egypt الرسمي يعرض منتجات ودعم وتجاراً معتمدين في مصر، ويذكر في خبر 31 أكتوبر 2025 أن مجموعة Midea عرضت علامتي Toshiba وMidea في مصر. لا يظهر في المصدر الرسمي الحالي ما يثبت أن العربي هو المشغل المحلي؛ لذلك لا تنسب الإدارة للعربي دون وثيقة."
   },
   {
     "id": "indesit",
