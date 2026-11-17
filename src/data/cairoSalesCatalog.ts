@@ -445,7 +445,9 @@ export const cairoSalesProducts: Product[] = [
     "published": true,
     "createdAt": "2026-11-15",
     "updatedAt": "2026-11-15",
-    "imageUrl": ""
+    "imageUrl": "https://www.lg.com/content/dam/channel/wcms/1-channel/eg_ar/ms/lgcom/2026/tv-audio-video/tv/qned-evo/qned85/gp1/gallery/65-qned85/gallery/65_.jpg/jcr%3Acontent/renditions/thum-1600x1062.jpeg?w=800",
+    "imageSourceUrl": "https://www.lg.com/eg_ar/tv-soundbars/qned-evo/65qned85b6t/",
+    "imageVerifiedDate": "2026-11-18"
   },
   {
     "id": "cs-005",
@@ -466,7 +468,9 @@ export const cairoSalesProducts: Product[] = [
     "published": true,
     "createdAt": "2026-11-15",
     "updatedAt": "2026-11-15",
-    "imageUrl": ""
+    "imageUrl": "https://www.lg.com/content/dam/channel/wcms/1-channel/eg_ar/ms/lgcom/2026/tv-audio-video/tv/qned/qned70/gp1/gallery/75-qned70/gallery/75_.jpg/jcr%3Acontent/renditions/thum-1600x1062.jpeg?w=800",
+    "imageSourceUrl": "https://www.lg.com/eg_ar/tv-soundbars/qned/75qned72b6t/",
+    "imageVerifiedDate": "2026-11-18"
   },
   {
     "id": "cs-006",
@@ -508,7 +512,9 @@ export const cairoSalesProducts: Product[] = [
     "published": true,
     "createdAt": "2026-11-15",
     "updatedAt": "2026-11-15",
-    "imageUrl": ""
+    "imageUrl": "https://www.lg.com/content/dam/channel/wcms/1-channel/eg_ar/ms/lgcom/2026/tv-audio-video/tv/qned-evo/qned85/gp1/gallery/65-qned85/gallery/55_.jpg/jcr%3Acontent/renditions/thum-1600x1062.jpeg?w=800",
+    "imageSourceUrl": "https://www.lg.com/eg_ar/tv-soundbars/qned-evo/55qned85b6t/",
+    "imageVerifiedDate": "2026-11-18"
   },
   {
     "id": "cs-008",
@@ -529,7 +535,9 @@ export const cairoSalesProducts: Product[] = [
     "published": true,
     "createdAt": "2026-11-15",
     "updatedAt": "2026-11-15",
-    "imageUrl": ""
+    "imageUrl": "https://www.lg.com/content/dam/channel/wcms/1-channel/eg_ar/ms/lgcom/2026/tv-audio-video/tv/qned/qned70/gp1/gallery/65-qned70/gallery/65_.jpg/jcr%3Acontent/renditions/thum-1600x1062.jpeg?w=800",
+    "imageSourceUrl": "https://www.lg.com/eg_ar/tv-soundbars/qned/65qned72b6t/",
+    "imageVerifiedDate": "2026-11-18"
   },
   {
     "id": "cs-009",
@@ -550,7 +558,9 @@ export const cairoSalesProducts: Product[] = [
     "published": true,
     "createdAt": "2026-11-15",
     "updatedAt": "2026-11-15",
-    "imageUrl": ""
+    "imageUrl": "https://www.lg.com/content/dam/channel/wcms/1-channel/eg_ar/ms/lgcom/2026/tv-audio-video/tv/nano-4k-uhd/nu85/gp1/gallery/65-nu85/gallery/65_2010.jpg/jcr%3Acontent/renditions/thum-1600x1062.jpeg?w=800",
+    "imageSourceUrl": "https://www.lg.com/eg_ar/tv-soundbars/nano-4k-uhd/65nu850b6la/",
+    "imageVerifiedDate": "2026-11-18"
   },
   {
     "id": "cs-010",
@@ -571,7 +581,9 @@ export const cairoSalesProducts: Product[] = [
     "published": true,
     "createdAt": "2026-11-15",
     "updatedAt": "2026-11-15",
-    "imageUrl": ""
+    "imageUrl": "https://www.lg.com/content/dam/channel/wcms/1-channel/eg_ar/ms/lgcom/2026/tv-audio-video/tv/qned/qned70/gp1/gallery/50-qned70/gallery/50_.jpg/jcr%3Acontent/renditions/thum-1600x1062.jpeg?w=800",
+    "imageSourceUrl": "https://www.lg.com/eg_ar/tv-soundbars/qned/50qned72b6t/",
+    "imageVerifiedDate": "2026-11-18"
   },
   {
     "id": "cs-011",
