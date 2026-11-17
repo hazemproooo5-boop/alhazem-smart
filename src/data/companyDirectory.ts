@@ -197,9 +197,9 @@ export const companyDirectory = [
     "kind": "مصنّع أدوات مائدة ميلامين — يحتاج مطابقة كيان",
     "url": "https://shop.alsherifmelamine.com/aboutus",
     "submittedUrl": "https://alsharifmelamine.com",
-    "source": "Al-Shorouk / Al Sherif sources: https://shop.alsherifmelamine.com/aboutus",
+    "source": "Al Sherif Melamine official storefront — https://shop.alsherifmelamine.com/aboutus",
     "verificationStatus": "Unverified",
-    "note": "احتمال تكرار مع سجل alsherif-melamine بسبب اختلاف التهجئة والنطاق؛ لا يدمج السجلان قبل مطابقة السجل التجاري والعنوان."
+    "note": "الموقع المباشر يعرض منتجات ميلامين الشريف ويذكر تاريخاً صناعياً منذ 1958 في وصف العلامة، لكنه لا يثبت في الصفحة المتاحة الاسم القانوني للشركة أو سجلها الصناعي. يوجد سجل آخر باسم alsherif-melamine؛ لا يدمج السجلان قبل مطابقة السجل التجاري والعنوان والكيان القانوني."
   },
   {
     "id": "midstar",
