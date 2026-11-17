@@ -3226,7 +3226,8 @@ export const cairoSalesSmallApplianceProducts: Product[] = [
     "createdAt": "2026-11-15",
     "updatedAt": "2026-11-15",
     "imageUrl": "https://cdn.mafrservices.com/pim-content/EGY/media/product/668969/1766582689/668969_main.jpg",
-    "imageSourceUrl": "https://www.carrefouregypt.com/mafegy/en/air-fryer/fresh-a-f-faf-d1500b-5l-digital/p/668969"
+    "imageSourceUrl": "https://www.carrefouregypt.com/mafegy/en/air-fryer/fresh-a-f-faf-d1500b-5l-digital/p/668969",
+    "imageVerifiedDate": "2026-11-18"
   }
   {
     "id": "cs-084",
@@ -3307,7 +3308,8 @@ export const cairoSalesSmallApplianceProducts: Product[] = [
     "createdAt": "2026-11-15",
     "updatedAt": "2026-11-15",
     "imageUrl": "https://casselesprix.com/cdn/shop/files/U498_3.jpg?v=1757044534&width=600",
-    "imageSourceUrl": "https://casselesprix.com/products/u498"
+    "imageSourceUrl": "https://casselesprix.com/products/u498",
+    "imageVerifiedDate": "2026-11-18"
   }
   {
     "id": "cs-088",
