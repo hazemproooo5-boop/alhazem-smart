@@ -31,3 +31,12 @@ jobs:
         run: npm run lint
       - name: Build Vite application
         run: npm run build
+      - name: Upload catalog audit reports
+        if: success()
+        uses: actions/upload-artifact@v4
+        with:
+          name: catalog-audit-${{ github.run_number }}
+          path: |
+            reports/catalog-audit-summary.json
+            reports/catalog-audit.csv
+          retention-days: 30
