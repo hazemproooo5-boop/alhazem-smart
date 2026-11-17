@@ -1874,7 +1874,9 @@ export const cairoSalesProducts: Product[] = [
     "published": true,
     "createdAt": "2026-11-15",
     "updatedAt": "2026-11-17",
-    "imageUrl": ""
+    "imageUrl": "https://cdn.sharafdg.com/cdn-cgi/image/width%3D600%2Cheight%3D600%2Cfit%3Dpad%2Cformat%3Dwebp%2Cquality%3D70/assets/5/0/1/d/501d24f05138ecc4635acdfb5877fd53b8eda0fa_000000000001233301_1.jpg?g=0",
+    "imageSourceUrl": "https://egypt.sharafdg.com/product/panasonic-pbum08073-ex-warm-light-led-bulb-7w/",
+    "imageVerifiedDate": "2026-11-18"
   },
   {
     "id": "cs-065",
@@ -1894,7 +1896,9 @@ export const cairoSalesProducts: Product[] = [
     "published": true,
     "createdAt": "2026-11-15",
     "updatedAt": "2026-11-17",
-    "imageUrl": ""
+    "imageUrl": "https://radiotalaat.com/media/catalog/product/cache/443536d826163ab0a24e7b4f10768263/2/7/279_qiv99ku0d0a1mkmx.jpg",
+    "imageSourceUrl": "https://radiotalaat.com/ar/panasonic-led-bulb-5-w-e27-warm-white-3000k-pbum08053-ex-17059.html",
+    "imageVerifiedDate": "2026-11-18"
   }
 ];
 export const cairoSalesPrices: PriceRecord[] = [
