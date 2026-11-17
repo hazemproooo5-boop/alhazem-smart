@@ -366,7 +366,9 @@ export const cairoSalesProducts: Product[] = [
     "published": true,
     "createdAt": "2026-11-15",
     "updatedAt": "2026-11-15",
-    "imageUrl": "",
+    "imageUrl": "https://www.lg.com/content/dam/channel/wcms/1-channel/eg_en/ms/lgcom/2026/tv-audio-video/tv/qned-evo/qned85/gp1/gallery/75-qned85/gallery/lg-qned-evo-qned85-2026-75-gallery-02-product-dimension.jpg/jcr%3Acontent/renditions/thum-1600x1062.jpeg?w=800",
+    "imageSourceUrl": "https://www.lg.com/eg_en/tv-soundbars/qned-evo/75qned85b6t/",
+    "imageVerifiedDate": "2026-11-18",
     "imageCandidateUrl": "https://dwecxxryy5p59.cloudfront.net/catalogs/7/4/e/6/74e639ca0a7468eb1cfb147432674d7394c6ef9e_imgi_39_thum_1600x1062.jpg"
   },
   {
@@ -3098,7 +3100,9 @@ export const cairoSalesSmallApplianceProducts: Product[] = [
     "published": true,
     "createdAt": "2026-11-15",
     "updatedAt": "2026-11-15",
-    "imageUrl": ""
+    "imageUrl": "https://www.electronichouseegypt.com/cdn/shop/files/51LpKVfGMCL._AC_SL1024.jpg?v=1768397461",
+    "imageSourceUrl": "https://www.electronichouseegypt.com/products/mienta-blender-700-watt-with-free-gift-bl1291g",
+    "imageVerifiedDate": "2026-11-18"
   },
   {
     "id": "cs-079",
@@ -3147,7 +3151,9 @@ export const cairoSalesSmallApplianceProducts: Product[] = [
     "published": true,
     "createdAt": "2026-11-15",
     "updatedAt": "2026-11-15",
-    "imageUrl": ""
+    "imageUrl": "https://elghazawy.b-cdn.net/247137/mdrb-byd-myanta-500-oat-5-sraaat-asod-HM13729A--1.webp",
+    "imageSourceUrl": "https://elghazawy.com/en/product/38074270292994/page/about-us",
+    "imageVerifiedDate": "2026-11-18"
   },
   {
     "id": "cs-081",
@@ -3221,7 +3227,9 @@ export const cairoSalesSmallApplianceProducts: Product[] = [
     "published": true,
     "createdAt": "2026-11-15",
     "updatedAt": "2026-11-15",
-    "imageUrl": ""
+    "imageUrl": "https://cdn.mafrservices.com/pim-content/EGY/media/product/668969/1766582689/668969_main.jpg",
+    "imageSourceUrl": "https://www.carrefouregypt.com/mafegy/en/air-fryer/fresh-a-f-faf-d1500b-5l-digital/p/668969",
+    "imageVerifiedDate": "2026-11-18"
   },
   {
     "id": "cs-084",
@@ -3301,7 +3309,9 @@ export const cairoSalesSmallApplianceProducts: Product[] = [
     "published": true,
     "createdAt": "2026-11-15",
     "updatedAt": "2026-11-15",
-    "imageUrl": ""
+    "imageUrl": "https://casselesprix.com/cdn/shop/files/U498_3.jpg?v=1757044534&width=600",
+    "imageSourceUrl": "https://casselesprix.com/products/u498",
+    "imageVerifiedDate": "2026-11-18"
   },
   {
     "id": "cs-088",
