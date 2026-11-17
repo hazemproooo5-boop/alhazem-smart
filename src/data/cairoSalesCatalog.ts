@@ -1260,12 +1260,12 @@ export const cairoSalesProducts: Product[] = [
     },
     "sourceCandidateUrl": "https://www.carrefouregypt.com/mafegy/en/oven-tray/neoflam-cake-pan-springform-28-cm/p/509110",
     "availability": "يحتاج تأكيد التوفر لدى المورد",
-    "sourceUrl": "",
+    "sourceUrl": "https://www.carrefouregypt.com/mafegy/en/oven-tray/neoflam-cake-pan-springform-28-cm/p/509110",
     "sourceType": "Unverified Market",
     "verificationStatus": "Unverified",
     "published": true,
     "createdAt": "2026-11-15",
-    "updatedAt": "2026-11-17",
+    "updatedAt": "2026-11-18",
     "imageUrl": ""
   },
   {
@@ -2796,12 +2796,12 @@ export const cairoSalesCookwareProducts: Product[] = [
     },
     "sourceCandidateUrl": "https://elghazawy.com/en/product/38074270308777/Saflon%2BPower%2BLine%2B12-Piece%2BGranite%2BCookware%2BSet%2BSquare-Shaped%2Bwith%2BStainless%2BSteel%2BHandles%2B-%2BGray",
     "availability": "يحتاج تأكيد التوفر لدى المورد",
-    "sourceUrl": "",
+    "sourceUrl": "https://elghazawy.com/en/product/38074270308777/Saflon%2BPower%2BLine%2B12-Piece%2BGranite%2BCookware%2BSet%2BSquare-Shaped%2Bwith%2BStainless%2BSteel%2BHandles%2B-%2BGray",
     "sourceType": "Unverified Market",
     "verificationStatus": "Unverified",
     "published": true,
     "createdAt": "2026-11-15",
-    "updatedAt": "2026-11-17",
+    "updatedAt": "2026-11-18",
     "imageUrl": ""
   },
   {
