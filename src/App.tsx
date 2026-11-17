@@ -641,14 +641,15 @@ function CatalogCenterPage() {
                         <strong>{product.name}</strong>
                         <details className="monitoring-details">
                           <summary>عرض الوصف والمواصفات المسجلة</summary>
-                          {product.description ? <p>{product.description}</p> : <p>لا يوجد وصف مسجل لهذا المنتج حتى الآن.</p>}
-                          {Object.entries(product.specifications ?? {}).filter(([label]) => !/(سعر|price|خصم|discount)/i.test(label)).length ? (
-                            <dl className="monitoring-specs">
-                              {Object.entries(product.specifications ?? {}).filter(([label]) => !/(سعر|price|خصم|discount)/i.test(label)).map(([label, value]) => (
-                                <div key={label}><dt>{label}</dt><dd>{value}</dd></div>
-                              ))}
-                            </dl>
-                          ) : <p>لا توجد مواصفات مسجلة قابلة للعرض.</p>}
+                          {product.description && !/(سعر|price|جنيه|EGP|خصم|discount)/i.test(product.description) ? <p>{product.description}</p> : <p>الوصف الأولي غير معروض هنا لأنه قد يتضمن بيانات سعرية أو تفاصيل لم تكتمل مراجعتها.</p>}
+                          <dl className="monitoring-specs">
+                            <div><dt>التوفر المسجل</dt><dd>{product.availability || 'غير محدد'}</dd></div>
+                            {product.warranty ? <div><dt>الضمان المسجل</dt><dd>{product.warranty}</dd></div> : null}
+                            {product.energyInformation ? <div><dt>معلومات الطاقة</dt><dd>{product.energyInformation}</dd></div> : null}
+                            {Object.entries(product.specifications ?? {}).filter(([label, value]) => !/(سعر|price|خصم|discount|جنيه|EGP)/i.test(`${label} ${value}`)).map(([label, value]) => (
+                              <div key={label}><dt>{label}</dt><dd>{value}</dd></div>
+                            ))}
+                          </dl>
                           <small>هذه بيانات أولية من المصدر المسجل، وليست مواصفات معتمدة أو توصية شراء.</small>
                         </details>
                       </div>
