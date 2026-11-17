@@ -129,7 +129,7 @@ export const companyDirectory = [
     "name": "بي تك",
     "kind": "موزع تجزئة للأجهزة والإلكترونيات",
     "url": "https://btech.com",
-    "source": "B.TECH Egypt: https://btech.com",
+    "source": "B.TECH Egypt official retail website: https://btech.com",
     "verificationStatus": "Unverified",
     "note": "الرابط مقدم ضمن قائمة المستخدم؛ لا يثبت وحده اعتماد كل علامة."
   },
@@ -147,7 +147,7 @@ export const companyDirectory = [
     "name": "القاهرة للمبيعات",
     "kind": "متجر/موزع أجهزة منزلية",
     "url": "https://cairosales.com",
-    "source": "Cairo Sales: https://cairosales.com",
+    "source": "Cairo Sales official retail website: https://cairosales.com",
     "verificationStatus": "Unverified",
     "note": "الرابط مقدم ضمن قائمة المستخدم؛ يلزم التحقق من بيانات كل منتج."
   },
@@ -292,8 +292,9 @@ export const companyDirectory = [
     "id": "alsherif-melamine",
     "name": "الشريف للميلامين",
     "kind": "مصنّع ميلامين — احتمال تكرار مع سجل alsharif-melamine",
-    "url": "https://alsherifmelamine.com",
-    "source": "قائمة الروابط المقدمة من المستخدم",
+    "url": "https://shop.alsherifmelamine.com/aboutus",
+    "submittedUrl": "https://alsherifmelamine.com",
+    "source": "Al-Sherif / Al-Shorouk Melamine company source: https://shop.alsherifmelamine.com/aboutus",
     "verificationStatus": "Unverified",
     "note": "احتمال تكرار مع سجل alsharif-melamine بسبب اختلاف التهجئة والنطاق؛ لا يدمج السجلان قبل مطابقة السجل التجاري والعنوان."
   },
