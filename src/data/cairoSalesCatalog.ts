@@ -1618,17 +1618,15 @@ export const cairoSalesProducts: Product[] = [
     "categoryId": "home",
     "model": "RIC-CHAIR",
     "sku": "RIC-CHAIR",
-    "description": "قائمة Cairo Sales المقدمة من المستخدم. السعر والبيانات التجارية غير متحقق منها مستقلاً؛ يلزم الرجوع إلى صفحة المنتج والمورد قبل الاعتماد.",
-    "specifications": {
-      "السعر الأصلي بالقائمة": "13,977 EGP"
-    },
+    "description": "كرسي Ric Chair من Wood & More EG؛ صفحة الشركة/البائع المصرية تطابق اسم المنتج وتعرض مقاساته وخاماته. كود RIC-CHAIR في السجل لم يظهر منفصلاً في الصفحة، والسعر والتوفر يحتاجان تحققاً مستقلاً.",
+    "specifications": {"السعر الأصلي بالقائمة":"12,165 EGP","المنتج":"Ric Chair","الأبعاد":"50 × 70 × 80 سم","الخامة":"هيكل فولاذي وقماش خارجي مقاوم للماء","الاستخدام":"حدائق وشرفات ومساحات خارجية","المصدر":"صفحة Wood & More EG المباشرة"},
     "availability": "يحتاج تأكيد التوفر لدى المورد",
-    "sourceUrl": "",
+    "sourceUrl": "https://woodandmoreeg.com/products/ric-chair",
     "sourceType": "Unverified Market",
     "verificationStatus": "Unverified",
     "published": true,
     "createdAt": "2026-11-15",
-    "updatedAt": "2026-11-15",
+    "updatedAt": "2026-11-17",
     "imageUrl": ""
   },
   {
@@ -1640,17 +1638,15 @@ export const cairoSalesProducts: Product[] = [
     "categoryId": "home",
     "model": "E92-30-06",
     "sku": "E92-30-06",
-    "description": "قائمة Cairo Sales المقدمة من المستخدم. السعر والبيانات التجارية غير متحقق منها مستقلاً؛ يلزم الرجوع إلى صفحة المنتج والمورد قبل الاعتماد.",
-    "specifications": {
-      "السعر الأصلي بالقائمة": "3,977 EGP"
-    },
+    "description": "سلة مهملات Prima Nova مستطيلة 40 لتر بغطاء Soft-Close؛ مصدر الموزع يعرض الكود M-E92-30-06، بينما سجل القائمة يكتب E92-30-06 دون بادئة M. يجب حسم تطابق رقم الموديل قبل اعتماده.",
+    "specifications": {"السعر الأصلي بالقائمة":"3,300 EGP","العلامة":"Prima Nova","السعة":"40 لتر","الشكل":"مستطيل","الغطاء":"Soft-Close","رمز الموديل في مصدر التوزيع":"M-E92-30-06","رمز القائمة":"E92-30-06"},
     "availability": "يحتاج تأكيد التوفر لدى المورد",
-    "sourceUrl": "",
+    "sourceUrl": "https://www.marva-sa.gr/en/kitchenware/dust-bins/",
     "sourceType": "Unverified Market",
     "verificationStatus": "Unverified",
     "published": true,
     "createdAt": "2026-11-15",
-    "updatedAt": "2026-11-15",
+    "updatedAt": "2026-11-17",
     "imageUrl": ""
   },
   {
@@ -1662,17 +1658,15 @@ export const cairoSalesProducts: Product[] = [
     "categoryId": "home",
     "model": "E84-30-06",
     "sku": "E84-30-06",
-    "description": "قائمة Cairo Sales المقدمة من المستخدم. السعر والبيانات التجارية غير متحقق منها مستقلاً؛ يلزم الرجوع إلى صفحة المنتج والمورد قبل الاعتماد.",
-    "specifications": {
-      "السعر الأصلي بالقائمة": "3,117 EGP"
-    },
+    "description": "سلة مهملات Prima Nova Inox بسعة 40 لتر وغطاء بطيء الإغلاق؛ صفحة البائع تعرض الموديل M-E84-30-06، بينما سجل القائمة يكتب E84-30-06 دون بادئة M. يلزم حسم المطابقة قبل الاعتماد.",
+    "specifications": {"السعر الأصلي بالقائمة":"2,800 EGP","العلامة":"Prima Nova","السعة":"40 لتر","الخامة":"ستانلس ستيل وفق وصف البائع","الغطاء":"إغلاق هادئ Soft-Close","السلة الداخلية":"قابلة للإزالة","رمز الموديل في مصدر البيع":"M-E84-30-06","رمز القائمة":"E84-30-06"},
     "availability": "يحتاج تأكيد التوفر لدى المورد",
-    "sourceUrl": "",
+    "sourceUrl": "https://akayev.com.tr/primanova-paslanmaz-celik-bombe-kapakli-cop-kovasi-40-litre-inox",
     "sourceType": "Unverified Market",
     "verificationStatus": "Unverified",
     "published": true,
     "createdAt": "2026-11-15",
-    "updatedAt": "2026-11-15",
+    "updatedAt": "2026-11-17",
     "imageUrl": ""
   },
   {
@@ -1684,17 +1678,15 @@ export const cairoSalesProducts: Product[] = [
     "categoryId": "home",
     "model": "8002524058255",
     "sku": "8002524058255",
-    "description": "قائمة Cairo Sales المقدمة من المستخدم. السعر والبيانات التجارية غير متحقق منها مستقلاً؛ يلزم الرجوع إلى صفحة المنتج والمورد قبل الاعتماد.",
-    "specifications": {
-      "السعر الأصلي بالقائمة": "2,612 EGP"
-    },
+    "description": "منشر غسيل Metaltex Breva بطول تجفيف 25 متر؛ صفحة Metaltex الرسمية تطابق الباركود 8002524058255 ورقم الصنف 405825 003. المنتج هيكل معدني بطلاء Epotherm، وليس مثبتاً أنه ستانلس ستيل؛ تم تصحيح الوصف.",
+    "specifications": {"السعر الأصلي بالقائمة":"2,100 EGP","اسم المنتج":"Breva Wing Laundry Dryer","رقم الصنف":"405825 003","EAN-13":"8002524058255","طول التجفيف":"25 متر","الطلاء":"Epotherm","الأبعاد":"58 × 133 × 106 سم","الضمان المعلن من المصنع":"5 سنوات","بلد الصنع":"إيطاليا"},
     "availability": "يحتاج تأكيد التوفر لدى المورد",
-    "sourceUrl": "",
-    "sourceType": "Unverified Market",
+    "sourceUrl": "https://app.metaltex.com/INT-en/category.php?id=5725",
+    "sourceType": "Official",
     "verificationStatus": "Unverified",
     "published": true,
     "createdAt": "2026-11-15",
-    "updatedAt": "2026-11-15",
+    "updatedAt": "2026-11-17",
     "imageUrl": ""
   },
   {
@@ -1706,17 +1698,15 @@ export const cairoSalesProducts: Product[] = [
     "categoryId": "home",
     "model": "SF-6526A",
     "sku": "SF-6526A",
-    "description": "قائمة Cairo Sales المقدمة من المستخدم. السعر والبيانات التجارية غير متحقق منها مستقلاً؛ يلزم الرجوع إلى صفحة المنتج والمورد قبل الاعتماد.",
-    "specifications": {
-      "السعر الأصلي بالقائمة": "1,025 EGP"
-    },
+    "description": "جهاز Sonifer SF-6526A؛ صفحة Sonifer الرسمية تعرض عائلة SF-6526 ومواصفات موزع العطر 560 مل، وضعين ومؤقت، لكنها لا تثبت لاحقة A في رقم الموديل. يلزم تأكيد نسخة A من بطاقة الجهاز أو المورد.",
+    "specifications": {"السعر الأصلي بالقائمة":"1,199 EGP","السلسلة الرسمية الظاهرة":"SF-6526","رقم القائمة":"SF-6526A","السعة":"560 مل","الأوضاع":"وضعان","التحكم":"مؤقت","قيد المطابقة":"لاحقة A غير مثبتة في صفحة الشركة"},
     "availability": "يحتاج تأكيد التوفر لدى المورد",
-    "sourceUrl": "",
-    "sourceType": "Unverified Market",
+    "sourceUrl": "https://sonifer.com/product-tag/sf-6526/",
+    "sourceType": "Official",
     "verificationStatus": "Unverified",
     "published": true,
     "createdAt": "2026-11-15",
-    "updatedAt": "2026-11-15",
+    "updatedAt": "2026-11-17",
     "imageUrl": ""
   },
   {
@@ -1750,17 +1740,15 @@ export const cairoSalesProducts: Product[] = [
     "categoryId": "home",
     "model": "PBUM08073-EX",
     "sku": "PBUM08073-EX",
-    "description": "قائمة Cairo Sales المقدمة من المستخدم. السعر والبيانات التجارية غير متحقق منها مستقلاً؛ يلزم الرجوع إلى صفحة المنتج والمورد قبل الاعتماد.",
-    "specifications": {
-      "السعر الأصلي بالقائمة": "453 EGP"
-    },
+    "description": "لمبة Panasonic PBUM08073-EX بقدرة 7 وات وضوء دافئ؛ صفحة Sharaf DG تطابق الموديل وتعرض المواصفات الأساسية، لكنها كانت تسجل عدم التوفر عند آخر زحف قديم، لذا يلزم فحص المورد الحالي.",
+    "specifications": {"السعر الأصلي بالقائمة":"45 EGP","الموديل":"PBUM08073-EX","القدرة":"7 وات","القاعدة":"E27","لون الإضاءة":"أصفر دافئ 3000K","الفيض الضوئي":"630 لومن","العمر المعلن":"25,000 ساعة","الجهد":"220–240 فولت"},
     "availability": "يحتاج تأكيد التوفر لدى المورد",
-    "sourceUrl": "",
+    "sourceUrl": "https://egypt.sharafdg.com/product/panasonic-pbum08073-ex-warm-light-led-bulb-7w/",
     "sourceType": "Unverified Market",
     "verificationStatus": "Unverified",
     "published": true,
     "createdAt": "2026-11-15",
-    "updatedAt": "2026-11-15",
+    "updatedAt": "2026-11-17",
     "imageUrl": ""
   },
   {
@@ -1772,17 +1760,15 @@ export const cairoSalesProducts: Product[] = [
     "categoryId": "home",
     "model": "PBUM08053-EX",
     "sku": "PBUM08053-EX",
-    "description": "قائمة Cairo Sales المقدمة من المستخدم. السعر والبيانات التجارية غير متحقق منها مستقلاً؛ يلزم الرجوع إلى صفحة المنتج والمورد قبل الاعتماد.",
-    "specifications": {
-      "السعر الأصلي بالقائمة": "419 EGP"
-    },
+    "description": "لمبة Panasonic PBUM08053-EX بقدرة 5 وات وقاعدة E27 وضوء دافئ 3000K؛ صفحة Radio Talaat تطابق رقم الموديل والباركود، وتعرض عدم التوفر لدى هذا البائع وقت الفحص. لا يعني ذلك نفادها من جميع الموردين.",
+    "specifications": {"السعر الأصلي بالقائمة":"49 EGP","الموديل":"PBUM08053-EX","القدرة":"5 وات","القاعدة":"E27","لون الإضاءة":"أصفر دافئ 3000K","الفيض الضوئي":"500 لومن","العمر المعلن":"أكثر من 25,000 ساعة","الجهد":"140–275 فولت","الباركود":"8903285083893","حالة البائع":"غير متوفر لدى Radio Talaat وقت الفحص"},
     "availability": "يحتاج تأكيد التوفر لدى المورد",
-    "sourceUrl": "",
+    "sourceUrl": "https://radiotalaat.com/ar/panasonic-led-bulb-5-w-e27-warm-white-3000k-pbum08053-ex-17059.html",
     "sourceType": "Unverified Market",
     "verificationStatus": "Unverified",
     "published": true,
     "createdAt": "2026-11-15",
-    "updatedAt": "2026-11-15",
+    "updatedAt": "2026-11-17",
     "imageUrl": ""
   }
 ];
@@ -2605,18 +2591,15 @@ export const cairoSalesCookwareProducts: Product[] = [
     "categoryId": "kitchen",
     "model": "NUVIRA-6223013812406",
     "sku": "NUVIRA-6223013812406",
-    "description": "بيانات المنتج والأسعار من قائمة Cairo Sales التي قدمها المستخدم؛ لم يتم التحقق المستقل من صفحة المنتج أو التوفر أو السعر.",
-    "specifications": {
-      "السعر الأصلي بالقائمة": "1,301 EGP",
-      "نسبة الخصم بالقائمة": "12%"
-    },
+    "description": "سجل Nuvira لقدر جرانيت 20 سم؛ موقع Nuvira Egypt الرسمي يعرض فئة Nuvira Pro وقدراً جرانيت ضمن المجموعة، لكنه لا يعرض الباركود 6223013812406 أو مقاس 20 سم في صفحة المصدر، لذلك تبقى مطابقة SKU غير مكتملة.",
+    "specifications": {"السعر الأصلي بالقائمة":"999 EGP","العلامة":"Nuvira / Nuvira Pro","النوع":"قدر جرانيت","المقاس في السجل":"20 سم","الباركود في السجل":"6223013812406","قيد المطابقة":"الباركود والمقاس غير ظاهرين في المصدر الرسمي المشار إليه"},
     "availability": "يحتاج تأكيد التوفر لدى المورد",
-    "sourceUrl": "",
-    "sourceType": "Unverified Market",
+    "sourceUrl": "https://nuvira-eg.com/collections?category=9",
+    "sourceType": "Official",
     "verificationStatus": "Unverified",
     "published": true,
     "createdAt": "2026-11-15",
-    "updatedAt": "2026-11-15",
+    "updatedAt": "2026-11-17",
     "imageUrl": ""
   },
   {
