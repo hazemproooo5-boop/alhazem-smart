@@ -16,7 +16,7 @@ export const companyDirectory = [
     "id": "white-whale",
     "name": "وايت ويل",
     "kind": "مصنّع/علامة أجهزة منزلية",
-    "url": "https://whitewhale.com/ar/",
+    "url": "https://whitewhale.com/contact-us/",
     "submittedUrl": "https://whitewhaleegypt.com",
     "source": "White Whale official website — Contact Us",
     "verificationStatus": "Unverified",
@@ -137,7 +137,7 @@ export const companyDirectory = [
     "id": "raya-shop",
     "name": "راية شوب",
     "kind": "موزع تجزئة للأجهزة والإلكترونيات",
-    "url": "https://rayashop.com",
+    "url": "https://www.rayashop.com/en/about",
     "source": "RayaShop official — Who we are",
     "verificationStatus": "Unverified",
     "note": "الموقع يعرّف RayaShop كذراع تجارة إلكترونية تحت Raya Trade، موزع وتاجر تجزئة للإلكترونيات في مصر، ويذكر ضمان الوكيل للمنتجات المباعة. هذا لا يثبت وكالة كل علامة أو أن المتجر مصنع."
@@ -165,7 +165,7 @@ export const companyDirectory = [
     "id": "elwaha",
     "name": "الواحة للأجهزة المنزلية",
     "kind": "موزع أجهزة منزلية",
-    "url": "https://elwaha.com.eg/",
+    "url": "https://www.elwaha.com.eg/site/about",
     "submittedUrl": "https://elwaha.com.eg",
     "source": "WAHA Home Appliances official — About",
     "verificationStatus": "Unverified",
@@ -185,11 +185,11 @@ export const companyDirectory = [
     "id": "helal-star",
     "name": "الهلال والنجمة الذهبية",
     "kind": "مصنّع أدوات منزلية وبلاستيك",
-    "url": "https://hgsgroup.net/about-us/",
+    "url": "https://www.itda.gov.eg/CRM/869/CRA103.pdf",
     "submittedUrl": "https://elhelal-and-stargolden.com",
-    "source": "Helal & Star Golden Group official: https://hgsgroup.net/about-us/",
+    "source": "جهاز تنمية التجارة الداخلية — الجريدة الرسمية للأسماء التجارية",
     "verificationStatus": "Unverified",
-    "note": "الرابط مقدم ضمن قائمة المستخدم؛ يلزم التحقق من النطاق."
+    "note": "السجل الحكومي يذكر الهلال والنجمة الذهبية للصناعة والتجارة - مصر ونشاط إنشاء وتشغيل مصنع للمنتجات البلاستيكية والأدوات المنزلية وأدوات النظافة والعبوات. مصدر حكومي أولي للكيان والنشاط؛ لا يثبت علامة كل منتج دون مطابقة."
   },
   {
     "id": "alsharif-melamine",
@@ -205,11 +205,11 @@ export const companyDirectory = [
     "id": "midstar",
     "name": "ميد ستار",
     "kind": "أدوات منزلية ومنتجات بلاستيكية",
-    "url": "https://www.medstar-misr.com/about-us",
+    "url": "https://midstar-eg.com",
     "submittedUrl": "https://midstar-eg.com",
-    "source": "Medstar Misr official: https://www.medstar-misr.com/about-us",
+    "source": "رابط مقدم في الدليل؛ لم يُثبت تطابقه مع Medstar Misr",
     "verificationStatus": "Unverified",
-    "note": "الرابط مقدم ضمن قائمة المستخدم؛ يلزم التحقق من النطاق."
+    "note": "لم يثبت مصدر أولي أن Midstar هو Medstar Misr. توجد شركة مستقلة باسم Medstar Misr تصنع الأدوات البلاستيكية والمنزلية منذ 1976 (https://www.medstar-misr.com/about-us)؛ لا تُدمج السجلات ولا تُنقل بيانات Medstar إلى Midstar قبل مطابقة الاسم القانوني والعلامة."
   },
   {
     "id": "hinox",
@@ -234,11 +234,11 @@ export const companyDirectory = [
     "id": "trueval",
     "name": "ترو فال",
     "kind": "علامة أواني طهي تابعة لمجموعة الزنوكي",
-    "url": "https://elzenouki.com/ez-trueval/",
+    "url": "https://elzenouki.com/brands/",
     "submittedUrl": "https://elzenouki.com",
-    "source": "El Zenouki Trueval: https://elzenouki.com/ez-trueval/",
+    "source": "El Zenouki Group official — brand portfolio",
     "verificationStatus": "Unverified",
-    "note": "الموقع الرسمي لمجموعة الزنوكي يدرج Trueval ضمن خمس علامات تابعة؛ هذا سجل علامة تجارية وليس شركة مستقلة."
+    "note": "Trueval علامة أدوات طهي ضمن محفظة El Zenouki Group وليست شركة مستقلة بحسب موقع المجموعة؛ يربط السجل بالمجموعة الأم ولا تُنسب له شخصية قانونية منفصلة."
   },
   {
     "id": "elomda",
@@ -256,28 +256,28 @@ export const companyDirectory = [
     "kind": "أطقم أواني طهي",
     "url": "https://terynova.com/",
     "submittedUrl": "https://terynova.com",
-    "source": "Terynova official: https://terynova.com/ ؛ ITDA company record",
+    "source": "Terynova official storefront",
     "verificationStatus": "Unverified",
-    "note": "الرابط مقدم ضمن قائمة المستخدم؛ يلزم التحقق من النطاق."
+    "note": "الموقع يعرض أواني طهي جرانيت وتيفال ويذكر عنواناً بالمنطقة الصناعية جمصة، لكنه لا يوضح في الصفحة المفتوحة الاسم القانوني للمصنع أو مالك العلامة؛ يصنف كعلامة/متجر أدوات طهي مع بقاء هوية المصنع غير محسومة."
   },
   {
     "id": "fathy-mahmoud",
     "name": "فتحي محمود / ستار بورسلين",
     "kind": "مصنّع بورسلين وصيني",
-    "url": "https://fathymahmoud.com/about-fm/",
+    "url": "https://www.fathymahmoud.com/",
     "submittedUrl": "https://fathimahmoud.com",
-    "source": "Fathy Mahmoud official: https://fathymahmoud.com/about-fm/",
+    "source": "Fathy Mahmoud official website",
     "verificationStatus": "Unverified",
-    "note": "الرابط مقدم ضمن قائمة المستخدم؛ يلزم التحقق من النطاق."
+    "note": "مصدر الشركة الرسمي هو المرجع الأول لتحديد نشاط الشركة ومنتجات Star Porcelain؛ لا تُفترض صفة مصنع أو علامة لكل منتج قبل مطابقة صفحة المنتج وبيانات الكيان."
   },
   {
     "id": "sheeni",
     "name": "الشركة العامة للخزف والصيني (شيني)",
     "kind": "مصنّع خزف وصيني",
-    "url": "https://sheeni-egypt.com",
-    "source": "قائمة الروابط المقدمة من المستخدم",
+    "url": "https://www.itda.gov.eg/crm/866/CRA41.pdf",
+    "source": "جهاز تنمية التجارة الداخلية — تجديد الشركة العامة لمنتجات الخزف والصيني",
     "verificationStatus": "Unverified",
-    "note": "الرابط مقدم ضمن قائمة المستخدم؛ يلزم التحقق من النطاق."
+    "note": "سجل جهاز تنمية التجارة الداخلية يثبت وجود الشركة العامة لمنتجات الخزف والصيني ككيان مسجل، مع قيد وتجديد الشركة. لا يثبت السجل وحده حالة التشغيل الحالية أو كل خطوط المنتجات؛ تُراجع بيانات المنتج والمصنع."
   },
   {
     "id": "sheffield",
@@ -301,21 +301,21 @@ export const companyDirectory = [
     "id": "t-fal",
     "name": "تيفال",
     "kind": "علامة أدوات طهي",
-    "url": "https://www.tefal.com.eg/ar/",
+    "url": "https://www.groupeseb.com/en/tefal",
     "submittedUrl": "https://www.tefal.com",
-    "source": "Tefal Egypt وGroupe SEB: https://www.tefal.com.eg/ar/",
+    "source": "Groupe SEB official — Tefal brand",
     "verificationStatus": "Unverified",
-    "note": "المستخدم ذكر إدارة العلامة عبر زهران؛ يلزم التحقق من علاقة الوكالة محلياً."
+    "note": "Tefal علامة ضمن محفظة Groupe SEB؛ هذا سجل علامة/مجموعة وليس شركة مصرية مستقلة. لا تخلط T-Fal مع Tefal ككيانين قانونيين دون مستند، ولا تعتمد الضمان المحلي من الصفحة العالمية."
   },
   {
     "id": "moulinex",
     "name": "مولينكس",
     "kind": "علامة أجهزة مطبخ صغيرة",
-    "url": "https://www.moulinex.com.eg/",
+    "url": "https://www.groupeseb.com/en/moulinex",
     "submittedUrl": "https://www.moulinex.com",
-    "source": "Moulinex Egypt وGroupe SEB: https://www.moulinex.com.eg/",
+    "source": "Groupe SEB official — Moulinex brand",
     "verificationStatus": "Unverified",
-    "note": "المستخدم ذكر زهران كوكيل؛ يلزم التحقق من العلاقة المحلية."
+    "note": "Moulinex علامة ضمن محفظة Groupe SEB للأجهزة المنزلية الصغيرة وتحضير الطعام؛ يجب فصل العلامة عن الموزع/الكيان المحلي."
   },
   {
     "id": "lg-egypt",
@@ -323,9 +323,9 @@ export const companyDirectory = [
     "kind": "علامة أجهزة منزلية وإلكترونيات",
     "url": "https://www.lg.com/eg_ar/",
     "submittedUrl": "https://www.lg.com/eg_ar",
-    "source": "LG Egypt: https://www.lg.com/eg_ar/ ؛ ITDA registration",
+    "source": "LG Electronics Egypt official website",
     "verificationStatus": "Unverified",
-    "note": "الموقع الرسمي المصري مرجع المنتجات والدعم؛ سجل ITDA يذكر كياناً محلياً للتصنيع/التجميع، ولا يغطي كل فئة تلقائياً.",
+    "note": "الموقع الرسمي الإقليمي لمصر هو المرجع المحلي لصفحات الموديلات والدعم وخدمات ما بعد البيع؛ لم يتم إثبات الكيان القانوني المحلي من صفحة المنتجات وحدها.",
     "facebook": "https://facebook.com/LGEgypt"
   },
   {
@@ -334,31 +334,31 @@ export const companyDirectory = [
     "kind": "علامة أجهزة منزلية وإلكترونيات",
     "url": "https://www.samsung.com/eg/",
     "submittedUrl": "https://www.samsung.com/eg",
-    "source": "Samsung Egypt: https://www.samsung.com/eg/",
+    "source": "Samsung Egypt official website",
     "verificationStatus": "Unverified",
-    "note": "الموقع الرسمي المصري مرجع المنتجات والدعم؛ الاسم التجاري لا يغني عن التحقق من الكيان القانوني المحلي.",
+    "note": "الموقع الرسمي المصري يعرض المنتجات والدعم وخدمات العملاء؛ يلزم فصل العلامة العالمية عن الكيان القانوني المحلي وأي موزع، والتحقق من ضمان كل موديل.",
     "facebook": "ورد اسم صفحة فيسبوك فقط دون رابط صفحة محدد."
   },
   {
     "id": "fresh",
     "name": "فريش",
     "kind": "مصنّع أجهزة منزلية",
-    "url": "https://fresh.com.eg/",
+    "url": "https://fresh.com.eg/ar/about",
     "submittedUrl": "https://fresh.com.eg",
-    "source": "Fresh Egypt official: https://fresh.com.eg/",
+    "source": "Fresh Electric official — عن شركة فريش للأجهزة المنزلية",
     "verificationStatus": "Unverified",
-    "note": "مصنع/علامة مصرية؛ يجب فصل الشركة المصنعة عن متاجر التجزئة التي تبيع منتجات Fresh.",
+    "note": "الموقع الرسمي يذكر تأسيس Fresh Electric في مصر عام 1987، ومصانع في العاشر من رمضان ومدينة بدر، وأكثر من 1,000 موديل ومراكز خدمة. مصدر مباشر لهوية الشركة والتصنيع؛ تحقق من ضمان ومواصفات كل موديل منفرداً.",
     "facebook": "ورد اسم صفحة فيسبوك فقط دون رابط صفحة محدد."
   },
   {
     "id": "midea",
     "name": "ميديا",
     "kind": "علامة أجهزة منزلية",
-    "url": "https://www.midea.com/eg",
+    "url": "https://www.midea.com/global/about-midea",
     "submittedUrl": "https://www.midea.com",
-    "source": "Midea Egypt / Global: https://www.midea.com/eg",
+    "source": "Midea official — About Midea; Toshiba Lifestyle Egypt official",
     "verificationStatus": "Unverified",
-    "note": "الرابط مقدم ضمن قائمة المستخدم؛ يلزم تحديد نطاق مصر."
+    "note": "الموقع العالمي يثبت هوية مجموعة Midea ونشاطها الصناعي؛ موقع Toshiba Lifestyle Egypt الرسمي يعرض Toshiba في مصر ويذكر في أخبار 2025 مشاركة مجموعة Midea بعلامتي Toshiba وMidea. لا يثبت ذلك وحده الوكيل أو الضمان لكل موديل."
   },
   {
     "id": "kenwood",
@@ -374,60 +374,59 @@ export const companyDirectory = [
     "id": "sokany",
     "name": "سوكانى",
     "kind": "أجهزة منزلية صغيرة",
-    "url": "https://sokany-egypt.com",
-    "source": "قائمة الروابط المقدمة من المستخدم",
+    "url": "https://sokany.com/sokany-and-exclusive-egyptian-distributor-celebrate-five-years-of-strategic-partnership-and-market-growth.html",
+    "source": "SOKANY official — announcement of exclusive Egyptian distributor (22 Sep 2026)",
     "verificationStatus": "Unverified",
-    "note": "الرابط مقدم ضمن قائمة المستخدم."
+    "note": "الموقع الرسمي للعلامة يذكر أن SOKANY EG هو الموزع الرسمي/الحصري في مصر منذ 2020، ويحدد الشركة الأم Yiwu Mingge Electric Appliance Co., Ltd. موقع الوكيل المحلي يذكر مؤسسة المغربي وشبكة الضمان. يلزم ربط كل موديل بصفحة الضمان الخاصة به."
   },
   {
     "id": "toshina-araby",
     "name": "توشيبا للأجهزة المنزلية",
     "kind": "علامة أجهزة منزلية",
-    "url": "https://www.toshiba-lifestyle.com/eg/",
+    "url": "https://www.toshiba-lifestyle.com/eg",
     "submittedUrl": "https://elarabygroup.com",
-    "source": "Toshiba Lifestyle Egypt: https://www.toshiba-lifestyle.com/eg/",
+    "source": "Toshiba Lifestyle Egypt official website",
     "verificationStatus": "Unverified",
-    "note": "المستخدم ذكر إدارة منتجاتها عبر العربي؛ يلزم توثيق الصفة التجارية."
+    "note": "موقع Toshiba Lifestyle Egypt الرسمي يعرض منتجات ودعم وتجاراً معتمدين في مصر، ويذكر في خبر 31 أكتوبر 2025 أن مجموعة Midea عرضت علامتي Toshiba وMidea في مصر. لا يظهر في المصدر الرسمي الحالي ما يثبت أن العربي هو المشغل المحلي؛ لذلك لا تنسب الإدارة للعربي دون وثيقة."
   },
   {
     "id": "indesit",
     "name": "إنديست",
     "kind": "علامة أجهزة منزلية",
     "url": "https://www.arcelikglobal.com/en/brands/",
-    "submittedUrl": "",
-    "source": "Arçelik brands: https://www.arcelikglobal.com/en/brands/",
+    "source": "Arçelik Global official — brand portfolio",
     "verificationStatus": "Unverified",
-    "note": "لم يرد موقع مصري محدد؛ ذُكر البيع عبر موزعين مثل بي تك."
+    "note": "Arçelik تعرض Indesit ضمن محفظة علاماتها؛ هذه علاقة محفظة عالمية ولا تثبت موزعاً أو ضماناً مصرياً محدداً."
   },
   {
     "id": "sharp",
     "name": "شارب",
     "kind": "علامة أجهزة منزلية وإلكترونيات",
-    "url": "https://global.sharp/",
+    "url": "https://global.sharp/corporate/news/240725-a.html",
     "submittedUrl": "https://elarabygroup.com",
-    "source": "Sharp Global: https://global.sharp/",
+    "source": "Sharp Corporation official press release (25 July 2024)",
     "verificationStatus": "Unverified",
-    "note": "الرابط المقدم لمجموعة العربي؛ يلزم توثيق علاقة التوزيع."
+    "note": "Sharp أعلنت رسمياً مشروعاً مشتركاً مع العربي جروب لتصنيع الثلاجات في مصر، وذكرت شراكة قائمة منذ 2004 في التكييف والتصنيع والمبيعات. لا تعمم هذه العلاقة على كل منتجات Sharp أو على الوكالة الحصرية دون وثيقة فئة/موديل."
   },
   {
     "id": "tornado",
     "name": "تورنيدو",
     "kind": "علامة أجهزة منزلية",
-    "url": "https://www.tornadohome.com/",
+    "url": "https://www.tornadohome.com/ar",
     "submittedUrl": "https://elarabygroup.com",
-    "source": "Tornado Egypt official: https://www.tornadohome.com/",
+    "source": "Tornado Egypt official website",
     "verificationStatus": "Unverified",
-    "note": "الرابط المقدم لمجموعة العربي؛ يلزم توثيق علاقة التوزيع."
+    "note": "الموقع الرسمي يعرض Tornado كعلامة أجهزة منزلية في مصر. تقارير الدولة والمجموعة تذكر ارتباطها بالعربي؛ يجب توثيق كل فئة وموديل من صفحة المنتج والضمان المحلي."
   },
   {
     "id": "hoover",
     "name": "هوفر",
     "kind": "علامة أجهزة منزلية",
-    "url": "https://www.hoover-home.com/",
+    "url": "https://elarabygermany.com/en/about-us",
     "submittedUrl": "https://elarabygroup.com",
-    "source": "Hoover official: https://www.hoover-home.com/ ؛ Haier Europe",
+    "source": "ELARABY Group strategic partners listing",
     "verificationStatus": "Unverified",
-    "note": "الرابط المقدم لمجموعة العربي؛ يلزم توثيق علاقة التوزيع."
+    "note": "صفحة المجموعة تعرض Hoover ضمن الشركاء الاستراتيجيين، لكنها لا تفصل نطاق التصنيع أو التوزيع المحلي لكل فئة؛ لا يُفترض أن كل منتجات Hoover في كل سوق تتبع العربي."
   }
 ] as const;
 
