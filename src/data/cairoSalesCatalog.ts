@@ -2718,6 +2718,17 @@ export const cairoSalesPrices: PriceRecord[] = [
     "sourceUrl": "https://www.abdulaziz-stores.com/en/samsung-smart-4k-tv-uhd-neo-qled-55-inch-frameless-built-in-receiver-qa55qn70hauxeg",
     "priceDate": "2026-11-18",
     "verificationStatus": "Verified",
+    "createdAt": "2026-11-18T00:00:00Z"  },
+  {
+    "id": "cs-price-115",
+    "productId": "cs-034",
+    "price": 1599,
+    "currency": "EGP",
+    "priceType": "Trusted Market Price",
+    "source": "Zahran Stores — Tefal Tempo Flame Rectangular Oven Tray Set, model 220089989 and seller product code 4300001046; EGP 1,599 including VAT, page indicates in stock; checked 2026-11-18",
+    "sourceUrl": "https://zahranstores.com/ar/tefal-tempo-flame-rectangular-oven-tray-set-size-3035-220089989-1169",
+    "priceDate": "2026-11-18",
+    "verificationStatus": "Verified",
     "createdAt": "2026-11-18T00:00:00Z"
   },
 ];
