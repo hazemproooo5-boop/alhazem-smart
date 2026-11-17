@@ -629,12 +629,13 @@ function CatalogCenterPage() {
         <div className="monitoring-table-wrap">
           <table className="monitoring-table">
             <thead>
-              <tr><th>المنتج</th><th>الموديل / SKU</th><th>العلامة</th><th>حالة التحقق</th><th>المصدر</th></tr>
+              <tr><th>المنتج</th><th>الفئة</th><th>الموديل / SKU</th><th>العلامة</th><th>حالة التحقق</th><th>المصدر</th></tr>
             </thead>
             <tbody>
               {catalogMonitoringProducts.map((product) => (
                 <tr key={product.id}>
                   <td>{product.name}</td>
+                  <td>{product.categoryId}</td>
                   <td dir="ltr">{product.model || product.sku || 'غير محدد'}</td>
                   <td>{brands.find((brand) => brand.id === product.brandId)?.name || product.brandId}</td>
                   <td><span className="badge">قيد التحقق</span></td>
