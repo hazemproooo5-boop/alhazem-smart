@@ -1364,10 +1364,9 @@ export const cairoSalesProducts: Product[] = [
     "published": true,
     "createdAt": "2026-11-15",
     "updatedAt": "2026-11-17",
-    "imageCandidateUrl": "https://www.audiotrends.com.au/assets/full/HTA9000.jpeg?20240110160009",
-    "imageUrl": "",
-    "imageSourceUrl": "https://www.sony.com/electronics/support/product/ht-a9000",
-    "imageVerifiedDate": "2026-11-17"
+        "imageUrl": "https://www.audiotrends.com.au/assets/full/HTA9000.jpeg?20240110160009",
+    "imageSourceUrl": "https://www.audiotrends.com.au/products/sony-bravia-theatre-bar-9-dolby-atmos-soundbar",
+    "imageVerifiedDate": "2026-11-18"
   },
   {
     "id": "cs-043",
