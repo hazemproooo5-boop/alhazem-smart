@@ -436,29 +436,29 @@ export const wholesaleMarketDirectory = [
   {
     "id": "abu-nemres",
     "name": "سوق أبو النمرس (أبو النمرس)",
-    "description": "منطقة/شارع تجاري في أبو النمرس بمحافظة الجيزة، اشتهر تاريخياً بتجارة أدوات تجهيز المنزل وأطقم المائدة والزجاج وأدوات المطبخ وبعض الأجهزة المنزلية الصغيرة. تقرير الشروق عام 2016 وصف وجود تجارة جملة ومخزون محلي ومستورد، لكن المصدر قديم ولا يثبت الوضع الحالي أو أسعاراً أو توافر تاجر بعينه؛ يلزم اتصال/زيارة حديثة قبل الشراء.",
-    "source": "الشروق 22 يوليو 2016: https://www.shorouknews.com/news/view.aspx?cdate=22072016&id=b30cd4a9-c616-4f02-9f9e-224b4ff6483c ؛ الوطن 2018: https://www.elwatannews.com/news/details/3527996 ؛ Yellow Pages Egypt: https://www.yellowpages.com.eg/ar/category/ابو-النمرس-منتجات-ادوات-منزلية/4698",
+    "description": "سوق/شارع تجاري في أبو النمرس بمحافظة الجيزة، اشتهر تاريخياً بتجارة أدوات تجهيز المنزل وأطقم المائدة والزجاج وأدوات المطبخ وبعض الأجهزة المنزلية الصغيرة. تقارير 2016 و2018 وصفت تجارة جملة ومخزوناً محلياً ومستوردًا، لكنها لا تثبت الوضع الحالي أو الأسعار أو توافر تاجر بعينه؛ يلزم تحقق ميداني حديث.",
+    "source": "الشروق 22 يوليو 2016: https://www.shorouknews.com/news/view.aspx?cdate=22072016&id=b30cd4a9-c616-4f02-9f9e-224b4ff6483c ؛ الوطن 2018: https://www.elwatannews.com/news/details/3527996",
     "verificationStatus": "Unverified"
   },
   {
     "id": "hamam-talat",
     "name": "حمام التلات – الموسكي",
-    "description": "شارع تجاري في الموسكي يضم محلات أدوات منزلية وأواني ومستلزمات مطبخ وأطقم مائدة وصيني وميلامين. دراسة أكاديمية عن الموسكي تصنفه ضمن تجارة أدوات المنزل، بينما أدلة الأعمال تثبت عناوين محلات فقط؛ لا يثبت ذلك أن كل محل يبيع جملة أو أن مخزونه متاح. يجب سؤال كل محل عن الجملة والضمان والفاتورة.",
-    "source": "دراسة ARCHCAIRO عن منطقة الموسكي: https://comeval.scu.eg/uploads/8173/8173_2_71059_2023-05-12_08%3B26.pdf ؛ Yellow Pages Egypt: https://yellowpages.com.eg/en/category/el-mousky-housewares-products/3144 ؛ دليل Dalil140: https://dalil140.com/category/en/housewares-products/cairo/el-mousky ؛ الأخبار المسائي 2023: https://almsaey.akhbarelyom.com/news/newdetails/3369292/1",
+    "description": "شارع تجاري في الموسكي يضم محلات أدوات منزلية وأواني ومستلزمات مطبخ. دراسة أكاديمية عن الموسكي وأدلة المحلات تثبت نشاطاً تجارياً وعناوين، لكنها لا تثبت أن كل محل يبيع بالجملة أو أن مخزونه متاح حالياً؛ يجب سؤال كل محل عن الجملة والضمان والفاتورة.",
+    "source": "دراسة ARCHCAIRO: https://comeval.scu.eg/uploads/8173/8173_2_71059_2023-05-12_08%3B26.pdf ؛ Yellow Pages Egypt: https://yellowpages.com.eg/en/category/el-mousky-housewares-products/3144 ؛ Dalil140: https://dalil140.com/category/en/housewares-products/cairo/el-mousky",
     "verificationStatus": "Unverified"
   },
   {
     "id": "darb-saada",
     "name": "درب سعادة",
-    "description": "منطقة تجارية بالموسكي متخصصة في الأدوات المنزلية وتجهيزات المنازل، مع محلات لأواني الطهي وأدوات المنزل. أدلة المحلات تذكر تجار أدوات منزلية بعناوين في درب سعادة، كما تشير تغطيات الجولات إلى نشاط البيع بالجملة والتجزئة؛ لا يوجد سعر جملة موحد ولا ضمان للسوق، ويجب التحقق من كل تاجر.",
-    "source": "دليل Dalil140 لمحلات الأدوات المنزلية بالموسكي: https://dalil140.com/category/en/housewares-products/cairo/el-mousky ؛ تقرير سوق القاهرة 2024: https://www.youm7.com/story/2024/11/6/6767250 ؛ جولة تجارية 8 أكتوبر 2025: https://www.youtube.com/watch?v=neHjrTasuFo ؛ Yellow Pages Egypt: https://www.yellowpages.com.eg/ar/category/الموسكى-منتجات-ادوات-منزلية/3144",
+    "description": "منطقة تجارية بالموسكي متخصصة في الأدوات المنزلية وتجهيزات المنازل، مع محلات لأواني الطهي وأدوات المنزل. الأدلة وتقارير الجولات تذكر البيع بالجملة والتجزئة، لكن لا يوجد سعر جملة موحد أو ضمان للسوق؛ يلزم التحقق من كل تاجر والفاتورة والضمان.",
+    "source": "Dalil140: https://dalil140.com/category/en/housewares-products/cairo/el-mousky ؛ اليوم السابع 2024: https://www.youm7.com/story/2024/11/6/6767250 ؛ جولة تجارية 8 أكتوبر 2025: https://www.youtube.com/watch?v=neHjrTasuFo",
     "verificationStatus": "Unverified"
   },
   {
     "id": "hara-yahud",
     "name": "حارة اليهود",
-    "description": "منطقة تاريخية للورش والحرف والمنتجات المعدنية والزخرفية والهدايا ضمن الموسكي. لم يثبت أنها سوق جملة عام للأجهزة المنزلية أو أدوات الطهي؛ لا توصى بها لتوريد هذه الفئات دون مصدر حديث يحدد التاجر والنشاط المطلوب.",
-    "source": "Daily News Egypt 21 May 2013: https://www.dailynewsegypt.com/2013/05/21/time-has-stood-still-in-the-workshops-of-old-cairo/ ؛ UN-Habitat Greater Cairo Urban Development Strategy: https://unhabitat.org/sites/default/files/documents/2019-05/greater_cairo_urban_development_strategy.pdf ؛ Yellow Pages Egypt: https://www.yellowpages.com.eg/ar/profile/رحمة-التجارية/187334",
+    "description": "منطقة تاريخية للورش والحرف والمنتجات المعدنية والزخرفية والهدايا. لم يثبت أنها سوق جملة عام للأجهزة المنزلية أو أدوات الطهي؛ لا توصى بها لتوريد هذه الفئات دون مصدر حديث محدد.",
+    "source": "Daily News Egypt: https://www.dailynewsegypt.com/2013/05/21/time-has-stood-still-in-the-workshops-of-old-cairo/ ؛ UN-Habitat Greater Cairo Urban Development Strategy: https://unhabitat.org/sites/default/files/documents/2019-05/greater_cairo_urban_development_strategy.pdf",
     "verificationStatus": "Unverified"
   }
 ] as const;
