@@ -603,17 +603,15 @@ export const cairoSalesProducts: Product[] = [
     "categoryId": "tv",
     "model": "83S90H",
     "sku": "83S90H",
-    "description": "قائمة Cairo Sales المقدمة من المستخدم. السعر والبيانات التجارية غير متحقق منها مستقلاً؛ يلزم الرجوع إلى صفحة المنتج والمورد قبل الاعتماد.",
-    "specifications": {
-      "السعر الأصلي بالقائمة": "248,852 EGP"
-    },
+    "description": "Samsung OLED S90H مقاس 83 بوصة؛ تمت مطابقة الموديل والمقاس والمواصفات الأساسية مع صفحة Samsung Egypt الرسمية. الصفحة تشير إلى أن المنتج غير مخصص للبيع حالياً؛ لا يوجد اعتماد لسعر أو توفر محلي.",
+    "specifications": {"السعر الأصلي بالقائمة":"248,852 EGP — غير معتمد","نوع الشاشة":"OLED","المقاس":"83 بوصة","الدقة":"3840 × 2160 (4K)","معدل التحديث":"165Hz مع VRR","المعالج":"NQ4 AI Gen3","رقم الطراز الإقليمي":"QA83S90HAEXEG"},
     "availability": "يحتاج تأكيد التوفر لدى المورد",
-    "sourceUrl": "",
-    "sourceType": "Unverified Market",
+    "sourceUrl": "https://www.samsung.com/eg/tvs/oled-tv/s90h-83-inch-4k-smart-tv-qa83s90haexeg/",
+    "sourceType": "Official",
     "verificationStatus": "Unverified",
     "published": true,
     "createdAt": "2026-11-15",
-    "updatedAt": "2026-11-15",
+    "updatedAt": "2026-11-17",
     "imageUrl": ""
   },
   {
@@ -625,17 +623,15 @@ export const cairoSalesProducts: Product[] = [
     "categoryId": "tv",
     "model": "77S95H",
     "sku": "77S95H",
-    "description": "قائمة Cairo Sales المقدمة من المستخدم. السعر والبيانات التجارية غير متحقق منها مستقلاً؛ يلزم الرجوع إلى صفحة المنتج والمورد قبل الاعتماد.",
-    "specifications": {
-      "السعر الأصلي بالقائمة": "243,181 EGP"
-    },
+    "description": "Samsung OLED S95H مقاس 77 بوصة؛ تمت مطابقة الموديل والمقاس والمواصفات الأساسية مع صفحة Samsung Egypt الرسمية. الصفحة تشير إلى أن المنتج غير مخصص للبيع حالياً؛ لا يوجد اعتماد لسعر أو توفر محلي.",
+    "specifications": {"السعر الأصلي بالقائمة":"243,181 EGP — غير معتمد","نوع الشاشة":"OLED","المقاس":"77 بوصة","الدقة":"3840 × 2160 (4K)","معدل التحديث":"165Hz مع VRR","المعالج":"NQ4 AI Gen3","رقم الطراز الإقليمي":"QA77S95HAEXEG"},
     "availability": "يحتاج تأكيد التوفر لدى المورد",
-    "sourceUrl": "",
-    "sourceType": "Unverified Market",
+    "sourceUrl": "https://www.samsung.com/eg/tvs/oled-tv/s95h-77-inch-4k-smart-tv-qa77s95haexeg/",
+    "sourceType": "Official",
     "verificationStatus": "Unverified",
     "published": true,
     "createdAt": "2026-11-15",
-    "updatedAt": "2026-11-15",
+    "updatedAt": "2026-11-17",
     "imageUrl": ""
   },
   {
@@ -647,17 +643,15 @@ export const cairoSalesProducts: Product[] = [
     "categoryId": "tv",
     "model": "83S85H",
     "sku": "83S85H",
-    "description": "قائمة Cairo Sales المقدمة من المستخدم. السعر والبيانات التجارية غير متحقق منها مستقلاً؛ يلزم الرجوع إلى صفحة المنتج والمورد قبل الاعتماد.",
-    "specifications": {
-      "السعر الأصلي بالقائمة": "215,898 EGP"
-    },
+    "description": "سجل Cairo Sales يذكر Samsung S85H OLED مقاس 83 بوصة. مصدر Samsung Egypt الرسمي يؤكد أن سلسلة S85H لعام 2026 تشمل مقاس 83 بوصة وOLED 4K، لكنه ليس صفحة SKU مصرية مستقلة لهذا المقاس؛ تبقى مطابقة رقم الطراز الإقليمي مطلوبة.",
+    "specifications": {"السعر الأصلي بالقائمة":"215,898 EGP — غير معتمد","نوع الشاشة":"OLED","المقاس":"83 بوصة ضمن مقاسات سلسلة S85H 2026 الرسمية","الدقة":"4K","المعالج":"NQ4 AI Gen2","المصدر":"صفحة مجموعة OLED الرسمية من Samsung Egypt"},
     "availability": "يحتاج تأكيد التوفر لدى المورد",
-    "sourceUrl": "",
-    "sourceType": "Unverified Market",
+    "sourceUrl": "https://www.samsung.com/eg/tvs/oled-tv/highlights/",
+    "sourceType": "Official",
     "verificationStatus": "Unverified",
     "published": true,
     "createdAt": "2026-11-15",
-    "updatedAt": "2026-11-15",
+    "updatedAt": "2026-11-17",
     "imageUrl": ""
   },
   {
@@ -669,17 +663,15 @@ export const cairoSalesProducts: Product[] = [
     "categoryId": "tv",
     "model": "100M90H",
     "sku": "100M90H",
-    "description": "قائمة Cairo Sales المقدمة من المستخدم. السعر والبيانات التجارية غير متحقق منها مستقلاً؛ يلزم الرجوع إلى صفحة المنتج والمورد قبل الاعتماد.",
-    "specifications": {
-      "السعر الأصلي بالقائمة": "213,625 EGP"
-    },
+    "description": "سجل Cairo Sales يذكر Samsung M90H Mini LED مقاس 100 بوصة. دليل Samsung Egypt الرسمي يؤكد سلسلة M90H ضمن Mini LED 2026، بينما دليل الفئات يؤكد وجود مقاس 100 بوصة ضمن Mini LED؛ لم تُثبت صفحة SKU إقليمية تجمع المواصفتين لهذا السجل، لذلك يبقى التحقق من النسخة مطلوباً.",
+    "specifications": {"السعر الأصلي بالقائمة":"213,625 EGP — غير معتمد","نوع الشاشة":"Mini LED بحسب اسم السلسلة في قائمة الإدراج","المقاس":"100 بوصة بحسب قائمة الإدراج؛ يلزم تأكيد SKU","السلسلة":"M90H ضمن Mini LED 2026 بحسب دليل Samsung Egypt","المصدر":"دليل مجموعة أجهزة Samsung TV 2026"},
     "availability": "يحتاج تأكيد التوفر لدى المورد",
-    "sourceUrl": "",
-    "sourceType": "Unverified Market",
+    "sourceUrl": "https://www.samsung.com/eg/tvs/tv-buying-guide/the-complete-2026-samsung-tv-lineup-guide/",
+    "sourceType": "Official",
     "verificationStatus": "Unverified",
     "published": true,
     "createdAt": "2026-11-15",
-    "updatedAt": "2026-11-15",
+    "updatedAt": "2026-11-17",
     "imageUrl": ""
   },
   {
@@ -691,17 +683,15 @@ export const cairoSalesProducts: Product[] = [
     "categoryId": "tv",
     "model": "65S95H",
     "sku": "65S95H",
-    "description": "قائمة Cairo Sales المقدمة من المستخدم. السعر والبيانات التجارية غير متحقق منها مستقلاً؛ يلزم الرجوع إلى صفحة المنتج والمورد قبل الاعتماد.",
-    "specifications": {
-      "السعر الأصلي بالقائمة": "187,489 EGP"
-    },
+    "description": "Samsung OLED S95H مقاس 65 بوصة؛ تمت مطابقة الموديل والمقاس والمواصفات الأساسية مع صفحة Samsung Egypt الرسمية. الصفحة تشير إلى أن المنتج غير مخصص للبيع حالياً؛ لا يوجد اعتماد لسعر أو توفر محلي.",
+    "specifications": {"السعر الأصلي بالقائمة":"187,489 EGP — غير معتمد","نوع الشاشة":"OLED","المقاس":"65 بوصة","الدقة":"3840 × 2160 (4K)","معدل التحديث":"165Hz مع VRR","المعالج":"NQ4 AI Gen3","رقم الطراز الإقليمي":"QA65S95HAUXEG"},
     "availability": "يحتاج تأكيد التوفر لدى المورد",
-    "sourceUrl": "",
-    "sourceType": "Unverified Market",
+    "sourceUrl": "https://www.samsung.com/eg/tvs/oled-tv/s95h-65-inch-4k-smart-tv-qa65s95hauxeg/",
+    "sourceType": "Official",
     "verificationStatus": "Unverified",
     "published": true,
     "createdAt": "2026-11-15",
-    "updatedAt": "2026-11-15",
+    "updatedAt": "2026-11-17",
     "imageUrl": ""
   },
   {
@@ -734,17 +724,15 @@ export const cairoSalesProducts: Product[] = [
     "categoryId": "tv",
     "model": "75LS03H",
     "sku": "75LS03H",
-    "description": "قائمة Cairo Sales المقدمة من المستخدم. السعر والبيانات التجارية غير متحقق منها مستقلاً؛ يلزم الرجوع إلى صفحة المنتج والمورد قبل الاعتماد.",
-    "specifications": {
-      "السعر الأصلي بالقائمة": "90,340 EGP"
-    },
+    "description": "Samsung The Frame LS03H مقاس 75 بوصة. صفحة دعم Samsung الرسمية للطراز QN75LS03HEKXZL تؤكد اسم السلسلة والمقاس، لكنها صفحة دعم لسوق كولومبيا وليست إثباتاً لرقم SKU المصري أو التوفر المحلي؛ يلزم تأكيد النسخة الإقليمية.",
+    "specifications": {"السعر الأصلي بالقائمة":"90,340 EGP — غير معتمد","الفئة":"The Frame","المقاس":"75 بوصة","الدقة":"4K","السلسلة":"LS03H 2026","رقم الطراز المرجعي":"QN75LS03HEKXZL (سوق كولومبيا؛ لا يثبت SKU مصر)"},
     "availability": "يحتاج تأكيد التوفر لدى المورد",
-    "sourceUrl": "",
-    "sourceType": "Unverified Market",
+    "sourceUrl": "https://www.samsung.com/co/support/model/QN75LS03HEKXZL/",
+    "sourceType": "Official",
     "verificationStatus": "Unverified",
     "published": true,
     "createdAt": "2026-11-15",
-    "updatedAt": "2026-11-15",
+    "updatedAt": "2026-11-17",
     "imageUrl": ""
   },
   {
@@ -1134,17 +1122,15 @@ export const cairoSalesProducts: Product[] = [
     "categoryId": "cookware",
     "model": "T-220089989",
     "sku": "T-220089989",
-    "description": "قائمة Cairo Sales المقدمة من المستخدم. السعر والبيانات التجارية غير متحقق منها مستقلاً؛ يلزم الرجوع إلى صفحة المنتج والمورد قبل الاعتماد.",
-    "specifications": {
-      "السعر الأصلي بالقائمة": "1,625 EGP"
-    },
+    "description": "طقم Tefal Tempo Flame مستطيل قطعتين بمقاسي 30 و35 سم؛ صفحة بائع مصري تعرض رقم الموديل 220089989. يلزم مطابقة رمز الشركة الداخلي مع السجل cs-035 لاحتمال وجود سجل مكرر بالرمز التجاري 4300001046؛ السعر والتوفر غير معتمدين.",
+    "specifications": {"السعر الأصلي بالقائمة":"1,625 EGP","الصنف":"طقم صواني فرن مستطيلة","القطع":"2","المقاسات":"30 و35 سم","الخامة/الطلاء":"Titanium Non-Stick","رقم الموديل لدى البائع":"220089989"},
     "availability": "يحتاج تأكيد التوفر لدى المورد",
-    "sourceUrl": "",
+    "sourceUrl": "https://ayatie.com/product/tefal-tempo-flame-rectangular-oven-tray-set-30-35-220089989/",
     "sourceType": "Unverified Market",
     "verificationStatus": "Unverified",
     "published": true,
     "createdAt": "2026-11-15",
-    "updatedAt": "2026-11-15",
+    "updatedAt": "2026-11-17",
     "imageUrl": ""
   },
   {
@@ -1156,17 +1142,15 @@ export const cairoSalesProducts: Product[] = [
     "categoryId": "cookware",
     "model": "T-4300001046",
     "sku": "T-4300001046",
-    "description": "قائمة Cairo Sales المقدمة من المستخدم. السعر والبيانات التجارية غير متحقق منها مستقلاً؛ يلزم الرجوع إلى صفحة المنتج والمورد قبل الاعتماد.",
-    "specifications": {
-      "السعر الأصلي بالقائمة": "1,625 EGP"
-    },
+    "description": "طقم Tefal Tempo Flame مستطيل قطعتين بمقاسي 30 و35 سم؛ صفحة بائع مصري تعرض رقم 4300001046 وتطابق المنتج مع سجل cs-034 ذي رقم 220089989، لذلك يلزم حسم الازدواجية قبل نشر سجلين منفصلين. السعر والتوفر غير معتمدين.",
+    "specifications": {"السعر الأصلي بالقائمة":"1,625 EGP","الصنف":"طقم صواني فرن مستطيلة","القطع":"2","المقاسات":"30 و35 سم","الخامة/الطلاء":"Titanium Non-Stick","رقم الموديل لدى البائع":"4300001046"},
     "availability": "يحتاج تأكيد التوفر لدى المورد",
-    "sourceUrl": "",
+    "sourceUrl": "https://ehabcenter.com/product/tefal-tempo-flame-rectangular-oven-tray-set-size-3035-red-4300001046/",
     "sourceType": "Unverified Market",
     "verificationStatus": "Unverified",
     "published": true,
     "createdAt": "2026-11-15",
-    "updatedAt": "2026-11-15",
+    "updatedAt": "2026-11-17",
     "imageUrl": ""
   },
   {
@@ -1178,17 +1162,15 @@ export const cairoSalesProducts: Product[] = [
     "categoryId": "cookware",
     "model": "T-4300001043",
     "sku": "T-4300001043",
-    "description": "قائمة Cairo Sales المقدمة من المستخدم. السعر والبيانات التجارية غير متحقق منها مستقلاً؛ يلزم الرجوع إلى صفحة المنتج والمورد قبل الاعتماد.",
-    "specifications": {
-      "السعر الأصلي بالقائمة": "1,590 EGP"
-    },
+    "description": "طقم Tefal Tempo Flame دائري قطعتين بمقاسي 26 و30 سم؛ صفحة بائع مصري تعرض رقم الموديل 4300001043. السعر والتوفر الحاليان يحتاجان إعادة تحقق مباشرة قبل الاعتماد.",
+    "specifications": {"السعر الأصلي بالقائمة":"1,590 EGP","الصنف":"طقم صواني فرن دائرية","القطع":"2","المقاسات":"26 و30 سم","الخامة/الطلاء":"Titanium Non-Stick","رقم الموديل لدى البائع":"4300001043"},
     "availability": "يحتاج تأكيد التوفر لدى المورد",
-    "sourceUrl": "",
+    "sourceUrl": "https://ehabcenter.com/product/tefal-tempo-flame-round-oven-tray-set-size-2630-red-4300001043/",
     "sourceType": "Unverified Market",
     "verificationStatus": "Unverified",
     "published": true,
     "createdAt": "2026-11-15",
-    "updatedAt": "2026-11-15",
+    "updatedAt": "2026-11-17",
     "imageUrl": ""
   },
   {
