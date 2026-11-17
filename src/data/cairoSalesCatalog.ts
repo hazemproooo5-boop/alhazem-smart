@@ -1381,7 +1381,7 @@ export const cairoSalesProducts: Product[] = [
     "updatedAt": "2026-11-17",
         "imageUrl": "https://www.mironet.de/Foto/s4/50005383.webp",
     "imageSourceUrl": "https://www.mironet.de/sony-hta9000-soundbar-dolby-atmos-bravia-theater-bar-9%2Bdp859519/",
-    "imageVerifiedDate": "2026-11-18"
+    "imageVerifiedDate": "2026-11-18",
     "imageCandidateUrl": "https://www.audiotrends.com.au/assets/full/HTA9000.jpeg?20240110160009"
   },
   {
