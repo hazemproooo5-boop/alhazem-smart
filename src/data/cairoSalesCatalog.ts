@@ -2768,6 +2768,20 @@ export const cairoSalesPrices: PriceRecord[] = [
     "verificationStatus": "Unverified",
     "createdAt": "2026-11-18T01:08:00+02:00"
   }
+  {
+    "id": "cs-price-129",
+    "productId": "cs-017",
+    "price": 104666,
+    "currency": "EGP",
+    "priceType": "Trusted Market Price",
+    "source": "Carrefour Egypt — Samsung 98U9000H، السعر 104,666 جنيه شامل VAT، وصفحة المنتج تعرض وحدتين متبقيتين وقت التحقق 18 نوفمبر 2026.",
+    "sourceUrl": "https://www.carrefouregypt.com/mafegy/en/lifestyle-tv/samsung-led-tv98-98u9000h-sm-uhd-rc/p/687963",
+    "priceDate": "2026-11-18",
+    "verificationStatus": "Verified",
+    "isHistorical": false,
+    "createdAt": "2026-11-18T01:08:00+02:00"
+  },
+
 ];
 
 
