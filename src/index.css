@@ -469,3 +469,19 @@ img {
   text-decoration: underline;
   font-weight: 700;
 }
+
+.monitoring-product-cell { min-width: 360px; }
+.monitoring-product { display: flex; align-items: flex-start; gap: 12px; min-width: 340px; }
+.monitoring-product-image { width: 92px; height: 82px; flex: 0 0 92px; object-fit: contain; border-radius: 10px; background: #f7f6f2; border: 1px solid var(--border); }
+.monitoring-product-info { min-width: 0; }
+.monitoring-product-info > strong { display: block; color: var(--navy); line-height: 1.55; }
+.monitoring-details { margin-top: 7px; font-size: .88rem; line-height: 1.65; }
+.monitoring-details summary { cursor: pointer; color: #8a641b; font-weight: 700; }
+.monitoring-details p { margin: 8px 0; color: var(--muted); white-space: normal; }
+.monitoring-specs { display: grid; gap: 6px; margin: 8px 0; }
+.monitoring-specs > div { display: grid; grid-template-columns: minmax(92px, 125px) minmax(0, 1fr); gap: 8px; }
+.monitoring-specs dt { font-weight: 700; color: var(--navy); }
+.monitoring-specs dd { margin: 0; overflow-wrap: anywhere; }
+.monitoring-status-note { display: block; margin-top: 5px; color: var(--muted); max-width: 150px; }
+.monitoring-source-links { display: flex; flex-direction: column; gap: 7px; min-width: 140px; }
+.monitoring-source-links span { color: var(--muted); font-size: .85rem; }
