@@ -3100,7 +3100,9 @@ export const cairoSalesSmallApplianceProducts: Product[] = [
     "published": true,
     "createdAt": "2026-11-15",
     "updatedAt": "2026-11-15",
-    "imageUrl": ""
+    "imageUrl": "https://www.electronichouseegypt.com/cdn/shop/files/51LpKVfGMCL._AC_SL1024.jpg?v=1768397461",
+    "imageSourceUrl": "https://www.electronichouseegypt.com/products/mienta-blender-700-watt-with-free-gift-bl1291g",
+    "imageVerifiedDate": "2026-11-18"
   },
   {
     "id": "cs-079",
@@ -3149,7 +3151,9 @@ export const cairoSalesSmallApplianceProducts: Product[] = [
     "published": true,
     "createdAt": "2026-11-15",
     "updatedAt": "2026-11-15",
-    "imageUrl": ""
+    "imageUrl": "https://elghazawy.b-cdn.net/247137/mdrb-byd-myanta-500-oat-5-sraaat-asod-HM13729A--1.webp",
+    "imageSourceUrl": "https://elghazawy.com/en/product/38074270292994/page/about-us",
+    "imageVerifiedDate": "2026-11-18"
   },
   {
     "id": "cs-081",
@@ -3223,7 +3227,9 @@ export const cairoSalesSmallApplianceProducts: Product[] = [
     "published": true,
     "createdAt": "2026-11-15",
     "updatedAt": "2026-11-15",
-    "imageUrl": ""
+    "imageUrl": "https://cdn.mafrservices.com/pim-content/EGY/media/product/668969/1766582689/668969_main.jpg",
+    "imageSourceUrl": "https://www.carrefouregypt.com/mafegy/en/air-fryer/fresh-a-f-faf-d1500b-5l-digital/p/668969",
+    "imageVerifiedDate": "2026-11-18"
   },
   {
     "id": "cs-084",
@@ -3303,7 +3309,9 @@ export const cairoSalesSmallApplianceProducts: Product[] = [
     "published": true,
     "createdAt": "2026-11-15",
     "updatedAt": "2026-11-15",
-    "imageUrl": ""
+    "imageUrl": "https://casselesprix.com/cdn/shop/files/U498_3.jpg?v=1757044534&width=600",
+    "imageSourceUrl": "https://casselesprix.com/products/u498",
+    "imageVerifiedDate": "2026-11-18"
   },
   {
     "id": "cs-088",
