@@ -3353,7 +3353,9 @@ export const cairoSalesSmallApplianceProducts: Product[] = [
     "published": true,
     "createdAt": "2026-11-15",
     "updatedAt": "2026-11-17",
-    "imageUrl": ""
+    "imageUrl": "https://cdn.sharafdg.com/cdn-cgi/image/width%3D600%2Cheight%3D600%2Cfit%3Dpad%2Cformat%3Dwebp%2Cquality%3D70/assets/9/6/8/4/9684382e7d67d8acc3e4f82bf785294a0fd82571_KOR1903_Z_1.jpg?g=0",
+    "imageSourceUrl": "https://bahrain.sharafdg.com/product/korkmaz-casserole-astra-6-3l/",
+    "imageVerifiedDate": "2026-11-18"
   },
   {
     "id": "cs-085",
