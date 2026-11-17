@@ -436,22 +436,22 @@ export const wholesaleMarketDirectory = [
   {
     "id": "abu-nemres",
     "name": "سوق أبو النمرس (أبو النمرس)",
-    "description": "منطقة أبو النمرس معروفة بتجارة أواني الطهي والجرانيت والتيفال والألومنيوم وأطقم المائدة والمفروشات والبلاستيك وبعض الأجهزة المنزلية. توجد تقارير صحفية عن تجارة الجملة ومخازن التجار، لكنها قديمة نسبياً ولا تثبت مخزون أو أسعار أو هوية مورد بعينه. يلزم تحقق ميداني حديث من كل تاجر.",
-    "source": "Veto Gate 2018: https://www.vetogate.com/3039350 ؛ Al Shorouk 2016: https://www.shorouknews.com/news/view.aspx?cdate=22072016&id=b30cd4a9-c616-4f02-9f9e-224b4ff6483c",
+    "description": "سوق/شارع تجاري في أبو النمرس بمحافظة الجيزة، وتوجد به محلات أدوات منزلية وتجار على امتداد شوارع مثل أحمد بدوي. الأدلة التجارية تثبت وجود متاجر وعناوين، بينما التقارير الصحفية الأقدم تشير إلى تجارة الجملة؛ لا تثبت المصادر الحالية أسعاراً أو مخزوناً أو ضماناً موحداً. يلزم الاتصال بكل متجر قبل الزيارة.",
+    "source": "Yellow Pages Egypt: https://yellowpages.com.eg/ar/category/ابو-النمرس-منتجات-ادوات-منزلية/4698 ؛ Dalil140: https://dalil140.com/company/ar/213555-abou-samra-housewares ؛ Cybo: https://yellowpages-ar.cybo.com/EG-biz/برايدز-هاوس-التجارية-للاستيراد-وتجاره",
     "verificationStatus": "Unverified"
   },
   {
     "id": "hamam-talat",
     "name": "حمام التلات – الموسكي",
-    "description": "شارع حمام التلات بالموسكي يضم محلات أدوات منزلية وأطقم صيني وميلامين وأوانٍ وأدوات تقديم، مع أدلة محلات متعددة. لا يُفترض أن كل محل يبيع جملة أو أن جميع الأصناف متاحة حالياً.",
-    "source": "الأخبار المسائي 2023: https://almsaey.akhbarelyom.com/news/newdetails/3369292/1 ؛ Yellow Pages: https://yellowpages.com.eg/ar/category/الموسكى-منتجات-ادوات-منزلية/3144",
+    "description": "شارع تجاري في الموسكي يضم محلات أدوات منزلية وأطقم مائدة وصيني وميلامين وأواني وأدوات تقديم. تقرير صحفي يصفه كسوق معروف لتجهيزات المنزل، كما تسجل أدلة الأعمال محلات في الشارع؛ لا يعني ذلك أن كل محل يبيع جملة أو أن كل الأصناف متاحة حالياً.",
+    "source": "الأخبار المسائي 2023: https://almsaey.akhbarelyom.com/news/newdetails/3369292/1 ؛ Yellow Pages Egypt: https://yellowpages.com.eg/ar/category/الموسكى-منتجات-ادوات-منزلية/3144 ؛ Shewaya directory: https://eg.shewaya.com/listing/الاخوة-لتجارة-الادوات-المنزلية",
     "verificationStatus": "Unverified"
   },
   {
     "id": "darb-saada",
     "name": "درب سعادة",
-    "description": "درب سعادة سوق معروف للأدوات المنزلية وأطقم جهاز العروس، ويضم تجارة أواني الطهي والتيفال والجرانيت والألومنيوم والستانلس والصيني والميلامين والزجاج والكريستال. نوع البيع وسعر الجملة والتوفر يتغير حسب المحل والتاجر.",
-    "source": "اليوم السابع 2024: https://www.youm7.com/story/2024/11/6/6767250 ؛ Projects Egy: https://projectsegy.com/housewares-companies/",
+    "description": "منطقة تجارية في الموسكي بها محلات أدوات منزلية وتجهيزات منازل، مع أدلة تسجل متاجر في شوارع درب سعادة. قد توجد معاملات جملة وتجزئة بحسب المتجر؛ لا يوجد سعر جملة موحد ولا ضمان للسوق، ويجب التحقق من كل تاجر والفاتورة.",
+    "source": "Projects Egy: https://projectsegy.com/housewares-companies/ ؛ Yellow Pages Egypt: https://yellowpages.com.eg/ar/category/الموسكى-منتجات-ادوات-منزلية/3144 ؛ Dalil140: https://dalil140.com/category/en/housewares-products/cairo/el-mousky",
     "verificationStatus": "Unverified"
   },
   {
