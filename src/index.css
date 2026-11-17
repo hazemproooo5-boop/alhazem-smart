@@ -435,3 +435,37 @@ img {
 .price-estimate { display: grid; gap: .45rem; line-height: 1.7; }
 .price-estimate small { display: block; color: #58657d; font-size: .82rem; }
 .price-estimate a, .meta-row a { color: #8a641b; text-decoration: underline; }
+
+
+.monitoring-notice {
+  border-right: 4px solid var(--gold);
+  margin-bottom: 18px;
+}
+.monitoring-table-wrap {
+  overflow-x: auto;
+  background: #fff;
+  border: 1px solid var(--border);
+  border-radius: 16px;
+}
+.monitoring-table {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 760px;
+}
+.monitoring-table th,
+.monitoring-table td {
+  padding: 12px 14px;
+  border-bottom: 1px solid var(--border);
+  text-align: right;
+  vertical-align: top;
+}
+.monitoring-table th {
+  background: #f3f1eb;
+  color: var(--navy);
+  white-space: nowrap;
+}
+.monitoring-table td a {
+  color: var(--navy);
+  text-decoration: underline;
+  font-weight: 700;
+}
