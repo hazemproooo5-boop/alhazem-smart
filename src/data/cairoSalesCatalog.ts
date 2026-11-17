@@ -3399,7 +3399,9 @@ export const cairoSalesSmallApplianceProducts: Product[] = [
     "published": true,
     "createdAt": "2026-11-15",
     "updatedAt": "2026-11-17",
-    "imageUrl": ""
+    "imageUrl": "https://vlv.am/public/uploads/images/16-01-2026/696a4b0d15072.webp",
+    "imageSourceUrl": "https://vlv.am/en/Product/42636",
+    "imageVerifiedDate": "2026-11-18"
   },
   {
     "id": "cs-087",
@@ -3462,7 +3464,9 @@ export const cairoSalesSmallApplianceProducts: Product[] = [
     "published": true,
     "createdAt": "2026-11-15",
     "updatedAt": "2026-11-17",
-    "imageUrl": ""
+    "imageUrl": "https://briva-haus.de/wp-content/uploads/2024/06/mixer-1.png",
+    "imageSourceUrl": "https://briva-haus.de/en/product/briva-blender-pro-2000/",
+    "imageVerifiedDate": "2026-11-18"
   }
   ,
   {
