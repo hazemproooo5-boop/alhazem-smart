@@ -11,6 +11,6 @@
 | السجل | الموديل | مصدر الصورة المطابق |
 |---|---|---|
 | cs-066 | Home JR2201 rice cooker | https://www.noon.com/egypt-ar/home-egypt-rice-cooker-500-watt-1-5-liter-jr2201/Z336DA9BF3BD268F4107EZ/p/ |
-| cs-085 | Zahran YN5240 hot plate | https://www.noon.com/egypt-en/home-egypt-electric-hot-plate-500-watt-yn5240/Z6A292B9FF191EF3E7162Z/p/ |
+| cs-085 | Home Egypt YN5240 electric hot plate | https://www.noon.com/egypt-en/home-egypt-electric-hot-plate-500-watt-yn5240/Z6A292B9FF191EF3E7162Z/p/ |
 
 تم إضافة imageSourceUrl وimageVerifiedDate دون تغيير الصورة أو المواصفات أو الأسعار.
