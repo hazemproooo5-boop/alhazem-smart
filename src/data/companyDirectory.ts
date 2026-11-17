@@ -215,11 +215,11 @@ export const companyDirectory = [
     "id": "hinox",
     "name": "هاي نوكس",
     "kind": "أواني طهي استانلس ستيل",
-    "url": "https://www.hinox555.com/en/home_en/about",
+    "url": "https://www.hinox555.com/ar/home_ar/about",
     "submittedUrl": "",
-    "source": "Hynox International Company 555: https://www.hinox555.com/en/home_en/about",
+    "source": "Hynox International Company 555 — الموقع الرسمي العربي",
     "verificationStatus": "Unverified",
-    "note": "لم يرد رابط موقع محدد في القائمة."
+    "note": "الموقع الرسمي يذكر تأسيس المصنع عام 1995 في مدينة عدرا الصناعية بريف دمشق، وتصنيع أدوات منزلية ومطبخ من الستانلس 304 و430. الاسم الظاهر في الموقع Hynox/Hinox؛ بلد المنشأ سوريا، ولا يوجد دليل على مصنع مصري أو وكيل مصر."
   },
   {
     "id": "savlon-egypt",
@@ -274,19 +274,19 @@ export const companyDirectory = [
     "id": "sheeni",
     "name": "الشركة العامة للخزف والصيني (شيني)",
     "kind": "مصنّع خزف وصيني",
-    "url": "https://sheeni-egypt.com",
-    "source": "قائمة الروابط المقدمة من المستخدم",
+    "url": "https://sheeni-egypt.com/aboutus.html",
+    "source": "SHEENI Egypt official — عن الشركة",
     "verificationStatus": "Unverified",
-    "note": "الرابط مقدم ضمن قائمة المستخدم؛ يلزم التحقق من النطاق."
+    "note": "الموقع الرسمي يذكر الشركة العامة لمنتجات الخزف والصيني، تأسيس 1955، مصانع في الخصوص بالقليوبية، ونشاط أدوات مائدة بورسلين وأدوات صحية وسيراميك. يتطابق مع سجل الشركة الرسمي؛ يجب فصل شيني عن اسم المنتج التجاري إذا اختلف."
   },
   {
     "id": "sheffield",
     "name": "شيفلد",
     "kind": "علامة أطقم صيني ومائدة",
-    "url": "https://sheffieldeg.com",
-    "source": "قائمة الروابط المقدمة من المستخدم",
+    "url": "https://www.sheffieldeg.com/pages/about-us",
+    "source": "Sheffield Egypt official — About us",
     "verificationStatus": "Unverified",
-    "note": "الرابط مقدم ضمن قائمة المستخدم؛ يلزم التحقق من النطاق."
+    "note": "الموقع يذكر تأسيس Sheffield Egypt عام 1987 ونشاط التجزئة المتخصص في أدوات المائدة والمنتجات المنزلية والديكور. يوضح صراحة أن ليس كل منتج معروض مصنوعاً في Sheffield, England؛ لذلك تصنف كتاجر/علامة تجارية منزلية ولا ينسب منشأ إنجليزي لكل المنتجات."
   },
   {
     "id": "alsherif-melamine",
@@ -374,10 +374,10 @@ export const companyDirectory = [
     "id": "sokany",
     "name": "سوكانى",
     "kind": "أجهزة منزلية صغيرة",
-    "url": "https://sokany-egypt.com",
-    "source": "قائمة الروابط المقدمة من المستخدم",
+    "url": "https://sokany-eg.com/about-us/",
+    "source": "SOKANY official global announcement; SOKANY-EG distributor website",
     "verificationStatus": "Unverified",
-    "note": "الرابط مقدم ضمن قائمة المستخدم."
+    "note": "الموقع الرسمي العالمي يحدد Yiwu Mingge Electric Appliance Co., Ltd. كالشركة وراء العلامة ويعلن اتفاق التوزيع الحصري مع SOKANY EG في مصر منذ 2020. موقع الوكيل المحلي يذكر مؤسسة المغربي والضمان والصيانة؛ يجب التحقق من شروط كل موديل."
   },
   {
     "id": "toshina-araby",
