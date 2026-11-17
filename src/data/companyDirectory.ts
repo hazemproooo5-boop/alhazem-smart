@@ -18,9 +18,9 @@ export const companyDirectory = [
     "kind": "مصنّع/علامة أجهزة منزلية",
     "url": "https://whitewhale.com/ar/",
     "submittedUrl": "https://whitewhaleegypt.com",
-    "source": "الموقع الرسمي لوايت ويل: https://whitewhale.com/ar/",
+    "source": "White Whale official website — Contact Us",
     "verificationStatus": "Unverified",
-    "note": "الموقع الرسمي يعرض الأجهزة المنزلية ويذكر منشآت إنتاج بالعاشر من رمضان. الاسم القانوني الكامل وصفة الوكالة تحتاجان مستنداً منفصلاً.",
+    "note": "الموقع الرسمي يعرض فئات الأجهزة المنزلية وعنوان المنطقة الصناعية B3 بالعاشر من رمضان وخط خدمة العملاء 19118. الموقع دليل مباشر على قناة الشركة وخط المنتجات، وليس بديلاً عن سجل تجاري أو شروط ضمان كل موديل.",
     "facebook": "اسم صفحة فيسبوك المذكور: White Whale Egypt؛ الرابط المباشر غير محدد في القائمة."
   },
   {
@@ -50,9 +50,9 @@ export const companyDirectory = [
     "kind": "علامة أجهزة منزلية",
     "url": "https://www.beko.com/eg-en/about-us",
     "submittedUrl": "https://www.beko.com",
-    "source": "Beko Egypt وBeko plc: https://www.beko.com/eg-en/about-us",
+    "source": "Beko Egypt official — About us; ITDA commercial registry publication",
     "verificationStatus": "Unverified",
-    "note": "الرابط مقدم ضمن قائمة المستخدم؛ يلزم التحقق من صفحة مصر والوكيل."
+    "note": "موقع Beko Egypt الرسمي يثبت العلامة العالمية ووجودها في السوق؛ كما يسجل جهاز تنمية التجارة الداخلية شركة Beko Egypt Home Appliances Industries ونشاط تصنيع وتجميع الأجهزة المنزلية في مصر. لا تُنسب كل منتجات Beko إلى المصنع المصري دون مطابقة بلد منشأ الموديل."
   },
   {
     "id": "universal",
@@ -119,9 +119,9 @@ export const companyDirectory = [
     "kind": "مجموعة صناعية وموزع",
     "url": "https://www.elarabygroup.com/",
     "submittedUrl": "https://elarabygroup.com",
-    "source": "ELARABY Group الرسمي: https://www.elarabygroup.com/",
+    "source": "ELARABY Group official website; State Information Service 11 Oct 2025",
     "verificationStatus": "Unverified",
-    "note": "مجموعة صناعية وتجارية مصرية؛ لا تعني شراكاتها المحلية ملكيتها للعلامات العالمية التي تعرضها.",
+    "note": "مصدر حكومي مصري يصف العربي كمجموعة صناعية ومراكز بحث واختبار وتصنيع محلي، ويؤكد شراكات مع Sharp وHoover وCandy. يجب تحديد طبيعة العلاقة لكل علامة (شراكة/تصنيع/توزيع) من مستند مستقل.",
     "facebook": "https://facebook.com/elarabygroup"
   },
   {
@@ -138,9 +138,9 @@ export const companyDirectory = [
     "name": "راية شوب",
     "kind": "موزع تجزئة للأجهزة والإلكترونيات",
     "url": "https://rayashop.com",
-    "source": "Raya Shop: https://rayashop.com",
+    "source": "RayaShop official — Who we are",
     "verificationStatus": "Unverified",
-    "note": "الرابط مقدم ضمن قائمة المستخدم؛ لا يثبت وحده اعتماد كل علامة."
+    "note": "الموقع يعرّف RayaShop كذراع تجارة إلكترونية تحت Raya Trade، موزع وتاجر تجزئة للإلكترونيات في مصر، ويذكر ضمان الوكيل للمنتجات المباعة. هذا لا يثبت وكالة كل علامة أو أن المتجر مصنع."
   },
   {
     "id": "cairo-sales",
@@ -157,9 +157,9 @@ export const companyDirectory = [
     "kind": "متجر تجزئة للأجهزة والإلكترونيات",
     "url": "https://egypt.sharafdg.com/about-sharaf-dg/",
     "submittedUrl": "https://egypt.sharafdg.com",
-    "source": "Sharaf DG Egypt About: https://egypt.sharafdg.com/about-sharaf-dg/",
+    "source": "Sharaf DG Egypt official — About Sharaf DG",
     "verificationStatus": "Unverified",
-    "note": "الرابط مقدم ضمن قائمة المستخدم؛ يلزم التحقق من التغطية الحالية."
+    "note": "الموقع يصف Sharaf DG كتاجر تجزئة إقليمي للإلكترونيات والأجهزة مع وجود في مصر ودول الخليج. يصنف متجراً/تجزئة، وليس مصنعاً أو وكيلاً عاماً لكل العلامات."
   },
   {
     "id": "elwaha",
@@ -167,9 +167,9 @@ export const companyDirectory = [
     "kind": "موزع أجهزة منزلية",
     "url": "https://elwaha.com.eg/",
     "submittedUrl": "https://elwaha.com.eg",
-    "source": "Elwaha official: https://elwaha.com.eg/",
+    "source": "WAHA Home Appliances official — About",
     "verificationStatus": "Unverified",
-    "note": "الرابط مقدم ضمن قائمة المستخدم؛ صفة الوكالة تحتاج مستنداً من العلامات."
+    "note": "الموقع يذكر تأسيس WAHA في بورسعيد عام 1991 وتقديم أجهزة مدمجة متميزة للسوق المصري، ويذكر شراكات/منتجات ELBA وGorenje. يصنف شركة استيراد/توزيع وخدمة أجهزة مدمجة؛ لا يُفترض أنها مصنع هذه العلامات."
   },
   {
     "id": "elzenouki",
