@@ -491,10 +491,9 @@ export const cairoSalesProducts: Product[] = [
     "published": true,
     "createdAt": "2026-11-15",
     "updatedAt": "2026-11-15",
-    "imageCandidateUrl": "https://www.lg.com/content/dam/channel/wcms/1-channel/eg_ar/ms/lgcom/2026/tv-audio-video/tv/qned-evo/qned82/gp1/gallery/65-qned82/gallery/65_.jpg/jcr%3Acontent/renditions/thum-1600x1062.jpeg?w=800",
-    "imageUrl": "",
-    "imageSourceUrl": "",
-    "imageVerifiedDate": ""
+    "imageUrl": "https://www.lg.com/content/dam/channel/wcms/1-channel/eg_ar/ms/lgcom/2026/tv-audio-video/tv/qned-evo/qned82/gp1/gallery/65-qned82/gallery/65_.jpg/jcr%3Acontent/renditions/thum-1600x1062.jpeg?w=800",
+    "imageSourceUrl": "https://www.lg.com/eg_ar/tv-soundbars/qned-evo/65qned84b6t/",
+    "imageVerifiedDate": "2026-11-18"
   },
   {
     "id": "cs-007",
