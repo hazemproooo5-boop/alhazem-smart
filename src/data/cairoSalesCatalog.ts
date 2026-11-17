@@ -1364,10 +1364,8 @@ export const cairoSalesProducts: Product[] = [
     "published": true,
     "createdAt": "2026-11-15",
     "updatedAt": "2026-11-17",
-    "imageCandidateUrl": "https://www.audiotrends.com.au/assets/full/HTA9000.jpeg?20240110160009",
-    "imageUrl": "",
-    "imageSourceUrl": "https://www.sony.com/electronics/support/product/ht-a9000",
-    "imageVerifiedDate": "2026-11-17"
+        "imageUrl": "",
+    "imageCandidateUrl": "https://www.audiotrends.com.au/assets/full/HTA9000.jpeg?20240110160009"
   },
   {
     "id": "cs-043",
@@ -1449,16 +1447,17 @@ export const cairoSalesProducts: Product[] = [
     "description": "Sony ULT POWER SOUND ULTMIC1؛ تمت مطابقة الموديل UO-ULTMIC1 مع صفحة Sony Egypt الرسمية. السعر والتوفر المحلي غير مثبتين.",
     "specifications": {"السعر الأصلي بالقائمة":"8,821 EGP — غير معتمد","الموديل":"UO-ULTMIC1","النوع":"زوج ميكروفونات لاسلكية","السلسلة":"ULT POWER SOUND","الوظيفة":"ميكروفونات للكاريوكي متوافقة مع مكبرات ULT POWER SOUND المزودة بمدخل ميكروفون","المصدر":"Sony Egypt"},
     "availability": "يحتاج تأكيد التوفر لدى المورد",
-    "sourceUrl": "https://www.sony.com/ar-eg/wireless-speakers/products/ultmic1",
+    "sourceUrl": "https://www.sony.com/en-eg/wireless-speakers/products/ultmic1",
     "sourceType": "Official",
     "verificationStatus": "Unverified",
     "published": true,
     "createdAt": "2026-11-15",
     "updatedAt": "2026-11-15",
     "imageCandidateUrl": "https://hiraoka.com.pe/media/catalog/product/u/l/ultmic1_1.jpg?bg-color=255%2C255%2C255&canvas=700%3A560&fit=bounds&height=560&quality=85&width=700",
-    "imageUrl": "",
+    "imageUrl": "https://sony.scene7.com/is/image/sonyglobalsolutions/overview-feature-1-M-2?%24largeImageMobile%24=",
+    "officialProductUrl": "https://www.sony.com/en-eg/wireless-speakers/products/ultmic1",
     "imageSourceUrl": "https://www.sony.com/en-eg/wireless-speakers/products/ultmic1",
-    "imageVerifiedDate": "2026-11-17"
+    "imageVerifiedDate": "2026-11-18"
   },
   {
     "id": "cs-047",
@@ -1524,9 +1523,9 @@ export const cairoSalesProducts: Product[] = [
     "createdAt": "2026-11-15",
     "updatedAt": "2026-11-17",
     "imageCandidateUrl": "https://www.pbtech.com/pacific/imgprod/S/P/SPKJBL6628266__5.jpg",
-    "imageUrl": "",
-    "imageSourceUrl": "https://www.pbtech.com/pacific/product/SPKJBL6628266/JBL-PartyBox-720-800W-Wireless-Portable-Party-Spea",
-    "imageVerifiedDate": "2026-11-17"
+    "imageUrl": "https://global.jbl.com/dw/image/v2/BFND_PRD/on/demandware.static/-/Sites-masterCatalog_Harman/default/dwe40e4fdd/LS_JBL_PARTYBOX_720_HERO_0041_x2.png?sh=535&sw=535",
+    "imageSourceUrl": "https://global.jbl.com/party-speakers/JBLPARTYBOX720EU.html",
+    "imageVerifiedDate": "2026-11-18"
   },
   {
     "id": "cs-050",
@@ -1563,16 +1562,17 @@ export const cairoSalesProducts: Product[] = [
     "description": "مكبر JBL Boombox 4 باللون الأزرق؛ صفحة JBL UK الرسمية تطابق رقم الطلب JBLBOOMBOX4BLUUK. مواصفات القدرة والبطارية والحماية موثقة من الشركة؛ لا يثبت المصدر سعر أو توفر النسخة في مصر.",
     "specifications": {"السعر الأصلي بالقائمة":"30,078 EGP","الموديل":"JBLBOOMBOX4BLUUK","اللون":"أزرق","قدرة الخرج":"2 × 65 واط RMS للووفر + 2 × 40 واط RMS للتويتر في وضع الكهرباء","التردد":"37Hz–20kHz","مقاومة الماء والغبار":"IP68","Bluetooth":"5.4","زمن التشغيل":"حتى 28 ساعة، مع Playtime Boost إضافي"},
     "availability": "يحتاج تأكيد التوفر لدى المورد",
-    "sourceUrl": "https://uk.jbl.com/JBLBOOMBOX4BLUUK.html",
+    "sourceUrl": "https://uk.jbl.com/BOOMBOX-4.html?dwvar_BOOMBOX-4_color=Blue-UK-Current",
     "sourceType": "Official",
     "verificationStatus": "Unverified",
     "published": true,
     "createdAt": "2026-11-15",
     "updatedAt": "2026-11-17",
     "imageCandidateUrl": "https://i5.walmartimages.com/asr/2c4cffc8-7e30-483b-82b8-c8971bbcd4dc.90cc4bceccdf8fd734bd6322b95a8b80.jpeg",
-    "imageUrl": "",
-    "imageSourceUrl": "https://www.walmart.com.mx/ip/jbl-boombox-4-azul-bocina-portatil/00005003641325",
-    "imageVerifiedDate": "2026-11-17"
+    "imageUrl": "https://uk.jbl.com/dw/image/v2/BFND_PRD/on/demandware.static/-/Sites-masterCatalog_Harman/default/dwc5d81904/LS_JBL_BOOMBOX_4_HERO_BLUE_0019_x4.png?sh=680&sw=680",
+    "officialProductUrl": "https://uk.jbl.com/BOOMBOX-4.html?dwvar_BOOMBOX-4_color=Blue-UK-Current",
+    "imageSourceUrl": "https://uk.jbl.com/BOOMBOX-4.html?dwvar_BOOMBOX-4_color=Blue-UK-Current",
+    "imageVerifiedDate": "2026-11-18"
   },
   {
     "id": "cs-052",
@@ -1615,9 +1615,10 @@ export const cairoSalesProducts: Product[] = [
     "createdAt": "2026-11-15",
     "updatedAt": "2026-11-17",
     "imageCandidateUrl": "https://www.studio7thailand.com/wp-content/uploads/2023/11/JBL-Authentics-200-Black-1.png",
-    "imageUrl": "",
+    "imageUrl": "https://uk.jbl.com/dw/image/v2/BFND_PRD/on/demandware.static/-/Sites-masterCatalog_Harman/default/dwd650ea33/JBL_AUTHENTICS_200_HERO_42817_x3.png?sh=680&sw=680",
+    "officialProductUrl": "https://uk.jbl.com/JBLAUTH200BLKUK.html",
     "imageSourceUrl": "https://uk.jbl.com/JBLAUTH200BLKUK.html",
-    "imageVerifiedDate": "2026-11-17"
+    "imageVerifiedDate": "2026-11-18"
   },
   {
     "id": "cs-054",
@@ -1638,9 +1639,10 @@ export const cairoSalesProducts: Product[] = [
     "createdAt": "2026-11-15",
     "updatedAt": "2026-11-17",
     "imageCandidateUrl": "https://bf1af2.akinoncloudcdn.com/products/2024/04/30/33328/80ab22a2-64b2-4f87-975e-d58fefb9b0c4.jpg",
-    "imageUrl": "",
+    "imageUrl": "https://www.jbl.com/dw/image/v2/BFND_PRD/on/demandware.static/-/Sites-masterCatalog_Harman/default/dw4bd894e3/JBL_XTREME_4_HERO_CAMO_47142_X2_v2.png?sh=535&sw=535",
+    "officialProductUrl": "https://www.jbl.com/XTREME-4.html",
     "imageSourceUrl": "https://www.jbl.com/XTREME-4.html",
-    "imageVerifiedDate": "2026-11-17"
+    "imageVerifiedDate": "2026-11-18"
   },
   {
     "id": "cs-055",
@@ -1660,9 +1662,11 @@ export const cairoSalesProducts: Product[] = [
     "published": true,
     "createdAt": "2026-11-15",
     "updatedAt": "2026-11-17",
-    "imageUrl": "https://www.jbl.com.pe/dw/image/v2/BFND_PRD/on/demandware.static/-/Sites-masterCatalog_Harman/default/dwbdf1d30e/JBL_PARTYLIGHT_BEAM_HERO_51615_x8.png?sh=1605&sw=1605",
+    "imageUrl": "https://www.jbl.com/dw/image/v2/BFND_PRD/on/demandware.static/-/Sites-masterCatalog_Harman/default/dw94602628/JBL_PARTYLIGHT_BEAM_HERO_51615_x8.png?sh=535&sw=535",
+    "imageCandidateUrl": "https://www.jbl.com.pe/dw/image/v2/BFND_PRD/on/demandware.static/-/Sites-masterCatalog_Harman/default/dwbdf1d30e/JBL_PARTYLIGHT_BEAM_HERO_51615_x8.png?sh=1605&sw=1605",
+    "officialProductUrl": "https://www.jbl.com/PARTYLIGHT-BEAM.html",
     "imageSourceUrl": "https://www.jbl.com/PARTYLIGHT-BEAM.html",
-    "imageVerifiedDate": "2026-11-17"
+    "imageVerifiedDate": "2026-11-18"
   },
   {
     "id": "cs-056",
@@ -1683,9 +1687,10 @@ export const cairoSalesProducts: Product[] = [
     "createdAt": "2026-11-15",
     "updatedAt": "2026-11-17",
     "imageCandidateUrl": "https://images.tcdn.com.br/img/img_prod/1315379/microfone_jbl_pbm100_com_fio_dinmico_preto_1_20251014151624_71dec58b724b.jpg",
-    "imageUrl": "",
+    "imageUrl": "https://www.jbl.com/dw/image/v2/BFND_PRD/on/demandware.static/-/Sites-masterCatalog_Harman/default/dw8c9fb71b/JBL_BPM_100_RIGHT_x1.png?sh=535&sw=535",
+    "officialProductUrl": "https://www.jbl.com/JBLPBM100BLKAM.html",
     "imageSourceUrl": "https://www.jbl.com/JBLPBM100BLKAM.html",
-    "imageVerifiedDate": "2026-11-17"
+    "imageVerifiedDate": "2026-11-18"
   },
   {
     "id": "cs-057",
