@@ -429,7 +429,9 @@ export const cairoSalesProducts: Product[] = [
     "published": true,
     "createdAt": "2026-11-15",
     "updatedAt": "2026-11-15",
-        "imageUrl": "",
+        "imageUrl": "https://www.lg.com/content/dam/channel/wcms/1-channel/eg_ar/ms/lgcom/2026/tv-audio-video/tv/qned-evo/qned82/gp1/gallery/75-qned82/gallery/75_.jpg/jcr%3Acontent/renditions/thum-1600x1062.jpeg?w=800",
+    "imageSourceUrl": "https://www.lg.com/eg_ar/tv-soundbars/qned-evo/75qned84b6t/",
+    "imageVerifiedDate": "2026-11-18",
     "imageCandidateUrl": "https://www.lg.com/content/dam/channel/wcms/1-channel/eg_ar/ms/lgcom/2026/tv-audio-video/tv/qned-evo/qned82/gp1/gallery/75-qned82/gallery/lg-qned-evo-qned82-2026-75-gallery-02-product-dimension.jpg/jcr%3Acontent/renditions/thum-1600x1062.jpeg?w=800",
     "imageSourceUrl": "https://www.lg.com/eg_ar/tv-soundbars/qned-evo/75qned84b6t/"
   },
@@ -499,7 +501,9 @@ export const cairoSalesProducts: Product[] = [
     "createdAt": "2026-11-15",
     "updatedAt": "2026-11-15",
     "imageCandidateUrl": "https://www.lg.com/content/dam/channel/wcms/1-channel/eg_ar/ms/lgcom/2026/tv-audio-video/tv/qned-evo/qned82/gp1/gallery/65-qned82/gallery/65_.jpg/jcr%3Acontent/renditions/thum-1600x1062.jpeg?w=800",
-                "imageUrl": "",
+                "imageUrl": "https://www.lg.com/content/dam/channel/wcms/1-channel/eg_ar/ms/lgcom/2026/tv-audio-video/tv/qned-evo/qned82/gp1/gallery/65-qned82/gallery/65_.jpg/jcr%3Acontent/renditions/thum-1600x1062.jpeg?w=800",
+    "imageSourceUrl": "https://www.lg.com/eg_ar/tv-soundbars/qned-evo/65qned84b6t/",
+    "imageVerifiedDate": "2026-11-18",
     "imageSourceUrl": "https://www.lg.com/eg_en/tv-soundbars/qned-evo/65qned84b6t/"
   },
   {
@@ -2878,7 +2882,9 @@ export const cairoSalesCookwareProducts: Product[] = [
     "published": true,
     "createdAt": "2026-11-15",
     "updatedAt": "2026-11-17",
-    "imageUrl": ""
+    "imageUrl": "https://cdn.sharafdg.com/cdn-cgi/image/width%3D600%2Cheight%3D600%2Cfit%3Dpad%2Cformat%3Dwebp%2Cquality%3D70/assets/9/6/8/4/9684382e7d67d8acc3e4f82bf785294a0fd82571_KOR1903_Z_1.jpg?g=0",
+    "imageSourceUrl": "https://bahrain.sharafdg.com/product/korkmaz-casserole-astra-6-3l/",
+    "imageVerifiedDate": "2026-11-18"
   },
   {
     "id": "cs-071",
