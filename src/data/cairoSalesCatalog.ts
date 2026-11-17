@@ -1055,17 +1055,15 @@ export const cairoSalesProducts: Product[] = [
     "categoryId": "cookware",
     "model": "Z-330040131",
     "sku": "Z-330040131",
-    "description": "قائمة Cairo Sales المقدمة من المستخدم. السعر والبيانات التجارية غير متحقق منها مستقلاً؛ يلزم الرجوع إلى صفحة المنتج والمورد قبل الاعتماد.",
-    "specifications": {
-      "السعر الأصلي بالقائمة": "6,178 EGP"
-    },
+    "description": "طقم طهي Zahran استانلس 8 قطع بمقاسات 18 و20 و24 و28 سم؛ صفحة Carrefour Egypt تطابق الاسم وعدد القطع ونطاق المقاسات، لكنها لا تعرض كود Z-330040131 الوارد في القائمة، لذلك لا تعتبر مطابقة SKU نهائية. السعر والتوفر المعروضان لدى Carrefour يحتاجان تحققاً مباشراً قبل الاعتماد.",
+    "specifications": {"السعر الأصلي بالقائمة":"5,499 EGP — غير معتمد","العلامة":"Zahran","النوع":"Stainless Steel Cooking Set","عدد القطع":"8","المقاسات الظاهرة":"18، 20، 24، 28 سم","رمز القائمة":"Z-330040131","رمز صفحة Carrefour":"646278 — ليس رمز موديل مثبتاً"},
     "availability": "يحتاج تأكيد التوفر لدى المورد",
-    "sourceUrl": "",
+    "sourceUrl": "https://www.carrefouregypt.com/mafegy/en/cooking-set/zahran-ss-cooking-set-8p-18-28/p/646278",
     "sourceType": "Unverified Market",
     "verificationStatus": "Unverified",
     "published": true,
     "createdAt": "2026-11-15",
-    "updatedAt": "2026-11-15",
+    "updatedAt": "2026-11-17",
     "imageUrl": ""
   },
   {
@@ -1099,17 +1097,16 @@ export const cairoSalesProducts: Product[] = [
     "categoryId": "cookware",
     "model": "M-8429113111786",
     "sku": "M-8429113111786",
-    "description": "قائمة Cairo Sales المقدمة من المستخدم. السعر والبيانات التجارية غير متحقق منها مستقلاً؛ يلزم الرجوع إلى صفحة المنتج والمورد قبل الاعتماد.",
-    "specifications": {
-      "السعر الأصلي بالقائمة": "2,549 EGP"
-    },
+    "description": "طقم سكاكين Magefesa Blade من 6 قطع؛ كتالوج Magefesa الرسمي يطابق EAN 8429113111786 ورمز التصنيع 01CUTACO05N ويحدد مكونات السكاكين الخمس مع الحامل. صفحة Gaballah Egypt تعرض المنتج برقم M-8429113111786، ما يدعم تطابق النسخة المتداولة محلياً.",
+    "specifications": {"السعر الأصلي بالقائمة":"3,266 EGP — غير معتمد","العلامة":"Magefesa","النوع":"Blade Knife Set","عدد القطع":"6 (5 سكاكين + حامل)","MGF Code":"01CUTACO05N","EAN-13":"8429113111786","الخامة":"شفرات ستانلس ستيل ومقابض مانعة للانزلاق","الأطوال":"20 سم Chef، 20 سم Slicing، 20 سم Bread، 9 سم Paring، 13 سم Utility","صفحة البائع المصري":"https://gaballah.com/ar/products/magefesa-6-piece-spanish-knife-set-black-stand-stainless-steel-chefs-knife-bread-knife-slicing-knife-utility-knife-paring-knife-knife-holder"},
     "availability": "يحتاج تأكيد التوفر لدى المورد",
-    "sourceUrl": "",
-    "sourceType": "Unverified Market",
+    "sourceUrl": "https://magefesa.com/wp-content/uploads/2022/02/CAT_MGF_ES_ING_2022_.pdf",
+    "officialProductUrl": "https://magefesa.com/wp-content/uploads/2026/02/CAT-MGF-2026.pdf",
+    "sourceType": "Official",
     "verificationStatus": "Unverified",
     "published": true,
     "createdAt": "2026-11-15",
-    "updatedAt": "2026-11-15",
+    "updatedAt": "2026-11-17",
     "imageUrl": ""
   },
   {
