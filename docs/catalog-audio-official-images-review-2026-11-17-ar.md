@@ -14,9 +14,9 @@
 
 ## صور لم يتم اعتمادها
 
-لم تُعتمد الصور المستضافة لدى متاجر أو أطراف ثالثة (Fillion Electronics، AudioTrends، Akinon CDN، Multitronic، Hiraoka، Shopify، PBTech، Walmart، Studio7، وغيرها) حتى لو بدا اسم الملف مشابهاً للموديل. يمكن إعادة فحصها لاحقاً عند وجود صفحة بيع مباشرة مطابقة ومصدر حقوق/استخدام واضح.
+لم تُعتمد الصور المستضافة لدى متاجر أو أطراف ثالثة (Fillion Electronics، AudioTrends، Akinon CDN، Multitronic، Hiraoka، Shopify، PBTech، Walmart، Studio7، وغيرها) كصور عرض. أُفرغ imageUrl لهذه السجلات، وحُفظ رابط الصورة المرشحة في imageCandidateUrl حتى لا تضيع البيانات ويمكن إعادة فحصها لاحقاً عند وجود إثبات أقوى.
 
-السجلات cs-040 وcs-042 وcs-043 وcs-045 وcs-046 وcs-047 وcs-048 وcs-049 وcs-051 وcs-053 وcs-054 وcs-056 بقيت imageUrl فارغة.
+السجلات cs-040 وcs-042 وcs-043 وcs-045 وcs-046 وcs-047 وcs-048 وcs-049 وcs-051 وcs-053 وcs-054 وcs-056 أصبحت imageUrl فارغة مع الاحتفاظ بروابط الصور المرشحة في imageCandidateUrl.
 
 ## حالة التوثيق
 - جميع سجلات الصوتيات بقيت Unverified.
