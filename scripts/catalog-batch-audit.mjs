@@ -4,6 +4,7 @@ import path from 'node:path';
 const catalog = fs.readFileSync('src/data/cairoSalesCatalog.ts', 'utf8');
 const brandSource = fs.readFileSync('src/data/brandDirectory.ts', 'utf8');
 const companySource = fs.readFileSync('src/data/companyDirectory.ts', 'utf8');
+const seedSource = fs.readFileSync('src/data/seed.ts', 'utf8');
 
 const declarations = [...catalog.matchAll(/export const (\w+)\s*:\s*[^=]+=/g)];
 const sections = declarations.map((match, index) => ({
@@ -20,8 +21,29 @@ const read = (block, key) => {
 const productSections = sections.filter(section => /Products$/.test(section.name));
 const priceSections = sections.filter(section => /Prices$/.test(section.name));
 const productBlocks = productSections.flatMap(section => parseObjects(section.source));
+const seedProductSection = seedSource.match(/export const products: Product\[\] = \[([\s\S]*?)\n\];/);
+if (!seedProductSection) throw new Error('seed products declaration not found');
+const seedProductBlocks = [...seedProductSection[1].matchAll(/\{\s*id:\s*'prod-[^']+'[\s\S]*?\n  \},/g)].map(match => match[0]);
+const readSeed = (block, key) => {
+  const match = block.match(new RegExp('\\b' + key + ':\\s*\\'([^\\']*)\\''));
+  return match?.[1] ?? '';
+};
 const priceBlocks = priceSections.flatMap(section => parseObjects(section.source));
-const rows = productBlocks.map(block => ({
+const rows = [
+  ...seedProductBlocks.map(block => ({
+    id: readSeed(block, 'id'),
+    name: readSeed(block, 'name'),
+    brandId: readSeed(block, 'brandId'),
+    categoryId: readSeed(block, 'categoryId'),
+    model: readSeed(block, 'model') || readSeed(block, 'sku'),
+    verificationStatus: readSeed(block, 'verificationStatus') || 'Missing',
+    sourceUrl: readSeed(block, 'sourceUrl'),
+    imageUrl: readSeed(block, 'imageUrl'),
+    availability: readSeed(block, 'availability'),
+    published: /published:\\s*true/.test(block),
+    hasSpecifications: /specifications:\\s*\\{/.test(block),
+  })),
+  ...productBlocks.map(block => ({
   id: read(block, 'id'),
   name: read(block, 'name'),
   brandId: read(block, 'brandId'),
@@ -48,7 +70,10 @@ const summary = {
   generatedAt: new Date().toISOString(),
   products: rows.length,
   priceHistoryRecords: priceBlocks.length,
-  productSections: productSections.map(section => ({ name: section.name, records: parseObjects(section.source).length })),
+  productSections: [
+    { name: 'seed.products', records: seedProductBlocks.length },
+    ...productSections.map(section => ({ name: section.name, records: parseObjects(section.source).length })),
+  ],
   priceSections: priceSections.map(section => ({ name: section.name, records: parseObjects(section.source).length })),
   brands: brandNames.length,
   uniqueBrands: unique(brandNames).size,
