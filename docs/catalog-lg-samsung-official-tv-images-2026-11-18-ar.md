@@ -20,8 +20,9 @@
 | cs-020 | Samsung 55QN70H / QA55QN70HAUXEG | https://www.samsung.com/eg/tvs/qled-tv/qn70h-55-inch-neo-qled-4k-mini-led-smart-tv-qa55qn70hauxeg/ | Samsung Egypt exact code and size. |
 
 ## السجلات التي بقيت بلا صورة معتمدة
+- cs-006 LG 65QNED84B6T: ملف الصورة من مسار QNED82 رغم أن صفحة المنتج تخص QNED84؛ حُفظ كمرشح في imageCandidateUrl ولم يُستخدم كصورة عرض.
 - cs-014 Samsung 83S85H: لا يوجد في هذه الدورة مصدر صورة Samsung Egypt exact model.
-- cs-015 Samsung 100M90H: الرابط المتاح دليل تشكيلة عام وليس صفحة منتج محددة؛ تم إفراغ sourceUrl وsourceType إلى Unverified Market.
+- cs-015 Samsung 100M90H: الرابط المتاح دليل تشكيلة عام وليس صفحة منتج محددة؛ نُقل إلى sourceCandidateUrl، وأُفرغ sourceUrl لمنع اعتباره مصدراً exact-model.
 - cs-017 Samsung 98U9000H: الصفحة الرسمية تثبت الموديل، لكن لم يتم استخراج رابط صورة رسمية مباشرة قابلة للتوثيق.
 
 ## الصور المرشحة غير المعتمدة
