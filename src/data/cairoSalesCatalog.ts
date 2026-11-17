@@ -1360,9 +1360,9 @@ export const cairoSalesProducts: Product[] = [
     "createdAt": "2026-11-15",
     "updatedAt": "2026-11-17",
     "imageCandidateUrl": "https://bf1af2.akinoncloudcdn.com/products/2024/09/07/45021/baf16a37-e863-470a-bf75-d6df3f43891a.jpg",
-    "imageUrl": "",
-    "imageSourceUrl": "https://www.sony-mea.com/ar/electronics/support/sound-bars-home-theater-systems-sound-bars-surround-speakers/ht-s700rf/specifications",
-    "imageVerifiedDate": "2026-11-17"
+    "imageUrl": "https://www.sony-mea.com/image/e6eace233c8d572ae264292e045ce85b?bgcolor=F6F9FF&fmt=png-alpha&hei=1050&wid=1578",
+    "imageSourceUrl": "https://www.sony-mea.com/en/electronics/sound-bars/ht-s700rf",
+    "imageVerifiedDate": "2026-11-18"
   },
   {
     "id": "cs-044",
