@@ -216,10 +216,10 @@ export const companyDirectory = [
     "id": "trueval",
     "name": "ترو فال",
     "kind": "علامة أواني طهي تابعة لمجموعة الزنوكي",
-    "url": "https://elzenouki.com",
-    "source": "موقع مجموعة الزنوكي الرسمي",
+    "url": "https://elzenouki.com/brands/",
+    "source": "El Zenouki Group official — brand portfolio",
     "verificationStatus": "Unverified",
-    "note": "الموقع الرسمي لمجموعة الزنوكي يدرج Trueval ضمن خمس علامات تابعة؛ هذا سجل علامة تجارية وليس شركة مستقلة."
+    "note": "Trueval علامة أدوات طهي ضمن محفظة El Zenouki Group وليست شركة مستقلة بحسب موقع المجموعة؛ يربط السجل بالمجموعة الأم ولا تُنسب له شخصية قانونية منفصلة."
   },
   {
     "id": "elomda",
@@ -234,10 +234,10 @@ export const companyDirectory = [
     "id": "terynova",
     "name": "تيرينوفا",
     "kind": "أطقم أواني طهي",
-    "url": "https://terynova.com",
-    "source": "قائمة الروابط المقدمة من المستخدم",
+    "url": "https://terynova.com/",
+    "source": "Terynova official storefront",
     "verificationStatus": "Unverified",
-    "note": "الرابط مقدم ضمن قائمة المستخدم؛ يلزم التحقق من النطاق."
+    "note": "الموقع يعرض أواني طهي جرانيت وتيفال ويذكر عنواناً بالمنطقة الصناعية جمصة، لكنه لا يوضح في الصفحة المفتوحة الاسم القانوني للمصنع أو مالك العلامة؛ يصنف كعلامة/متجر أدوات طهي مع بقاء هوية المصنع غير محسومة."
   },
   {
     "id": "fathy-mahmoud",
@@ -252,10 +252,10 @@ export const companyDirectory = [
     "id": "sheeni",
     "name": "الشركة العامة للخزف والصيني (شيني)",
     "kind": "مصنّع خزف وصيني",
-    "url": "https://sheeni-egypt.com",
-    "source": "قائمة الروابط المقدمة من المستخدم",
+    "url": "https://www.itda.gov.eg/crm/866/CRA41.pdf",
+    "source": "جهاز تنمية التجارة الداخلية — تجديد الشركة العامة لمنتجات الخزف والصيني",
     "verificationStatus": "Unverified",
-    "note": "الرابط مقدم ضمن قائمة المستخدم؛ يلزم التحقق من النطاق."
+    "note": "سجل جهاز تنمية التجارة الداخلية يثبت وجود الشركة العامة لمنتجات الخزف والصيني ككيان مسجل، مع قيد وتجديد الشركة. لا يثبت السجل وحده حالة التشغيل الحالية أو كل خطوط المنتجات؛ تُراجع بيانات المنتج والمصنع."
   },
   {
     "id": "sheffield",
@@ -279,38 +279,38 @@ export const companyDirectory = [
     "id": "t-fal",
     "name": "تيفال",
     "kind": "علامة أدوات طهي",
-    "url": "https://www.tefal.com",
-    "source": "قائمة الروابط المقدمة من المستخدم",
+    "url": "https://www.groupeseb.com/en/tefal",
+    "source": "Groupe SEB official — Tefal brand",
     "verificationStatus": "Unverified",
-    "note": "المستخدم ذكر إدارة العلامة عبر زهران؛ يلزم التحقق من علاقة الوكالة محلياً."
+    "note": "Tefal علامة ضمن محفظة Groupe SEB؛ هذا سجل علامة/مجموعة وليس شركة مصرية مستقلة. لا تخلط T-Fal مع Tefal ككيانين قانونيين دون مستند، ولا تعتمد الضمان المحلي من الصفحة العالمية."
   },
   {
     "id": "moulinex",
     "name": "مولينكس",
     "kind": "علامة أجهزة مطبخ صغيرة",
-    "url": "https://www.moulinex.com",
-    "source": "قائمة الروابط المقدمة من المستخدم",
+    "url": "https://www.groupeseb.com/en/moulinex",
+    "source": "Groupe SEB official — Moulinex brand",
     "verificationStatus": "Unverified",
-    "note": "المستخدم ذكر زهران كوكيل؛ يلزم التحقق من العلاقة المحلية."
+    "note": "Moulinex علامة ضمن محفظة Groupe SEB للأجهزة المنزلية الصغيرة وتحضير الطعام؛ يجب فصل العلامة عن الموزع/الكيان المحلي."
   },
   {
     "id": "lg-egypt",
     "name": "إل جي مصر",
     "kind": "علامة أجهزة منزلية وإلكترونيات",
-    "url": "https://www.lg.com/eg_ar",
-    "source": "قائمة الروابط المقدمة من المستخدم",
+    "url": "https://www.lg.com/eg_ar/",
+    "source": "LG Electronics Egypt official website",
     "verificationStatus": "Unverified",
-    "note": "الرابط مقدم ضمن قائمة المستخدم.",
+    "note": "الموقع الرسمي الإقليمي لمصر هو المرجع المحلي لصفحات الموديلات والدعم وخدمات ما بعد البيع؛ لم يتم إثبات الكيان القانوني المحلي من صفحة المنتجات وحدها.",
     "facebook": "https://facebook.com/LGEgypt"
   },
   {
     "id": "samsung-egypt",
     "name": "سامسونج مصر",
     "kind": "علامة أجهزة منزلية وإلكترونيات",
-    "url": "https://www.samsung.com/eg",
-    "source": "قائمة الروابط المقدمة من المستخدم",
+    "url": "https://www.samsung.com/eg/",
+    "source": "Samsung Egypt official website",
     "verificationStatus": "Unverified",
-    "note": "الرابط مقدم ضمن قائمة المستخدم.",
+    "note": "الموقع الرسمي المصري يعرض المنتجات والدعم وخدمات العملاء؛ يلزم فصل العلامة العالمية عن الكيان القانوني المحلي وأي موزع، والتحقق من ضمان كل موديل.",
     "facebook": "ورد اسم صفحة فيسبوك فقط دون رابط صفحة محدد."
   },
   {
@@ -363,37 +363,37 @@ export const companyDirectory = [
     "id": "indesit",
     "name": "إنديست",
     "kind": "علامة أجهزة منزلية",
-    "url": "",
-    "source": "قائمة الروابط المقدمة من المستخدم",
+    "url": "https://www.arcelikglobal.com/en/brands/",
+    "source": "Arçelik Global official — brand portfolio",
     "verificationStatus": "Unverified",
-    "note": "لم يرد موقع مصري محدد؛ ذُكر البيع عبر موزعين مثل بي تك."
+    "note": "Arçelik تعرض Indesit ضمن محفظة علاماتها؛ هذه علاقة محفظة عالمية ولا تثبت موزعاً أو ضماناً مصرياً محدداً."
   },
   {
     "id": "sharp",
     "name": "شارب",
     "kind": "علامة أجهزة منزلية وإلكترونيات",
-    "url": "https://elarabygroup.com",
-    "source": "قائمة الروابط المقدمة من المستخدم",
+    "url": "https://global.sharp/corporate/news/240725-a.html",
+    "source": "Sharp Corporation official press release (25 July 2024)",
     "verificationStatus": "Unverified",
-    "note": "الرابط المقدم لمجموعة العربي؛ يلزم توثيق علاقة التوزيع."
+    "note": "Sharp أعلنت رسمياً مشروعاً مشتركاً مع العربي جروب لتصنيع الثلاجات في مصر، وذكرت شراكة قائمة منذ 2004 في التكييف والتصنيع والمبيعات. لا تعمم هذه العلاقة على كل منتجات Sharp أو على الوكالة الحصرية دون وثيقة فئة/موديل."
   },
   {
     "id": "tornado",
     "name": "تورنيدو",
     "kind": "علامة أجهزة منزلية",
-    "url": "https://elarabygroup.com",
-    "source": "قائمة الروابط المقدمة من المستخدم",
+    "url": "https://www.tornadohome.com/ar",
+    "source": "Tornado Egypt official website",
     "verificationStatus": "Unverified",
-    "note": "الرابط المقدم لمجموعة العربي؛ يلزم توثيق علاقة التوزيع."
+    "note": "الموقع الرسمي يعرض Tornado كعلامة أجهزة منزلية في مصر. تقارير الدولة والمجموعة تذكر ارتباطها بالعربي؛ يجب توثيق كل فئة وموديل من صفحة المنتج والضمان المحلي."
   },
   {
     "id": "hoover",
     "name": "هوفر",
     "kind": "علامة أجهزة منزلية",
-    "url": "https://elarabygroup.com",
-    "source": "قائمة الروابط المقدمة من المستخدم",
+    "url": "https://elarabygermany.com/en/about-us",
+    "source": "ELARABY Group strategic partners listing",
     "verificationStatus": "Unverified",
-    "note": "الرابط المقدم لمجموعة العربي؛ يلزم توثيق علاقة التوزيع."
+    "note": "صفحة المجموعة تعرض Hoover ضمن الشركاء الاستراتيجيين، لكنها لا تفصل نطاق التصنيع أو التوزيع المحلي لكل فئة؛ لا يُفترض أن كل منتجات Hoover في كل سوق تتبع العربي."
   }
 ] as const;
 
