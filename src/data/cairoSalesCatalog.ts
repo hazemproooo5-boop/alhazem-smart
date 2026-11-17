@@ -1122,17 +1122,15 @@ export const cairoSalesProducts: Product[] = [
     "categoryId": "cookware",
     "model": "T-220089989",
     "sku": "T-220089989",
-    "description": "قائمة Cairo Sales المقدمة من المستخدم. السعر والبيانات التجارية غير متحقق منها مستقلاً؛ يلزم الرجوع إلى صفحة المنتج والمورد قبل الاعتماد.",
-    "specifications": {
-      "السعر الأصلي بالقائمة": "1,625 EGP"
-    },
+    "description": "طقم Tefal Tempo Flame مستطيل قطعتين بمقاسي 30 و35 سم؛ صفحة بائع مصري تعرض رقم الموديل 220089989. يلزم مطابقة رمز الشركة الداخلي مع السجل cs-035 لاحتمال وجود سجل مكرر بالرمز التجاري 4300001046؛ السعر والتوفر غير معتمدين.",
+    "specifications": {"السعر الأصلي بالقائمة":"1,625 EGP","الصنف":"طقم صواني فرن مستطيلة","القطع":"2","المقاسات":"30 و35 سم","الخامة/الطلاء":"Titanium Non-Stick","رقم الموديل لدى البائع":"220089989"},
     "availability": "يحتاج تأكيد التوفر لدى المورد",
-    "sourceUrl": "",
+    "sourceUrl": "https://ayatie.com/product/tefal-tempo-flame-rectangular-oven-tray-set-30-35-220089989/",
     "sourceType": "Unverified Market",
     "verificationStatus": "Unverified",
     "published": true,
     "createdAt": "2026-11-15",
-    "updatedAt": "2026-11-15",
+    "updatedAt": "2026-11-17",
     "imageUrl": ""
   },
   {
@@ -1144,17 +1142,15 @@ export const cairoSalesProducts: Product[] = [
     "categoryId": "cookware",
     "model": "T-4300001046",
     "sku": "T-4300001046",
-    "description": "قائمة Cairo Sales المقدمة من المستخدم. السعر والبيانات التجارية غير متحقق منها مستقلاً؛ يلزم الرجوع إلى صفحة المنتج والمورد قبل الاعتماد.",
-    "specifications": {
-      "السعر الأصلي بالقائمة": "1,625 EGP"
-    },
+    "description": "طقم Tefal Tempo Flame مستطيل قطعتين بمقاسي 30 و35 سم؛ صفحة بائع مصري تعرض رقم 4300001046 وتطابق المنتج مع سجل cs-034 ذي رقم 220089989، لذلك يلزم حسم الازدواجية قبل نشر سجلين منفصلين. السعر والتوفر غير معتمدين.",
+    "specifications": {"السعر الأصلي بالقائمة":"1,625 EGP","الصنف":"طقم صواني فرن مستطيلة","القطع":"2","المقاسات":"30 و35 سم","الخامة/الطلاء":"Titanium Non-Stick","رقم الموديل لدى البائع":"4300001046"},
     "availability": "يحتاج تأكيد التوفر لدى المورد",
-    "sourceUrl": "",
+    "sourceUrl": "https://ehabcenter.com/product/tefal-tempo-flame-rectangular-oven-tray-set-size-3035-red-4300001046/",
     "sourceType": "Unverified Market",
     "verificationStatus": "Unverified",
     "published": true,
     "createdAt": "2026-11-15",
-    "updatedAt": "2026-11-15",
+    "updatedAt": "2026-11-17",
     "imageUrl": ""
   },
   {
@@ -1166,17 +1162,15 @@ export const cairoSalesProducts: Product[] = [
     "categoryId": "cookware",
     "model": "T-4300001043",
     "sku": "T-4300001043",
-    "description": "قائمة Cairo Sales المقدمة من المستخدم. السعر والبيانات التجارية غير متحقق منها مستقلاً؛ يلزم الرجوع إلى صفحة المنتج والمورد قبل الاعتماد.",
-    "specifications": {
-      "السعر الأصلي بالقائمة": "1,590 EGP"
-    },
+    "description": "طقم Tefal Tempo Flame دائري قطعتين بمقاسي 26 و30 سم؛ صفحة بائع مصري تعرض رقم الموديل 4300001043. السعر والتوفر الحاليان يحتاجان إعادة تحقق مباشرة قبل الاعتماد.",
+    "specifications": {"السعر الأصلي بالقائمة":"1,590 EGP","الصنف":"طقم صواني فرن دائرية","القطع":"2","المقاسات":"26 و30 سم","الخامة/الطلاء":"Titanium Non-Stick","رقم الموديل لدى البائع":"4300001043"},
     "availability": "يحتاج تأكيد التوفر لدى المورد",
-    "sourceUrl": "",
+    "sourceUrl": "https://ehabcenter.com/product/tefal-tempo-flame-round-oven-tray-set-size-2630-red-4300001043/",
     "sourceType": "Unverified Market",
     "verificationStatus": "Unverified",
     "published": true,
     "createdAt": "2026-11-15",
-    "updatedAt": "2026-11-15",
+    "updatedAt": "2026-11-17",
     "imageUrl": ""
   },
   {
