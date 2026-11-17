@@ -1,16 +1,16 @@
 # مراجعة مصادر دفعة المطبخ والأجهزة الصغيرة — 17 نوفمبر 2026
 
-تمت مراجعة سجلات cs-066 وcs-070 وcs-071 وcs-077 وcs-084 وcs-085 وcs-088. أضيفت ستة مصادر مطابقة للموديل/الباركود، مع عدم رفع أي سجل إلى Verified وعدم اعتماد سعر أو توفر أو ضمان محلي.
+تمت مراجعة سجلات cs-066 وcs-070 وcs-071 وcs-077 وcs-084 وcs-085 وcs-086 وcs-088 وcs-089. أضيفت تسعة مصادر مطابقة للموديل/الباركود، مع عدم رفع أي سجل إلى Verified وعدم اعتماد سعر أو توفر أو ضمان محلي.
 
 | السجل | الموديل/الباركود | المصدر | نتيجة المطابقة والقيود |
 |---|---|---|---|
 | cs-066 | Home JR2201 | https://www.noon.com/egypt-ar/home-egypt-rice-cooker-500-watt-1-5-liter-jr2201/Z336DA9BF3BD268F4107EZ/p/ | صفحة البائع تطابق 500W وسعة 1.5L. الصفحة التي تم العثور عليها قديمة، لذا لا يعتمد السعر أو التوفر أو الضمان الحالي. |
-| cs-070 | Korkmaz A1903 | https://www.korkmaz.com.tr/Global/Discovery/images/Korkmaz%20Collection%202020.pdf | كتالوج Korkmaz الرسمي يطابق سلسلة Astra ومقاس 24×14 سم وسعة 6.3L. مصدر مواصفات مصنع وليس إثبات سعر/ضمان مصر. |
+| cs-070 | Korkmaz A1903 | https://korkmazeg.com/product/korkmaz-astra-casserole-24x14-cm/ | صفحة Korkmaz Egypt الرسمية تطابق A1903 وSKU 8691607019308 ومقاس 24×14 سم وسعة 6.3 لتر. لا تثبت سعر أو توفر أو ضمان محلي. |
 | cs-071 | 6901649163245 | https://tulipe.com/eg_en/springform-pan-24cm.html | صفحة بائع مصرية تطابق باركود Neoflam وقالب Springform مقاس 24 سم. |
 | cs-077 | 6223011170331 | https://shop-aboud.com/product/28-cm-grill-bio-granite/ | صفحة Aboud المباشرة تطابق جريل Cookin Aboud Bio Granite مقاس 28 سم والباركود. |
 | cs-084 | Mienta FP141535G | https://www.abdulaziz-stores.com/ar/mienta-food-processor-mille-full-set-1000w-fp141535g-golden-edition-1001400390028 | صفحة بائع مصرية تطابق الموديل وتذكر 1000W و2.5L و28 وظيفة. توجد صياغة متعارضة للضمان داخل صفحة البائع؛ لم يعتمد الضمان. |
-| cs-085 | Home YN5240 | https://www.almorshedymarts.net/en/products/1155014000007 | صفحة بائع مصرية تطابق موقد عين واحدة 500W مع تحكم حراري ومؤشر تشغيل. |
-| cs-088 | Mienta HB111938A | https://www.carrefouregypt.com/mafegy/en/blender/mienta-hand-blender-hb111938a-450w/p/674730 | صفحة Carrefour Egypt تطابق 450W و600ml وTurbo واللون الأبيض. منشأ مصر وضمان سنتين وردا في صفحة بائع أخرى ولا يعتمدان قبل تأكيد شروط الضمان. |
+| cs-085 | Home YN5240 | https://www.noon.com/egypt-en/home-egypt-electric-hot-plate-500-watt-yn5240/Z6A292B9FF191EF3E7162Z/p/ | صفحة Noon تطابق الموديل والقدرة 500W ومنظم الحرارة ومؤشر التشغيل والفصل الحراري؛ السعر والتوفر يحتاجان إعادة تحقق. |
+| cs-086 | Braun MQ50220MWH | https://ehabcenter.com/product/braun-hand-blender-1000w-white-with-accessories-mq50220mwh-8021098004376/ | صفحة بائع مصرية تطابق الموديل والباركود 8021098004376؛ توجد فروق في مواصفات صفحة الشركة للعائلة، لذلك لا نعتمد القدرة أو الضمان قبل التحقق من ملصق الجهاز. |\n| cs-088 | Mienta HB111938A | https://www.carrefouregypt.com/mafegy/en/blender/mienta-hand-blender-hb111938a-450w/p/674730 | صفحة Carrefour Egypt تطابق 450W و600ml وTurbo واللون الأبيض. منشأ مصر وضمان سنتين وردا في صفحة بائع أخرى ولا يعتمدان قبل تأكيد شروط الضمان. |
 
 ## سجلات لم تكتمل مطابقتها في هذه الدورة
 - cs-019 Samsung 55LS03H: لم تتوفر صفحة Samsung Egypt مطابقة للـSKU في نتائج هذه الدورة؛ مصادر مقارنة الأسعار ليست بديلاً عن صفحة المنتج أو البائع المباشر.
