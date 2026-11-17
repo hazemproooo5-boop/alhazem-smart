@@ -491,9 +491,10 @@ export const cairoSalesProducts: Product[] = [
     "published": true,
     "createdAt": "2026-11-15",
     "updatedAt": "2026-11-15",
-    "imageUrl": "https://www.lg.com/content/dam/channel/wcms/1-channel/eg_ar/ms/lgcom/2026/tv-audio-video/tv/qned-evo/qned82/gp1/gallery/65-qned82/gallery/65_.jpg/jcr%3Acontent/renditions/thum-1600x1062.jpeg?w=800",
-    "imageSourceUrl": "https://www.lg.com/eg_ar/tv-soundbars/qned-evo/65qned84b6t/",
-    "imageVerifiedDate": "2026-11-18"
+    "imageCandidateUrl": "https://www.lg.com/content/dam/channel/wcms/1-channel/eg_ar/ms/lgcom/2026/tv-audio-video/tv/qned-evo/qned82/gp1/gallery/65-qned82/gallery/65_.jpg/jcr%3Acontent/renditions/thum-1600x1062.jpeg?w=800",
+    "imageUrl": "",
+    "imageSourceUrl": "",
+    "imageVerifiedDate": ""
   },
   {
     "id": "cs-007",
@@ -515,7 +516,7 @@ export const cairoSalesProducts: Product[] = [
     "createdAt": "2026-11-15",
     "updatedAt": "2026-11-15",
     "imageUrl": "https://www.lg.com/content/dam/channel/wcms/1-channel/eg_ar/ms/lgcom/2026/tv-audio-video/tv/qned-evo/qned85/gp1/gallery/65-qned85/gallery/55_.jpg/jcr%3Acontent/renditions/thum-1600x1062.jpeg?w=800",
-    "imageSourceUrl": "https://www.lg.com/eg_ar/support/product-support/cs-55QNED85B6T.AFU/",
+    "imageSourceUrl": "https://www.lg.com/eg_ar/tv-soundbars/qned-evo/55qned85b6t/",
     "imageVerifiedDate": "2026-11-18"
   },
   {
@@ -669,6 +670,7 @@ export const cairoSalesProducts: Product[] = [
     "description": "سجل Cairo Sales يذكر Samsung S85H OLED مقاس 83 بوصة. مصدر Samsung Egypt الرسمي يؤكد أن سلسلة S85H لعام 2026 تشمل مقاس 83 بوصة وOLED 4K، لكنه ليس صفحة SKU مصرية مستقلة لهذا المقاس؛ تبقى مطابقة رقم الطراز الإقليمي مطلوبة.",
     "specifications": {"السعر الأصلي بالقائمة":"215,898 EGP — غير معتمد","نوع الشاشة":"OLED","المقاس":"83 بوصة ضمن مقاسات سلسلة S85H 2026 الرسمية","الدقة":"4K","المعالج":"NQ4 AI Gen2","المصدر":"صفحة مجموعة OLED الرسمية من Samsung Egypt"},
     "availability": "يحتاج تأكيد التوفر لدى المورد",
+    "sourceCandidateUrl": "",
     "sourceUrl": "",
     "sourceType": "Unverified Market",
     "verificationStatus": "Unverified",
@@ -690,6 +692,7 @@ export const cairoSalesProducts: Product[] = [
     "description": "سجل Cairo Sales يذكر Samsung M90H Mini LED مقاس 100 بوصة. دليل Samsung Egypt الرسمي يؤكد سلسلة M90H ضمن Mini LED 2026، بينما دليل الفئات يؤكد وجود مقاس 100 بوصة ضمن Mini LED؛ لم تُثبت صفحة SKU إقليمية تجمع المواصفتين لهذا السجل، لذلك يبقى التحقق من النسخة مطلوباً.",
     "specifications": {"السعر الأصلي بالقائمة":"213,625 EGP — غير معتمد","نوع الشاشة":"Mini LED بحسب اسم السلسلة في قائمة الإدراج","المقاس":"100 بوصة بحسب قائمة الإدراج؛ يلزم تأكيد SKU","السلسلة":"M90H ضمن Mini LED 2026 بحسب دليل Samsung Egypt","المصدر":"دليل مجموعة أجهزة Samsung TV 2026"},
     "availability": "يحتاج تأكيد التوفر لدى المورد",
+    "sourceCandidateUrl": "",
     "sourceUrl": "",
     "sourceType": "Unverified Market",
     "verificationStatus": "Unverified",
