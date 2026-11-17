@@ -2968,7 +2968,9 @@ export const cairoSalesCookwareProducts: Product[] = [
     "published": true,
     "createdAt": "2026-11-15",
     "updatedAt": "2026-11-17",
-    "imageUrl": ""
+    "imageUrl": "https://f.nooncdn.com/p/pzsku/ZB8880D4A13FC16064539Z/45/1756628523/451606fe-966a-4b34-9392-62b63b977e42.jpg",
+    "imageSourceUrl": "https://www.noon.com/egypt-ar/top-chef-granit-oblong-tray-35-cm-beige/ZB8880D4A13FC16064539Z/p/",
+    "imageVerifiedDate": "2026-11-18"
   },
   {
     "id": "cs-075",
@@ -3012,7 +3014,9 @@ export const cairoSalesCookwareProducts: Product[] = [
     "published": true,
     "createdAt": "2026-11-15",
     "updatedAt": "2026-11-17",
-    "imageUrl": ""
+    "imageUrl": "https://f.nooncdn.com/p/pzsku/Z06443236CF395B5F92FFZ/45/1756628437/9e62c4f9-0d84-46b8-a31a-48ddac2ff5ad.jpg",
+    "imageSourceUrl": "https://www.noon.com/egypt-ar/top-chef-granit-oblong-tray-35-cm-black/Z06443236CF395B5F92FFZ/p/",
+    "imageVerifiedDate": "2026-11-18"
   },
   {
     "id": "cs-077",
