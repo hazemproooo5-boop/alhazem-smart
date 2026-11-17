@@ -2733,7 +2733,7 @@ export const cairoSalesPrices: PriceRecord[] = [
     "priceDate": "2026-11-18",
     "verificationStatus": "Verified",
     "createdAt": "2026-11-18T00:00:00Z"
-  },,
+  },
   {
     "id": "cs-price-124",
     "productId": "cs-017",
