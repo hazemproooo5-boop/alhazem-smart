@@ -2557,18 +2557,15 @@ export const cairoSalesCookwareProducts: Product[] = [
     "categoryId": "kitchen",
     "model": "JR2201",
     "sku": "JR2201",
-    "description": "بيانات المنتج والأسعار من قائمة Cairo Sales التي قدمها المستخدم؛ لم يتم التحقق المستقل من صفحة المنتج أو التوفر أو السعر.",
-    "specifications": {
-      "السعر الأصلي بالقائمة": "2,443 EGP",
-      "نسبة الخصم بالقائمة": "10%"
-    },
+    "description": "حلة أرز Home JR2201 بقدرة 500 وات وسعة 1.5 لتر؛ صفحة Noon تطابق الموديل والمواصفات، وصفحة أرخصفين تعرض سعر Cairo Sales 2,199 جنيه ومتوفراً بتاريخ 15 نوفمبر 2026. السعر والتوفر لا يُعتمدان في حقل السعر قبل إعادة التحقق المباشر من Cairo Sales.",
+    "specifications": {"السعر الأصلي بالقائمة":"2,443 EGP — غير معتمد","الموديل":"JR2201","القدرة":"500 واط","السعة":"1.5 لتر","الجهد":"220–240V 50–60Hz","الوعاء الداخلي":"غير لاصق وقابل للإزالة","الوظائف":"طهي تلقائي وحفظ حرارة وحماية من ارتفاع الحرارة","سعر Cairo Sales المرصود":"2,199 EGP في 15-11-2026 — غير معتمد","المصدر الفني":"Noon Egypt listing"},
     "availability": "يحتاج تأكيد التوفر لدى المورد",
-    "sourceUrl": "",
+    "sourceUrl": "https://www.noon.com/egypt-ar/home-egypt-rice-cooker-500-watt-1-5-liter-jr2201/Z336DA9BF3BD268F4107EZ/p/",
     "sourceType": "Unverified Market",
     "verificationStatus": "Unverified",
     "published": true,
     "createdAt": "2026-11-15",
-    "updatedAt": "2026-11-15",
+    "updatedAt": "2026-11-17",
     "imageUrl": ""
   },
   {
@@ -2623,18 +2620,15 @@ export const cairoSalesCookwareProducts: Product[] = [
     "categoryId": "kitchen",
     "model": "6223005010117",
     "sku": "6223005010117",
-    "description": "بيانات المنتج والأسعار من قائمة Cairo Sales التي قدمها المستخدم؛ لم يتم التحقق المستقل من صفحة المنتج أو التوفر أو السعر.",
-    "specifications": {
-      "السعر الأصلي بالقائمة": "3,260 EGP",
-      "نسبة الخصم بالقائمة": "8%"
-    },
+    "description": "حلة عبود استانلس مقاس 38 سم؛ صفحة Cairo Sales على Qarenly تعرض الاسم والباركود 6223005010117 وسعراً ظاهراً 2,999 جنيه وحالة متوفر وقت الفحص. لم يُعتمد السعر أو التوفر في الكتالوج دون تحقق مباشر من البائع.",
+    "specifications": {"السعر الأصلي بالقائمة":"3,260 EGP — غير معتمد","العلامة":"Aboud","الخامة":"Stainless Steel بحسب صفحة البائع","المقاس":"38 سم","EAN-13":"6223005010117","سعر المصدر الظاهر":"2,999 EGP — غير معتمد","حالة المصدر":"متوفر لدى Cairo Sales على Qarenly وقت الفحص"},
     "availability": "يحتاج تأكيد التوفر لدى المورد",
-    "sourceUrl": "",
+    "sourceUrl": "https://qarenly.com/ar/store/cairosales",
     "sourceType": "Unverified Market",
     "verificationStatus": "Unverified",
     "published": true,
     "createdAt": "2026-11-15",
-    "updatedAt": "2026-11-15",
+    "updatedAt": "2026-11-17",
     "imageUrl": ""
   },
   {
@@ -2646,18 +2640,16 @@ export const cairoSalesCookwareProducts: Product[] = [
     "categoryId": "kitchen",
     "model": "A1903",
     "sku": "A1903",
-    "description": "بيانات المنتج والأسعار من قائمة Cairo Sales التي قدمها المستخدم؛ لم يتم التحقق المستقل من صفحة المنتج أو التوفر أو السعر.",
-    "specifications": {
-      "السعر الأصلي بالقائمة": "2,768 EGP",
-      "نسبة الخصم بالقائمة": "10%"
-    },
+    "description": "حلة Korkmaz Astra موديل A1903 مقاس 24×14 سم؛ صفحة Korkmaz Egypt تطابق السعة 6.3 لتر ورقم SKU 8691607019308 وتوضح الستانلس 18/10 والقاعدة Solar Base. لا يُعتمد السعر الظاهر أو التوفر المحلي دون إعادة تحقق.",
+    "specifications": {"السعر الأصلي بالقائمة":"2,768 EGP — غير معتمد","الموديل":"A1903","السلسلة":"Astra","المقاس":"24 × 14 سم","السعة":"6.3 لتر","الخامة":"ستانلس ستيل 18/10 Cr-Ni","القاعدة":"Super Capsule / Solar Base","SKU / EAN":"8691607019308"},
     "availability": "يحتاج تأكيد التوفر لدى المورد",
-    "sourceUrl": "",
-    "sourceType": "Unverified Market",
+    "sourceUrl": "https://korkmazeg.com/product/korkmaz-astra-casserole-24x14-cm/",
+    "officialProductUrl": "https://korkmazeg.com/product/korkmaz-astra-casserole-24x14-cm/",
+    "sourceType": "Official",
     "verificationStatus": "Unverified",
     "published": true,
     "createdAt": "2026-11-15",
-    "updatedAt": "2026-11-15",
+    "updatedAt": "2026-11-17",
     "imageUrl": ""
   },
   {
@@ -2669,18 +2661,15 @@ export const cairoSalesCookwareProducts: Product[] = [
     "categoryId": "kitchen",
     "model": "N-6901649163245",
     "sku": "N-6901649163245",
-    "description": "بيانات المنتج والأسعار من قائمة Cairo Sales التي قدمها المستخدم؛ لم يتم التحقق المستقل من صفحة المنتج أو التوفر أو السعر.",
-    "specifications": {
-      "السعر الأصلي بالقائمة": "666 EGP",
-      "نسبة الخصم بالقائمة": "10%"
-    },
+    "description": "قالب Neoflam Springform مقاس 24 سم؛ صفحة Tulipe Egypt تطابق الباركود 6901649163245 وتعرض طلاءً غير لاصق ومقاس 24 سم. السعر والتوفر المعروضان يحتاجان إعادة تحقق مباشرة قبل اعتماد السعر الحالي.",
+    "specifications": {"السعر الأصلي بالقائمة":"666 EGP — غير معتمد","العلامة":"Neoflam","الموديل/الباركود":"6901649163245","النوع":"Springform pan / قالب كيك بقاعدة قابلة للفك","المقاس":"24 سم","اللون":"رمادي","الطلاء":"Premium non-stick","العناية":"غسيل يدوي"},
     "availability": "يحتاج تأكيد التوفر لدى المورد",
-    "sourceUrl": "",
+    "sourceUrl": "https://tulipe.com/eg_en/springform-pan-24cm.html",
     "sourceType": "Unverified Market",
     "verificationStatus": "Unverified",
     "published": true,
     "createdAt": "2026-11-15",
-    "updatedAt": "2026-11-15",
+    "updatedAt": "2026-11-17",
     "imageUrl": ""
   },
   {
@@ -2692,18 +2681,15 @@ export const cairoSalesCookwareProducts: Product[] = [
     "categoryId": "kitchen",
     "model": "S-6649",
     "sku": "S-6649",
-    "description": "بيانات المنتج والأسعار من قائمة Cairo Sales التي قدمها المستخدم؛ لم يتم التحقق المستقل من صفحة المنتج أو التوفر أو السعر.",
-    "specifications": {
-      "السعر الأصلي بالقائمة": "3,194 EGP",
-      "نسبة الخصم بالقائمة": "13%"
-    },
+    "description": "حلة Saflon Powerline Granite مربعة مقاس 26 سم أسود؛ صفحة Cairo Sales على Qarenly تطابق الموديل S-6649 وتعرض سعراً 2,779 جنيه وحالة متوفر وقت الفحص. السعر والتوفر لا يُعتمدان قبل التحقق المباشر من البائع.",
+    "specifications": {"السعر الأصلي بالقائمة":"3,194 EGP — غير معتمد","الموديل":"S-6649","السلسلة":"Powerline","النوع":"حلة جرانيت مربعة","المقاس":"26 سم","اللون":"أسود","سعر المصدر الظاهر":"2,779 EGP — غير معتمد"},
     "availability": "يحتاج تأكيد التوفر لدى المورد",
-    "sourceUrl": "",
+    "sourceUrl": "https://qarenly.com/en/store/cairosales",
     "sourceType": "Unverified Market",
     "verificationStatus": "Unverified",
     "published": true,
     "createdAt": "2026-11-15",
-    "updatedAt": "2026-11-15",
+    "updatedAt": "2026-11-17",
     "imageUrl": ""
   },
   {
@@ -2715,18 +2701,15 @@ export const cairoSalesCookwareProducts: Product[] = [
     "categoryId": "kitchen",
     "model": "S-3396",
     "sku": "S-3396",
-    "description": "بيانات المنتج والأسعار من قائمة Cairo Sales التي قدمها المستخدم؛ لم يتم التحقق المستقل من صفحة المنتج أو التوفر أو السعر.",
-    "specifications": {
-      "السعر الأصلي بالقائمة": "1,137 EGP",
-      "نسبة الخصم بالقائمة": "13%"
-    },
+    "description": "مقلاة كريب Saflon دائرية 28 سم بلون Chocolate؛ صفحة Cairo Sales على Qarenly تطابق الموديل S-3396 وتعرض سعراً 989 جنيه وحالة متوفر وقت الفحص. السعر والتوفر يحتاجان تأكيداً مباشراً.",
+    "specifications": {"السعر الأصلي بالقائمة":"1,137 EGP — غير معتمد","الموديل":"S-3396","النوع":"Crepe Frypan","المقاس":"28 سم","الشكل":"دائري","اللون":"Chocolate","سعر المصدر الظاهر":"989 EGP — غير معتمد"},
     "availability": "يحتاج تأكيد التوفر لدى المورد",
-    "sourceUrl": "",
+    "sourceUrl": "https://qarenly.com/en/store/cairosales",
     "sourceType": "Unverified Market",
     "verificationStatus": "Unverified",
     "published": true,
     "createdAt": "2026-11-15",
-    "updatedAt": "2026-11-15",
+    "updatedAt": "2026-11-17",
     "imageUrl": ""
   },
   {
@@ -2738,18 +2721,15 @@ export const cairoSalesCookwareProducts: Product[] = [
     "categoryId": "kitchen",
     "model": "T-6223008052923",
     "sku": "T-6223008052923",
-    "description": "بيانات المنتج والأسعار من قائمة Cairo Sales التي قدمها المستخدم؛ لم يتم التحقق المستقل من صفحة المنتج أو التوفر أو السعر.",
-    "specifications": {
-      "السعر الأصلي بالقائمة": "1,755 EGP",
-      "نسبة الخصم بالقائمة": "8%"
-    },
+    "description": "صينية Top Chef Granite مستطيلة 35 سم باللون Beige؛ صفحة Noon Egypt تطابق رقم الموديل 6223008052923 والقياس والخامة. لا يثبت المصدر سعراً أو مخزوناً لدى مورد آخر.",
+    "specifications": {"السعر الأصلي بالقائمة":"1,755 EGP — غير معتمد","الموديل/EAN":"6223008052923","النوع":"Granite Oblong Tray","المقاس":"35 سم","اللون":"Beige","عدد القطع":"1"},
     "availability": "يحتاج تأكيد التوفر لدى المورد",
-    "sourceUrl": "",
+    "sourceUrl": "https://www.noon.com/egypt-ar/top-chef-granit-oblong-tray-35-cm-beige/ZB8880D4A13FC16064539Z/p/",
     "sourceType": "Unverified Market",
     "verificationStatus": "Unverified",
     "published": true,
     "createdAt": "2026-11-15",
-    "updatedAt": "2026-11-15",
+    "updatedAt": "2026-11-17",
     "imageUrl": ""
   },
   {
@@ -2784,18 +2764,15 @@ export const cairoSalesCookwareProducts: Product[] = [
     "categoryId": "kitchen",
     "model": "T-6223008052909",
     "sku": "T-6223008052909",
-    "description": "بيانات المنتج والأسعار من قائمة Cairo Sales التي قدمها المستخدم؛ لم يتم التحقق المستقل من صفحة المنتج أو التوفر أو السعر.",
-    "specifications": {
-      "السعر الأصلي بالقائمة": "1,630 EGP",
-      "نسبة الخصم بالقائمة": "8%"
-    },
+    "description": "صينية Top Chef Granite مستطيلة 35 سم باللون Black؛ صفحة Noon Egypt تطابق رقم الموديل 6223008052909 والقياس والخامة. لا يثبت المصدر سعراً أو مخزوناً لدى مورد آخر.",
+    "specifications": {"السعر الأصلي بالقائمة":"1,630 EGP — غير معتمد","الموديل/EAN":"6223008052909","النوع":"Granite Oblong Tray","المقاس":"35 سم","اللون":"أسود","عدد القطع":"1"},
     "availability": "يحتاج تأكيد التوفر لدى المورد",
-    "sourceUrl": "",
+    "sourceUrl": "https://www.noon.com/egypt-ar/top-chef-granit-oblong-tray-35-cm-black/Z06443236CF395B5F92FFZ/p/",
     "sourceType": "Unverified Market",
     "verificationStatus": "Unverified",
     "published": true,
     "createdAt": "2026-11-15",
-    "updatedAt": "2026-11-15",
+    "updatedAt": "2026-11-17",
     "imageUrl": ""
   },
   {
@@ -2807,18 +2784,15 @@ export const cairoSalesCookwareProducts: Product[] = [
     "categoryId": "kitchen",
     "model": "6223011170331",
     "sku": "6223011170331",
-    "description": "بيانات المنتج والأسعار من قائمة Cairo Sales التي قدمها المستخدم؛ لم يتم التحقق المستقل من صفحة المنتج أو التوفر أو السعر.",
-    "specifications": {
-      "السعر الأصلي بالقائمة": "1,151 EGP",
-      "نسبة الخصم بالقائمة": "8%"
-    },
+    "description": "جريل Cookin Aboud Bio Granite مقاس 28 سم؛ صفحة Shop Aboud تطابق رقم SKU/الباركود 6223011170331 وتعرض المنتج ضمن فئة Dark Stone. السعر الظاهر يحتاج تحققاً حديثاً من البائع ولا يعتمد كسعر حالي.",
+    "specifications": {"السعر الأصلي بالقائمة":"1,151 EGP — غير معتمد","العلامة":"Cookin Aboud","النوع":"Bio Granite Grill","المقاس":"28 سم","اللون":"أسود","SKU / EAN":"6223011170331","سعر المصدر الظاهر":"1,100 EGP — غير معتمد"},
     "availability": "يحتاج تأكيد التوفر لدى المورد",
-    "sourceUrl": "",
+    "sourceUrl": "https://shop-aboud.com/product/28-cm-grill-bio-granite/",
     "sourceType": "Unverified Market",
     "verificationStatus": "Unverified",
     "published": true,
     "createdAt": "2026-11-15",
-    "updatedAt": "2026-11-15",
+    "updatedAt": "2026-11-17",
     "imageUrl": ""
   }
 ];
