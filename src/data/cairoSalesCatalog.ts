@@ -1704,17 +1704,15 @@ export const cairoSalesProducts: Product[] = [
     "categoryId": "home",
     "model": "بدون كود موديل",
     "sku": "CS-063",
-    "description": "قائمة Cairo Sales المقدمة من المستخدم. السعر والبيانات التجارية غير متحقق منها مستقلاً؛ يلزم الرجوع إلى صفحة المنتج والمورد قبل الاعتماد.",
-    "specifications": {
-      "السعر الأصلي بالقائمة": "533 EGP"
-    },
+    "description": "سجل عام لمبة Panasonic Candle LED بقدرة 4 وات؛ صفحة Elghazawy تعرض نسختين منفصلتين: PBUM15043-EX ضوء دافئ 3000K وPBUM15047-EX ضوء أبيض 6500K. لا يحدد السجل الحالي أي النسختين، لذلك لا يعتمد كمنتج منفرد قبل الفصل أو تحديد SKU المقصود.",
+    "specifications": {"القدرة": "4 وات","النوع": "Candle LED","النسخة الدافئة": "PBUM15043-EX، 3000K، ضوء أصفر دافئ، قاعدة E14","النسخة البيضاء": "PBUM15047-EX، 6500K، ضوء أبيض نهاري، قاعدة E14","الباركود": "غير محدد في سجل القائمة","سعر البائع الظاهر": "50 EGP لكل نسخة — غير معتمد","قيد المطابقة": "سجل واحد يحتوي نسختين مختلفتين؛ لا يتم نشره قبل الفصل أو اختيار النسخة"},
     "availability": "يحتاج تأكيد التوفر لدى المورد",
-    "sourceUrl": "",
+     "sourceUrl": "https://elghazawy.com/ar/search?category=flashlights&ct=936",
     "sourceType": "Unverified Market",
     "verificationStatus": "Unverified",
     "published": true,
     "createdAt": "2026-11-15",
-    "updatedAt": "2026-11-15",
+    "updatedAt": "2026-11-17",
     "imageUrl": ""
   },
   {
