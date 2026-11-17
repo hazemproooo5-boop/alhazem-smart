@@ -592,7 +592,7 @@ export const cairoSalesProducts: Product[] = [
     "published": true,
     "createdAt": "2026-11-15",
     "updatedAt": "2026-11-15",
-    "imageUrl": ""
+    "imageUrl": "https://www.worldwidestereo.com/cdn/shop/files/Samsung-QN83S95HAEXZA-S95H-83-4K-OLED-TV-Image-01.jpg?v=1778268468"
   },
   {
     "id": "cs-012",
@@ -612,7 +612,7 @@ export const cairoSalesProducts: Product[] = [
     "published": true,
     "createdAt": "2026-11-15",
     "updatedAt": "2026-11-17",
-    "imageUrl": ""
+    "imageUrl": "https://images.samsung.com/is/content/samsung/p6pim/uk/qe83s90haexxu/gallery/uk-oled-s90h-585902-qe83s90haexxu-553409047.webp"
   },
   {
     "id": "cs-013",
@@ -632,7 +632,7 @@ export const cairoSalesProducts: Product[] = [
     "published": true,
     "createdAt": "2026-11-15",
     "updatedAt": "2026-11-17",
-    "imageUrl": ""
+    "imageUrl": "https://fillion.ca/cdn/shop/files/QA77S95HAEXXS_5_8bba3bc0-c26a-431e-ac29-f9634ba8577c.jpg?v=1775592003&width=700"
   },
   {
     "id": "cs-014",
@@ -652,7 +652,7 @@ export const cairoSalesProducts: Product[] = [
     "published": true,
     "createdAt": "2026-11-15",
     "updatedAt": "2026-11-17",
-    "imageUrl": ""
+    "imageUrl": "https://static.ollo.it/img/catalog/2048x2048/samsung-83-oled-s85h-4k-vision-ai-smart-tv-2026_1692160_961158.jpg"
   },
   {
     "id": "cs-015",
@@ -672,7 +672,7 @@ export const cairoSalesProducts: Product[] = [
     "published": true,
     "createdAt": "2026-11-15",
     "updatedAt": "2026-11-17",
-    "imageUrl": ""
+    "imageUrl": "https://i5.walmartimages.com/seo/Samsung-100-Class-M90H-Micro-RGB-4K-Vision-AI-Smart-TV-2026_5fbd51e8-5d6d-4a2a-80f7-8a3a9f8b0d50.9f3c7a0d8e8d8a0e6b7d1b5d1a3e6f3c.jpeg"
   },
   {
     "id": "cs-016",
@@ -692,7 +692,7 @@ export const cairoSalesProducts: Product[] = [
     "published": true,
     "createdAt": "2026-11-15",
     "updatedAt": "2026-11-17",
-    "imageUrl": ""
+    "imageUrl": "https://images.samsung.com/is/image/samsung/p6pim/es/tq65s95hftxxc/gallery/es-oled-s95-tq65s95hftxxc-thumb-552673784"
   },
   {
     "id": "cs-017",
@@ -713,7 +713,7 @@ export const cairoSalesProducts: Product[] = [
     "published": true,
     "createdAt": "2026-11-15",
     "updatedAt": "2026-11-15",
-    "imageUrl": ""
+    "imageUrl": "https://sonxplus.com/cdn/shop/files/Samsung_UA98U9000H_98_Inch_Crystal_UHD_4K_Smart_TV_2026.jpg?v=1775634200"
   },
   {
     "id": "cs-018",
@@ -733,7 +733,7 @@ export const cairoSalesProducts: Product[] = [
     "published": true,
     "createdAt": "2026-11-15",
     "updatedAt": "2026-11-17",
-    "imageUrl": ""
+    "imageUrl": "https://media.binglee.com.au/cdn-cgi/image/fit%3Dscale-down%2Cf%3Dauto%2Cw%3D1079/a/a/3/2/aa3291990bcfa993c841f318667aeddbe5700bcd_QA75LS03HEWXXY__proddim.jpg"
   },
   {
     "id": "cs-019",
@@ -753,7 +753,7 @@ export const cairoSalesProducts: Product[] = [
     "published": true,
     "createdAt": "2026-11-15",
     "updatedAt": "2026-11-17",
-    "imageUrl": ""
+    "imageUrl": "https://images.samsung.com/is/image/samsung/p6pim/ca/qn55ls03hefxzc/gallery/ca-the-frame-ls03he-qn55ls03hefxzc-552500698"
   },
   {
     "id": "cs-020",
@@ -774,7 +774,7 @@ export const cairoSalesProducts: Product[] = [
     "published": true,
     "createdAt": "2026-11-15",
     "updatedAt": "2026-11-15",
-    "imageUrl": ""
+    "imageUrl": "https://www.listenup.com/cdn/shop/files/Samsung-QN55QN70H-Front.jpg?v=1775678234"
   },
   {
     "id": "cs-021",
