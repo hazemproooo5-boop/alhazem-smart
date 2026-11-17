@@ -684,8 +684,8 @@ export const cairoSalesProducts: Product[] = [
     "createdAt": "2026-11-15",
     "updatedAt": "2026-11-17",
     "imageUrl": "",
-    "imageCandidateUrl": "https://images.samsung.com/is/image/samsung/p6pim/ro/qe83s85haexxh/gallery/ro-oled-s85h-qe83s85haexxh-552048068?%241164_776_PNG%24=",
-    "imageSourceUrl": "https://www.samsung.com/ro/tvs/oled-tv/s85h-83-inch-4k-smart-tv-qe83s85haexxh/",
+    "imageCandidateUrl": "https://images.samsung.com/is/image/samsung/p6pim/sa/qa83s85haexsa/gallery/sa-oled-s85h-qa83s85haexsa-553190333?%241164_776_PNG%24=",
+    "imageSourceUrl": "https://www.samsung.com/sa/tvs/oled-tv/s85h-83-inch-4k-smart-tv-qa83s85haexsa/",
     "officialProductUrl": "https://www.samsung.com/ro/tvs/oled-tv/s85h-83-inch-4k-smart-tv-qe83s85haexxh/",
   },
   {
@@ -756,7 +756,8 @@ export const cairoSalesProducts: Product[] = [
     "createdAt": "2026-11-15",
     "updatedAt": "2026-11-15",
     "imageUrl": "",
-    "imageCandidateUrl": "https://sonxplusrockland.com/cdn/shop/files/U9000HFXZC_02_700x700.jpg?v=1780430025"
+    "imageCandidateUrl": "https://hnsgsfp.imgix.net/9/images/detailed/170/Samsung_Crystal_UHD_U9000H_4K_AI_2026_Smart_TV_-_Black_03.JPG?auto=format%2Ccompress&bg=0FFF&fit=fill&h=901&w=1536",
+    "imageSourceUrl": "https://www.harveynorman.com.my/tv-and-audio/tvs-en-2/tvs-en-3/samsung-98-inch-crystal-uhd-u9000h-4k-ai-2026-smart-tv-black-ua98u9000h.html"
   },
   {
     "id": "cs-018",
@@ -906,7 +907,9 @@ export const cairoSalesProducts: Product[] = [
     "published": true,
     "createdAt": "2026-11-15",
     "updatedAt": "2026-11-15",
-    "imageUrl": ""
+    "imageUrl": "https://cairosales.com/85636-large_default/tornado-electric-oven-48-l-1800-watt-with-grill-and-fan-teo-48dgek.jpg",
+    "imageSourceUrl": "https://cairosales.com/en/small-appliances/tornado-electric-oven-48-l-1800-watt-with-grill-and-fan-teo-48dgek.html",
+    "imageVerifiedDate": "2026-11-18"
   },
   {
     "id": "cs-024",
@@ -1376,7 +1379,9 @@ export const cairoSalesProducts: Product[] = [
     "published": true,
     "createdAt": "2026-11-15",
     "updatedAt": "2026-11-17",
-        "imageUrl": "",
+        "imageUrl": "https://www.mironet.de/Foto/s4/50005383.webp",
+    "imageSourceUrl": "https://www.mironet.de/sony-hta9000-soundbar-dolby-atmos-bravia-theater-bar-9%2Bdp859519/",
+    "imageVerifiedDate": "2026-11-18",
     "imageCandidateUrl": "https://www.audiotrends.com.au/assets/full/HTA9000.jpeg?20240110160009"
   },
   {
@@ -1513,7 +1518,9 @@ export const cairoSalesProducts: Product[] = [
     "createdAt": "2026-11-15",
     "updatedAt": "2026-11-15",
     "imageCandidateUrl": "https://cdn.shopify.com/s/files/1/0397/7166/8635/files/WF-C510BlueMAIN.png?v=1756966416",
-     "imageUrl": "",
+     "imageUrl": "https://www.staples.ca/cdn/shop/files/552deaa85f1291b7a6afeb36acb95127977be8da_square3103013_1_1000x.jpg?v=1770358840",
+    "imageSourceUrl": "https://www.staples.ca/products/3103013-en-sony-wf-c510-truly-wireless-earbuds-black",
+    "imageVerifiedDate": "2026-11-18"
   },
   {
     "id": "cs-049",
@@ -1723,7 +1730,9 @@ export const cairoSalesProducts: Product[] = [
     "published": true,
     "createdAt": "2026-11-15",
     "updatedAt": "2026-11-17",
-    "imageUrl": ""
+    "imageUrl": "https://cdn.meingartencenter24.de/item/images/4108150/full/4108150-14101004-Weber-Original-Kettle-E-5710----57cm-Holzkohlegrill-Black_3.png",
+    "imageSourceUrl": "https://www.meingartencenter24.de/weber-world-grill-shop/holzkohlegrills/original-kettle/weber-original-kettle-e-5710-holzkohlegrill-57cm-black_4108150_45782",
+    "imageVerifiedDate": "2026-11-18"
   },
   {
     "id": "cs-058",
