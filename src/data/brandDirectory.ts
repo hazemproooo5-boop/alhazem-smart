@@ -84,7 +84,6 @@ export const brandDirectoryNames: string[] = [
   "Galanz",
   "Glem Gas",
   "Gorenje",
-  "GREE",
   "Gree",
   "Grundfos",
   "Haier",
@@ -246,3 +245,7 @@ export const brandDirectoryNames: string[] = [
   "Zinox",
   "Zippo"
 ];
+
+
+// Preserve the historical uppercase spelling as a search alias, not a second brand record.
+export const brandDirectoryAliases = { GREE: "Gree" } as const;

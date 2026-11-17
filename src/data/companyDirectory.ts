@@ -161,11 +161,11 @@ export const companyDirectory = [
   {
     "id": "elzenouki",
     "name": "الزنوكي جروب",
-    "kind": "مصنّع أدوات منزلية",
+    "kind": "مجموعة تصنيع أواني طهي وأجهزة منزلية",
     "url": "https://elzenouki.com",
-    "source": "قائمة الروابط المقدمة من المستخدم",
+    "source": "موقع مجموعة الزنوكي الرسمي",
     "verificationStatus": "Unverified",
-    "note": "الرابط مقدم ضمن قائمة المستخدم؛ يلزم التحقق من العلامات التابعة."
+    "note": "الموقع الرسمي يذكر خمس علامات تابعة تشمل Trueval وZinox وMaster وTop Chef وTouch؛ لا تُعامل العلامات التابعة كشركات مستقلة."
   },
   {
     "id": "helal-star",
@@ -179,11 +179,11 @@ export const companyDirectory = [
   {
     "id": "alsharif-melamine",
     "name": "ميلامين الشريف",
-    "kind": "مصنّع أدوات مائدة ميلامين",
+    "kind": "مصنّع أدوات مائدة ميلامين — يحتاج مطابقة كيان",
     "url": "https://alsharifmelamine.com",
     "source": "قائمة الروابط المقدمة من المستخدم",
     "verificationStatus": "Unverified",
-    "note": "الرابط مقدم ضمن قائمة المستخدم؛ يلزم التحقق من النطاق."
+    "note": "احتمال تكرار مع سجل alsherif-melamine بسبب اختلاف التهجئة والنطاق؛ لا يدمج السجلان قبل مطابقة السجل التجاري والعنوان."
   },
   {
     "id": "midstar",
@@ -215,11 +215,11 @@ export const companyDirectory = [
   {
     "id": "trueval",
     "name": "ترو فال",
-    "kind": "علامة أدوات طهي",
+    "kind": "علامة أواني طهي تابعة لمجموعة الزنوكي",
     "url": "https://elzenouki.com",
-    "source": "قائمة الروابط المقدمة من المستخدم",
+    "source": "موقع مجموعة الزنوكي الرسمي",
     "verificationStatus": "Unverified",
-    "note": "الرابط المقدم هو موقع الزنوكي؛ علاقة الملكية/التبعية تحتاج تأكيداً."
+    "note": "الموقع الرسمي لمجموعة الزنوكي يدرج Trueval ضمن خمس علامات تابعة؛ هذا سجل علامة تجارية وليس شركة مستقلة."
   },
   {
     "id": "elomda",
@@ -269,11 +269,11 @@ export const companyDirectory = [
   {
     "id": "alsherif-melamine",
     "name": "الشريف للميلامين",
-    "kind": "مصنّع ميلامين",
+    "kind": "مصنّع ميلامين — احتمال تكرار مع سجل alsharif-melamine",
     "url": "https://alsherifmelamine.com",
     "source": "قائمة الروابط المقدمة من المستخدم",
     "verificationStatus": "Unverified",
-    "note": "الرابط مقدم ضمن قائمة المستخدم؛ يلزم التحقق من النطاق."
+    "note": "احتمال تكرار مع سجل alsharif-melamine بسبب اختلاف التهجئة والنطاق؛ لا يدمج السجلان قبل مطابقة السجل التجاري والعنوان."
   },
   {
     "id": "t-fal",
