@@ -1905,6 +1905,7 @@ export const cairoSalesPrices: PriceRecord[] = [
     "source": "Cairo Sales — قائمة منقولة قدمها المستخدم؛ يلزم التحقق من صفحة المنتج",
     "sourceUrl": "",
     "priceDate": "2026-11-15",
+    "isHistorical": true,
     "verificationStatus": "Unverified",
     "createdAt": "2026-11-15T00:00:00Z"
   },
@@ -1917,6 +1918,7 @@ export const cairoSalesPrices: PriceRecord[] = [
     "source": "Cairo Sales — قائمة منقولة قدمها المستخدم؛ يلزم التحقق من صفحة المنتج",
     "sourceUrl": "",
     "priceDate": "2026-11-15",
+    "isHistorical": true,
     "verificationStatus": "Unverified",
     "createdAt": "2026-11-15T00:00:00Z"
   },
@@ -1929,6 +1931,7 @@ export const cairoSalesPrices: PriceRecord[] = [
     "source": "Cairo Sales — قائمة منقولة قدمها المستخدم؛ يلزم التحقق من صفحة المنتج",
     "sourceUrl": "",
     "priceDate": "2026-11-15",
+    "isHistorical": true,
     "verificationStatus": "Unverified",
     "createdAt": "2026-11-15T00:00:00Z"
   },
@@ -1941,6 +1944,7 @@ export const cairoSalesPrices: PriceRecord[] = [
     "source": "Cairo Sales — قائمة منقولة قدمها المستخدم؛ يلزم التحقق من صفحة المنتج",
     "sourceUrl": "",
     "priceDate": "2026-11-15",
+    "isHistorical": true,
     "verificationStatus": "Unverified",
     "createdAt": "2026-11-15T00:00:00Z"
   },
@@ -1953,6 +1957,7 @@ export const cairoSalesPrices: PriceRecord[] = [
     "source": "Cairo Sales — قائمة منقولة قدمها المستخدم؛ يلزم التحقق من صفحة المنتج",
     "sourceUrl": "",
     "priceDate": "2026-11-15",
+    "isHistorical": true,
     "verificationStatus": "Unverified",
     "createdAt": "2026-11-15T00:00:00Z"
   },
@@ -1965,6 +1970,7 @@ export const cairoSalesPrices: PriceRecord[] = [
     "source": "Cairo Sales — قائمة منقولة قدمها المستخدم؛ يلزم التحقق من صفحة المنتج",
     "sourceUrl": "",
     "priceDate": "2026-11-15",
+    "isHistorical": true,
     "verificationStatus": "Unverified",
     "createdAt": "2026-11-15T00:00:00Z"
   },
@@ -1977,6 +1983,7 @@ export const cairoSalesPrices: PriceRecord[] = [
     "source": "Cairo Sales — قائمة منقولة قدمها المستخدم؛ يلزم التحقق من صفحة المنتج",
     "sourceUrl": "",
     "priceDate": "2026-11-15",
+    "isHistorical": true,
     "verificationStatus": "Unverified",
     "createdAt": "2026-11-15T00:00:00Z"
   },
@@ -3463,5 +3470,60 @@ export const cairoSalesSmallAppliancePrices: PriceRecord[] = [
     "priceDate": "2026-11-15",
     "verificationStatus": "Unverified",
     "createdAt": "2026-11-15T00:00:00Z"
+  },
+  {
+    "id": "cs-price-004-20261118",
+    "productId": "cs-004",
+    "price": 57950,
+    "currency": "EGP",
+    "priceType": "Unverified Market Price",
+    "source": "سعر تقريبي — Shaheen Egypt، عرض نقدي 57,950 جنيه (السعر المدرج 63,749 جنيه)، صفحة فئة 65 بوصة أظهرت إضافة للسلة؛ المخزون الفعلي غير مؤكد.",
+    "sourceUrl": "https://shaheeneg.com/product-category/tvs/tvs-by-size/65-inch/",
+    "priceDate": "2026-11-18",
+    "verificationStatus": "Unverified"
+  },
+  {
+    "id": "cs-price-005-20261118",
+    "productId": "cs-005",
+    "price": 51399,
+    "currency": "EGP",
+    "priceType": "Unverified Market Price",
+    "source": "سعر تقريبي — Sharaf DG Egypt، 51,399 جنيه شامل ضريبة القيمة المضافة بدلاً من 56,539 جنيه؛ صفحة الموديل تعرض إضافة للسلة والتوصيل بتاريخ 17 نوفمبر، والمخزون يحتاج تأكيداً.",
+    "sourceUrl": "https://egypt.sharafdg.com/ar/product/lg-75inch-qned-ai-mini-led-qned72b-4k-smart-tv-magic-remote-hdr10-webos26-2026-75qned72b6t/",
+    "priceDate": "2026-11-18",
+    "verificationStatus": "Unverified"
+  },
+  {
+    "id": "cs-price-007-20261118",
+    "productId": "cs-007",
+    "price": 37699,
+    "currency": "EGP",
+    "priceType": "Unverified Market Price",
+    "source": "سعر تقريبي — Shaheen Egypt، عرض نقدي 37,699 جنيه (السعر المدرج 41,499 جنيه) في قائمة شاشات 55 بوصة. صفحة المنتج المنفصلة أظهرت 37,999 جنيه وقطعة واحدة في فحص أقدم؛ يوجد فرق 300 جنيه ويجب تأكيد السعر النهائي.",
+    "sourceUrl": "https://shaheeneg.com/product-category/tvs/tvs-by-size/55-inch/",
+    "priceDate": "2026-11-18",
+    "verificationStatus": "Unverified"
+  },
+  {
+    "id": "cs-price-008-20261118",
+    "productId": "cs-008",
+    "price": 31950,
+    "currency": "EGP",
+    "priceType": "Unverified Market Price",
+    "source": "سعر تقريبي — Shaheen Egypt، عرض نقدي 31,950 جنيه (السعر المدرج 35,149 جنيه) في قائمة شاشات 65 بوصة مع إضافة للسلة. صفحة منتج أقدم أظهرت 30,899 جنيه ونفاد المخزون؛ يلزم تأكيد السعر والتوفر قبل الشراء.",
+    "sourceUrl": "https://shaheeneg.com/product-category/tvs/tvs-by-size/65-inch/",
+    "priceDate": "2026-11-18",
+    "verificationStatus": "Unverified"
+  },
+  {
+    "id": "cs-price-009-20261118",
+    "productId": "cs-009",
+    "price": 27490,
+    "currency": "EGP",
+    "priceType": "Unverified Market Price",
+    "source": "سعر تقريبي — Awad Serag، صفحة مباشرة للموديل 65NU850B6LA تعرض 27,490 جنيه؛ الصفحة تذكر منشأ مصر وضمان سنتين، لكنها لا تؤكد المخزون الحالي.",
+    "sourceUrl": "https://www.awadserag.com/shop/2006234-65-4k-65nu850b6la-41762?attrib=6-3&category=13&order=list_price+desc",
+    "priceDate": "2026-11-18",
+    "verificationStatus": "Unverified"
   }
 ];
