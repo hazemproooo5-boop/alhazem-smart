@@ -5,10 +5,10 @@ export const companyDirectory = [
     "id": "kiriazi",
     "name": "كريازي",
     "kind": "مصنّع أجهزة منزلية",
-    "url": "https://kiriazi.com",
-    "source": "قائمة الروابط المقدمة من المستخدم",
+    "url": "https://www.kiriazi.com/aboutus",
+    "source": "الموقع الرسمي لكريازي — صفحة عن المجموعة",
     "verificationStatus": "Unverified",
-    "note": "الرابط مقدم ضمن قائمة المستخدم؛ يلزم التحقق من النطاق وصفحة الشركة.",
+    "note": "المصدر الرسمي يصف مجموعة شركات ومصانع متعددة في العبور والعاشر من رمضان، تشمل الثلاجات والفريزرات والغسالات والبوتاجازات والسخانات والتكييف. حالة الكيان والضمان لكل موديل لا تزال تحتاج مستنداً مستقلاً.",
     "facebook": "اسم صفحة فيسبوك المذكور: Kiriazi Premiere؛ الرابط المباشر غير محدد في القائمة."
   },
   {
@@ -25,20 +25,20 @@ export const companyDirectory = [
     "id": "zanussi-egypt",
     "name": "زانوسي مصر",
     "kind": "علامة أجهزة منزلية",
-    "url": "https://zanussi.com.eg",
-    "source": "قائمة الروابط المقدمة من المستخدم",
+    "url": "https://www.zanussi.com.eg/en/warranty-information",
+    "source": "Zanussi Egypt الرسمي — معلومات الضمان",
     "verificationStatus": "Unverified",
-    "note": "الرابط مقدم ضمن قائمة المستخدم؛ يلزم التحقق من النطاق وصفحة الشركة.",
+    "note": "صفحة Zanussi Egypt الرسمية تعرض مدد الضمان حسب فئة المنتج وتذكر Electrolux Egypt ومراكز الخدمة المعتمدة. هذه قرينة تشغيل محلي للعلامة وليست إثباتاً بأن الموقع هو المصنع القانوني.",
     "facebook": "اسم صفحة فيسبوك المذكور: Zanussi Egypt؛ الرابط المباشر غير محدد في القائمة."
   },
   {
     "id": "unionaire",
     "name": "يونيون إير",
     "kind": "مصنّع أجهزة منزلية وتكييف",
-    "url": "https://unionaire.com",
-    "source": "قائمة الروابط المقدمة من المستخدم",
+    "url": "https://unionaire.com/about-us/",
+    "source": "Unionaire الرسمي — About us",
     "verificationStatus": "Unverified",
-    "note": "الرابط مقدم ضمن قائمة المستخدم؛ يلزم التحقق من النطاق وصفحة الشركة."
+    "note": "الموقع الرسمي يذكر تأسيس الشركة في مصر عام 1995 وقدرات تصنيع وخطوط تكييف وثلاجات وغسالات وأفران وإلكترونيات منزلية. تفاصيل الملكية القانونية والضمان لكل موديل تُراجع منفصلة."
   },
   {
     "id": "beko-egypt",
@@ -62,19 +62,19 @@ export const companyDirectory = [
     "id": "passap",
     "name": "باساب",
     "kind": "شركة/علامة أدوات منزلية",
-    "url": "https://passap.com.eg",
-    "source": "قائمة الروابط المقدمة من المستخدم",
+    "url": "https://www.passap.com.eg/arabic/pages/page.aspx?pageid=4",
+    "source": "PASSAP / TREDCO الرسمي — عن الشركة",
     "verificationStatus": "Unverified",
-    "note": "الرابط مقدم ضمن قائمة المستخدم؛ يلزم التحقق من النطاق وصفحة الشركة."
+    "note": "الموقع الرسمي يربط علامة PASSAP بشركة TREDCO للصناعات الهندسية، ويذكر التصنيع في العاشر من رمضان، وخطوط الثلاجات والفريزرات والغسالات والأفران والسخانات. صفحة الأسئلة الرسمية تفرق بلد منشأ مبرد المياه عن بقية المنتجات."
   },
   {
     "id": "ocean-egypt",
     "name": "أوشن مصر",
     "kind": "علامة أجهزة منزلية",
-    "url": "https://ocean.com.eg",
-    "source": "قائمة الروابط المقدمة من المستخدم",
+    "url": "https://www.ocean.com.eg/",
+    "source": "OCEAN Egypt الرسمي — About us",
     "verificationStatus": "Unverified",
-    "note": "الرابط مقدم ضمن قائمة المستخدم؛ يلزم التحقق من النطاق وصفحة الشركة."
+    "note": "الموقع يصرح بأن Crystal Group هي وكيل OCEAN في مصر، ويعرض فئات التبريد والغسيل والطهي وسخانات المياه. هذه علاقة وكالة معلنة على موقع الوكيل نفسه؛ لا تعمم على ضمان موديل دون صفحة ضمان."
   },
   {
     "id": "mienta",
@@ -98,10 +98,10 @@ export const companyDirectory = [
     "id": "nouval",
     "name": "نوفال",
     "kind": "مصنّع أدوات طهي",
-    "url": "https://nouval.com.eg",
-    "source": "قائمة الروابط المقدمة من المستخدم",
+    "url": "https://www.nouval.com/ar/pages/معلومات-عنا",
+    "source": "Nouval Group الرسمي — معلومات عنا",
     "verificationStatus": "Unverified",
-    "note": "الرابط مقدم ضمن قائمة المستخدم؛ يلزم التحقق من النطاق وصفحة الشركة."
+    "note": "الموقع الرسمي يذكر تأسيس نوفال عام 1975 في مصر، وعدة مصانع، وتصنيع أدوات الطهي والأجهزة المنزلية الصغيرة. تفاصيل ضمان كل موديل تبقى مرتبطة بصفحة المنتج."
   },
   {
     "id": "elaraby",
@@ -162,10 +162,10 @@ export const companyDirectory = [
     "id": "elzenouki",
     "name": "الزنوكي جروب",
     "kind": "مجموعة تصنيع أواني طهي وأجهزة منزلية",
-    "url": "https://elzenouki.com",
-    "source": "موقع مجموعة الزنوكي الرسمي",
+    "url": "https://elzenouki.com/ez-about/",
+    "source": "El Zenouki Group الرسمي — About the group",
     "verificationStatus": "Unverified",
-    "note": "الموقع الرسمي يذكر خمس علامات تابعة تشمل Trueval وZinox وMaster وTop Chef وTouch؛ لا تُعامل العلامات التابعة كشركات مستقلة."
+    "note": "الموقع الرسمي يذكر تأسيس المجموعة عام 1964 وتصنيع أدوات الطهي والأجهزة المنزلية الكهربائية، مع خمس علامات تابعة ومصانع متكاملة. تُعامل Trueval وZinox وMaster وTop Chef وTouch كعلامات محفظة وليست شركات مستقلة."
   },
   {
     "id": "helal-star",
