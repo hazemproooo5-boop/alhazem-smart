@@ -1196,7 +1196,9 @@ export const cairoSalesProducts: Product[] = [
     "published": true,
     "createdAt": "2026-11-15",
     "updatedAt": "2026-11-17",
-    "imageUrl": ""
+    "imageUrl": "https://cdn.supercommerce.io/zahran/uploads/r9MiZY-1672645860.png",
+    "imageSourceUrl": "https://zahranstores.com/en/tefal-tempo-flame-rectangular-oven-tray-set-size-3035-220089989-1169",
+    "imageVerifiedDate": "2026-11-18"
   },
   {
     "id": "cs-035",
@@ -1216,7 +1218,9 @@ export const cairoSalesProducts: Product[] = [
     "published": true,
     "createdAt": "2026-11-15",
     "updatedAt": "2026-11-17",
-    "imageUrl": ""
+    "imageUrl": "https://ehabcenter.com/wp-content/uploads/2023/05/Tefal-Tempo-Flame-Rectangular-Oven-Tray-Set-Size-3035-RED-4300001046-1.jpg",
+    "imageSourceUrl": "https://ehabcenter.com/product/tefal-tempo-flame-rectangular-oven-tray-set-size-3035-red-4300001046/",
+    "imageVerifiedDate": "2026-11-18"
   },
   {
     "id": "cs-036",
