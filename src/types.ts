@@ -41,6 +41,7 @@ export type Product = {
   imageUrl: string;
   imageSourceUrl?: string;
   imageCandidateUrl?: string;
+  sourceCandidateUrl?: string;
   imageVerifiedDate?: string;
 };
 
