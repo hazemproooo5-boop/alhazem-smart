@@ -445,7 +445,7 @@ export const cairoSalesProducts: Product[] = [
     "published": true,
     "createdAt": "2026-11-15",
     "updatedAt": "2026-11-15",
-    "imageUrl": ""
+    "imageUrl": "https://cdn.vmshop.cz/images/get/114/186591.jpg"
   },
   {
     "id": "cs-005",
@@ -466,7 +466,7 @@ export const cairoSalesProducts: Product[] = [
     "published": true,
     "createdAt": "2026-11-15",
     "updatedAt": "2026-11-15",
-    "imageUrl": ""
+    "imageUrl": "https://www.pisga-shop.co.il/images/itempics/6781_170520261651091.jpg"
   },
   {
     "id": "cs-006",
@@ -487,7 +487,7 @@ export const cairoSalesProducts: Product[] = [
     "published": true,
     "createdAt": "2026-11-15",
     "updatedAt": "2026-11-15",
-    "imageUrl": ""
+    "imageUrl": "https://www.bhphotovideo.com/images/fb/lg_65qned84bua_qned84b_qned_evo_ai_1952855.jpg"
   },
   {
     "id": "cs-007",
@@ -508,7 +508,7 @@ export const cairoSalesProducts: Product[] = [
     "published": true,
     "createdAt": "2026-11-15",
     "updatedAt": "2026-11-15",
-    "imageUrl": ""
+    "imageUrl": "https://re-view.top/storage/images/ad958b079e6641cef642e97839e3d2cf.jpg"
   },
   {
     "id": "cs-008",
@@ -529,7 +529,7 @@ export const cairoSalesProducts: Product[] = [
     "published": true,
     "createdAt": "2026-11-15",
     "updatedAt": "2026-11-15",
-    "imageUrl": ""
+    "imageUrl": "https://www.wifimedia.eu/cdn/shop/files/65qned72b6b.aeu.png?v=1777544716"
   },
   {
     "id": "cs-009",
@@ -550,7 +550,7 @@ export const cairoSalesProducts: Product[] = [
     "published": true,
     "createdAt": "2026-11-15",
     "updatedAt": "2026-11-15",
-    "imageUrl": ""
+    "imageUrl": "https://youget.pt/288924-large_default/lg-2026-nanocell-65-led-uhd-4k-tv-65nu850b6la.jpg"
   },
   {
     "id": "cs-010",
@@ -571,7 +571,7 @@ export const cairoSalesProducts: Product[] = [
     "published": true,
     "createdAt": "2026-11-15",
     "updatedAt": "2026-11-15",
-    "imageUrl": ""
+    "imageUrl": "https://catalog.cdn.bixoto.com/assets/es/B15EJHL55B/images/9ae1abbcecb5/9db33ac7-50QNED72B6B.AEU-64fb2010-ebf1-4284-9d01-c46c24ee3746.webp?class=s700"
   },
   {
     "id": "cs-011",
