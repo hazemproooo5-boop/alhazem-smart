@@ -19,3 +19,9 @@ export const isCatalogReady = (product: Product): boolean => {
 };
 
 export const catalogProducts = products.filter(isCatalogReady);
+
+// Imported catalog records remain visible in a clearly separated monitoring list,
+// never as verified products and never with unverified prices or purchase actions.
+export const catalogMonitoringProducts = products.filter(
+  (product) => product.id.startsWith('cs-') && !isCatalogReady(product),
+);
