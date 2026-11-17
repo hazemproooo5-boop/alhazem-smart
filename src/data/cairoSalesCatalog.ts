@@ -3328,7 +3328,7 @@ export const cairoSalesSmallApplianceProducts: Product[] = [
     "sku": "FAF-D1500B",
     "description": "قلاية Fresh FAF-D1500B؛ تمت مطابقة الموديل والسعة والقدرة مع صفحة Carrefour Egypt. السعر والتوفر رُصدا في صفحة بائع ويحتاجان إعادة تحقق قبل العرض.",
     "specifications": {"الصنف الفرعي":"قلاية هوائية رقمية","السعة":"5 لتر","القدرة":"1500 وات","لوحة التحكم":"رقمية"},
-    "availability": "يحتاج إعادة تأكيد التوفر لدى المورد",
+    "availability": "غير متوفر لدى Carrefour Egypt وقت التحقق 18 نوفمبر 2026؛ صفحة المنتج المطابقة للموديل FAF-D1500B تعرض Out of stock. التوفر لدى الموردين الآخرين غير مؤكد. رابط البائع: https://www.carrefouregypt.com/mafegy/en/air-fryer/fresh-a-f-faf-d1500b-5l-digital/p/668969",
     "sourceUrl": "https://www.carrefouregypt.com/mafegy/en/air-fryer/fresh-a-f-faf-d1500b-5l-digital/p/668969",
     "sourceType": "Unverified Market",
     "verificationStatus": "Unverified",
@@ -3454,7 +3454,7 @@ export const cairoSalesSmallApplianceProducts: Product[] = [
     "sku": "BLENDER-PRO-2000",
      "description": "خلاط Briva Blender Pro 2000؛ صفحة Briva الرسمية تطابق فئة المنتج والقدرة 1800–2000 واط وسعة 4.2 لتر وميزات التحكم والبرامج. صفحة EL-ALFY المصرية تعلن أنها الوكيل الرسمي لعلامة BRIVA في مصر، لكن رقم SKU 87854 ومطابقة نسخة المنتج ووجوده لدى المورد المحلي تحتاج تأكيداً منفصلاً.",
     "specifications": {"السعر الأصلي بالقائمة":"14,999 EGP — غير معتمد","الموديل لدى البائع":"BLENDER-PRO-2000-87854","الموديل في القائمة":"BLENDER-PRO-2000","القدرة":"2000 واط","السعة":"4.2 لتر","الخامة":"Polycarbonate / Tritan BPA-Free","المحرك":"نحاسي 100% بحسب وصف البائع","التحكم":"لوحة LED تعمل باللمس","البرامج":"5 برامج معدة مسبقاً","الوصلة":"معدنية"},
-    "availability": "يحتاج تأكيد التوفر لدى المورد",
+    "availability": "وكيل BRIVA المعتمد EL-ALFY يعرض Blender Pro 2000 (SKU 87854) بسعر 15,000 جنيه في كتالوجه بتاريخ 18 نوفمبر 2026؛ حالة المخزون وVAT غير معروضتين، ويحتاج التوفر تأكيداً مباشراً. رابط البائع: https://elalfyeg.com/ar/product-category/blenders-and-juicers/blenders/",
     "sourceUrl": "https://briva-haus.de/en/product/briva-blender-pro-2000/",
     "sourceType": "Official",
     "officialProductUrl": "https://briva-haus.de/en/product/briva-blender-pro-2000/",
@@ -4047,5 +4047,17 @@ export const cairoSalesSmallAppliancePrices: PriceRecord[] = [
     "priceDate": "2026-11-18",
     "verificationStatus": "Unverified",
     "createdAt": "2026-11-18T00:00:00Z"
+  },
+  {
+    "id": "cs-price-131",
+    "productId": "cs-089",
+    "price": 15000,
+    "currency": "EGP",
+    "priceType": "Unverified Market Price",
+    "source": "سعر تقريبي 15,000 جنيه تقريباً — كتالوج EL-ALFY، الوكيل المعتمد لـBRIVA في مصر، يعرض Blender Pro 2000 (SKU 87854). VAT وحالة المخزون غير معروضين؛ يلزم تأكيد السعر النهائي.",
+    "sourceUrl": "https://elalfyeg.com/ar/product-category/blenders-and-juicers/blenders/",
+    "priceDate": "2026-11-18",
+    "verificationStatus": "Unverified",
+    "createdAt": "2026-11-18T01:14:00+02:00"
   }
 ];
