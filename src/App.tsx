@@ -629,17 +629,41 @@ function CatalogCenterPage() {
         <div className="monitoring-table-wrap">
           <table className="monitoring-table">
             <thead>
-              <tr><th>المنتج</th><th>الفئة</th><th>الموديل / SKU</th><th>العلامة</th><th>حالة التحقق</th><th>المصدر</th></tr>
+              <tr><th>المنتج والتفاصيل الأولية</th><th>الفئة</th><th>الموديل / SKU</th><th>العلامة</th><th>حالة السجل</th><th>المصادر</th></tr>
             </thead>
             <tbody>
               {catalogMonitoringProducts.map((product) => (
                 <tr key={product.id}>
-                  <td>{product.name}</td>
-                  <td>{product.categoryId}</td>
+                  <td className="monitoring-product-cell">
+                    <div className="monitoring-product">
+                      <ImageWithFallback src={product.imageUrl} alt={product.name} className="monitoring-product-image" />
+                      <div className="monitoring-product-info">
+                        <strong>{product.name}</strong>
+                        <details className="monitoring-details">
+                          <summary>عرض الوصف والمواصفات المسجلة</summary>
+                          {product.description ? <p>{product.description}</p> : <p>لا يوجد وصف مسجل لهذا المنتج حتى الآن.</p>}
+                          {Object.entries(product.specifications ?? {}).filter(([label]) => !/(سعر|price|خصم|discount)/i.test(label)).length ? (
+                            <dl className="monitoring-specs">
+                              {Object.entries(product.specifications ?? {}).filter(([label]) => !/(سعر|price|خصم|discount)/i.test(label)).map(([label, value]) => (
+                                <div key={label}><dt>{label}</dt><dd>{value}</dd></div>
+                              ))}
+                            </dl>
+                          ) : <p>لا توجد مواصفات مسجلة قابلة للعرض.</p>}
+                          <small>هذه بيانات أولية من المصدر المسجل، وليست مواصفات معتمدة أو توصية شراء.</small>
+                        </details>
+                      </div>
+                    </div>
+                  </td>
+                  <td>{({ tv: 'تلفزيونات', audio: 'صوتيات', cookware: 'أواني طهي', kitchen: 'مطبخ', home: 'منزل', appliances: 'أجهزة منزلية', 'small-appliances': 'أجهزة منزلية صغيرة' } as Record<string, string>)[product.categoryId] || product.categoryId}</td>
                   <td dir="ltr">{product.model || product.sku || 'غير محدد'}</td>
                   <td>{brands.find((brand) => brand.id === product.brandId)?.name || product.brandId}</td>
-                  <td><span className="badge">قيد التحقق</span></td>
-                  <td>{product.sourceUrl ? <a href={product.sourceUrl} target="_blank" rel="noreferrer">فتح المصدر</a> : 'مصدر مباشر غير متاح بعد'}</td>
+                  <td><span className="badge">{product.verificationStatus}</span><small className="monitoring-status-note">لا يجتاز جميع شروط النشر بعد</small></td>
+                  <td className="monitoring-source-links">
+                    {product.sourceUrl ? <a href={product.sourceUrl} target="_blank" rel="noreferrer">فتح مصدر المنتج</a> : <span>لا يوجد مصدر منتج مطابق بعد</span>}
+                    {product.imageSourceUrl ? <a href={product.imageSourceUrl} target="_blank" rel="noreferrer">مصدر الصورة</a> : null}
+                    {product.sourceCandidateUrl ? <a href={product.sourceCandidateUrl} target="_blank" rel="noreferrer">مصدر مرشح غير معتمد</a> : null}
+                    {product.imageCandidateUrl ? <a href={product.imageCandidateUrl} target="_blank" rel="noreferrer">صورة مرشحة غير معتمدة</a> : null}
+                  </td>
                 </tr>
               ))}
             </tbody>
