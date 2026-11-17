@@ -1483,10 +1483,8 @@ export const cairoSalesProducts: Product[] = [
     "published": true,
     "createdAt": "2026-11-15",
     "updatedAt": "2026-11-15",
-    "imageCandidateUrl": "https://cdn.shopify.com/s/files/1/0630/5362/7541/files/WFC510B.CE7_1.jpg?v=1760707910",
-    "imageUrl": "https://cdn.shopify.com/s/files/1/0397/7166/8635/files/WF-C510BlueMAIN.png?v=1756966416",
-    "imageSourceUrl": "https://www.sony.com.sg/headphones/products/wf-c510",
-    "imageVerifiedDate": "2026-11-18",
+    "imageCandidateUrl": "https://cdn.shopify.com/s/files/1/0397/7166/8635/files/WF-C510BlueMAIN.png?v=1756966416",
+     "imageUrl": "",
     "imageSourceUrl": "https://www.sony.com/ar-eg/headphones/products/wf-c510",
     "imageVerifiedDate": "2026-11-17"
   },
