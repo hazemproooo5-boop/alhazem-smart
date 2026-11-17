@@ -1072,17 +1072,15 @@ export const cairoSalesProducts: Product[] = [
     "categoryId": "cookware",
     "model": "D-248395",
     "sku": "D-248395",
-    "description": "قائمة Cairo Sales المقدمة من المستخدم. السعر والبيانات التجارية غير متحقق منها مستقلاً؛ يلزم الرجوع إلى صفحة المنتج والمورد قبل الاعتماد.",
-    "specifications": {
-      "السعر الأصلي بالقائمة": "3,988 EGP"
-    },
+    "description": "طقم عشاء Rosa من البورسلين 30 قطعة؛ صفحة CBH Stores تعرض مجموعة Rosa من 30 قطعة باسم Decala 18578 ورقم SKU 1011142200005. كود D-248395 في قائمة Cairo Sales غير ظاهر في المصدر، لذلك الرابط مرجع لنفس الفئة والعدد وليس مطابقة SKU مؤكدة.",
+    "specifications": {"النوع": "Porcelain Dinner Set","عدد القطع": "30","المكونات": "6 أطباق كبيرة + 6 أطباق صغيرة + 6 أطباق متوسطة + 6 أطباق صغيرة/أوعية + 6 مجات وفق صفحة البائع","الموديل في سجل القائمة": "D-248395","الموديل في صفحة CBH": "Decala 18578","SKU البائع": "1011142200005","قيد المطابقة": "رمز D-248395 غير ظاهر في المصدر"},
     "availability": "يحتاج تأكيد التوفر لدى المورد",
-    "sourceUrl": "",
+    "sourceUrl": "https://www.cbhstores.com/en/product/30-piece-rosa-porcelain-dinner-set",
     "sourceType": "Unverified Market",
     "verificationStatus": "Unverified",
     "published": true,
     "createdAt": "2026-11-15",
-    "updatedAt": "2026-11-15",
+    "updatedAt": "2026-11-17",
     "imageUrl": ""
   },
   {
