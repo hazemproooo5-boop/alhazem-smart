@@ -25,7 +25,7 @@ const seedProductSection = seedSource.match(/export const products: Product\[\] 
 if (!seedProductSection) throw new Error('seed products declaration not found');
 const seedProductBlocks = [...seedProductSection[1].matchAll(/\{\s*id:\s*'prod-[^']+'[\s\S]*?\n  \},/g)].map(match => match[0]);
 const readSeed = (block, key) => {
-  const match = block.match(new RegExp('\\b' + key + ':\\s*\\'([^\\']*)\\''));
+  const match = block.match(new RegExp(`\\b${key}:\\s*'([^']*)'`));
   return match?.[1] ?? '';
 };
 const priceBlocks = priceSections.flatMap(section => parseObjects(section.source));
