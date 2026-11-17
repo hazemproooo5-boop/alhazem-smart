@@ -66,7 +66,7 @@ if (companyStart < 0 || marketStart < 0) throw new Error('company or wholesale m
 const companyBlocks = parseObjects(companySource.slice(companyStart, marketStart));
 const marketBlocks = parseObjects(companySource.slice(marketStart));
 const supplierSection = seedSource.slice(seedSource.indexOf('export const suppliers'));
-const supplierRecords = (supplierSection.match(/\\bid:\\s*['"]sp-/g) || []).length;
+const supplierRecords = (supplierSection.match(/\bid:\s*['"]sp-/g) || []).length;
 const unique = values => new Set(values.map(value => value.trim().toLocaleLowerCase()));
 const counts = key => rows.reduce((acc, row) => {
   const value = row[key] || 'Missing';
