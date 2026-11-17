@@ -1030,7 +1030,7 @@ export const cairoSalesProducts: Product[] = [
         "updatedAt": "2026-11-15",
         "imageUrl": "https://cdn.mafrservices.com/sys-master-root/h73/h2b/44951075946526/599162_main.jpg?im=Resize%3D376",
     "imageCandidateUrl": "https://cdn.mafrservices.com/sys-master-root/h73/h2b/44951075946526/599162_main.jpg",
-    "imageSourceUrl": "https://www.carrefouregypt.com/mafegy/en/blender/mienta-h-b-set-hb111038a-1000w/p/599162",
+    "imageSourceUrl": "https://eliraqi.com.eg/en/hand-blender-essentials-plus-mienta-1000w-hb111038a",
     "imageVerifiedDate": "2026-11-18"
     },
   {
@@ -1063,7 +1063,7 @@ export const cairoSalesProducts: Product[] = [
         "updatedAt": "2026-11-15",
         "imageUrl": "https://cdn.mafrservices.com/sys-master-root/h5b/h1b/44951067394078/518170_main.jpg",
     "imageCandidateUrl": "https://elghazawy.b-cdn.net/136059/tornado-stainless-steel-kettle-1-7-liter-1850-2200-watt-in-stainless-color-tks-2217e.webp",
-    "imageSourceUrl": "https://www.carrefouregypt.com/mafegy/en/kettle-stainless/tornado-kettle-tks-2217e-1-7l/p/518170",
+    "imageSourceUrl": "https://eliraqi.com.eg/en/tornado-stainless-steel-kettle-17-liter-1850-2200-watt-stainless-tks-2217e",
     "imageVerifiedDate": "2026-11-18"
     },
   {
@@ -1084,7 +1084,7 @@ export const cairoSalesProducts: Product[] = [
             "الملحقات": "مقشر ثوم وقرص خفق",
             "الضمان الوارد في صفحة البائع": "سنتان"
         },
-        "availability": "يحتاج تأكيد التوفر لدى المورد",
+        "availability": "متاح لدى Carrefour Egypt وقت التحقق 18 نوفمبر 2026؛ قائمة Mienta المباشرة تعرض موديل CH23838A بسعر 999 جنيه شامل VAT وتذكر بقاء وحدتين. قد يتغير المخزون عند إتمام الطلب.",
         "sourceUrl": "https://www.carrefouregypt.com/mafegy/en/chopper/mienta-chopper-ch23838a-450w-1-5l/p/601775",
         "sourceType": "Unverified Market",
         "verificationStatus": "Unverified",
@@ -2773,6 +2773,42 @@ export const cairoSalesPrices: PriceRecord[] = [
     "priceDate": "2026-11-18",
     "verificationStatus": "Unverified",
     "createdAt": "2026-11-18T01:08:00+02:00"
+  },
+  {
+    "id": "cs-price-132",
+    "productId": "cs-027",
+    "price": 1699,
+    "currency": "EGP",
+    "priceType": "Trusted Market Price",
+    "source": "El-Iraqi Egypt — current hand-blender listing shows exact Mienta HB111038A at EGP 1,699 with Add to cart; stock count and VAT not stated; checked 2026-11-18",
+    "sourceUrl": "https://eliraqi.com.eg/en/hand-blender?orderby=6&pagesize=50&viewmode=grid",
+    "priceDate": "2026-11-18",
+    "verificationStatus": "Verified",
+    "createdAt": "2026-11-18T00:00:00Z"
+  },
+  {
+    "id": "cs-price-133",
+    "productId": "cs-028",
+    "price": 1250,
+    "currency": "EGP",
+    "priceType": "Trusted Market Price",
+    "source": "El-Iraqi Egypt — current Tornado listing shows exact TKS-2217E at EGP 1,250 with Add to cart; explicit stock count and VAT not stated; checked 2026-11-18",
+    "sourceUrl": "https://eliraqi.com.eg/ar/tornado",
+    "priceDate": "2026-11-18",
+    "verificationStatus": "Verified",
+    "createdAt": "2026-11-18T00:00:00Z"
+  },
+  {
+    "id": "cs-price-134",
+    "productId": "cs-029",
+    "price": 999,
+    "currency": "EGP",
+    "priceType": "Trusted Market Price",
+    "source": "Carrefour Egypt Mienta listing — exact CH23838A at EGP 999 including VAT; 2 units left on listing; checked 2026-11-18",
+    "sourceUrl": "https://www.carrefouregypt.com/mafegy/en/c/15954",
+    "priceDate": "2026-11-18",
+    "verificationStatus": "Verified",
+    "createdAt": "2026-11-18T00:00:00Z"
   }
 
 ];
