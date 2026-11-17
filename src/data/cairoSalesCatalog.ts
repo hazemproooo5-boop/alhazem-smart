@@ -3222,7 +3222,7 @@ export const cairoSalesSmallApplianceProducts: Product[] = [
       "الضمان الخارجي": "سنة",
       "الضمان الداخلي": "سنة"
     },
-    "availability": "يحتاج تأكيد التوفر لدى المورد",
+    "availability": "متاح لدى El-Iraqi وقت التحقق 18 نوفمبر 2026؛ صفحة البائع تعرض Fresh CH-700 بقدرة 700W وسعة 2L بسعر 1,240 جنيه وزر Add to cart. معالجة VAT غير موضحة. رابط البائع: https://eliraqi.com.eg/en/fresh?orderby=0&pagenumber=4&viewmode=list",
     "officialProductUrl": "https://fresh.com.eg/ar/products/fresh-chopper-ch-700-2-liters-700-w",
     "sourceUrl": "https://fresh.com.eg/ar/products/fresh-chopper-ch-700-2-liters-700-w",
     "sourceType": "Official",
@@ -3383,7 +3383,7 @@ export const cairoSalesSmallApplianceProducts: Product[] = [
     "sku": "MQ50220MWH",
     "description": "خلاط يدوي Braun MultiQuick 5 موديل MQ50220MWH باللون الأبيض؛ صفحة EHAB Center تطابق رقم الموديل والباركود 8021098004376 وتعرض 1000 واط و21 سرعة وملحقات متعددة. صفحة Braun الرسمية للعائلة MQ50220M تعرض اختلافاً في رقم النسخة/القدرة في جدولها، لذلك اعتمدنا صفحة البائع للموديل المحلي ولم نستخدم صفحة العائلة لتثبيت القدرة.",
     "specifications": {"السعر الأصلي بالقائمة":"5,999 EGP — غير معتمد","الموديل":"MQ50220MWH","العلامة":"Braun MultiQuick 5","القدرة المعروضة لدى البائع":"1000 واط","السرعات":"21 سرعة + Turbo","العمود":"PowerBell VPlus معدني","الملحقات":"كوب 600 مل، كبة 350 مل، كوب صغير، مضرب خفق، ذراع خلط، عمود صغير","EAN-13":"8021098004376","الضمان لدى البائع":"سنتان — يحتاج تأكيد مصدر الضمان"},
-    "availability": "يحتاج تأكيد التوفر لدى المورد",
+    "availability": "متوفر في المخزون لدى EHAB Center وقت التحقق 18 نوفمبر 2026؛ صفحة المنتج المطابقة للموديل MQ50220MWH والباركود 8021098004376 تعرض 4,875 جنيه وزر إضافة للسلة. معالجة VAT غير موضحة. رابط البائع: https://ehabcenter.com/product/braun-hand-blender-1000w-white-with-accessories-mq50220mwh-8021098004376/",
     "sourceUrl": "https://ehabcenter.com/product/braun-hand-blender-1000w-white-with-accessories-mq50220mwh-8021098004376/",
     "sourceType": "Unverified Market",
     "verificationStatus": "Unverified",
@@ -3944,11 +3944,11 @@ export const cairoSalesSmallAppliancePrices: PriceRecord[] = [
     "productId": "cs-086",
     "price": 4875,
     "currency": "EGP",
-    "priceType": "Unverified Market Price",
-    "source": "EHAB Center Egypt — seller category listing displays exact Braun MQ50220MWH with EAN 8021098004376 at EGP 4,875; add-to-cart shown. Category listing rather than a standalone product page; Unverified.",
-    "sourceUrl": "https://ehabcenter.com/ar/product-category/أجهزة-منزلية-صغيرة/هاند-بلندر-و-خلاطات-يدوية/?gridcookie=list",
+    "priceType": "Trusted Market Price",
+    "source": "EHAB Center Egypt — صفحة المنتج المباشرة تطابق MQ50220MWH والباركود 8021098004376، تعرض 4,875 جنيه (بدلاً من 5,299) وحالة In stock؛ معالجة VAT غير مذكورة. checked 18 Nov 2026.",
+    "sourceUrl": "https://ehabcenter.com/product/braun-hand-blender-1000w-white-with-accessories-mq50220mwh-8021098004376/",
     "priceDate": "2026-11-18",
-    "verificationStatus": "Unverified",
+    "verificationStatus": "Verified",
     "isHistorical": false,
     "createdAt": "2026-11-18T00:50:00+02:00"
   },
@@ -4014,5 +4014,17 @@ export const cairoSalesSmallAppliancePrices: PriceRecord[] = [
     "priceDate": "2026-11-18",
     "verificationStatus": "Verified",
     "createdAt": "2026-11-18T01:08:00+02:00"
+  },
+  {
+    "id": "cs-price-129",
+    "productId": "cs-079",
+    "price": 1240,
+    "currency": "EGP",
+    "priceType": "Trusted Market Price",
+    "source": "El-Iraqi Company — listing for Fresh CH-700, 700W/2L, shows EGP 1,240 and Add to cart on 18 Nov 2026. VAT treatment is not stated.",
+    "sourceUrl": "https://eliraqi.com.eg/en/fresh?orderby=0&pagenumber=4&viewmode=list",
+    "priceDate": "2026-11-18",
+    "verificationStatus": "Verified",
+    "createdAt": "2026-11-18T01:12:00+02:00"
   }
 ];
