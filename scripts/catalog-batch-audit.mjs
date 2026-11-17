@@ -55,7 +55,8 @@ const rows = [
   availability: read(block, 'availability'),
   published: /"published"\s*:\s*true/.test(block),
   hasSpecifications: /"specifications"\s*:\s*\{\s*"/.test(block),
-}));
+  })),
+];
 const brandSection = brandSource.match(/export const brandDirectoryNames: string\[\] = \[([\s\S]*?)\];/);
 if (!brandSection) throw new Error('brandDirectoryNames declaration not found');
 const brandNames = [...brandSection[1].matchAll(/^\s*"([^"]+)",?\s*$/gm)].map(match => match[1]);
