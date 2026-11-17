@@ -7,7 +7,7 @@ import { advisorService } from './services/advisorService';
 import { priceService } from './services/priceService';
 import { verificationService } from './services/verificationService';
 import { searchService } from './services/searchService';
-import { catalogProducts } from './services/catalogService';
+import { catalogMonitoringProducts, catalogProducts } from './services/catalogService';
 
 const categoryList = [
   { id: 'ac', label: 'AC' },
@@ -176,6 +176,10 @@ function HomePage() {
           <div className="mini-stat">
             <strong>{catalogProducts.filter((product) => product.published).length}</strong>
             <span>منتجات مستوفية لشروط التوثيق</span>
+          </div>
+          <div className="mini-stat">
+            <strong>{catalogMonitoringProducts.length}</strong>
+            <span>سجلات محفوظة قيد التحقق</span>
           </div>
           <div className="mini-stat">
             <strong>قبل الشراء</strong>
@@ -607,12 +611,40 @@ function BrandDetailPage() {
 function CatalogCenterPage() {
   return (
     <div className="container page-block">
-      <h1>كتالوج المنتجات الموثقة</h1>
-      <p>لا يظهر هنا إلا الجهاز الذي اجتاز التحقق من الموديل والصورة والمصدر والمواصفات وحالة التوفر. حالة السعر تُعرض بصورة مستقلة: موثق بتاريخ تحقق، أو تقريبي إذا كان حديثاً وغير موثق.</p>
-      {catalogProducts.length === 0 ? <div className="result-box" role="status">لا توجد أجهزة مستوفية لجميع شروط التوثيق حالياً. المنتجات غير المكتملة محفوظة للمراجعة ولا تُعرض كمنتجات موثقة.</div> : null}
-      <div className="cards-grid">
-        {catalogProducts.map((product) => <ProductCard key={product.id} product={product} />)}
-      </div>
+      <h1>مركز الكتالوج</h1>
+      <p>قسمان منفصلان: المنتجات التي اجتازت بوابة التوثيق، وسجلات المصدر التي ما زالت قيد المراجعة. لا تُعرض السجلات غير المكتملة كمنتجات موثقة ولا تظهر لها أسعار شراء أو أزرار مقارنة.</p>
+      <section className="section-block">
+        <h2>المنتجات الموثقة ({catalogProducts.length})</h2>
+        {catalogProducts.length === 0 ? <div className="result-box" role="status">لا توجد أجهزة مستوفية لجميع شروط التوثيق حالياً.</div> : null}
+        <div className="cards-grid">
+          {catalogProducts.map((product) => <ProductCard key={product.id} product={product} />)}
+        </div>
+      </section>
+      <section className="section-block">
+        <h2>سجلات قيد التحقق ({catalogMonitoringProducts.length})</h2>
+        <div className="result-box monitoring-notice" role="note">
+          <strong>تنبيه قبل الشراء:</strong>
+          <p>هذه سجلات أولية مستوردة من قوائم ومصادر مختلفة. لم تكتمل بعد مطابقة الصورة والموديل والمواصفات والتوفر والضمان المحلي؛ لذلك لا تمثل توصية شراء أو عرض سعر معتمداً.</p>
+        </div>
+        <div className="monitoring-table-wrap">
+          <table className="monitoring-table">
+            <thead>
+              <tr><th>المنتج</th><th>الموديل / SKU</th><th>العلامة</th><th>حالة التحقق</th><th>المصدر</th></tr>
+            </thead>
+            <tbody>
+              {catalogMonitoringProducts.map((product) => (
+                <tr key={product.id}>
+                  <td>{product.name}</td>
+                  <td dir="ltr">{product.model || product.sku || 'غير محدد'}</td>
+                  <td>{brands.find((brand) => brand.id === product.brandId)?.name || product.brandId}</td>
+                  <td><span className="badge">قيد التحقق</span></td>
+                  <td>{product.sourceUrl ? <a href={product.sourceUrl} target="_blank" rel="noreferrer">فتح المصدر</a> : 'مصدر مباشر غير متاح بعد'}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      </section>
     </div>
   );
 }
