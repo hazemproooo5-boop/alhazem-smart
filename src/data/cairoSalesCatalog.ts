@@ -2768,6 +2768,7 @@ export const cairoSalesPrices: PriceRecord[] = [
     "verificationStatus": "Unverified",
     "createdAt": "2026-11-18T01:08:00+02:00"
   }
+
 ];
 
 

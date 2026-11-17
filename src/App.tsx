@@ -34,7 +34,7 @@ function PriceDisplay({ productId }: { productId: string }) {
   const latestPrice = priceService.getLatest(productId);
 
   if (currentPrice) {
-    return <span>السعر المتحقق منه: {currentPrice.price.toLocaleString()} جنيه — تحقق بتاريخ {currentPrice.priceDate}{currentPrice.sourceUrl ? <> — <a href={currentPrice.sourceUrl} target="_blank" rel="noreferrer">مصدر السعر</a></> : null}</span>;
+    return <span>السعر المرصود لدى البائع (تم التحقق من المصدر): {currentPrice.price.toLocaleString()} جنيه تقريباً — تحقق من المصدر بتاريخ {currentPrice.priceDate}{currentPrice.sourceUrl ? <> — <a href={currentPrice.sourceUrl} target="_blank" rel="noreferrer">مصدر السعر</a></> : null}</span>;
   }
 
   if (latestPrice && !latestPrice.isHistorical && latestPrice.verificationStatus !== 'Verified') {
@@ -759,7 +759,7 @@ function TransparencyPage() {
         </article>
         <article className="feature-card">
           <strong>الأسعار</strong>
-          <p>السعر الموثق يُعرض مع تاريخ التحقق. وأي سعر حديث غير موثق يُعرض بوضوح بعبارة «السعر التقريبي» و«تقريباً» مع تنبيه استرشادي؛ أما السعر القديم أو التاريخي فلا يُعرض كسعر حالي. لا تعني كلمة «تقريباً» ضمان السعر أو إعفاء المنصة من مسؤولية دقة البيانات.</p>
+          <p>كل سعر يظهر بعبارة «تقريباً» بجوار المبلغ حتى عند التحقق من صفحة البائع؛ تاريخ التحقق يوضح وقت الرصد فقط ولا يضمن السعر النهائي. السعر الحديث غير المؤكد يظل موسوماً «السعر التقريبي»، والسعر القديم أو التاريخي لا يُعرض كسعر حالي. تأكد من السعر النهائي لدى البائع قبل الشراء.</p>
         </article>
         <article className="feature-card">
           <strong>سجل الأحداث</strong>
