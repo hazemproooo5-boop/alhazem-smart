@@ -1638,17 +1638,15 @@ export const cairoSalesProducts: Product[] = [
     "categoryId": "home",
     "model": "E92-30-06",
     "sku": "E92-30-06",
-    "description": "قائمة Cairo Sales المقدمة من المستخدم. السعر والبيانات التجارية غير متحقق منها مستقلاً؛ يلزم الرجوع إلى صفحة المنتج والمورد قبل الاعتماد.",
-    "specifications": {
-      "السعر الأصلي بالقائمة": "3,977 EGP"
-    },
+    "description": "سلة مهملات Prima Nova مستطيلة 40 لتر بغطاء Soft-Close؛ قائمة الموزع Marva تعرض الموديل M-E92-30-06، بينما كود قائمة Cairo Sales هو E92-30-06 دون بادئة M. يلزم تأكيد أن الرقمين يخصان النسخة نفسها قبل اعتماد المطابقة النهائية.",
+    "specifications": {"السعر الأصلي بالقائمة":"3,977 EGP — غير معتمد","العلامة":"Prima Nova","السعة":"40 لتر","الشكل":"مستطيل","الغطاء":"Soft-Close","رمز الموديل في مصدر التوزيع":"M-E92-30-06","رمز الموديل في القائمة":"E92-30-06"},
     "availability": "يحتاج تأكيد التوفر لدى المورد",
-    "sourceUrl": "",
+    "sourceUrl": "https://www.marva-sa.gr/en/kitchenware/dust-bins/",
     "sourceType": "Unverified Market",
     "verificationStatus": "Unverified",
     "published": true,
     "createdAt": "2026-11-15",
-    "updatedAt": "2026-11-15",
+    "updatedAt": "2026-11-17",
     "imageUrl": ""
   },
   {
@@ -2593,18 +2591,15 @@ export const cairoSalesCookwareProducts: Product[] = [
     "categoryId": "kitchen",
     "model": "NUVIRA-6223013812406",
     "sku": "NUVIRA-6223013812406",
-    "description": "بيانات المنتج والأسعار من قائمة Cairo Sales التي قدمها المستخدم؛ لم يتم التحقق المستقل من صفحة المنتج أو التوفر أو السعر.",
-    "specifications": {
-      "السعر الأصلي بالقائمة": "1,301 EGP",
-      "نسبة الخصم بالقائمة": "12%"
-    },
+    "description": "سجل Nuvira Pro لقدر جرانيت 20 سم باللون Candy Rose؛ موقع Nuvira Egypt الرسمي يعرض فئة Nuvira Pro وقدراً جرانيت ضمن المجموعة، لكنه لا يعرض الباركود 6223013812406 أو مقاس 20 سم في صفحة المصدر. المصدر يثبت عائلة المنتج فقط ولا يثبت مطابقة SKU.",
+    "specifications": {"السعر الأصلي بالقائمة":"1,301 EGP — غير معتمد","نسبة الخصم بالقائمة":"12% — غير معتمدة","العلامة":"Nuvira / Nuvira Pro","النوع":"قدر جرانيت","المقاس في السجل":"20 سم","اللون في السجل":"Candy Rose","الباركود في السجل":"6223013812406","قيد المطابقة":"الباركود والمقاس واللون غير ظاهرة في المصدر الرسمي"},
     "availability": "يحتاج تأكيد التوفر لدى المورد",
-    "sourceUrl": "",
-    "sourceType": "Unverified Market",
+    "sourceUrl": "https://nuvira-eg.com/collections?category=9",
+    "sourceType": "Official",
     "verificationStatus": "Unverified",
     "published": true,
     "createdAt": "2026-11-15",
-    "updatedAt": "2026-11-15",
+    "updatedAt": "2026-11-17",
     "imageUrl": ""
   },
   {
