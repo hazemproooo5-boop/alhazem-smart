@@ -13,6 +13,7 @@
 - `brand-directory-review-batch-09-momenta-pasabahce-ar.md` — إعادة فحص تفصيلية من Momenta إلى Paşabahçe.
 - `brand-directory-review-batch-10-pasabahce-saflon-ar.md` — أدلة تكميلية من Paşabahçe إلى Saflon.
 - `brand-directory-review-batch-12-tecnvera-ultra-ar.md` — أدلة تكميلية من Tec Vera إلى Ultra.
+- `brand-directory-review-batch-11-ar.md` — إعادة فحص تكميلية من Schneider Electric إلى Tefal؛ لا تُحتسب أسماء إضافية ولا تُستبدل بها الدفعة الأساسية 11.
 
 ## سياسة الحفاظ على البيانات
 - لا تُحذف وثيقة مراجعة أو مصدر أو سجل لمجرد أنه مكرر أو متداخل.
