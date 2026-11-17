@@ -18,3 +18,8 @@
 - لم يتم اعتماد صفحة Saflon دون مطابقة EAN.
 - تم حفظ الروابط غير المطابقة في sourceCandidateUrl وعدم حذفها.
 - cs-015 هو المصدر الإقليمي الوحيد المضاف إلى sourceUrl؛ لا يعني ذلك أن النسخة المصرية متوفرة أو معتمدة.
+
+
+## حفظ مصادر Samsung العامة السابقة
+- cs-014: صفحة Samsung Egypt OLED highlights محفوظة في sourceCandidateUrl؛ المصدر الرسمي الداعم للموديل الآن ملف حملة Samsung 2026 الذي يسرد 83S85H.
+- cs-015: دليل Samsung Egypt العام لتشكيلة 2026 محفوظ في sourceCandidateUrl؛ مصدر الموديل الحالي صفحة Samsung Philippines الخاصة بـ100M90H، مع اختلاف السوق موضحاً.
