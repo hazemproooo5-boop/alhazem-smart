@@ -4037,7 +4037,8 @@ export const cairoSalesSmallAppliancePrices: PriceRecord[] = [
     "isHistorical": false,
     "createdAt": "2026-11-18T01:12:00+02:00"
   },
-  {"id": "cs-price-086-20261118-elghazawy",
+  {
+    "id": "cs-price-086-20261118-elghazawy",
     "productId": "cs-086",
     "price": 4729,
     "currency": "EGP",
@@ -4046,6 +4047,7 @@ export const cairoSalesSmallAppliancePrices: PriceRecord[] = [
     "sourceUrl": "https://elghazawy.com/en/product/38074270300758/Braun%2BMultiQuick%2B5%2B1000W%2B5-in-1%2BHand%2BBlender%2BMQ50220MWH%2BTurbo%2BChopper%2B-%2BWhite%2B%28Al%2BRaya%2BWarranty%29",
     "priceDate": "2026-11-18",
     "verificationStatus": "Unverified",
+    "isHistorical": false,
     "createdAt": "2026-11-18T00:00:00Z"
   },
   {
