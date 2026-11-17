@@ -1,23 +1,27 @@
-# توثيق صور شاشات Samsung — الدفعة الأولى
+# صور Samsung TV — مراجعة المصدر الرسمي
 
-تاريخ التحقق من الصورة: 2026-11-18. أضيفت صور مباشرة إلى 10 سجلات Samsung TV. يحتوي imageUrl على ملف الصورة، وimageSourceUrl على رابط أصل الصورة، وimageVerifiedDate على تاريخ الفحص.
+تاريخ التحقق: 2026-11-18. تمت مراجعة صور عشرة موديلات، والاحتفاظ فقط بصور Samsung-hosted المطابقة لصفحات المنتج الرسمية. أُرشفت صور الأطراف الثالثة والنسخ الإقليمية غير المطابقة في imageCandidateUrl، ولم تُستخدم في واجهة المنتج.
 
-| السجل | الموديل | صورة المنتج | مصدر بيانات الموديل |
+| السجل | الموديل | مصدر الصورة الرسمية | ملاحظة |
 |---|---|---|---|
-| cs-011 | 83" S95H / QA83S95HAEXEG | https://www.worldwidestereo.com/cdn/shop/files/Samsung-QN83S95HAEXZA-S95H-83-4K-OLED-TV-Image-01.jpg?v=1778268468 | https://www.samsung.com/eg/tvs/oled-tv/s95h-83-inch-4k-smart-tv-qa83s95haexeg/ |
-| cs-012 | 83" S90H / QA83S90HAEXEG | https://images.samsung.com/is/content/samsung/p6pim/uk/qe83s90haexxu/gallery/uk-oled-s90h-585902-qe83s90haexxu-553409047.webp | صفحة Samsung الرسمية لسلسلة S90H 83 بوصة؛ لاحقة UK تختلف إقليمياً عن EG. |
-| cs-013 | 77" S95H / QA77S95HAEXEG | https://fillion.ca/cdn/shop/files/QA77S95HAEXXS_5_8bba3bc0-c26a-431e-ac29-f9634ba8577c.jpg?v=1775592003&width=700 | صفحة Fillion للموديل 77 S95H؛ اختلاف لاحقة المنطقة فقط. |
-| cs-014 | 83" S85H | https://static.ollo.it/img/catalog/2048x2048/samsung-83-oled-s85h-4k-vision-ai-smart-tv-2026_1692160_961158.jpg | صفحة Ollo تعرض S85H مقاس 83 بوصة. |
-| cs-015 | 100" M90H | https://www.tanradio.com/_next/image?q=75&url=%2Fimages%2Fpromos%2Fsamsung-m90h%2Fhero-front.jpg&w=3840 | https://www.tanradio.com/products/samsung-100-inch-mini-led-m90h-ua100m90h |
-| cs-016 | 65" S95H / QA65S95HAUXEG | https://images.samsung.com/is/image/samsung/p6pim/es/tq65s95hftxxc/gallery/es-oled-s95-tq65s95hftxxc-thumb-552673784 | صورة Samsung CDN لمقاس 65 بوصة من سلسلة S95H. |
-| cs-017 | 98" U9000H / UA98U9000HUXEG | https://sonxplusrockland.com/cdn/shop/files/U9000HFXZC_02_700x700.jpg?v=1780430025 | https://sonxplusrockland.com/products/samsung-un98u9000hfxzc-98-tv-crystal-uhd-u9000h-series |
-| cs-018 | 75" LS03HE The Frame | https://media.binglee.com.au/cdn-cgi/image/fit%3Dscale-down%2Cf%3Dauto%2Cw%3D1079/a/a/3/2/aa3291990bcfa993c841f318667aeddbe5700bcd_QA75LS03HEWXXY__proddim.jpg | صفحة Bing Lee تعرض The Frame LS03HE مقاس 75 بوصة. |
-| cs-019 | 55" LS03HE The Frame | https://images.samsung.com/is/image/samsung/p6pim/ca/qn55ls03hefxzc/gallery/ca-the-frame-ls03he-qn55ls03hefxzc-552500698 | صورة Samsung CDN لمقاس 55 بوصة من سلسلة LS03HE. |
-| cs-020 | 55" QN70H | https://www.pcrichard.com/on/demandware.static/-/Sites-pcrichard-master-product-catalog/default/dw35b3faf1/images/hires/Z_QN55QN70H.jpg | https://www.pcrichard.com/samsung-55-class-qn70h-neo-qled-4k-uhd-smart-tizen-tv/QN55QN70H.html |
+| cs-011 | 83S95H / QA83S95HAEXEG | https://www.samsung.com/eg/tvs/oled-tv/s95h-83-inch-4k-smart-tv-qa83s95haexeg/ | Samsung Egypt exact model. |
+| cs-012 | 83S90H / QA83S90HAEXEG | https://www.samsung.com/eg/tvs/oled-tv/s90h-83-inch-4k-smart-tv-qa83s90haexeg/ | Samsung Egypt exact model؛ استُبدلت صورة UK السابقة. |
+| cs-013 | 77S95H / QA77S95HAEXEG | https://www.samsung.com/eg/tvs/oled-tv/s95h-77-inch-4k-smart-tv-qa77s95haexeg/ | Samsung Egypt exact model. |
+| cs-016 | 65S95H / QA65S95HAUXEG | https://www.samsung.com/eg/tvs/oled-tv/s95h-65-inch-4k-smart-tv-qa65s95hauxeg/ | Samsung Egypt exact model؛ استُبدلت صورة Spain السابقة. |
+| cs-018 | 75LS03H / QN75LS03HEKXZL | https://www.samsung.com/co/lifestyle-tvs/the-frame/ls03he-75-inch-qn75ls03hekxzl/ | Samsung Colombia exact LS03H 75-inch regional variant، وليس كود مصر. |
+| cs-019 | 55LS03H / QN55LS03HEKXZL | https://www.samsung.com/co/lifestyle-tvs/the-frame/ls03he-55-inch-qn55ls03hekxzl/ | Samsung Colombia exact LS03H 55-inch regional variant، وليس كود مصر. |
+| cs-020 | 55QN70H / QA55QN70HAUXEG | https://www.samsung.com/eg/tvs/qled-tv/qn70h-55-inch-neo-qled-4k-mini-led-smart-tv-qa55qn70hauxeg/ | Samsung Egypt exact model. |
 
-## ضوابط الصور
+## سجلات بلا صورة معتمدة
+- cs-014 83S85H: لا توجد صفحة منتج Samsung Egypt مطابقة مع صورة مباشرة موثقة.
+- cs-015 100M90H: المصدر العام دليل تشكيلة وليس صفحة منتج؛ أُفرغ sourceUrl.
+- cs-017 98U9000H: صفحة Samsung Egypt تؤكد الموديل، لكن لم نستخرج صورة رسمية مباشرة قابلة للتوثيق.
 
-- الصور أصلية من صفحات Samsung أو بائعين مباشرين؛ لا صور مولدة أو صور توضيحية عامة.
-- بعض الصور من نفس عائلة الموديل مع لاحقة إقليمية مختلفة؛ لا تُستخدم لإثبات ضمان أو توفر أو سعر محلي.
-- imageSourceUrl وimageVerifiedDate محفوظان في كل سجل.
-- لم تتغير verificationStatus، وما زالت المنتجات Unverified حتى اكتمال بقية شروط التوثيق.
+## الصور المرشحة غير المعتمدة
+- cs-011 World Wide Stereo؛ cs-012 Samsung UK؛ cs-013 Fillion؛ cs-014 Ollo؛ cs-015 Tanradio؛ cs-016 Samsung Spain؛ cs-017 SonxPlus؛ cs-018 Bing Lee؛ cs-019 Samsung Canada؛ cs-020 PC Richard.
+- حُفظت الروابط في imageCandidateUrl للحفاظ على الأثر دون اعتمادها كصور نهائية.
+
+## ضوابط التوثيق
+- كل صورة معتمدة لها imageSourceUrl وimageVerifiedDate.
+- جميع المنتجات بقيت Unverified.
+- لم تعتمد أسعار أو توفر أو ضمان محلي.
