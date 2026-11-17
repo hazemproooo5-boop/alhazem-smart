@@ -2880,7 +2880,9 @@ export const cairoSalesCookwareProducts: Product[] = [
     "published": true,
     "createdAt": "2026-11-15",
     "updatedAt": "2026-11-17",
-    "imageUrl": ""
+    "imageUrl": "https://cdn.sharafdg.com/cdn-cgi/image/width%3D600%2Cheight%3D600%2Cfit%3Dpad%2Cformat%3Dwebp%2Cquality%3D70/assets/9/6/8/4/9684382e7d67d8acc3e4f82bf785294a0fd82571_KOR1903_Z_1.jpg?g=0",
+    "imageSourceUrl": "https://bahrain.sharafdg.com/product/korkmaz-casserole-astra-6-3l/",
+    "imageVerifiedDate": "2026-11-18"
   },
   {
     "id": "cs-071",
@@ -4032,5 +4034,17 @@ export const cairoSalesSmallAppliancePrices: PriceRecord[] = [
     "verificationStatus": "Unverified",
     "isHistorical": false,
     "createdAt": "2026-11-18T01:12:00+02:00"
+  },
+  {
+    "id": "cs-price-086-20261118-elghazawy",
+    "productId": "cs-086",
+    "price": 4729,
+    "currency": "EGP",
+    "priceType": "Unverified Market Price",
+    "source": "سعر تقريبي 4,729 جنيه تقريباً — صفحة Elghazawy المباشرة تطابق Braun MQ50220MWH وملحقات 5-in-1 وضمان راية؛ VAT غير محدد في الصفحة.",
+    "sourceUrl": "https://elghazawy.com/en/product/38074270300758/Braun%2BMultiQuick%2B5%2B1000W%2B5-in-1%2BHand%2BBlender%2BMQ50220MWH%2BTurbo%2BChopper%2B-%2BWhite%2B%28Al%2BRaya%2BWarranty%29",
+    "priceDate": "2026-11-18",
+    "verificationStatus": "Unverified",
+    "createdAt": "2026-11-18T00:00:00Z"
   }
 ];
