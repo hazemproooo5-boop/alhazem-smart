@@ -680,8 +680,7 @@ export const cairoSalesProducts: Product[] = [
     "imageUrl": "",
     "imageCandidateUrl": "https://images.samsung.com/is/image/samsung/p6pim/ro/qe83s85haexxh/gallery/ro-oled-s85h-qe83s85haexxh-552048068?%241164_776_PNG%24=",
     "imageSourceUrl": "https://www.samsung.com/ro/tvs/oled-tv/s85h-83-inch-4k-smart-tv-qe83s85haexxh/",
-    "officialProductUrl": "https://www.samsung.com/ro/tvs/oled-tv/s85h-83-inch-4k-smart-tv-qe83s85haexxh/",
-    "imageCandidateUrl": "https://static.ollo.it/img/catalog/2048x2048/samsung-83-oled-s85h-4k-vision-ai-smart-tv-2026_1692160_961158.jpg"
+    "officialProductUrl": "https://www.samsung.com/ro/tvs/oled-tv/s85h-83-inch-4k-smart-tv-qe83s85haexxh/"
   },
   {
     "id": "cs-015",
