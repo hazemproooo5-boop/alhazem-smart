@@ -2793,7 +2793,9 @@ export const cairoSalesCookwareProducts: Product[] = [
     "published": true,
     "createdAt": "2026-11-15",
     "updatedAt": "2026-11-17",
-    "imageUrl": "https://f.nooncdn.com/p/pzsku/Z336DA9BF3BD268F4107EZ/45/_/1723982057/ae469d3d-c652-45a2-8b34-15f61be6471f.jpg"
+    "imageUrl": "https://f.nooncdn.com/p/pzsku/Z336DA9BF3BD268F4107EZ/45/_/1723982057/ae469d3d-c652-45a2-8b34-15f61be6471f.jpg",
+    "imageSourceUrl": "https://www.noon.com/egypt-ar/home-egypt-rice-cooker-500-watt-1-5-liter-jr2201/Z336DA9BF3BD268F4107EZ/p/",
+    "imageVerifiedDate": "2026-11-18"
   },
   {
     "id": "cs-067",
@@ -3223,7 +3225,7 @@ export const cairoSalesSmallApplianceProducts: Product[] = [
       "الضمان الخارجي": "سنة",
       "الضمان الداخلي": "سنة"
     },
-    "availability": "قائمة El-Iraqi تعرض Fresh CH-700 بسعر 1,240 جنيه وزر إضافة إلى السلة، لكنها لا تعرض حالة مخزون صريحة في الصفحة الحالية؛ التوفر الفعلي يحتاج تأكيداً من البائع. VAT غير موضح. رابط القائمة: https://eliraqi.com.eg/en/fresh?orderby=0&pagenumber=4&viewmode=list",
+    "availability": "صفحة تصنيف El-Iraqi وقت التحقق 18 نوفمبر 2026 تعرض CH-700 بقدرة 700W وسعة 2L بسعر 1,240 جنيه وزر Add to cart. هذه قائمة تصنيف وليست صفحة المنتج الفردية، ومعالجة VAT والمخزون النهائي غير مؤكدين. صفحة المنتج الفردية السابقة: https://eliraqi.com.eg/ar/fresh-chopper-black-2-liters-700-watt-ch-700",
     "officialProductUrl": "https://fresh.com.eg/ar/products/fresh-chopper-ch-700-2-liters-700-w",
     "sourceUrl": "https://fresh.com.eg/ar/products/fresh-chopper-ch-700-2-liters-700-w",
     "sourceType": "Official",
@@ -3371,7 +3373,9 @@ export const cairoSalesSmallApplianceProducts: Product[] = [
     "published": true,
     "createdAt": "2026-11-15",
     "updatedAt": "2026-11-17",
-    "imageUrl": "https://f.nooncdn.com/p/pzsku/Z6A292B9FF191EF3E7162Z/45/_/1724072669/8b6015f3-1bbc-4301-be8c-d1fef6a31df4.jpg"
+    "imageUrl": "https://f.nooncdn.com/p/pzsku/Z6A292B9FF191EF3E7162Z/45/_/1724072669/8b6015f3-1bbc-4301-be8c-d1fef6a31df4.jpg",
+    "imageSourceUrl": "https://www.noon.com/egypt-en/home-egypt-electric-hot-plate-500-watt-yn5240/Z6A292B9FF191EF3E7162Z/p/",
+    "imageVerifiedDate": "2026-11-18"
   },
   {
     "id": "cs-086",
@@ -4021,11 +4025,11 @@ export const cairoSalesSmallAppliancePrices: PriceRecord[] = [
     "productId": "cs-079",
     "price": 1240,
     "currency": "EGP",
-    "priceType": "Trusted Market Price",
-    "source": "El-Iraqi Company — listing for Fresh CH-700, 700W/2L, shows EGP 1,240 and Add to cart on 18 Nov 2026. VAT treatment is not stated.",
+    "priceType": "Unverified Market Price",
+    "source": "سعر تقريبي — قائمة تصنيف El-Iraqi تعرض Fresh CH-700 بقدرة 700W وسعة 2L بسعر 1,240 جنيه وزر Add to cart؛ معالجة VAT والمخزون النهائي غير مؤكدين.",
     "sourceUrl": "https://eliraqi.com.eg/en/fresh?orderby=0&pagenumber=4&viewmode=list",
     "priceDate": "2026-11-18",
-    "verificationStatus": "Verified",
+    "verificationStatus": "Unverified",
     "createdAt": "2026-11-18T01:12:00+02:00"
   }
 ];
