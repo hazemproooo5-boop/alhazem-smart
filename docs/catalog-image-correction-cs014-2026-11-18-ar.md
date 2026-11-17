@@ -5,3 +5,5 @@
 المصدر الرسمي الإقليمي: https://www.samsung.com/ro/tvs/oled-tv/s85h-83-inch-4k-smart-tv-qe83s85haexxh/
 
 رابط مرشح متجر إضافي محفوظ دون اعتماد: https://static.ollo.it/img/catalog/2048x2048/samsung-83-oled-s85h-4k-vision-ai-smart-tv-2026_1692160_961158.jpg
+
+رابط صورة Ollo الإضافي محفوظ في هذا التقرير كمرشح غير معتمد: https://static.ollo.it/img/catalog/2048x2048/samsung-83-oled-s85h-4k-vision-ai-smart-tv-2026_1692160_961158.jpg
