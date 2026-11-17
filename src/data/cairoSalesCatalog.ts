@@ -3101,19 +3101,15 @@ export const cairoSalesSmallApplianceProducts: Product[] = [
     "categoryId": "appliances",
     "model": "FP141535G",
     "sku": "FP141535G",
-    "description": "محضر طعام. البيانات والأسعار من ملف Cairo Sales المرفق؛ لم يتم التحقق المستقل من صفحة المنتج أو التوفر أو السعر.",
-    "specifications": {
-      "الصنف الفرعي": "محضر طعام",
-      "السعر الأصلي بالقائمة": "3,952 EGP",
-      "نسبة الخصم بالقائمة": "15%"
-    },
+    "description": "محضر طعام Mienta Mille موديل FP141535G الذهبي؛ صفحة Abdulaziz Stores تطابق الموديل وتعرض 1000 واط و28 وظيفة وسعة وعاء فرم 2.5 لتر وخلاط 2 لتر وملحقات الطحن والتقطيع. السعر والتوفر الظاهران يحتاجان تحققاً مباشراً قبل الاعتماد.",
+    "specifications": {"السعر الأصلي بالقائمة":"4,499 EGP — غير معتمد","الموديل":"FP141535G","السلسلة":"Mille Full Set","القدرة":"1000 واط","الوظائف":"28 وظيفة","سعة وعاء الفرم":"2.5 لتر","سعة إبريق الخلاط":"2 لتر","السرعات":"سرعتان + Pulse","الملحقات":"مطحنة قهوة وتوابل، قرص تقطيع وبشر، خفاق ومضرب عجين"},
     "availability": "يحتاج تأكيد التوفر لدى المورد",
-    "sourceUrl": "",
+    "sourceUrl": "https://www.abdulaziz-stores.com/en/1000-fp141535g",
     "sourceType": "Unverified Market",
     "verificationStatus": "Unverified",
     "published": true,
     "createdAt": "2026-11-15",
-    "updatedAt": "2026-11-15",
+    "updatedAt": "2026-11-17",
     "imageUrl": ""
   },
   {
@@ -3125,19 +3121,15 @@ export const cairoSalesSmallApplianceProducts: Product[] = [
     "categoryId": "appliances",
     "model": "YN5240",
     "sku": "YN5240",
-    "description": "حلة طهي وموقد كهربائي. البيانات والأسعار من ملف Cairo Sales المرفق؛ لم يتم التحقق المستقل من صفحة المنتج أو التوفر أو السعر.",
-    "specifications": {
-      "الصنف الفرعي": "حلة طهي وموقد كهربائي",
-      "السعر الأصلي بالقائمة": "710 EGP",
-      "نسبة الخصم بالقائمة": "10%"
-    },
+    "description": "سخان/موقد كهربائي فردي Home Egypt موديل YN5240 بقدرة 500 واط؛ صفحة Noon تطابق الموديل والقدرة وتعرض منظم حرارة ومؤشر تشغيل وفصل أمان حراري. السعر والتوفر الحاليان لدى المورد يحتاجان إعادة تحقق.",
+    "specifications": {"السعر الأصلي بالقائمة":"799 EGP — غير معتمد","الموديل":"YN5240","النوع":"Electric Hot Plate","عدد العيون":"1","القدرة":"500 واط","الجهد":"220V / 50Hz","قطر سطح التسخين":"نحو 105 مم","الأمان":"Thermal fuse automatic shut-off","التحكم":"Thermostat ومؤشر تشغيل"},
     "availability": "يحتاج تأكيد التوفر لدى المورد",
-    "sourceUrl": "",
+    "sourceUrl": "https://www.noon.com/egypt-en/home-egypt-electric-hot-plate-500-watt-yn5240/Z6A292B9FF191EF3E7162Z/p/",
     "sourceType": "Unverified Market",
     "verificationStatus": "Unverified",
     "published": true,
     "createdAt": "2026-11-15",
-    "updatedAt": "2026-11-15",
+    "updatedAt": "2026-11-17",
     "imageUrl": ""
   },
   {
@@ -3149,19 +3141,15 @@ export const cairoSalesSmallApplianceProducts: Product[] = [
     "categoryId": "appliances",
     "model": "MQ50220MWH",
     "sku": "MQ50220MWH",
-    "description": "خلاطات / هاند بلندر. البيانات والأسعار من ملف Cairo Sales المرفق؛ لم يتم التحقق المستقل من صفحة المنتج أو التوفر أو السعر.",
-    "specifications": {
-      "الصنف الفرعي": "خلاطات / هاند بلندر",
-      "السعر الأصلي بالقائمة": "5,654 EGP",
-      "نسبة الخصم بالقائمة": "10%"
-    },
+    "description": "خلاط يدوي Braun MultiQuick 5 موديل MQ50220MWH باللون الأبيض؛ صفحة EHAB Center تطابق رقم الموديل والباركود 8021098004376 وتعرض 1000 واط و21 سرعة وملحقات متعددة. صفحة Braun الرسمية للعائلة MQ50220M تعرض اختلافاً في رقم النسخة/القدرة في جدولها، لذلك اعتمدنا صفحة البائع للموديل المحلي ولم نستخدم صفحة العائلة لتثبيت القدرة.",
+    "specifications": {"السعر الأصلي بالقائمة":"5,999 EGP — غير معتمد","الموديل":"MQ50220MWH","العلامة":"Braun MultiQuick 5","القدرة المعروضة لدى البائع":"1000 واط","السرعات":"21 سرعة + Turbo","العمود":"PowerBell VPlus معدني","الملحقات":"كوب 600 مل، كبة 350 مل، كوب صغير، مضرب خفق، ذراع خلط، عمود صغير","EAN-13":"8021098004376","الضمان لدى البائع":"سنتان — يحتاج تأكيد مصدر الضمان"},
     "availability": "يحتاج تأكيد التوفر لدى المورد",
-    "sourceUrl": "",
+    "sourceUrl": "https://ehabcenter.com/product/braun-hand-blender-1000w-white-with-accessories-mq50220mwh-8021098004376/",
     "sourceType": "Unverified Market",
     "verificationStatus": "Unverified",
     "published": true,
     "createdAt": "2026-11-15",
-    "updatedAt": "2026-11-15",
+    "updatedAt": "2026-11-17",
     "imageUrl": ""
   },
   {
@@ -3193,19 +3181,15 @@ export const cairoSalesSmallApplianceProducts: Product[] = [
     "categoryId": "appliances",
     "model": "HB111938A",
     "sku": "HB111938A",
-    "description": "خلاطات / هاند بلندر. البيانات والأسعار من ملف Cairo Sales المرفق؛ لم يتم التحقق المستقل من صفحة المنتج أو التوفر أو السعر.",
-    "specifications": {
-      "الصنف الفرعي": "خلاطات / هاند بلندر",
-      "السعر الأصلي بالقائمة": "1,058 EGP",
-      "نسبة الخصم بالقائمة": "15%"
-    },
+    "description": "خلاط يدوي Mienta Vitesse موديل HB111938A أبيض؛ صفحة Carrefour Egypt تطابق الموديل والقدرة 450 واط وكوب 600 مل وسرعة واحدة مع Turbo ومضرب خفق وعمود ستانلس مانع للتناثر. لا يُعتمد السعر أو التوفر دون إعادة تحقق مباشرة.",
+    "specifications": {"السعر الأصلي بالقائمة":"1,099 EGP — غير معتمد","الموديل":"HB111938A","السلسلة":"Vitesse","القدرة":"450 واط","السعة":"600 مل","السرعات":"سرعة واحدة + Turbo","الملحقات":"كوب مدرج ومضرب خفق","عمود الخلط":"ستانلس ستيل مانع للتناثر"},
     "availability": "يحتاج تأكيد التوفر لدى المورد",
-    "sourceUrl": "",
+    "sourceUrl": "https://www.carrefouregypt.com/mafegy/en/blender/mienta-hand-blender-hb111938a-450w/p/674730",
     "sourceType": "Unverified Market",
     "verificationStatus": "Unverified",
     "published": true,
     "createdAt": "2026-11-15",
-    "updatedAt": "2026-11-15",
+    "updatedAt": "2026-11-17",
     "imageUrl": ""
   },
   {
@@ -3217,19 +3201,15 @@ export const cairoSalesSmallApplianceProducts: Product[] = [
     "categoryId": "appliances",
     "model": "BLENDER-PRO-2000",
     "sku": "BLENDER-PRO-2000",
-    "description": "خلاطات. البيانات والأسعار من ملف Cairo Sales المرفق؛ لم يتم التحقق المستقل من صفحة المنتج أو التوفر أو السعر.",
-    "specifications": {
-      "الصنف الفرعي": "خلاطات",
-      "السعر الأصلي بالقائمة": "16,166 EGP",
-      "نسبة الخصم بالقائمة": "10%"
-    },
+    "description": "خلاط Briva Pro 2000 موديل BLENDER-PRO-2000-87854؛ صفحة Kaufen Egypt تطابق القدرة 2000 واط وسعة 4.2 لتر ولوحة LED اللمسية ومحرك نحاسي وغطاء عازل للصوت. سجل الكتالوج يستخدم اسم الموديل المختصر BLENDER-PRO-2000؛ يلزم تأكيد لاحقة 87854 على بطاقة الجهاز.",
+    "specifications": {"السعر الأصلي بالقائمة":"14,999 EGP — غير معتمد","الموديل لدى البائع":"BLENDER-PRO-2000-87854","الموديل في القائمة":"BLENDER-PRO-2000","القدرة":"2000 واط","السعة":"4.2 لتر","الخامة":"Polycarbonate / Tritan BPA-Free","المحرك":"نحاسي 100% بحسب وصف البائع","التحكم":"لوحة LED تعمل باللمس","البرامج":"5 برامج معدة مسبقاً","الوصلة":"معدنية"},
     "availability": "يحتاج تأكيد التوفر لدى المورد",
-    "sourceUrl": "",
+    "sourceUrl": "https://kaufenegypt.com/ar/products/briva-pro-2000-blender",
     "sourceType": "Unverified Market",
     "verificationStatus": "Unverified",
     "published": true,
     "createdAt": "2026-11-15",
-    "updatedAt": "2026-11-15",
+    "updatedAt": "2026-11-17",
     "imageUrl": ""
   }
 ];
