@@ -744,17 +744,15 @@ export const cairoSalesProducts: Product[] = [
     "categoryId": "tv",
     "model": "55LS03H",
     "sku": "55LS03H",
-    "description": "قائمة Cairo Sales المقدمة من المستخدم. السعر والبيانات التجارية غير متحقق منها مستقلاً؛ يلزم الرجوع إلى صفحة المنتج والمورد قبل الاعتماد.",
-    "specifications": {
-      "السعر الأصلي بالقائمة": "51,125 EGP"
-    },
+    "description": "Samsung The Frame LS03H مقاس 55 بوصة؛ صفحة 2B Egypt تطابق رقم الموديل QA55LS03H وتعرض شاشة QLED 4K UHD ورسيفر مدمج ومداخل 4 HDMI و2 USB. صفحة البائع تذكر منشأ مصر وضمان سنتين، لكنهما غير معتمدين دون تحقق مستقل من بطاقة المنتج وشروط الضمان.",
+    "specifications": {"السعر الأصلي بالقائمة":"54,990 EGP — غير معتمد","الموديل":"QA55LS03H / 55LS03H","السلسلة":"The Frame LS03H","المقاس":"55 بوصة","نوع الشاشة":"QLED","الدقة":"4K UHD 3840×2160","المداخل":"4 HDMI و2 USB-A","الرسيفر":"مدمج","الميزات":"Art Mode وGlare-Free وSamsung Vision AI","الأبعاد دون حامل":"1230 × 708.8 × 27.5 مم","ملاحظة المصدر":"المنشأ والضمان المذكوران لدى البائع يحتاجان تحققاً مستقلاً"},
     "availability": "يحتاج تأكيد التوفر لدى المورد",
-    "sourceUrl": "",
+    "sourceUrl": "https://2b.com.eg/ar/samsung-55-qled-4k-smart-built-in-receiver-lifestyle-qa55ls03h.html",
     "sourceType": "Unverified Market",
     "verificationStatus": "Unverified",
     "published": true,
     "createdAt": "2026-11-15",
-    "updatedAt": "2026-11-15",
+    "updatedAt": "2026-11-17",
     "imageUrl": ""
   },
   {
@@ -787,17 +785,16 @@ export const cairoSalesProducts: Product[] = [
     "categoryId": "small-appliances",
     "model": "OK-2S",
     "sku": "OK-2S",
-    "description": "قائمة Cairo Sales المقدمة من المستخدم. السعر والبيانات التجارية غير متحقق منها مستقلاً؛ يلزم الرجوع إلى صفحة المنتج والمورد قبل الاعتماد.",
-    "specifications": {
-      "السعر الأصلي بالقائمة": "15,552 EGP"
-    },
+    "description": "ماكينة Arzum OKKA للقهوة التركية ذات الكوبين؛ رابط Azmy Co يحتوي OK-2S في المسار بينما عنوان الصفحة يعرض OK002، وصفحة CairoCart تعرض الرمز OK002S. كتالوج Arzum الرسمي يؤكد عائلة OK 002 وخصائصها، لكن لاحقة SKU بين OK-2S/OK002/OK002S تحتاج مطابقة بطاقة الجهاز قبل اعتماد النسخة.",
+    "specifications": {"السعر الأصلي بالقائمة":"15,999 EGP — غير معتمد","العلامة":"Arzum OKKA","رمز الموديل في سجل القائمة":"OK-2S","رمز الصفحة/الكتالوج":"OK002 / OK002S","القدرة":"710 واط","سعة خزان الماء":"950 مل","عدد الأكواب":"1–2 كوب في الدورة","اختيار حجم الكوب":"3 مستويات","التحضير":"عادي نحو 80 ثانية، وبطيء نحو 4 دقائق","الميزات":"Direct-to-Cup، تنظيف ذاتي، كشف ارتفاع الغليان","الجهد":"220–240V","قيد المطابقة":"لاحقة SKU الإقليمية غير محسومة"},
     "availability": "يحتاج تأكيد التوفر لدى المورد",
-    "sourceUrl": "",
+    "sourceUrl": "https://azmyco.com/en/products/Other-Appliances/Okka-Automatic-Turkish-Coffee-Machine-Dual-Cup-Silver-x-Black-OK-2S-2235/",
+    "officialProductUrl": "https://www.arzum.com.tr/Data/EditorFiles/katalog/Arzum%20Catalogue%202019.pdf",
     "sourceType": "Unverified Market",
     "verificationStatus": "Unverified",
     "published": true,
     "createdAt": "2026-11-15",
-    "updatedAt": "2026-11-15",
+    "updatedAt": "2026-11-17",
     "imageUrl": ""
   },
   {
