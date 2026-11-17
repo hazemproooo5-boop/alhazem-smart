@@ -28,7 +28,7 @@
 ## حصيلة الدفعة
 
 - 20 اسماً تمت مراجعته مبدئياً.
-- 12 اسماً أمكن ربطها بمصدر رسمي أو أولي مناسب: Carrier، Case Mate، CASIO، Citizen، Claber، Clage، Coleman، Deli، DELL، DeLonghi، DREMEL، Ecomatic، ELBA. (عددها 13؛ لا يُحتسب أي اسم بلا مصدر).
+- 13 اسماً أمكن ربطها بمصدر رسمي أو أولي مناسب: Carrier، Case Mate، CASIO، Citizen، Claber، Clage، Coleman، Deli، DELL، DeLonghi، DREMEL، Ecomatic، ELBA.؛ لا يُحتسب أي اسم بلا مصدر.
 - 7 أسماء بقيت غير محسومة: Cemsan، CH&BE، CICO، COINTRA، Cookin، Coral High، Domani.
 - Carrier وClaber وClage وColeman وDeli وDREMEL وEcomatic ليست جميعها علامات أجهزة منزلية تقليدية؛ يجب الاحتفاظ بتصنيف النشاط الصحيح وعدم إدخالها في فئة واحدة.
 - لا تُعد هذه الدفعة اعتماداً لوكيل أو موزع، ولا توثيقاً لسعر أو موديل أو ضمان. لم تُعدّل بيانات المنتجات أو حالات التحقق.
