@@ -918,7 +918,9 @@ export const cairoSalesProducts: Product[] = [
     "published": true,
     "createdAt": "2026-11-15",
     "updatedAt": "2026-11-15",
-    "imageUrl": ""
+    "imageUrl": "https://www.beko.com/content/dam/egypt-eg-aem/egypt-eg-aemProductCatalog/product-images/8916053200-FRL-2244-B/8916053200-MDM2-LOW-1.png/jcr%3Acontent/renditions/original",
+    "imageSourceUrl": "https://www.beko.com/eg-en/products/cookers-and-fryers/fryer-air-1500-w-frl-2244-b",
+    "imageVerifiedDate": "2026-11-18"
   },
   {
     "id": "cs-025",
@@ -946,7 +948,9 @@ export const cairoSalesProducts: Product[] = [
     "published": true,
     "createdAt": "2026-11-15",
     "updatedAt": "2026-11-15",
-    "imageUrl": ""
+    "imageUrl": "https://web-res.midea.com/content/dam/toshiba-aem/eg/eg-new-assets/small-appliances/fans/f-ase60eg%28k%29/product-image/A-F-ASE60EG-K-front-v1.jpg",
+    "imageSourceUrl": "https://www.toshiba-lifestyle.com/eg/small-appliances/fans/toshiba-stand-fan-18-inch-black-remote-control-f-ase60eg-k",
+    "imageVerifiedDate": "2026-11-18"
   },
   {
     "id": "cs-026",
@@ -974,7 +978,9 @@ export const cairoSalesProducts: Product[] = [
     "published": true,
     "createdAt": "2026-11-15",
     "updatedAt": "2026-11-15",
-    "imageUrl": ""
+    "imageUrl": "https://web-res.midea.com/content/dam/toshiba-aem/eg/eg-new-assets/small-appliances/fans/f-ase50eg%28k%29/product-image/A-F-ASE50EG-K-front-v1.jpg",
+    "imageSourceUrl": "https://www.toshiba-lifestyle.com/eg/small-appliances/fans/toshiba-stand-fan-18-inch-black-remote-control-f-ase50eg-k",
+    "imageVerifiedDate": "2026-11-18"
   },
   {
         "id": "cs-027",
@@ -3076,7 +3082,9 @@ export const cairoSalesSmallApplianceProducts: Product[] = [
     "published": true,
     "createdAt": "2026-11-15",
     "updatedAt": "2026-11-15",
-    "imageUrl": ""
+    "imageUrl": "https://be.fresh.com.eg/media/catalog/product/cache/6fdb9282313a7e48374fe05a5418029a/7/0/700-side-2.png",
+    "imageSourceUrl": "https://fresh.com.eg/ar/products/fresh-chopper-ch-700-2-liters-700-w",
+    "imageVerifiedDate": "2026-11-18"
   },
   {
     "id": "cs-080",
@@ -3125,7 +3133,9 @@ export const cairoSalesSmallApplianceProducts: Product[] = [
     "published": true,
     "createdAt": "2026-11-15",
     "updatedAt": "2026-11-15",
-    "imageUrl": ""
+    "imageUrl": "https://media3.bsh-group.com/Product_Shots/14860303_Product_Shot_TCG4104_STP_def.webp",
+    "imageSourceUrl": "https://www.bosch-home.com/eg/ar/product/cookingandbaking/contactgrill/TCG4104",
+    "imageVerifiedDate": "2026-11-18"
   },
   {
     "id": "cs-082",
@@ -3146,7 +3156,9 @@ export const cairoSalesSmallApplianceProducts: Product[] = [
     "published": true,
     "createdAt": "2026-11-15",
     "updatedAt": "2026-11-15",
-    "imageUrl": ""
+    "imageUrl": "https://media3.bsh-group.com/Product_Shots/14860389_Product_Shot_TCG4215_STP_def.webp",
+    "imageSourceUrl": "https://www.bosch-home.com/eg/ar/product/cookingandbaking/contactgrill/TCG4215",
+    "imageVerifiedDate": "2026-11-18"
   },
   {
     "id": "cs-083",
