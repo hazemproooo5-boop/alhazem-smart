@@ -366,7 +366,7 @@ export const cairoSalesProducts: Product[] = [
     "published": true,
     "createdAt": "2026-11-15",
     "updatedAt": "2026-11-15",
-    "imageUrl": "",
+    "imageUrl": "https://www.lg.com/content/dam/channel/wcms/1-channel/eg_en/ms/lgcom/2026/tv-audio-video/tv/qned-evo/qned85/gp1/gallery/75-qned85/gallery/75_.jpg/jcr%3Acontent/renditions/thum-1600x1062.jpeg?w=800",
     "imageCandidateUrl": "https://dwecxxryy5p59.cloudfront.net/catalogs/7/4/e/6/74e639ca0a7468eb1cfb147432674d7394c6ef9e_imgi_39_thum_1600x1062.jpg"
   },
   {
@@ -427,7 +427,7 @@ export const cairoSalesProducts: Product[] = [
     "published": true,
     "createdAt": "2026-11-15",
     "updatedAt": "2026-11-15",
-        "imageUrl": "",
+        "imageUrl": "https://www.lg.com/content/dam/channel/wcms/1-channel/eg_ar/ms/lgcom/2026/tv-audio-video/tv/qned-evo/qned82/gp1/gallery/75-qned82/gallery/75_.jpg/jcr%3Acontent/renditions/thum-1600x1062.jpeg?w=800",
     "imageCandidateUrl": "https://www.lg.com/content/dam/channel/wcms/1-channel/eg_ar/ms/lgcom/2026/tv-audio-video/tv/qned-evo/qned82/gp1/gallery/75-qned82/gallery/lg-qned-evo-qned82-2026-75-gallery-02-product-dimension.jpg/jcr%3Acontent/renditions/thum-1600x1062.jpeg?w=800",
     "imageSourceUrl": "https://www.lg.com/eg_ar/tv-soundbars/qned-evo/75qned84b6t/"
   },
@@ -497,7 +497,7 @@ export const cairoSalesProducts: Product[] = [
     "createdAt": "2026-11-15",
     "updatedAt": "2026-11-15",
     "imageCandidateUrl": "https://www.lg.com/content/dam/channel/wcms/1-channel/eg_ar/ms/lgcom/2026/tv-audio-video/tv/qned-evo/qned82/gp1/gallery/65-qned82/gallery/65_.jpg/jcr%3Acontent/renditions/thum-1600x1062.jpeg?w=800",
-                "imageUrl": "",
+                "imageUrl": "https://www.lg.com/content/dam/channel/wcms/1-channel/eg_ar/ms/lgcom/2026/tv-audio-video/tv/qned-evo/qned82/gp1/gallery/65-qned82/gallery/65_.jpg/jcr%3Acontent/renditions/thum-1600x1062.jpeg?w=800",
     "imageSourceUrl": "https://www.lg.com/eg_en/tv-soundbars/qned-evo/65qned84b6t/"
   },
   {
