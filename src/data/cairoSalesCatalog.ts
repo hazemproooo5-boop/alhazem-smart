@@ -1133,7 +1133,9 @@ export const cairoSalesProducts: Product[] = [
     "published": true,
     "createdAt": "2026-11-15",
     "updatedAt": "2026-11-17",
-    "imageUrl": ""
+    "imageUrl": "https://cdn.mafrservices.com/pim-content/EGY/media/product/646278/1740568381/646278_main.jpg?im=Resize%3D376",
+    "imageSourceUrl": "https://www.carrefouregypt.com/mafegy/en/cooking-set/zahran-ss-cooking-set-8p-18-28/p/646278",
+    "imageVerifiedDate": "2026-11-18"
   },
   {
     "id": "cs-032",
