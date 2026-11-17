@@ -2681,7 +2681,8 @@ export const cairoSalesPrices: PriceRecord[] = [
     "source": "LG Egypt official online store — 75QNED85B6T; standard public price, member price excluded; checked 2026-11-18",
     "sourceUrl": "https://www.lg.com/eg_ar/tv-soundbars/all-tvs/?sortCriteria=%40ec_stock_status+ascending%2C%40ec_model_release_date+descending",
     "priceDate": "2026-11-18",
-    "verificationStatus": "Verified",
+    "verificationStatus": "Unverified",
+    "isHistorical": false,
     "createdAt": "2026-11-18T00:00:00Z"
   },
   {
@@ -2721,12 +2722,12 @@ export const cairoSalesPrices: PriceRecord[] = [
     "createdAt": "2026-11-18T00:00:00Z"
   },
   {
-    "id": "cs-price-115",
+    "id": "cs-price-122",
     "productId": "cs-034",
     "price": 1599,
     "currency": "EGP",
-    "priceType": "Trusted Market Price",
-    "source": "Zahran Stores — Tefal Tempo Flame Rectangular Oven Tray Set, model 220089989 and seller product code 4300001046; EGP 1,599 including VAT, page indicates in stock; checked 2026-11-18",
+    "priceType": "Unverified Market Price",
+    "source": "سعر تقريبي — صفحة Zahran Stores تعرض 1,599 جنيه شاملاً VAT وزر Add to Cart للموديل 220089989؛ حالة المخزون النهائية لم تُؤكد عند إتمام الطلب، checked 2026-11-18",
     "sourceUrl": "https://zahranstores.com/ar/tefal-tempo-flame-rectangular-oven-tray-set-size-3035-220089989-1169",
     "priceDate": "2026-11-18",
     "verificationStatus": "Verified",
