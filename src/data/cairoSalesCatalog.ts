@@ -491,7 +491,9 @@ export const cairoSalesProducts: Product[] = [
     "published": true,
     "createdAt": "2026-11-15",
     "updatedAt": "2026-11-15",
-    "imageUrl": ""
+    "imageUrl": "https://www.lg.com/content/dam/channel/wcms/1-channel/eg_ar/ms/lgcom/2026/tv-audio-video/tv/qned-evo/qned82/gp1/gallery/65-qned82/gallery/65_.jpg/jcr%3Acontent/renditions/thum-1600x1062.jpeg?w=800",
+    "imageSourceUrl": "https://www.lg.com/eg_ar/tv-soundbars/qned-evo/65qned84b6t/",
+    "imageVerifiedDate": "2026-11-18"
   },
   {
     "id": "cs-007",
@@ -513,7 +515,7 @@ export const cairoSalesProducts: Product[] = [
     "createdAt": "2026-11-15",
     "updatedAt": "2026-11-15",
     "imageUrl": "https://www.lg.com/content/dam/channel/wcms/1-channel/eg_ar/ms/lgcom/2026/tv-audio-video/tv/qned-evo/qned85/gp1/gallery/65-qned85/gallery/55_.jpg/jcr%3Acontent/renditions/thum-1600x1062.jpeg?w=800",
-    "imageSourceUrl": "https://www.lg.com/eg_ar/tv-soundbars/qned-evo/55qned85b6t/",
+    "imageSourceUrl": "https://www.lg.com/eg_ar/support/product-support/cs-55QNED85B6T.AFU/",
     "imageVerifiedDate": "2026-11-18"
   },
   {
@@ -604,7 +606,10 @@ export const cairoSalesProducts: Product[] = [
     "published": true,
     "createdAt": "2026-11-15",
     "updatedAt": "2026-11-15",
-    "imageUrl": "https://www.worldwidestereo.com/cdn/shop/files/Samsung-QN83S95HAEXZA-S95H-83-4K-OLED-TV-Image-01.jpg?v=1778268468"
+    "imageUrl": "https://images.samsung.com/is/image/samsung/p6pim/eg/qa83s95haexeg/gallery/eg-oled-s95h-qa83s95haexeg-552249287?%241164_776_PNG%24=",
+    "imageSourceUrl": "https://www.samsung.com/eg/tvs/oled-tv/s95h-83-inch-4k-smart-tv-qa83s95haexeg/",
+    "imageVerifiedDate": "2026-11-18",
+    "imageCandidateUrl": "https://www.worldwidestereo.com/cdn/shop/files/Samsung-QN83S95HAEXZA-S95H-83-4K-OLED-TV-Image-01.jpg?v=1778268468"
   },
   {
     "id": "cs-012",
@@ -624,7 +629,10 @@ export const cairoSalesProducts: Product[] = [
     "published": true,
     "createdAt": "2026-11-15",
     "updatedAt": "2026-11-17",
-    "imageUrl": "https://images.samsung.com/is/content/samsung/p6pim/uk/qe83s90haexxu/gallery/uk-oled-s90h-585902-qe83s90haexxu-553409047.webp"
+    "imageUrl": "https://images.samsung.com/is/image/samsung/p6pim/eg/qa83s90haexeg/gallery/eg-oled-s90h-qa83s90haexeg-552248979?%241164_776_PNG%24=",
+    "imageSourceUrl": "https://www.samsung.com/eg/tvs/oled-tv/s90h-83-inch-4k-smart-tv-qa83s90haexeg/",
+    "imageVerifiedDate": "2026-11-18",
+    "imageCandidateUrl": "https://images.samsung.com/is/content/samsung/p6pim/uk/qe83s90haexxu/gallery/uk-oled-s90h-585902-qe83s90haexxu-553409047.webp"
   },
   {
     "id": "cs-013",
@@ -644,7 +652,10 @@ export const cairoSalesProducts: Product[] = [
     "published": true,
     "createdAt": "2026-11-15",
     "updatedAt": "2026-11-17",
-    "imageUrl": "https://fillion.ca/cdn/shop/files/QA77S95HAEXXS_5_8bba3bc0-c26a-431e-ac29-f9634ba8577c.jpg?v=1775592003&width=700"
+    "imageUrl": "https://images.samsung.com/is/image/samsung/p6pim/eg/qa77s95haexeg/gallery/eg-oled-s95h-qa77s95haexeg-552249259?%241164_776_PNG%24=",
+    "imageSourceUrl": "https://www.samsung.com/eg/tvs/oled-tv/s95h-77-inch-4k-smart-tv-qa77s95haexeg/",
+    "imageVerifiedDate": "2026-11-18",
+    "imageCandidateUrl": "https://fillion.ca/cdn/shop/files/QA77S95HAEXXS_5_8bba3bc0-c26a-431e-ac29-f9634ba8577c.jpg?v=1775592003&width=700"
   },
   {
     "id": "cs-014",
@@ -658,13 +669,14 @@ export const cairoSalesProducts: Product[] = [
     "description": "سجل Cairo Sales يذكر Samsung S85H OLED مقاس 83 بوصة. مصدر Samsung Egypt الرسمي يؤكد أن سلسلة S85H لعام 2026 تشمل مقاس 83 بوصة وOLED 4K، لكنه ليس صفحة SKU مصرية مستقلة لهذا المقاس؛ تبقى مطابقة رقم الطراز الإقليمي مطلوبة.",
     "specifications": {"السعر الأصلي بالقائمة":"215,898 EGP — غير معتمد","نوع الشاشة":"OLED","المقاس":"83 بوصة ضمن مقاسات سلسلة S85H 2026 الرسمية","الدقة":"4K","المعالج":"NQ4 AI Gen2","المصدر":"صفحة مجموعة OLED الرسمية من Samsung Egypt"},
     "availability": "يحتاج تأكيد التوفر لدى المورد",
-    "sourceUrl": "https://www.samsung.com/eg/tvs/oled-tv/highlights/",
-    "sourceType": "Official",
+    "sourceUrl": "",
+    "sourceType": "Unverified Market",
     "verificationStatus": "Unverified",
     "published": true,
     "createdAt": "2026-11-15",
     "updatedAt": "2026-11-17",
-    "imageUrl": "https://static.ollo.it/img/catalog/2048x2048/samsung-83-oled-s85h-4k-vision-ai-smart-tv-2026_1692160_961158.jpg"
+    "imageUrl": "",
+    "imageCandidateUrl": "https://static.ollo.it/img/catalog/2048x2048/samsung-83-oled-s85h-4k-vision-ai-smart-tv-2026_1692160_961158.jpg"
   },
   {
     "id": "cs-015",
@@ -678,13 +690,14 @@ export const cairoSalesProducts: Product[] = [
     "description": "سجل Cairo Sales يذكر Samsung M90H Mini LED مقاس 100 بوصة. دليل Samsung Egypt الرسمي يؤكد سلسلة M90H ضمن Mini LED 2026، بينما دليل الفئات يؤكد وجود مقاس 100 بوصة ضمن Mini LED؛ لم تُثبت صفحة SKU إقليمية تجمع المواصفتين لهذا السجل، لذلك يبقى التحقق من النسخة مطلوباً.",
     "specifications": {"السعر الأصلي بالقائمة":"213,625 EGP — غير معتمد","نوع الشاشة":"Mini LED بحسب اسم السلسلة في قائمة الإدراج","المقاس":"100 بوصة بحسب قائمة الإدراج؛ يلزم تأكيد SKU","السلسلة":"M90H ضمن Mini LED 2026 بحسب دليل Samsung Egypt","المصدر":"دليل مجموعة أجهزة Samsung TV 2026"},
     "availability": "يحتاج تأكيد التوفر لدى المورد",
-    "sourceUrl": "https://www.samsung.com/eg/tvs/tv-buying-guide/the-complete-2026-samsung-tv-lineup-guide/",
-    "sourceType": "Official",
+    "sourceUrl": "",
+    "sourceType": "Unverified Market",
     "verificationStatus": "Unverified",
     "published": true,
     "createdAt": "2026-11-15",
     "updatedAt": "2026-11-17",
-    "imageUrl": "https://www.tanradio.com/_next/image?q=75&url=%2Fimages%2Fpromos%2Fsamsung-m90h%2Fhero-front.jpg&w=3840"
+    "imageUrl": "",
+    "imageCandidateUrl": "https://www.tanradio.com/_next/image?q=75&url=%2Fimages%2Fpromos%2Fsamsung-m90h%2Fhero-front.jpg&w=3840"
   },
   {
     "id": "cs-016",
@@ -704,7 +717,10 @@ export const cairoSalesProducts: Product[] = [
     "published": true,
     "createdAt": "2026-11-15",
     "updatedAt": "2026-11-17",
-    "imageUrl": "https://images.samsung.com/is/image/samsung/p6pim/es/tq65s95hftxxc/gallery/es-oled-s95-tq65s95hftxxc-thumb-552673784"
+    "imageUrl": "https://images.samsung.com/is/image/samsung/p6pim/eg/qa65s95hauxeg/gallery/eg-oled-s95h-qa65s95hauxeg-552249231?%241164_776_PNG%24=",
+    "imageSourceUrl": "https://www.samsung.com/eg/tvs/oled-tv/s95h-65-inch-4k-smart-tv-qa65s95hauxeg/",
+    "imageVerifiedDate": "2026-11-18",
+    "imageCandidateUrl": "https://images.samsung.com/is/image/samsung/p6pim/es/tq65s95hftxxc/gallery/es-oled-s95-tq65s95hftxxc-thumb-552673784"
   },
   {
     "id": "cs-017",
@@ -725,7 +741,8 @@ export const cairoSalesProducts: Product[] = [
     "published": true,
     "createdAt": "2026-11-15",
     "updatedAt": "2026-11-15",
-    "imageUrl": "https://sonxplusrockland.com/cdn/shop/files/U9000HFXZC_02_700x700.jpg?v=1780430025"
+    "imageUrl": "",
+    "imageCandidateUrl": "https://sonxplusrockland.com/cdn/shop/files/U9000HFXZC_02_700x700.jpg?v=1780430025"
   },
   {
     "id": "cs-018",
@@ -745,7 +762,10 @@ export const cairoSalesProducts: Product[] = [
     "published": true,
     "createdAt": "2026-11-15",
     "updatedAt": "2026-11-17",
-    "imageUrl": "https://media.binglee.com.au/cdn-cgi/image/fit%3Dscale-down%2Cf%3Dauto%2Cw%3D1079/a/a/3/2/aa3291990bcfa993c841f318667aeddbe5700bcd_QA75LS03HEWXXY__proddim.jpg"
+    "imageUrl": "https://images.samsung.com/is/image/samsung/p6pim/co/qn75ls03hekxzl/gallery/co-the-frame-ls03he-qn75ls03hekxzl-552307711?%241164_776_PNG%24=",
+    "imageSourceUrl": "https://www.samsung.com/co/lifestyle-tvs/the-frame/ls03he-75-inch-qn75ls03hekxzl/",
+    "imageVerifiedDate": "2026-11-18",
+    "imageCandidateUrl": "https://media.binglee.com.au/cdn-cgi/image/fit%3Dscale-down%2Cf%3Dauto%2Cw%3D1079/a/a/3/2/aa3291990bcfa993c841f318667aeddbe5700bcd_QA75LS03HEWXXY__proddim.jpg"
   },
   {
     "id": "cs-019",
@@ -765,7 +785,10 @@ export const cairoSalesProducts: Product[] = [
     "published": true,
     "createdAt": "2026-11-15",
     "updatedAt": "2026-11-17",
-    "imageUrl": "https://images.samsung.com/is/image/samsung/p6pim/ca/qn55ls03hefxzc/gallery/ca-the-frame-ls03he-qn55ls03hefxzc-552500698"
+    "imageUrl": "https://images.samsung.com/is/image/samsung/p6pim/co/qn55ls03hekxzl/gallery/co-the-frame-ls03he-qn55ls03hekxzl-552307637?%241164_776_PNG%24=",
+    "imageSourceUrl": "https://www.samsung.com/co/lifestyle-tvs/the-frame/ls03he-55-inch-qn55ls03hekxzl/",
+    "imageVerifiedDate": "2026-11-18",
+    "imageCandidateUrl": "https://images.samsung.com/is/image/samsung/p6pim/ca/qn55ls03hefxzc/gallery/ca-the-frame-ls03he-qn55ls03hefxzc-552500698"
   },
   {
     "id": "cs-020",
@@ -786,7 +809,10 @@ export const cairoSalesProducts: Product[] = [
     "published": true,
     "createdAt": "2026-11-15",
     "updatedAt": "2026-11-15",
-    "imageUrl": "https://www.pcrichard.com/on/demandware.static/-/Sites-pcrichard-master-product-catalog/default/dw35b3faf1/images/hires/Z_QN55QN70H.jpg"
+    "imageUrl": "https://images.samsung.com/is/image/samsung/p6pim/eg/qa55qn70hauxeg/gallery/eg-qled-qn70h-qa55qn70hauxeg-552775730?%241164_776_PNG%24=",
+    "imageSourceUrl": "https://www.samsung.com/eg/tvs/qled-tv/qn70h-55-inch-neo-qled-4k-mini-led-smart-tv-qa55qn70hauxeg/",
+    "imageVerifiedDate": "2026-11-18",
+    "imageCandidateUrl": "https://www.pcrichard.com/on/demandware.static/-/Sites-pcrichard-master-product-catalog/default/dw35b3faf1/images/hires/Z_QN55QN70H.jpg"
   },
   {
     "id": "cs-021",
