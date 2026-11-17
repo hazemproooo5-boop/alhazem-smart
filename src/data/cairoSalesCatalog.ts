@@ -1159,7 +1159,9 @@ export const cairoSalesProducts: Product[] = [
     "published": true,
     "createdAt": "2026-11-15",
     "updatedAt": "2026-11-17",
-    "imageUrl": ""
+    "imageUrl": "https://resources.sears.com.mx/medios-plazavip/mkt/64c1452fb3002_71358rcvn2l_ac_sl1500_-1-jpg.jpg?qlty=75&scale=500",
+    "imageSourceUrl": "https://www.sears.com.mx/producto/434550/juego-de-cuchillos-blade-6-pzas-c-base-de-madera-magefesa-8429113111786",
+    "imageVerifiedDate": "2026-11-18"
   },
   {
     "id": "cs-034",
