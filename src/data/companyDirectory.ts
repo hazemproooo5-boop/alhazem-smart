@@ -60,9 +60,9 @@ export const companyDirectory = [
     "kind": "مصنّع أجهزة منزلية",
     "url": "https://www.universalgroup.org/en/corporate-profile",
     "submittedUrl": "https://universal-egypt.com",
-    "source": "Universal Group الرسمي: https://www.universalgroup.org/en/corporate-profile",
+    "source": "Universal Group official — Corporate Profile",
     "verificationStatus": "Unverified",
-    "note": "الرابط مقدم ضمن قائمة المستخدم؛ يلزم التحقق من النطاق وصفحة الشركة."
+    "note": "الموقع الرسمي يصف Universal Group ونشاطها في الأجهزة المنزلية؛ كما يوجد سجل جهاز تنمية التجارة الداخلية يذكر شركة يونيفرسال للصناعات الهندسية وعلامات/أنشطة فئة 11. يجب مطابقة الكيان القانوني والعلامة المسجلة قبل نسب كل منتج للمجموعة."
   },
   {
     "id": "passap",
@@ -97,11 +97,11 @@ export const companyDirectory = [
     "id": "zahran",
     "name": "زهران",
     "kind": "مجموعة/موزع وأدوات منزلية",
-    "url": "https://zahranmarket.com/privacy-policy.html",
+    "url": "https://www.itda.gov.eg/CRM/858/CRA109.pdf",
     "submittedUrl": "https://zahranmarket.com",
-    "source": "Zahran Market privacy policy؛ ITDA وGroupe SEB filings",
+    "source": "جهاز تنمية التجارة الداخلية — سجل Groupe SEB Egypt - Zahran for Household Appliances S.A.E.; Zahran Market",
     "verificationStatus": "Unverified",
-    "note": "الرابط مقدم ضمن قائمة المستخدم؛ يلزم التحقق من نطاق النشاط والوكالات."
+    "note": "السجل الحكومي يذكر الكيان القانوني Groupe SEB Egypt - Zahran For Household Appliances S.A.E. ونشاط تصنيع وتجميع أدوات الطبخ والأواني والأجهزة المنزلية الصغيرة. موقع Zahran Market قناة تجارية منفصلة؛ لا تخلط المتجر بالكيان القانوني ولا تعتمد وكالات أخرى دون مستند."
   },
   {
     "id": "nouval",
@@ -185,11 +185,11 @@ export const companyDirectory = [
     "id": "helal-star",
     "name": "الهلال والنجمة الذهبية",
     "kind": "مصنّع أدوات منزلية وبلاستيك",
-    "url": "https://hgsgroup.net/about-us/",
+    "url": "https://www.itda.gov.eg/CRM/869/CRA103.pdf",
     "submittedUrl": "https://elhelal-and-stargolden.com",
-    "source": "Helal & Star Golden Group official: https://hgsgroup.net/about-us/",
+    "source": "جهاز تنمية التجارة الداخلية — السجل التجاري/الأسماء التجارية",
     "verificationStatus": "Unverified",
-    "note": "الرابط مقدم ضمن قائمة المستخدم؛ يلزم التحقق من النطاق."
+    "note": "السجل الحكومي يذكر الهلال والنجمة الذهبية للصناعة والتجارة - مصر ونشاط مصنع المنتجات البلاستيكية والأدوات المنزلية وأدوات النظافة والعبوات. هذا يثبت نشاطاً مسجلاً ولا يثبت كل علامة أو SKU."
   },
   {
     "id": "alsharif-melamine",
@@ -205,11 +205,11 @@ export const companyDirectory = [
     "id": "midstar",
     "name": "ميد ستار",
     "kind": "أدوات منزلية ومنتجات بلاستيكية",
-    "url": "https://www.medstar-misr.com/about-us",
+    "url": "https://midstar-eg.com",
     "submittedUrl": "https://midstar-eg.com",
-    "source": "Medstar Misr official: https://www.medstar-misr.com/about-us",
+    "source": "رابط الدليل الأصلي؛ Medstar Misr مصدر منفصل لا يثبت التطابق",
     "verificationStatus": "Unverified",
-    "note": "الرابط مقدم ضمن قائمة المستخدم؛ يلزم التحقق من النطاق."
+    "note": "لا يوجد دليل كافٍ على أن Midstar هو Medstar Misr. تم حفظ نطاق Midstar كما ورد، وعدم نقل بيانات المصنع أو العنوان من Medstar Misr إليه؛ يلزم مستند سجل تجاري أو شعار/عبوة للمطابقة."
   },
   {
     "id": "hinox",
@@ -246,9 +246,9 @@ export const companyDirectory = [
     "kind": "مصنّع أدوات طهي",
     "url": "https://elomdafal.com/en/elomda-factory-for-cookware/",
     "submittedUrl": "https://elomdafal.com",
-    "source": "Elomda Factory official: https://elomdafal.com/en/elomda-factory-for-cookware/",
+    "source": "Elomda Factory official — cookware factory",
     "verificationStatus": "Unverified",
-    "note": "الرابط مقدم ضمن قائمة المستخدم؛ يلزم التحقق من النطاق."
+    "note": "الموقع يعرّف Elomda Factory كجهة تعمل في تصنيع أدوات الطهي. يلزم مطابقة السجل التجاري وبلد التصنيع والكيان القانوني قبل اعتماد تفاصيل الشركة أو ضمان منتجاتها."
   },
   {
     "id": "terynova",
@@ -256,19 +256,19 @@ export const companyDirectory = [
     "kind": "أطقم أواني طهي",
     "url": "https://terynova.com/",
     "submittedUrl": "https://terynova.com",
-    "source": "Terynova official: https://terynova.com/ ؛ ITDA company record",
+    "source": "Terynova official storefront",
     "verificationStatus": "Unverified",
-    "note": "الرابط مقدم ضمن قائمة المستخدم؛ يلزم التحقق من النطاق."
+    "note": "الموقع يعرض أواني طهي جرانيت وتيفال ويذكر عنواناً بالمنطقة الصناعية جمصة. لا يقدم في الصفحة المفتوحة دليلاً كافياً على الاسم القانوني للمصنع أو مالك العلامة؛ لذلك تبقى هوية المصنع غير محسومة."
   },
   {
     "id": "fathy-mahmoud",
     "name": "فتحي محمود / ستار بورسلين",
     "kind": "مصنّع بورسلين وصيني",
-    "url": "https://fathymahmoud.com/about-fm/",
+    "url": "https://fathymahmoud.com/porcelain-factory-egypt/",
     "submittedUrl": "https://fathimahmoud.com",
-    "source": "Fathy Mahmoud official: https://fathymahmoud.com/about-fm/",
+    "source": "Fathy Mahmoud official — Porcelain Factory Egypt",
     "verificationStatus": "Unverified",
-    "note": "الرابط مقدم ضمن قائمة المستخدم؛ يلزم التحقق من النطاق."
+    "note": "الموقع الرسمي يذكر تأسيس الشركة عام 1948 ومصنع بورسلين في الإسكندرية وتصدير المنتجات لأكثر من 55 دولة. هذا مصدر أولي لهوية المصنع ونشاط البورسلين؛ تفاصيل التوزيع والضمان المحلي تحتاج تحققاً منفصلاً."
   },
   {
     "id": "sheeni",
@@ -356,19 +356,19 @@ export const companyDirectory = [
     "kind": "علامة أجهزة منزلية",
     "url": "https://www.midea.com/eg",
     "submittedUrl": "https://www.midea.com",
-    "source": "Midea Egypt / Global: https://www.midea.com/eg",
+    "source": "Midea Egypt official; Midea Global corporate profile",
     "verificationStatus": "Unverified",
-    "note": "الرابط مقدم ضمن قائمة المستخدم؛ يلزم تحديد نطاق مصر."
+    "note": "الموقع المصري الرسمي يعرض منتجات وخدمات Midea في مصر، والموقع العالمي يوضح هوية المجموعة ونطاقها الصناعي. لا يثبت رابط المجموعة وحده الوكيل أو الضمان لكل موديل."
   },
   {
     "id": "kenwood",
     "name": "كينوود",
     "kind": "علامة أجهزة مطبخ",
-    "url": "https://www.kenwoodworld.com/",
+    "url": "https://www.kenwoodworld.com/en-eg/where-to-buy",
     "submittedUrl": "https://www.kenwoodworld.com",
-    "source": "Kenwood وDe'Longhi Group: https://www.kenwoodworld.com/",
+    "source": "Kenwood official — Where to buy Egypt; De'Longhi Group brand portfolio",
     "verificationStatus": "Unverified",
-    "note": "الرابط مقدم ضمن قائمة المستخدم."
+    "note": "موقع Kenwood الرسمي يخصص مساراً لمصر ضمن دليل Where to buy، وتندرج العلامة ضمن محفظة De'Longhi Group. يجب التحقق من الموزع/مركز الخدمة الظاهر لكل منتج محلي."
   },
   {
     "id": "sokany",
