@@ -672,7 +672,7 @@ export const cairoSalesProducts: Product[] = [
     "published": true,
     "createdAt": "2026-11-15",
     "updatedAt": "2026-11-17",
-    "imageUrl": "https://i5.walmartimages.com/seo/Samsung-100-Class-M90H-Micro-RGB-4K-Vision-AI-Smart-TV-2026_5fbd51e8-5d6d-4a2a-80f7-8a3a9f8b0d50.9f3c7a0d8e8d8a0e6b7d1b5d1a3e6f3c.jpeg"
+    "imageUrl": "https://www.tanradio.com/_next/image?q=75&url=%2Fimages%2Fpromos%2Fsamsung-m90h%2Fhero-front.jpg&w=3840"
   },
   {
     "id": "cs-016",
@@ -713,7 +713,7 @@ export const cairoSalesProducts: Product[] = [
     "published": true,
     "createdAt": "2026-11-15",
     "updatedAt": "2026-11-15",
-    "imageUrl": "https://sonxplus.com/cdn/shop/files/Samsung_UA98U9000H_98_Inch_Crystal_UHD_4K_Smart_TV_2026.jpg?v=1775634200"
+    "imageUrl": "https://sonxplusrockland.com/cdn/shop/files/U9000HFXZC_02_700x700.jpg?v=1780430025"
   },
   {
     "id": "cs-018",
@@ -774,7 +774,7 @@ export const cairoSalesProducts: Product[] = [
     "published": true,
     "createdAt": "2026-11-15",
     "updatedAt": "2026-11-15",
-    "imageUrl": "https://www.listenup.com/cdn/shop/files/Samsung-QN55QN70H-Front.jpg?v=1775678234"
+    "imageUrl": "https://www.pcrichard.com/on/demandware.static/-/Sites-pcrichard-master-product-catalog/default/dw35b3faf1/images/hires/Z_QN55QN70H.jpg"
   },
   {
     "id": "cs-021",
