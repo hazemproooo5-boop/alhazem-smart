@@ -861,7 +861,9 @@ export const cairoSalesProducts: Product[] = [
     "published": true,
     "createdAt": "2026-11-15",
     "updatedAt": "2026-11-15",
-    "imageUrl": ""
+    "imageUrl": "https://static.kzameeza.com/product/bulk-prod-data10/api677ffe4002290163160575817364414081987641306.jpg",
+    "imageSourceUrl": "https://www.kzameeza.com/en/product/appliances/small-home-appliance/coffee-machines/arzum-okka-rich-spin-pro-coffee-machine-copper-ok0026-rihptsxsjlegb0d",
+    "imageVerifiedDate": "2026-11-18"
   },
   {
     "id": "cs-023",
@@ -1010,7 +1012,9 @@ export const cairoSalesProducts: Product[] = [
         "published": true,
         "createdAt": "2026-11-15",
         "updatedAt": "2026-11-15",
-        "imageUrl": ""
+        "imageUrl": "https://cdn.mafrservices.com/sys-master-root/h73/h2b/44951075946526/599162_main.jpg",
+    "imageSourceUrl": "https://www.carrefouregypt.com/mafegy/en/blender/mienta-h-b-set-hb111038a-1000w/p/599162",
+    "imageVerifiedDate": "2026-11-18"
     },
   {
         "id": "cs-028",
@@ -1040,7 +1044,9 @@ export const cairoSalesProducts: Product[] = [
         "published": true,
         "createdAt": "2026-11-15",
         "updatedAt": "2026-11-15",
-        "imageUrl": ""
+        "imageUrl": "https://elghazawy.b-cdn.net/136059/tornado-stainless-steel-kettle-1-7-liter-1850-2200-watt-in-stainless-color-tks-2217e.webp",
+    "imageSourceUrl": "https://elghazawy.com/en/product/38074270261056/Tornado-Stainless-Electric-Water-Kettle%2C-1.7-Liter%2C-1850-2200-Watt%2C-Silver%2C-TKS-2217E",
+    "imageVerifiedDate": "2026-11-18"
     },
   {
         "id": "cs-029",
@@ -1067,7 +1073,9 @@ export const cairoSalesProducts: Product[] = [
         "published": true,
         "createdAt": "2026-11-15",
         "updatedAt": "2026-11-15",
-        "imageUrl": ""
+        "imageUrl": "https://cdn.mafrservices.com/sys-master-root/hdb/hcc/46608046686238/601775_main.jpg",
+    "imageSourceUrl": "https://www.carrefouregypt.com/mafegy/en/chopper/mienta-chopper-ch23838a-450w-1-5l/p/601775",
+    "imageVerifiedDate": "2026-11-18"
     },
   {
     "id": "cs-030",
@@ -1088,7 +1096,9 @@ export const cairoSalesProducts: Product[] = [
     "published": true,
     "createdAt": "2026-11-15",
     "updatedAt": "2026-11-17",
-    "imageUrl": ""
+    "imageUrl": "https://korkmazeg.com/wp-content/uploads/A1610.jpg",
+    "imageSourceUrl": "https://korkmazeg.com/product/korkmaz-alfa-plus-stainless-steel-cookware-set-11-pcs/",
+    "imageVerifiedDate": "2026-11-18"
   },
   {
     "id": "cs-031",
