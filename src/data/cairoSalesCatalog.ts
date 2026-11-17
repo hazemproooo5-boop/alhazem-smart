@@ -357,8 +357,7 @@ export const cairoSalesProducts: Product[] = [
       "المقاس": "75 بوصة",
       "النظام": "webOS مع ميزات الذكاء الاصطناعي",
       "السعر الأصلي بالقائمة": "86,449 EGP — سعر قائمة مستورد غير معتمد"
-    "imageCandidateUrl": "https://dwecxxryy5p59.cloudfront.net/catalogs/7/4/e/6/74e639ca0a7468eb1cfb147432674d7394c6ef9e_imgi_39_thum_1600x1062.jpg"
-  },
+    },
     "availability": "يحتاج تأكيد التوفر لدى المورد",
     "officialProductUrl": "https://www.lg.com/eg_ar/tv-soundbars/qned-evo/75qned85b6t/",
     "sourceUrl": "https://www.lg.com/eg_ar/tv-soundbars/qned-evo/75qned85b6t/",
@@ -367,6 +366,8 @@ export const cairoSalesProducts: Product[] = [
     "published": true,
     "createdAt": "2026-11-15",
     "updatedAt": "2026-11-15",
+    "imageUrl": "",
+    "imageCandidateUrl": "https://dwecxxryy5p59.cloudfront.net/catalogs/7/4/e/6/74e639ca0a7468eb1cfb147432674d7394c6ef9e_imgi_39_thum_1600x1062.jpg"
   },
   {
     "id": "cs-002",
@@ -388,10 +389,7 @@ export const cairoSalesProducts: Product[] = [
       "ميزات الألعاب": "NVIDIA G-SYNC وAMD FreeSync Premium، زمن استجابة 0.1ms",
       "النظام": "webOS مع AI Hub وLG Shield",
       "السعر الأصلي بالقائمة": "82,211 EGP — سعر قائمة مستورد غير معتمد"
-    "imageUrl": "https://www.lg.com/content/dam/channel/wcms/nz/ms/lgcom/2026/tv1/oled/b6/65-inch/gallery/2010x1334/B6-65-2010x1334-1.png/jcr%3Acontent/renditions/thum-1600x1062.jpeg?w=800",
-    "imageSourceUrl": "https://www.lg.com/nz/tv-soundbars/oled/oled65b66la/",
-    "imageVerifiedDate": "2026-11-18"
-  },
+    },
     "availability": "يحتاج تأكيد التوفر لدى المورد",
     "officialProductUrl": "https://www.lg.com/eg_ar/tv-soundbars/oled/oled65b66la/",
     "sourceUrl": "https://www.lg.com/eg_ar/tv-soundbars/oled/oled65b66la/",
@@ -400,6 +398,10 @@ export const cairoSalesProducts: Product[] = [
     "published": true,
     "createdAt": "2026-11-15",
     "updatedAt": "2026-11-15",
+    "imageUrl": "",
+    "imageUrl": "https://www.lg.com/content/dam/channel/wcms/nz/ms/lgcom/2026/tv1/oled/b6/65-inch/gallery/2010x1334/B6-65-2010x1334-1.png/jcr%3Acontent/renditions/thum-1600x1062.jpeg?w=800",
+    "imageSourceUrl": "https://www.lg.com/nz/tv-soundbars/oled/oled65b66la/",
+    "imageVerifiedDate": "2026-11-18"
   },
   {
     "id": "cs-003",
@@ -417,10 +419,7 @@ export const cairoSalesProducts: Product[] = [
       "المقاس": "75 بوصة",
       "النظام": "webOS مع ميزات AI",
       "السعر الأصلي بالقائمة": "70,932 EGP — سعر قائمة مستورد غير معتمد"
-    "imageUrl": "https://www.lg.com/content/dam/channel/wcms/1-channel/eg_ar/ms/lgcom/2026/tv-audio-video/tv/qned-evo/qned82/gp1/gallery/75-qned82/gallery/lg-qned-evo-qned82-2026-75-gallery-02-product-dimension.jpg/jcr%3Acontent/renditions/thum-1600x1062.jpeg?w=800",
-    "imageSourceUrl": "https://www.lg.com/eg_ar/tv-soundbars/qned-evo/75qned84b6t/",
-    "imageVerifiedDate": "2026-11-18"
-  },
+    },
     "availability": "يحتاج تأكيد التوفر لدى المورد",
     "officialProductUrl": "https://www.lg.com/eg_ar/tv-soundbars/qned-evo/75qned84b6t/",
     "sourceUrl": "https://www.lg.com/eg_ar/tv-soundbars/qned-evo/75qned84b6t/",
@@ -429,6 +428,10 @@ export const cairoSalesProducts: Product[] = [
     "published": true,
     "createdAt": "2026-11-15",
     "updatedAt": "2026-11-15",
+    "imageUrl": "",
+    "imageUrl": "https://www.lg.com/content/dam/channel/wcms/1-channel/eg_ar/ms/lgcom/2026/tv-audio-video/tv/qned-evo/qned82/gp1/gallery/75-qned82/gallery/lg-qned-evo-qned82-2026-75-gallery-02-product-dimension.jpg/jcr%3Acontent/renditions/thum-1600x1062.jpeg?w=800",
+    "imageSourceUrl": "https://www.lg.com/eg_ar/tv-soundbars/qned-evo/75qned84b6t/",
+    "imageVerifiedDate": "2026-11-18"
   },
   {
     "id": "cs-004",
@@ -496,6 +499,9 @@ export const cairoSalesProducts: Product[] = [
     "createdAt": "2026-11-15",
     "updatedAt": "2026-11-15",
     "imageCandidateUrl": "https://www.lg.com/content/dam/channel/wcms/1-channel/eg_ar/ms/lgcom/2026/tv-audio-video/tv/qned-evo/qned82/gp1/gallery/65-qned82/gallery/65_.jpg/jcr%3Acontent/renditions/thum-1600x1062.jpeg?w=800",
+    "imageUrl": "",
+    "imageSourceUrl": "",
+    "imageVerifiedDate": "",
     "imageUrl": "https://www.lg.com/content/dam/channel/wcms/1-channel/eg_en/ms/lgcom/2026/tv-audio-video/tv/qned-evo/qned82/gp1/gallery/65-qned82/gallery/lg-qned-evo-qned82-2026-65-gallery-02-product-dimension.jpg/jcr%3Acontent/renditions/thum-1600x1062.jpeg",
     "imageSourceUrl": "https://www.lg.com/eg_en/tv-soundbars/qned-evo/65qned84b6t/",
     "imageVerifiedDate": "2026-11-18"
