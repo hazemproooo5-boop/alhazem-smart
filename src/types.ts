@@ -40,6 +40,7 @@ export type Product = {
   updatedAt: string;
   imageUrl: string;
   imageSourceUrl?: string;
+  imageCandidateUrl?: string;
   imageVerifiedDate?: string;
 };
 
