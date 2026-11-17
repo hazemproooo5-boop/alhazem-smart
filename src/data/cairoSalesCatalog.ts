@@ -1012,7 +1012,8 @@ export const cairoSalesProducts: Product[] = [
         "published": true,
         "createdAt": "2026-11-15",
         "updatedAt": "2026-11-15",
-        "imageUrl": "https://cdn.mafrservices.com/sys-master-root/h73/h2b/44951075946526/599162_main.jpg",
+        "imageUrl": "https://cdn.mafrservices.com/sys-master-root/h73/h2b/44951075946526/599162_main.jpg?im=Resize%3D376",
+    "imageCandidateUrl": "https://cdn.mafrservices.com/sys-master-root/h73/h2b/44951075946526/599162_main.jpg",
     "imageSourceUrl": "https://www.carrefouregypt.com/mafegy/en/blender/mienta-h-b-set-hb111038a-1000w/p/599162",
     "imageVerifiedDate": "2026-11-18"
     },
@@ -1044,8 +1045,9 @@ export const cairoSalesProducts: Product[] = [
         "published": true,
         "createdAt": "2026-11-15",
         "updatedAt": "2026-11-15",
-        "imageUrl": "https://elghazawy.b-cdn.net/136059/tornado-stainless-steel-kettle-1-7-liter-1850-2200-watt-in-stainless-color-tks-2217e.webp",
-    "imageSourceUrl": "https://elghazawy.com/en/product/38074270261056/Tornado-Stainless-Electric-Water-Kettle%2C-1.7-Liter%2C-1850-2200-Watt%2C-Silver%2C-TKS-2217E",
+        "imageUrl": "https://cdn.mafrservices.com/sys-master-root/h5b/h1b/44951067394078/518170_main.jpg",
+    "imageCandidateUrl": "https://elghazawy.b-cdn.net/136059/tornado-stainless-steel-kettle-1-7-liter-1850-2200-watt-in-stainless-color-tks-2217e.webp",
+    "imageSourceUrl": "https://www.carrefouregypt.com/mafegy/en/kettle-stainless/tornado-kettle-tks-2217e-1-7l/p/518170",
     "imageVerifiedDate": "2026-11-18"
     },
   {
@@ -1073,7 +1075,8 @@ export const cairoSalesProducts: Product[] = [
         "published": true,
         "createdAt": "2026-11-15",
         "updatedAt": "2026-11-15",
-        "imageUrl": "https://cdn.mafrservices.com/sys-master-root/hdb/hcc/46608046686238/601775_main.jpg",
+        "imageUrl": "https://cdn.mafrservices.com/sys-master-root/hdb/hcc/46608046686238/601775_main.jpg?im=Resize%3D480",
+    "imageCandidateUrl": "https://cdn.mafrservices.com/sys-master-root/hdb/hcc/46608046686238/601775_main.jpg",
     "imageSourceUrl": "https://www.carrefouregypt.com/mafegy/en/chopper/mienta-chopper-ch23838a-450w-1-5l/p/601775",
     "imageVerifiedDate": "2026-11-18"
     },
@@ -1096,8 +1099,9 @@ export const cairoSalesProducts: Product[] = [
     "published": true,
     "createdAt": "2026-11-15",
     "updatedAt": "2026-11-17",
-    "imageUrl": "https://korkmazeg.com/wp-content/uploads/A1610.jpg",
-    "imageSourceUrl": "https://korkmazeg.com/product/korkmaz-alfa-plus-stainless-steel-cookware-set-11-pcs/",
+    "imageUrl": "https://f.nooncdn.com/p/pzsku/ZE8E1AF38E7996913AC16Z/45/1763039501/c2203814-552b-4f7b-8710-0e99e9854aa1.jpg",
+    "imageCandidateUrl": "https://korkmazeg.com/wp-content/uploads/A1610.jpg",
+    "imageSourceUrl": "https://www.noon.com/egypt-en/korkmaz-alpha-plus-11-piece-cookware-set-a1610-silver-stainless-steel-polished/ZE8E1AF38E7996913AC16Z/p/",
     "imageVerifiedDate": "2026-11-18"
   },
   {
