@@ -88,10 +88,11 @@ export const companyDirectory = [
     "id": "mienta",
     "name": "ميانتا",
     "kind": "أجهزة صغيرة ومطبخ",
-    "url": "https://mientashop.com",
-    "source": "قائمة الروابط المقدمة من المستخدم",
+    "url": "https://bouri.com/about-us",
+    "submittedUrl": "https://mientashop.com",
+    "source": "Bouri Group official — About us; Mienta Egypt official LinkedIn",
     "verificationStatus": "Unverified",
-    "note": "الرابط مقدم ضمن قائمة المستخدم؛ يلزم التحقق من النطاق وصفحة الشركة."
+    "note": "Bouri Group يذكر رسمياً أنه يشغل مصانع في القاهرة الجديدة والعين السخنة لتصنيع وتجميع الأجهزة المنزلية الصغيرة تحت ترخيص علامة Mienta. صفحة Mienta Egypt الرسمية على LinkedIn تصنف الشركة في التصنيع وتذكر مقرها بالقاهرة الجديدة. كما يعلن Bouri عن التوزيع ومراكز الخدمة في مصر. تم حفظ نطاق mientashop.com الأصلي في submittedUrl ولم يُعتمد بصفته موقع الشركة."
   },
   {
     "id": "zahran",
