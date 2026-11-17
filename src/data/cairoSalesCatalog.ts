@@ -1820,22 +1820,22 @@ export const cairoSalesProducts: Product[] = [
   },
   {
     "id": "cs-063",
-    "name": "لمبة ليد 4 وات ضوء أبيض أو أصفر كاندل",
-    "slug": "cairo-sales-063-",
+    "name": "لمبة ليد كاندل باناسونيك 4 وات ضوء أبيض 6500K",
+    "slug": "cairo-sales-cs-063-panasonic-pbum15047-ex",
     "brandId": "panasonic",
     "manufacturerId": "panasonic-manufacturer",
     "categoryId": "home",
-    "model": "بدون كود موديل",
-    "sku": "CS-063",
-    "description": "سجل عام لمبة Panasonic Candle LED بقدرة 4 وات؛ صفحة Elghazawy تعرض نسختين منفصلتين: PBUM15043-EX ضوء دافئ 3000K وPBUM15047-EX ضوء أبيض 6500K. لا يحدد السجل الحالي أي النسختين، لذلك لا يعتمد كمنتج منفرد قبل الفصل أو تحديد SKU المقصود.",
-    "specifications": {"القدرة": "4 وات","النوع": "Candle LED","النسخة الدافئة": "PBUM15043-EX، 3000K، ضوء أصفر دافئ، قاعدة E14","النسخة البيضاء": "PBUM15047-EX، 6500K، ضوء أبيض نهاري، قاعدة E14","الباركود": "غير محدد في سجل القائمة","سعر البائع الظاهر": "50 EGP لكل نسخة — غير معتمد","قيد المطابقة": "سجل واحد يحتوي نسختين مختلفتين؛ لا يتم نشره قبل الفصل أو اختيار النسخة"},
+    "model": "PBUM15047-EX",
+    "sku": "PBUM15047-EX",
+    "description": "لمبة Panasonic Candle LED PBUM15047-EX بقدرة 4 وات وضوء أبيض نهاري 6500K وقاعدة E14؛ تم فصل هذا السجل عن النسخة الصفراء PBUM15043-EX في سجل مستقل cs-090.",
+    "specifications": {"القدرة":"4 وات","نوع الإضاءة":"Candle LED","درجة اللون":"6500K أبيض نهاري","القاعدة":"E14"},
     "availability": "يحتاج تأكيد التوفر لدى المورد",
-     "sourceUrl": "https://elghazawy.com/ar/search?category=flashlights&ct=936",
+     "sourceUrl": "https://elghazawy.com/ar/product/38074270232146/Panasonic%2BCandle%2BLED%2BAllows%2BLamp%2C%2B4%2BWatt%2C%2BWhite%2BLight%2C%2BPBUM15047-EX",
     "sourceType": "Unverified Market",
     "verificationStatus": "Unverified",
     "published": true,
     "createdAt": "2026-11-15",
-    "updatedAt": "2026-11-17",
+    "updatedAt": "2026-11-18",
     "imageUrl": ""
   },
   {
@@ -3354,6 +3354,27 @@ export const cairoSalesSmallApplianceProducts: Product[] = [
     "updatedAt": "2026-11-17",
     "imageUrl": ""
   }
+  ,
+  {
+    "id": "cs-090",
+    "name": "لمبة ليد كاندل باناسونيك 4 وات ضوء أصفر دافئ 3000K",
+    "slug": "cairo-sales-cs-090-panasonic-pbum15043-ex",
+    "brandId": "panasonic",
+    "manufacturerId": "panasonic-manufacturer",
+    "categoryId": "home",
+    "model": "PBUM15043-EX",
+    "sku": "PBUM15043-EX",
+    "description": "لمبة Panasonic Candle LED PBUM15043-EX بقدرة 4 وات وضوء أصفر دافئ 3000K وقاعدة E14؛ نسخة مستقلة عن PBUM15047-EX الأبيض.",
+    "specifications": {"القدرة":"4 وات","نوع الإضاءة":"Candle LED","درجة اللون":"3000K أصفر دافئ","القاعدة":"E14"},
+    "availability": "يحتاج تأكيد التوفر لدى المورد",
+    "sourceUrl": "https://elghazawy.com/ar/product/38074270232144/Panasonic%2BCandle%2BLED%2BAllows%2BLamp%2C%2B4%2BWatt%2C%2BYellow%2BLight%2C%2BPBUM15043-EX",
+    "sourceType": "Unverified Market",
+    "verificationStatus": "Unverified",
+    "published": true,
+    "createdAt": "2026-11-18",
+    "updatedAt": "2026-11-18",
+    "imageUrl": ""
+  }
 ];
 export const cairoSalesSmallAppliancePrices: PriceRecord[] = [
   {
@@ -3842,5 +3863,31 @@ export const cairoSalesSmallAppliancePrices: PriceRecord[] = [
     "verificationStatus": "Unverified",
     "isHistorical": false,
     "createdAt": "2026-11-18T00:50:00+02:00"
+  },
+  {
+    "id": "cs-price-063-20261118",
+    "productId": "cs-063",
+    "price": 50,
+    "currency": "EGP",
+    "priceType": "Unverified Market Price",
+    "source": "سعر تقريبي — صفحة تصنيف Elghazawy المحدثة تعرض 50 جنيه لنسخة PBUM15047-EX البيضاء؛ يلزم تأكيد السعر النهائي والمخزون من البائع.",
+    "sourceUrl": "https://www.elghazawy.com/ar/search?category=Led-&ct=936&ordered=published_date&sort=asc",
+    "priceDate": "2026-11-18",
+    "verificationStatus": "Unverified",
+    "isHistorical": false,
+    "createdAt": "2026-11-18T00:58:00+02:00"
+  },
+  {
+    "id": "cs-price-090-20261118",
+    "productId": "cs-090",
+    "price": 50,
+    "currency": "EGP",
+    "priceType": "Unverified Market Price",
+    "source": "سعر تقريبي — صفحة تصنيف Elghazawy المحدثة تعرض 50 جنيه لنسخة PBUM15043-EX الصفراء؛ يلزم تأكيد السعر النهائي والمخزون من البائع.",
+    "sourceUrl": "https://www.elghazawy.com/ar/search?category=Led-&ct=936&ordered=published_date&sort=asc",
+    "priceDate": "2026-11-18",
+    "verificationStatus": "Unverified",
+    "isHistorical": false,
+    "createdAt": "2026-11-18T00:58:00+02:00"
   }
 ];
