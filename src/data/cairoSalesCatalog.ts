@@ -358,7 +358,7 @@ export const cairoSalesProducts: Product[] = [
       "النظام": "webOS مع ميزات الذكاء الاصطناعي",
       "السعر الأصلي بالقائمة": "86,449 EGP — سعر قائمة مستورد غير معتمد"
     },
-    "availability": "يحتاج تأكيد التوفر لدى المورد",
+    "availability": "متاح لدى Mansour Store وقت التحقق 18 نوفمبر 2026؛ الصفحة تعرض In stock، والسعر النقدي شامل VAT، والتوصيل لكل المحافظات برسوم حسب العنوان، والضمان الرسمي من المصنع وفق شروطه. رابط البائع: https://mansour-store.com/products/lg-75qned85b6t",
     "officialProductUrl": "https://www.lg.com/eg_ar/tv-soundbars/qned-evo/75qned85b6t/",
     "sourceUrl": "https://www.lg.com/eg_ar/tv-soundbars/qned-evo/75qned85b6t/",
     "sourceType": "Official",
@@ -421,7 +421,7 @@ export const cairoSalesProducts: Product[] = [
       "النظام": "webOS مع ميزات AI",
       "السعر الأصلي بالقائمة": "70,932 EGP — سعر قائمة مستورد غير معتمد"
     },
-    "availability": "يحتاج تأكيد التوفر لدى المورد",
+    "availability": "غير متوفر لدى Ehab Center وقت التحقق 18 نوفمبر 2026؛ صفحة البائع المطابقة للموديل تعرض «غير متوفر في المخزون». التوفر لدى الموردين الآخرين غير مؤكد. رابط البائع: https://ehabcenter.com/ar/product/شاشة-إل-جي-qned-evo-ai-qned82-mini-led-4k-سمارت،-75-بوصة-موديل-75qned84b6t/",
     "officialProductUrl": "https://www.lg.com/eg_ar/tv-soundbars/qned-evo/75qned84b6t/",
     "sourceUrl": "https://www.lg.com/eg_ar/tv-soundbars/qned-evo/75qned84b6t/",
     "sourceType": "Official",
@@ -747,7 +747,7 @@ export const cairoSalesProducts: Product[] = [
     "sku": "98U9000H",
     "description": "تلفزيون Samsung Crystal UHD U9000H مقاس 98 بوصة؛ تمت مطابقة الموديل والمقاس والمواصفات الأساسية مع صفحة Samsung Egypt الرسمية. لا يعتمد السعر الظاهر خارج مصر كسعر محلي.",
     "specifications": {"نوع الشاشة":"Crystal UHD LED","المقاس":"98 بوصة","الدقة":"3840 × 2160 (4K)","معدل التحديث":"144Hz مع VRR","المعالج":"NQ4 AI Gen2","النظام":"Tizen","الصوت":"OTS Lite وQ-Symphony","السلسلة":"U9000H 2026"},
-    "availability": "يحتاج تأكيد التوفر لدى المورد",
+    "availability": "متاح لدى Carrefour Egypt وقت التحقق 18 نوفمبر 2026؛ صفحة المنتج المطابقة لـ98U9000H تعرض قطعة واحدة متبقية والسعر شامل VAT. رابط البائع: https://www.carrefouregypt.com/mafegy/en/lifestyle-tv/samsung-led-tv98-98u9000h-sm-uhd-rc/p/687963",
     "officialProductUrl": "https://www.samsung.com/eg/tvs/uhd-4k-tv/u9000h-98-inch-crystal-uhd-4k-smart-tv-ua98u9000huxeg/",
     "sourceUrl": "https://www.samsung.com/eg/tvs/uhd-4k-tv/u9000h-98-inch-crystal-uhd-4k-smart-tv-ua98u9000huxeg/",
     "sourceType": "Official",
@@ -815,7 +815,7 @@ export const cairoSalesProducts: Product[] = [
     "sku": "55QN70H",
     "description": "تلفزيون Samsung Neo QLED QN70H مقاس 55 بوصة؛ تمت مطابقة الموديل والمقاس والميزات الأساسية مع صفحة Samsung Egypt الرسمية. الصفحة تشير إلى أنه غير مخصص للبيع وقت الرصد.",
     "specifications": {"نوع الشاشة":"Neo QLED Mini LED","المقاس":"55 بوصة","الدقة":"4K","السلسلة":"QN70H 2026","المعالج":"NQ4 AI","ميزات الذكاء الاصطناعي":"Samsung Vision AI","التصميم":"AirSlim"},
-    "availability": "غير مخصص للبيع على متجر Samsung Egypt وقت الرصد؛ التوفر لدى الموردين غير مؤكد",
+    "availability": "متوفر في المخزون لدى Ehab Center وقت التحقق 18 نوفمبر 2026؛ صفحة المنتج المطابقة لـ55QN70H تعرض إضافة إلى السلة وحالة In stock. رابط البائع: https://ehabcenter.com/product/samsung-neo-qled-4k-smart-ai-vision-55-inch-55qn70h/",
     "officialProductUrl": "https://www.samsung.com/eg/tvs/qled-tv/qn70h-55-inch-neo-qled-4k-mini-led-smart-tv-qa55qn70hauxeg/",
     "sourceUrl": "https://www.samsung.com/eg/tvs/qled-tv/qn70h-55-inch-neo-qled-4k-mini-led-smart-tv-qa55qn70hauxeg/",
     "sourceType": "Official",
@@ -2733,7 +2733,43 @@ export const cairoSalesPrices: PriceRecord[] = [
     "priceDate": "2026-11-18",
     "verificationStatus": "Verified",
     "createdAt": "2026-11-18T00:00:00Z"
+  },,
+  {
+    "id": "cs-price-124",
+    "productId": "cs-017",
+    "price": 109999,
+    "currency": "EGP",
+    "priceType": "Trusted Market Price",
+    "source": "Carrefour Egypt — صفحة المنتج المباشرة لـSamsung 98U9000H تعرض 109,999 جنيه شامل VAT وقطعة واحدة متبقية وقت التحقق 18 نوفمبر 2026.",
+    "sourceUrl": "https://www.carrefouregypt.com/mafegy/en/lifestyle-tv/samsung-led-tv98-98u9000h-sm-uhd-rc/p/687963",
+    "priceDate": "2026-11-18",
+    "verificationStatus": "Verified",
+    "createdAt": "2026-11-18T01:08:00+02:00"
   },
+  {
+    "id": "cs-price-125",
+    "productId": "cs-001",
+    "price": 80383,
+    "currency": "EGP",
+    "priceType": "Trusted Market Price",
+    "source": "Mansour Store — LG 75QNED85B6T، السعر النقدي 80,383 جنيه شامل VAT، المنتج في المخزون والتوصيل لكل المحافظات؛ checked 18 Nov 2026.",
+    "sourceUrl": "https://mansour-store.com/products/lg-75qned85b6t",
+    "priceDate": "2026-11-18",
+    "verificationStatus": "Verified",
+    "createdAt": "2026-11-18T01:08:00+02:00"
+  },
+  {
+    "id": "cs-price-126",
+    "productId": "cs-020",
+    "price": 33249,
+    "currency": "EGP",
+    "priceType": "Trusted Market Price",
+    "source": "Ehab Center — Samsung 55QN70H، المنتج في المخزون وصفحة البائع تعرض 33,249 جنيه؛ معاملة الضريبة غير موضحة في الصفحة، checked 18 Nov 2026.",
+    "sourceUrl": "https://ehabcenter.com/product/samsung-neo-qled-4k-smart-ai-vision-55-inch-55qn70h/",
+    "priceDate": "2026-11-18",
+    "verificationStatus": "Verified",
+    "createdAt": "2026-11-18T01:08:00+02:00"
+  }
 ];
 
 
@@ -3160,7 +3196,7 @@ export const cairoSalesSmallApplianceProducts: Product[] = [
       "السرعات": "سرعة واحدة مع Pulse",
       "السعر الأصلي بالقائمة": "1,646 EGP — غير معتمد"
     },
-    "availability": "يحتاج تأكيد التوفر لدى المورد",
+    "availability": "متاح لدى Carrefour Egypt وقت التحقق 18 نوفمبر 2026؛ صفحة الفئة الحالية تعرض الموديل BL1291G بكمية «قطعتان متبقيتان»، وسعر 1,549 جنيه شامل VAT وتوصيل مجاني غداً حسب المنطقة. صفحة المنتج: https://www.carrefouregypt.com/mafegy/en/blender/mienta-blender-bl1291g-700w-bk/p/674732",
     "sourceUrl": "https://www.carrefouregypt.com/mafegy/en/blender/mienta-blender-bl1291g-700w-bk/p/674732",
     "sourceType": "Unverified Market",
     "verificationStatus": "Unverified",
@@ -3391,7 +3427,7 @@ export const cairoSalesSmallApplianceProducts: Product[] = [
     "sku": "HB111938A",
     "description": "خلاط يدوي Mienta Vitesse موديل HB111938A أبيض؛ صفحة Carrefour Egypt تطابق الموديل والقدرة 450 واط وكوب 600 مل وسرعة واحدة مع Turbo ومضرب خفق وعمود ستانلس مانع للتناثر. لا يُعتمد السعر أو التوفر دون إعادة تحقق مباشرة.",
     "specifications": {"السعر الأصلي بالقائمة":"1,099 EGP — غير معتمد","الموديل":"HB111938A","السلسلة":"Vitesse","القدرة":"450 واط","السعة":"600 مل","السرعات":"سرعة واحدة + Turbo","الملحقات":"كوب مدرج ومضرب خفق","عمود الخلط":"ستانلس ستيل مانع للتناثر"},
-    "availability": "يحتاج تأكيد التوفر لدى المورد",
+    "availability": "متاح لدى Carrefour Egypt وقت التحقق 18 نوفمبر 2026؛ صفحة الفئة الحالية تعرض الموديل HB111938A بكمية «قطعتان متبقيتان»، وسعر 899 جنيه شامل VAT وتوصيل مجاني غداً حسب المنطقة. صفحة المنتج: https://www.carrefouregypt.com/mafegy/en/blender/mienta-hand-blender-hb111938a-450w/p/674730",
     "sourceUrl": "https://www.carrefouregypt.com/mafegy/en/blender/mienta-hand-blender-hb111938a-450w/p/674730",
     "sourceType": "Unverified Market",
     "verificationStatus": "Unverified",
@@ -3956,5 +3992,29 @@ export const cairoSalesSmallAppliancePrices: PriceRecord[] = [
     "verificationStatus": "Unverified",
     "isHistorical": false,
     "createdAt": "2026-11-18T00:58:00+02:00"
+  },
+  {
+    "id": "cs-price-127",
+    "productId": "cs-078",
+    "price": 1549,
+    "currency": "EGP",
+    "priceType": "Trusted Market Price",
+    "source": "Carrefour Egypt — Mienta BL1291G؛ صفحة المنتج تعرض 1,549 جنيه شاملاً VAT وصفحة الفئة تعرض قطعتين متبقيتين وقت التحقق 18 Nov 2026.",
+    "sourceUrl": "https://www.carrefouregypt.com/mafegy/en/blender/mienta-blender-bl1291g-700w-bk/p/674732",
+    "priceDate": "2026-11-18",
+    "verificationStatus": "Verified",
+    "createdAt": "2026-11-18T01:08:00+02:00"
+  },
+  {
+    "id": "cs-price-128",
+    "productId": "cs-088",
+    "price": 899,
+    "currency": "EGP",
+    "priceType": "Trusted Market Price",
+    "source": "Carrefour Egypt — Mienta HB111938A؛ صفحة المنتج تعرض 899 جنيه شاملاً VAT وصفحة الفئة تعرض قطعتين متبقيتين وقت التحقق 18 Nov 2026.",
+    "sourceUrl": "https://www.carrefouregypt.com/mafegy/en/blender/mienta-hand-blender-hb111938a-450w/p/674730",
+    "priceDate": "2026-11-18",
+    "verificationStatus": "Verified",
+    "createdAt": "2026-11-18T01:08:00+02:00"
   }
 ];
