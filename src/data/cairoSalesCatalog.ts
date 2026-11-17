@@ -3223,7 +3223,7 @@ export const cairoSalesSmallApplianceProducts: Product[] = [
       "الضمان الخارجي": "سنة",
       "الضمان الداخلي": "سنة"
     },
-    "availability": "متاح لدى El-Iraqi وقت التحقق 18 نوفمبر 2026؛ صفحة البائع تعرض Fresh CH-700 بقدرة 700W وسعة 2L بسعر 1,240 جنيه وزر Add to cart. معالجة VAT غير موضحة. رابط البائع: https://eliraqi.com.eg/en/fresh?orderby=0&pagenumber=4&viewmode=list",
+    "availability": "صفحة تصنيف El-Iraqi وقت التحقق 18 نوفمبر 2026 تعرض CH-700 بقدرة 700W وسعة 2L بسعر 1,240 جنيه وزر Add to cart. هذه قائمة تصنيف وليست صفحة المنتج الفردية، ومعالجة VAT والمخزون النهائي غير مؤكدين. صفحة المنتج الفردية السابقة: https://eliraqi.com.eg/ar/fresh-chopper-black-2-liters-700-watt-ch-700",
     "officialProductUrl": "https://fresh.com.eg/ar/products/fresh-chopper-ch-700-2-liters-700-w",
     "sourceUrl": "https://fresh.com.eg/ar/products/fresh-chopper-ch-700-2-liters-700-w",
     "sourceType": "Official",
@@ -4021,11 +4021,12 @@ export const cairoSalesSmallAppliancePrices: PriceRecord[] = [
     "productId": "cs-079",
     "price": 1240,
     "currency": "EGP",
-    "priceType": "Trusted Market Price",
-    "source": "El-Iraqi Company — listing for Fresh CH-700, 700W/2L, shows EGP 1,240 and Add to cart on 18 Nov 2026. VAT treatment is not stated.",
+    "priceType": "Unverified Market Price",
+    "source": "سعر تقريبي — قائمة تصنيف El-Iraqi تعرض Fresh CH-700 بقدرة 700W وسعة 2L بسعر 1,240 جنيه وزر Add to cart؛ معالجة VAT والمخزون النهائي غير مؤكدين.",
     "sourceUrl": "https://eliraqi.com.eg/en/fresh?orderby=0&pagenumber=4&viewmode=list",
     "priceDate": "2026-11-18",
-    "verificationStatus": "Verified",
+    "verificationStatus": "Unverified",
+    "isHistorical": false,
     "createdAt": "2026-11-18T01:12:00+02:00"
   }
 ];
