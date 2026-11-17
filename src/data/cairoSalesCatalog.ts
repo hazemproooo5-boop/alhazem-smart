@@ -3219,19 +3219,15 @@ export const cairoSalesSmallApplianceProducts: Product[] = [
     "categoryId": "appliances",
     "model": "BLENDER-PRO-2000",
     "sku": "BLENDER-PRO-2000",
-    "description": "خلاطات. البيانات والأسعار من ملف Cairo Sales المرفق؛ لم يتم التحقق المستقل من صفحة المنتج أو التوفر أو السعر.",
-    "specifications": {
-      "الصنف الفرعي": "خلاطات",
-      "السعر الأصلي بالقائمة": "16,166 EGP",
-      "نسبة الخصم بالقائمة": "10%"
-    },
+    "description": "خلاط BRIVA Blender Pro 2000؛ صفحة بائع مصرية تطابق الاسم والقدرة 2000 وات وسعة 4.2 لتر وSKU 87854. صفحة الوكيل المعتمد EL-ALFY تعرض نفس الموديل، لكن التوفر متعارض بين البائع والوكيل؛ لا يعتمد التوفر الحالي." ,
+    "specifications": {"الموديل":"BLENDER PRO 2000","SKU الوكيل":"87854","القدرة":"2000 وات","السعة":"4.2 لتر","البرامج":"5 برامج مسبقة مع تحكم يدوي","الضمان":"سنتان وفق صفحة البائع/الوكيل؛ يلزم التحقق من شروط النسخة المحلية"},
     "availability": "يحتاج تأكيد التوفر لدى المورد",
-    "sourceUrl": "",
+    "sourceUrl": "https://alreyadastore.com/products/%D8%AE%D9%84%D8%A7%D8%B7-%D8%A8%D8%B1%D9%8A%D9%81%D8%A7",
     "sourceType": "Unverified Market",
     "verificationStatus": "Unverified",
     "published": true,
     "createdAt": "2026-11-15",
-    "updatedAt": "2026-11-15",
+    "updatedAt": "2026-11-17",
     "imageUrl": ""
   }
 ];
