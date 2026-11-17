@@ -12,8 +12,8 @@ const sections = declarations.map((match, index) => ({
   source: catalog.slice(match.index, declarations[index + 1]?.index ?? catalog.length),
 }));
 const parseObjects = source => source
-  .split(/(?=  \{\n    "id": ")/)
-  .filter(part => /^  \{\n    "id": "/.test(part));
+  .split(/(?=  \{\s*"id": ")/)
+  .filter(part => /^  \{\s*"id": "/.test(part));
 const read = (block, key) => {
   const match = block.match(new RegExp('"' + key + '"\\s*:\\s*"([^"]*)"'));
   return match?.[1] ?? '';
