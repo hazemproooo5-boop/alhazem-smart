@@ -3201,7 +3201,7 @@ export const cairoSalesSmallApplianceProducts: Product[] = [
     "categoryId": "appliances",
     "model": "BLENDER-PRO-2000",
     "sku": "BLENDER-PRO-2000",
-    "description": "خلاط Briva Pro 2000 موديل BLENDER-PRO-2000-87854؛ صفحة Kaufen Egypt تطابق القدرة 2000 واط وسعة 4.2 لتر ولوحة LED اللمسية ومحرك نحاسي وغطاء عازل للصوت. سجل الكتالوج يستخدم اسم الموديل المختصر BLENDER-PRO-2000؛ يلزم تأكيد لاحقة 87854 على بطاقة الجهاز.",
+     "description": "خلاط Briva Pro 2000 موديل BLENDER-PRO-2000-87854؛ صفحة Kaufen Egypt تطابق القدرة 2000 واط وسعة 4.2 لتر ولوحة LED اللمسية ومحرك نحاسي. صفحة EL-ALFY تعرض SKU 87854 كجهة توزيع معتمدة، بينما صفحة Al-Reyada تعرض المنتج نافد المخزون؛ لذلك حالة التوفر متعارضة ولا تعتمد.",
     "specifications": {"السعر الأصلي بالقائمة":"14,999 EGP — غير معتمد","الموديل لدى البائع":"BLENDER-PRO-2000-87854","الموديل في القائمة":"BLENDER-PRO-2000","القدرة":"2000 واط","السعة":"4.2 لتر","الخامة":"Polycarbonate / Tritan BPA-Free","المحرك":"نحاسي 100% بحسب وصف البائع","التحكم":"لوحة LED تعمل باللمس","البرامج":"5 برامج معدة مسبقاً","الوصلة":"معدنية"},
     "availability": "يحتاج تأكيد التوفر لدى المورد",
     "sourceUrl": "https://kaufenegypt.com/ar/products/briva-pro-2000-blender",
