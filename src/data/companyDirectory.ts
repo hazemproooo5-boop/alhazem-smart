@@ -130,6 +130,7 @@ export const companyDirectory = [
     "name": "بي تك",
     "kind": "موزع تجزئة للأجهزة والإلكترونيات",
     "url": "https://btech.com",
+    "submittedUrl": "https://btech.com",
     "source": "B.TECH Egypt official retail website: https://btech.com",
     "verificationStatus": "Unverified",
     "note": "الرابط مقدم ضمن قائمة المستخدم؛ لا يثبت وحده اعتماد كل علامة."
@@ -139,6 +140,7 @@ export const companyDirectory = [
     "name": "راية شوب",
     "kind": "موزع تجزئة للأجهزة والإلكترونيات",
     "url": "https://rayashop.com",
+    "submittedUrl": "https://rayashop.com",
     "source": "RayaShop official — Who we are",
     "verificationStatus": "Unverified",
     "note": "الموقع يعرّف RayaShop كذراع تجارة إلكترونية تحت Raya Trade، موزع وتاجر تجزئة للإلكترونيات في مصر، ويذكر ضمان الوكيل للمنتجات المباعة. هذا لا يثبت وكالة كل علامة أو أن المتجر مصنع."
@@ -148,6 +150,7 @@ export const companyDirectory = [
     "name": "القاهرة للمبيعات",
     "kind": "متجر/موزع أجهزة منزلية",
     "url": "https://cairosales.com",
+    "submittedUrl": "https://cairosales.com",
     "source": "Cairo Sales official retail website: https://cairosales.com",
     "verificationStatus": "Unverified",
     "note": "الرابط مقدم ضمن قائمة المستخدم؛ يلزم التحقق من بيانات كل منتج."
@@ -276,6 +279,7 @@ export const companyDirectory = [
     "name": "الشركة العامة للخزف والصيني (شيني)",
     "kind": "مصنّع خزف وصيني",
     "url": "https://sheeni-egypt.com/aboutus.html",
+    "submittedUrl": "https://sheeni-egypt.com",
     "source": "SHEENI Egypt official — عن الشركة",
     "verificationStatus": "Unverified",
     "note": "الموقع الرسمي يذكر الشركة العامة لمنتجات الخزف والصيني، تأسيس 1955، مصانع في الخصوص بالقليوبية، ونشاط أدوات مائدة بورسلين وأدوات صحية وسيراميك. يتطابق مع سجل الشركة الرسمي؛ يجب فصل شيني عن اسم المنتج التجاري إذا اختلف."
@@ -285,6 +289,7 @@ export const companyDirectory = [
     "name": "شيفلد",
     "kind": "علامة أطقم صيني ومائدة",
     "url": "https://www.sheffieldeg.com/pages/about-us",
+    "submittedUrl": "https://sheffieldeg.com",
     "source": "Sheffield Egypt official — About us",
     "verificationStatus": "Unverified",
     "note": "الموقع يذكر تأسيس Sheffield Egypt عام 1987 ونشاط التجزئة المتخصص في أدوات المائدة والمنتجات المنزلية والديكور. يوضح صراحة أن ليس كل منتج معروض مصنوعاً في Sheffield, England؛ لذلك تصنف كتاجر/علامة تجارية منزلية ولا ينسب منشأ إنجليزي لكل المنتجات."
@@ -377,6 +382,7 @@ export const companyDirectory = [
     "name": "سوكانى",
     "kind": "أجهزة منزلية صغيرة",
     "url": "https://sokany-eg.com/about-us/",
+    "submittedUrl": "https://sokany-egypt.com",
     "source": "SOKANY official global announcement; SOKANY-EG distributor website",
     "verificationStatus": "Unverified",
     "note": "الموقع الرسمي العالمي يحدد Yiwu Mingge Electric Appliance Co., Ltd. كالشركة وراء العلامة ويعلن اتفاق التوزيع الحصري مع SOKANY EG في مصر منذ 2020. موقع الوكيل المحلي يذكر مؤسسة المغربي والضمان والصيانة؛ يجب التحقق من شروط كل موديل."
