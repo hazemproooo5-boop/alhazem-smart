@@ -961,9 +961,9 @@ export const cairoSalesProducts: Product[] = [
       "الريش": "5 ريش",
       "السرعات": "3 سرعات",
       "الضمان الرسمي": "5 سنوات",
-      "السعر الظاهر على متجر Toshiba Egypt": "2,999 جنيه — يحتاج تأكيد وقت الشراء"
+      "السعر الظاهر على متجر Toshiba Egypt": "السعر السابق الظاهر على صفحة Toshiba Egypt: 2,999 جنيه تقريباً — مرجع غير معتمد كسعر حالي."
     },
-    "availability": "متاح لدى Berty Center وقت التحقق 19 نوفمبر 2026؛ صفحة المنتج تطابق F-ASE60EG(K) وتعرضه متاحاً في المخزون بسعر 2,999 جنيه. الضمان المعروض 5 سنوات؛ VAT غير موضح. المصدر المباشر: https://berty-center.com/product/f-ase60egk/",
+    "availability": "متاح لدى Berty Center وقت التحقق 19 نوفمبر 2026؛ صفحة المنتج تطابق F-ASE60EG(K) وتعرضه متاحاً في المخزون. الضمان المعروض 5 سنوات؛ VAT غير موضح. المصدر المباشر: https://berty-center.com/product/f-ase60egk/",
     "warranty": "5 سنوات وفق صفحة Berty Center، والجهة الضامنة الظاهرة MIRACO؛ راجع شروط الضمان عند الشراء.",
     "sourceUrl": "https://www.toshiba-lifestyle.com/eg/small-appliances/fans/toshiba-stand-fan-18-inch-black-remote-control-f-ase60eg-k",
     "sourceType": "Official",
@@ -991,9 +991,9 @@ export const cairoSalesProducts: Product[] = [
       "السرعات": "3 سرعات",
       "المؤقت": "مؤقت تشغيل",
       "الضمان الرسمي": "5 سنوات",
-      "السعر الظاهر على متجر Toshiba Egypt": "2,799 جنيه — يحتاج تأكيد وقت الشراء"
+      "السعر الظاهر على متجر Toshiba Egypt": "السعر السابق الظاهر على صفحة Toshiba Egypt: 2,799 جنيه تقريباً — مرجع غير معتمد كسعر حالي."
     },
-    "availability": "متاح لدى Berty Center وقت التحقق 19 نوفمبر 2026؛ صفحة المنتج تطابق F-ASE50EG(K) وتعرضه متاحاً في المخزون بسعر 2,799 جنيه. الضمان المعروض 5 سنوات؛ VAT غير موضح. المصدر المباشر: https://berty-center.com/product/f-ase50egk/",
+    "availability": "متاح لدى Berty Center وقت التحقق 19 نوفمبر 2026؛ صفحة المنتج تطابق F-ASE50EG(K) وتعرضه متاحاً في المخزون. الضمان المعروض 5 سنوات؛ VAT غير موضح. المصدر المباشر: https://berty-center.com/product/f-ase50egk/",
     "warranty": "5 سنوات وفق صفحة Berty Center؛ راجع شروط الضمان عند الشراء.",
     "officialProductUrl": "https://www.toshiba-lifestyle.com/eg/small-appliances/fans/toshiba-stand-fan-18-inch-black-remote-control-f-ase50eg-k",
     "sourceUrl": "https://www.toshiba-lifestyle.com/eg/small-appliances/fans/toshiba-stand-fan-18-inch-black-remote-control-f-ase50eg-k",
@@ -3300,9 +3300,9 @@ export const cairoSalesSmallApplianceProducts: Product[] = [
       "سعة الإبريق": "1.75 لتر",
       "الملحقات": "مطحنةان",
       "السرعات": "سرعة واحدة مع Pulse",
-      "السعر الأصلي بالقائمة": "1,646 EGP — غير معتمد"
+      "السعر الأصلي بالقائمة": "السعر الأصلي بالقائمة: 1,646 جنيه تقريباً — مرجع غير معتمد كسعر حالي."
     },
-    "availability": "متاح لدى Carrefour Egypt وقت التحقق 19 نوفمبر 2026؛ صفحة المنتج المباشرة تعرض BL1291G بسعر 1,549 جنيه شاملاً VAT وتذكر بقاء وحدتين؛ الضمان المعروض سنتان. المصدر: https://www.carrefouregypt.com/mafegy/en/blender/mienta-blender-bl1291g-700w-bk/p/674732",
+    "availability": "متاح لدى Carrefour Egypt وقت التحقق 19 نوفمبر 2026؛ صفحة المنتج المباشرة تعرض BL1291G وتذكر بقاء وحدتين؛ السعر شامل VAT، والضمان المعروض سنتان. المصدر: https://www.carrefouregypt.com/mafegy/en/blender/mienta-blender-bl1291g-700w-bk/p/674732",
     "warranty": "سنتان وفق صفحة Carrefour Egypt؛ تحقق من شروط الضمان عند الشراء.",
     "sourceUrl": "https://www.carrefouregypt.com/mafegy/en/blender/mienta-blender-bl1291g-700w-bk/p/674732",
     "sourceType": "Unverified Market",
@@ -3386,7 +3386,7 @@ export const cairoSalesSmallApplianceProducts: Product[] = [
       "إعدادات الحرارة": "5",
       "الضمان": "سنتان"
     },
-    "availability": "صفحة Bosch Egypt الرسمية المفتوحة وقت التحقق 19 نوفمبر 2026 تعرض TCG4104 متاحاً للطلب بسعر شامل VAT، مع توصيل تقديري 5–7 أيام وضمان شامل سنتين. ملاحظة: الصفحة كانت مفهرسة قبل نحو أسبوع، لذا يلزم تأكيد السعر والمخزون عند إتمام الطلب. المصدر: https://www.bosch-home.com/eg/en/product/cookingandbaking/contactgrill/TCG4104",
+    "availability": "صفحة Bosch Egypt الرسمية المفتوحة وقت التحقق 19 نوفمبر 2026 تعرض TCG4104 متاحاً للطلب، مع VAT، وتوصيل تقديري 5–7 أيام وضمان شامل سنتين. ملاحظة: الصفحة كانت مفهرسة قبل نحو أسبوع، لذا يلزم تأكيد السعر والمخزون عند إتمام الطلب. المصدر: https://www.bosch-home.com/eg/en/product/cookingandbaking/contactgrill/TCG4104",
     "warranty": "سنتان ضمان شامل وفق صفحة Bosch Egypt الرسمية.",
     "officialProductUrl": "https://www.bosch-home.com/eg/ar/product/cookingandbaking/contactgrill/TCG4104",
     "sourceUrl": "https://www.bosch-home.com/eg/ar/product/cookingandbaking/contactgrill/TCG4104",
@@ -3454,8 +3454,8 @@ export const cairoSalesSmallApplianceProducts: Product[] = [
     "model": "FP141535G",
     "sku": "FP141535G",
     "description": "محضر طعام Mienta Mille موديل FP141535G الذهبي؛ صفحة Abdulaziz Stores المباشرة تطابق الموديل وتعرض 1000 واط و28 وظيفة وسعة وعاء فرم 2.5 لتر وخلاط 2 لتر، كما تعرض In Stock. مدة الضمان متضاربة داخل الصفحة وتبقى غير محسومة.",
-    "specifications": {"السعر الأصلي بالقائمة":"4,499 EGP — غير معتمد","الموديل":"FP141535G","السلسلة":"Mille Full Set","القدرة":"1000 واط","الوظائف":"28 وظيفة","سعة وعاء الفرم":"2.5 لتر","سعة إبريق الخلاط":"2 لتر","السرعات":"سرعتان + Pulse","الملحقات":"مطحنة قهوة وتوابل، قرص تقطيع وبشر، خفاق ومضرب عجين"},
-    "availability": "متاح لدى Abdulaziz Stores وقت التحقق 19 نوفمبر 2026؛ صفحة FP141535G المباشرة تعرض In Stock وسعراً يبدأ من 3,599 جنيه، وتطابق 1000 وات و28 وظيفة ووعاء 2.5 لتر وخلاط 2 لتر. الضمان متضارب داخل الصفحة: سنتان في البيانات الفنية مقابل 5 سنوات في نص الضمان العام؛ VAT غير موضح. المصدر: https://www.abdulaziz-stores.com/en/1000-fp141535g",
+    "specifications": {"السعر الأصلي بالقائمة":"السعر الأصلي بالقائمة: 4,499 جنيه تقريباً — مرجع مستورد غير معتمد، وليس سعراً حالياً.","الموديل":"FP141535G","السلسلة":"Mille Full Set","القدرة":"1000 واط","الوظائف":"28 وظيفة","سعة وعاء الفرم":"2.5 لتر","سعة إبريق الخلاط":"2 لتر","السرعات":"سرعتان + Pulse","الملحقات":"مطحنة قهوة وتوابل، قرص تقطيع وبشر، خفاق ومضرب عجين"},
+    "availability": "متاح لدى Abdulaziz Stores وقت التحقق 19 نوفمبر 2026؛ صفحة FP141535G المباشرة تعرض In Stock، وتطابق 1000 وات و28 وظيفة ووعاء 2.5 لتر وخلاط 2 لتر. الضمان متضارب داخل الصفحة: سنتان في البيانات الفنية مقابل 5 سنوات في نص الضمان العام؛ VAT غير موضح. المصدر: https://www.abdulaziz-stores.com/en/1000-fp141535g",
     "warranty": "غير محسوم: صفحة Abdulaziz Stores تعرض سنتين في البيانات الفنية وعبارة 5 سنوات في نص الضمان العام؛ يلزم تأكيد كتابي قبل اعتماد المدة.",
     "sourceUrl": "https://www.abdulaziz-stores.com/en/1000-fp141535g",
     "sourceType": "Unverified Market",
@@ -3477,7 +3477,7 @@ export const cairoSalesSmallApplianceProducts: Product[] = [
     "model": "YN5240",
     "sku": "YN5240",
     "description": "موقد كهربائي فردي Home Egypt موديل YN5240 بقدرة 500 واط؛ صفحة Almorshedy Marts المباشرة تطابق الموديل وتعرض خمس وحدات متاحة وضمان سنة. صورة Noon الحالية محفوظة كمصدر صورة مستقل.",
-    "specifications": {"السعر الأصلي بالقائمة":"799 EGP — غير معتمد","الموديل":"YN5240","النوع":"Electric Hot Plate","عدد العيون":"1","القدرة":"500 واط","الجهد":"220V / 50Hz","قطر سطح التسخين":"نحو 105 مم","الأمان":"Thermal fuse automatic shut-off","التحكم":"Thermostat ومؤشر تشغيل"},
+    "specifications": {"السعر الأصلي بالقائمة":"السعر الأصلي بالقائمة: 799 جنيه تقريباً — مرجع مستورد غير معتمد، وليس سعراً حالياً.","الموديل":"YN5240","النوع":"Electric Hot Plate","عدد العيون":"1","القدرة":"500 واط","الجهد":"220V / 50Hz","قطر سطح التسخين":"نحو 105 مم","الأمان":"Thermal fuse automatic shut-off","التحكم":"Thermostat ومؤشر تشغيل"},
     "availability": "متاح لدى Almorshedy Marts وقت التحقق 19 نوفمبر 2026؛ صفحة YN5240 المباشرة تعرض Available (5)، قدرة 500 وات، عيناً واحدة وضمان سنة. VAT غير موضح. المصدر: https://www.almorshedymarts.net/en/products/1155014000007",
     "warranty": "سنة واحدة وفق صفحة Almorshedy Marts؛ الجهة الضامنة وشروط الضمان التفصيلية غير مذكورة.",
     "sourceUrl": "https://www.noon.com/egypt-en/home-egypt-electric-hot-plate-500-watt-yn5240/Z6A292B9FF191EF3E7162Z/p/",
