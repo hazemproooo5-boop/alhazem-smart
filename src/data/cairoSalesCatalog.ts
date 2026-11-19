@@ -3720,54 +3720,32 @@ export const cairoSalesSmallApplianceProducts: Product[] = [
     "categoryId": "appliances",
     "model": "BLENDER-PRO-2000",
     "sku": "BLENDER-PRO-2000",
-     "description": "خلاط Briva Blender Pro 2000؛ صفحة Briva الرسمية تطابق فئة المنتج والقدرة 1800–2000 واط وسعة 4.2 لتر وميزات التحكم والبرامج. صفحة EL-ALFY المصرية تعلن أنها الوكيل الرسمي لعلامة BRIVA في مصر، لكن رقم SKU 87854 ومطابقة نسخة المنتج ووجوده لدى المورد المحلي تحتاج تأكيداً منفصلاً.",
-    "specifications": {"السعر الأصلي بالقائمة":"14,999 EGP — غير معتمد","الموديل لدى البائع":"BLENDER-PRO-2000-87854","الموديل في القائمة":"BLENDER-PRO-2000","القدرة":"2000 واط","السعة":"4.2 لتر","الخامة":"Polycarbonate / Tritan BPA-Free","المحرك":"نحاسي 100% بحسب وصف البائع","التحكم":"لوحة LED تعمل باللمس","البرامج":"5 برامج معدة مسبقاً","الوصلة":"معدنية"},
-    "availability": "وكيل BRIVA المعتمد EL-ALFY يعرض Blender Pro 2000 (SKU 87854) بسعر 15,000 جنيه في كتالوجه بتاريخ 18 نوفمبر 2026؛ حالة المخزون وVAT غير معروضتين، ويحتاج التوفر تأكيداً مباشراً. رابط البائع: https://elalfyeg.com/ar/product-category/blenders-and-juicers/blenders/",
+    "description": "خلاط BRIVA Blender Pro 2000. صفحة المصنع BRIVA وصفحة الوكيل المصري EL-ALFY تطابقان المنتج؛ صفحة EL-ALFY المباشرة تعرض SKU 87854 والسعر 15,000 جنيه لكنها تعرض المنتج غير متوفر. لا يعتمد هذا السعر كسعر حالي.",
+    "specifications": {
+      "رمز الموديل لدى المصنع": "BLENDER-PRO-2000",
+      "SKU لدى الوكيل المصري": "87854",
+      "القدرة": "1800–2000 واط؛ صفحة EL-ALFY تعرض 2000 واط",
+      "السعة": "4.2 لتر",
+      "الخامة": "إبريق PC/Tritan خالٍ من BPA",
+      "المحرك": "نحاسي 100% بحسب وصف المصنع",
+      "التحكم": "لوحة LED تعمل باللمس تعرض السرعة والوقت",
+      "البرامج": "5 برامج مسبقة مع تحكم يدوي بالسرعة والوقت",
+      "الوظائف": "Pulse، عصائر وسموثي وصلصات ومكونات سميكة",
+      "الأمان": "حماية ثلاثية وقاعدة مانعة للانزلاق",
+      "الضمان": "مدة الضمان غير ظاهرة على صفحة المنتج المباشرة؛ لا يعتمد ضمان سنتين دون تأكيد مباشر من الوكيل"
+    },
+    "warranty": "مدة الضمان غير مذكورة في صفحة المنتج المباشرة. صفحة EL-ALFY تثبت البيع والخدمة في مصر بواسطة الوكيل المعتمد، لكنها لا تحدد مدة ضمان هذا الموديل.",
+    "availability": "صفحة المنتج المباشرة لدى EL-ALFY تعرض «غير متوفر» مع سعر مدرج 15,000 جنيه؛ لا يوجد موعد عودة للمخزون ولا بيان VAT. التوفر لدى بائعين آخرين غير معلوم. تحقق 2026-11-19 18:15 بتوقيت القاهرة.",
     "sourceUrl": "https://briva-haus.de/en/product/briva-blender-pro-2000/",
     "sourceType": "Official",
     "officialProductUrl": "https://briva-haus.de/en/product/briva-blender-pro-2000/",
     "verificationStatus": "Unverified",
     "published": true,
     "createdAt": "2026-11-15",
-    "updatedAt": "2026-11-17",
+    "updatedAt": "2026-11-19",
     "imageUrl": "https://briva-haus.de/wp-content/uploads/2024/06/mixer-1.png",
     "imageSourceUrl": "https://briva-haus.de/en/product/briva-blender-pro-2000/",
     "imageVerifiedDate": "2026-11-18"
-  }
-  ,
-  {
-    "id": "cs-090",
-    "name": "لمبة ليد كاندل باناسونيك 4 وات ضوء أصفر دافئ 3000K",
-    "slug": "cairo-sales-cs-090-panasonic-pbum15043-ex",
-    "brandId": "panasonic",
-    "manufacturerId": "panasonic-manufacturer",
-    "categoryId": "home",
-    "model": "PBUM15043-EX",
-    "sku": "PBUM15043-EX",
-    "description": "لمبة Panasonic Candle LED PBUM15043-EX بقدرة 4 وات وضوء أصفر دافئ 3000K وقاعدة E14؛ سجل منفصل للنسخة الصفراء التي كانت مدمجة سابقاً في وصف cs-063؛ لا تُحذف بيانات السجل الأصلي.",
-    "specifications": {"القدرة":"4 وات","نوع الإضاءة":"Candle LED","درجة اللون":"3000K أصفر دافئ","القاعدة":"E14"},
-    "availability": "يحتاج تأكيد التوفر لدى المورد",
-    "sourceUrl": "https://elghazawy.com/ar/product/38074270232144/Panasonic%2BCandle%2BLED%2BAllows%2BLamp%2C%2B4%2BWatt%2C%2BYellow%2BLight%2C%2BPBUM15043-EX",
-    "sourceType": "Unverified Market",
-    "verificationStatus": "Unverified",
-    "published": true,
-    "createdAt": "2026-11-18",
-    "updatedAt": "2026-11-18",
-    "imageUrl": ""
-  }
-];
-export const cairoSalesSmallAppliancePrices: PriceRecord[] = [
-  {
-    "id": "cs-price-078",
-    "productId": "cs-078",
-    "price": 1549,
-    "currency": "EGP",
-    "priceType": "Unverified Market Price",
-    "source": "Carrefour Egypt — صفحة Mienta BL1291G؛ السعر المعروض شامل ضريبة القيمة المضافة وغير معتمد كسعر ثابت",
-    "sourceUrl": "https://www.carrefouregypt.com/mafegy/en/blender/mienta-blender-bl1291g-700w-bk/p/674732",
-    "priceDate": "2026-11-17",
-    "verificationStatus": "Unverified",
-    "createdAt": "2026-11-15T00:00:00Z"
   },
   {
     "id": "cs-price-079",
@@ -3899,6 +3877,7 @@ export const cairoSalesSmallAppliancePrices: PriceRecord[] = [
     "sourceUrl": "",
     "priceDate": "2026-11-15",
     "verificationStatus": "Unverified",
+    "isHistorical": true,
     "createdAt": "2026-11-15T00:00:00Z"
   },
   {
@@ -4326,10 +4305,10 @@ export const cairoSalesSmallAppliancePrices: PriceRecord[] = [
     "price": 15000,
     "currency": "EGP",
     "priceType": "Unverified Market Price",
-    "source": "سعر تقريبي 15,000 جنيه تقريباً — كتالوج EL-ALFY، الوكيل المعتمد لـBRIVA في مصر، يعرض Blender Pro 2000 (SKU 87854). VAT وحالة المخزون غير معروضين؛ يلزم تأكيد السعر النهائي.",
-    "sourceUrl": "https://elalfyeg.com/ar/product-category/blenders-and-juicers/blenders/",
-    "priceDate": "2026-11-18",
-    "verificationStatus": "Unverified",
+    "source": "EL-ALFY direct product page matches BRIVA Blender Pro 2000, SKU 87854, and displays EGP 15,000 while explicitly showing Out of Stock. VAT and warranty duration are not stated. Historical listing only; not a current sellable price. Checked 2026-11-19 18:15 Africa/Cairo.",
+    "sourceUrl": "https://elalfyeg.com/ar/product/blender-pro-2000/",
+    "priceDate": "2026-11-19",
+    "verificationStatus": "Partially Verified",
     "createdAt": "2026-11-18T01:14:00+02:00"
   }
 ,
@@ -4343,7 +4322,7 @@ export const cairoSalesSmallAppliancePrices: PriceRecord[] = [
     "sourceUrl": "https://www.carrefouregypt.com/mafegy/en/blender/mienta-blender-bl1291g-700w-bk/p/674732",
     "priceDate": "2026-11-19",
     "verificationStatus": "Partially Verified",
-    "isHistorical": false,
+    "isHistorical": true,
     "createdAt": "2026-11-19T14:56:09Z"
   },
   {
