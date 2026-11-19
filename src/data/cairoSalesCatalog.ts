@@ -3919,7 +3919,7 @@ export const cairoSalesSmallAppliancePrices: PriceRecord[] = [
   }
 ,
   {
-    "id": "cs-price-109",
+    "id": "cs-price-109-cs043",
     "productId": "cs-043",
     "price": 34765,
     "currency": "EGP",
@@ -3932,7 +3932,7 @@ export const cairoSalesSmallAppliancePrices: PriceRecord[] = [
     "createdAt": "2026-11-18T00:00:00+02:00"
   },
   {
-    "id": "cs-price-110",
+    "id": "cs-price-110-cs044",
     "productId": "cs-044",
     "price": 42140,
     "currency": "EGP",
@@ -3945,7 +3945,7 @@ export const cairoSalesSmallAppliancePrices: PriceRecord[] = [
     "createdAt": "2026-11-18T00:00:00+02:00"
   },
   {
-    "id": "cs-price-111",
+    "id": "cs-price-111-cs050",
     "productId": "cs-050",
     "price": 37999,
     "currency": "EGP",
@@ -3997,7 +3997,7 @@ export const cairoSalesSmallAppliancePrices: PriceRecord[] = [
     "createdAt": "2026-11-18T00:00:00+02:00"
   },
   {
-    "id": "cs-price-115",
+    "id": "cs-price-115-cs078",
     "productId": "cs-078",
     "price": 1399,
     "currency": "EGP",
