@@ -28,8 +28,15 @@ const readSeed = (block, key) => {
   const match = block.match(new RegExp(`\\b${key}:\\s*'([^']*)'`));
   return match?.[1] ?? '';
 };
-const priceBlocks = priceSections.flatMap(section => parseObjects(section.source));
-const priceIds = priceBlocks.map(block => read(block, 'id')).filter(Boolean);
+const catalogPriceBlocks = priceSections.flatMap(section => parseObjects(section.source));
+const seedPriceSection = seedSource.match(/export const prices: PriceRecord\[\] = \[([\s\S]*?)\n\];/);
+if (!seedPriceSection) throw new Error('seed prices declaration not found');
+const seedPriceBlocks = [...seedPriceSection[1].matchAll(/\{\s*id:\s*'price-[^']+'[\s\S]*?\n  \},/g)].map(match => match[0]);
+const priceBlocks = [...seedPriceBlocks, ...catalogPriceBlocks];
+const priceIds = [
+  ...seedPriceBlocks.map(block => readSeed(block, 'id')),
+  ...catalogPriceBlocks.map(block => read(block, 'id')),
+].filter(Boolean);
 const duplicatePriceIds = [...new Set(priceIds.filter((id, index) => priceIds.indexOf(id) !== index))];
 const rows = [
   ...seedProductBlocks.map(block => ({
@@ -90,7 +97,10 @@ const summary = {
     { name: 'seed.products', records: seedProductBlocks.length },
     ...productSections.map(section => ({ name: section.name, records: parseObjects(section.source).length })),
   ],
-  priceSections: priceSections.map(section => ({ name: section.name, records: parseObjects(section.source).length })),
+  priceSections: [
+    { name: 'seed.prices', records: seedPriceBlocks.length },
+    ...priceSections.map(section => ({ name: section.name, records: parseObjects(section.source).length })),
+  ],
   brands: brandNames.length,
   uniqueBrands: unique(brandNames).size,
   companyDirectoryRecords: companyBlocks.length,

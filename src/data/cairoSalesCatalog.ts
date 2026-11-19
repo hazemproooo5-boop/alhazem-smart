@@ -864,20 +864,24 @@ export const cairoSalesProducts: Product[] = [
     "categoryId": "small-appliances",
     "model": "OK0026",
     "sku": "OK0026",
-    "description": "ماكينة Arzum OKKA Rich Pro النحاسية، رقم المنتج OK0026. صفحة Arzum Egypt تعرض المنتج بسعر 5,850 جنيه عند رصد الصفحة؛ السعر والعرض يحتاجان تأكيداً قبل الشراء.",
+    "description": "ماكينة Arzum OKKA Rich Pro باللون الأسود والنحاسي، رقم SKU OK0026. صفحة Arzum Egypt المحلية تعرض السعر والتوفر والضمان المنزلي؛ تبقى سعة الأكواب غير محسومة بسبب اختلاف داخل الصفحة بين جدول المواصفات والأسئلة الشائعة.",
     "specifications": {
-      "نوع المشروبات": "قهوة تركية كلاسيكية وبطيئة، قهوة تركية بالحليب، شوكولاتة ساخنة ومشروبات بالحليب",
-      "الوظائف": "تسخين الحليب ورغوة الحليب الساخنة أو الباردة",
-      "الموديلات المتوافقة في دليل المنتج": "OK0026 / OK0026-K"
+      "نوع المشروبات": "قهوة تركية كلاسيكية وبطيئة، قهوة بالحليب، كابتشينو، لاتيه، شوكولاتة ساخنة ومشروبات بالحليب",
+      "الأوضاع": "8 أوضاع؛ تحضير سريع في نحو 80 ثانية وبطيء في 4 دقائق؛ رغوة حليب ساخنة وباردة؛ منع الفوران؛ تنبيه صوتي وضوئي",
+      "القدرة": "700 واط",
+      "السعة": "جدول المواصفات يعرض حتى 5 أكواب؛ قسم الأسئلة الشائعة يذكر حتى 4 أكواب متزامنة؛ يلزم حسم الاختلاف من دليل المنتج",
+      "الملحقات": "فرشاة تنظيف وملعقة قياس",
+      "الضمان": "سنة واحدة للاستخدام المنزلي من New Star، الوكيل الرسمي في مصر"
     },
-    "availability": "يحتاج تأكيد التوفر لدى المورد",
+    "warranty": "سنة واحدة للاستخدام المنزلي من New Star، الوكيل الرسمي في مصر، بحسب صفحة Arzum Egypt.",
+    "availability": "متوفر في المخزون على صفحة Arzum Egypt الرسمية وقت التحقق 2026-11-19 17:53 بتوقيت القاهرة. صفحة KzaMeeza لنفس SKU تعرض نفاد المخزون؛ التوفر المسجل خاص بصفحة Arzum Egypt ولا يعمم على السوق.",
     "officialProductUrl": "https://arzumegypt.com/product/arzum-okka-rich-pro-2/",
     "sourceUrl": "https://arzumegypt.com/product/arzum-okka-rich-pro-2/",
     "sourceType": "Official",
     "verificationStatus": "Unverified",
     "published": true,
     "createdAt": "2026-11-15",
-    "updatedAt": "2026-11-15",
+    "updatedAt": "2026-11-19",
     "imageUrl": "https://static.kzameeza.com/product/bulk-prod-data10/api677ffe4002290163160575817364414081987641306.jpg",
     "imageSourceUrl": "https://www.kzameeza.com/en/product/appliances/small-home-appliance/coffee-machines/arzum-okka-rich-spin-pro-coffee-machine-copper-ok0026-rihptsxsjlegb0d",
     "imageVerifiedDate": "2026-11-18"
@@ -891,7 +895,7 @@ export const cairoSalesProducts: Product[] = [
     "categoryId": "small-appliances",
     "model": "TEO-48DGE(K)",
     "sku": "TEO-48DGE(K)",
-    "description": "فرن Tornado TEO-48DGE(K) بسعة 48 لتر وقدرة 1800 وات. المواصفات مأخوذة من صفحة Tornado Egypt الرسمية، والسعر المرصود من عرض Carrefour Egypt بتاريخ 17 نوفمبر 2026 غير ثابت.",
+    "description": "فرن Tornado كهربائي سعة 48 لتر وقدرة 1800 وات، موديل TEO-48DGE(K). مواصفات المنتج والصورة تطابق صفحة Cairo Sales؛ تم رصد سعر وتوفر محددين لدى Carrefour/Radio Talaat، مع إبقاء السعر في سجل مستقل.",
     "specifications": {
       "السعة": "48 لتر",
       "القدرة": "1800 وات",
@@ -904,17 +908,18 @@ export const cairoSalesProducts: Product[] = [
       "بلد المنشأ": "مصر",
       "الضمان الرسمي": "سنة واحدة"
     },
-    "availability": "عرض Carrefour Egypt أظهر توفر كمية محدودة لدى بائع Radio Talaat وقت الرصد؛ يلزم تأكيد المخزون قبل الشراء",
+    "warranty": "سنة واحدة من الوكيل المحلي بحسب صفحة Radio Talaat المطابقة للموديل TEO-48DGE-K.",
+    "availability": "Carrefour Egypt يعرض قطعة واحدة لدى Radio Talaat، مع توصيل مجاني إلى Maadi - Cairo في 21 نوفمبر 2026. حالة التوفر تخص البائع والمنطقة المحددين وقت التحقق 2026-11-19 17:53 بتوقيت القاهرة.",
     "officialProductUrl": "https://www.tornadohome.com/ar/large-home-appliances/cooking-products/electric-ovens/tornado-teo-48dge-k",
     "sourceUrl": "https://www.tornadohome.com/ar/large-home-appliances/cooking-products/electric-ovens/tornado-teo-48dge-k",
     "sourceType": "Official",
     "verificationStatus": "Unverified",
     "published": true,
     "createdAt": "2026-11-15",
-    "updatedAt": "2026-11-15",
+    "updatedAt": "2026-11-19",
     "imageUrl": "https://cairosales.com/85636-large_default/tornado-electric-oven-48-l-1800-watt-with-grill-and-fan-teo-48dgek.jpg",
     "imageSourceUrl": "https://cairosales.com/en/small-appliances/tornado-electric-oven-48-l-1800-watt-with-grill-and-fan-teo-48dgek.html",
-    "imageVerifiedDate": "2026-11-18"
+    "imageVerifiedDate": "2026-11-19"
   },
   {
     "id": "cs-024",
@@ -1201,15 +1206,27 @@ export const cairoSalesProducts: Product[] = [
     "categoryId": "cookware",
     "model": "T-220089989",
     "sku": "T-220089989",
-    "description": "طقم Tefal Tempo Flame مستطيل قطعتين بمقاسي 30 و35 سم؛ صفحة بائع مصري تعرض رقم الموديل 220089989. يلزم مطابقة رمز الشركة الداخلي مع السجل cs-035 لاحتمال وجود سجل مكرر بالرمز التجاري 4300001046؛ السعر والتوفر غير معتمدين.",
-    "specifications": {"السعر الأصلي بالقائمة":"1,625 EGP","الصنف":"طقم صواني فرن مستطيلة","القطع":"2","المقاسات":"30 و35 سم","الخامة/الطلاء":"Titanium Non-Stick","رقم الموديل لدى البائع":"220089989"},
-    "availability": "يحتاج تأكيد التوفر لدى المورد",
+    "description": "طقم Tefal Tempo Flame مستطيل من قطعتين بمقاسي 30 و35 سم. صفحة Ayatie Egypt تطابق رقم الموديل 220089989؛ صفحة Zahran تعرض كود المنتج 4300001046. لم يتم دمج cs-034 مع cs-035 لأن اختلاف رقم الموديل/كود المنتج لم يُحسم من مصدر مصنع مستقل.",
+    "specifications": {
+      "رقم الموديل لدى البائع": "220089989",
+      "كود المنتج لدى Zahran": "4300001046؛ لا يثبت وحده أن cs-034 وcs-035 سجل واحد",
+      "الصنف": "طقم صواني فرن مستطيلة",
+      "عدد القطع": "2",
+      "المقاسات": "30 و35 سم",
+      "اللون": "أحمر",
+      "الخامة والطلاء": "Titanium Non-Stick",
+      "الغسيل": "آمن لغسالة الأطباق بحسب صفحة البائع",
+      "حد حرارة الفرن": "175 درجة مئوية",
+      "الضمان": "سنة واحدة وفق صفحة Ayatie"
+    },
+    "warranty": "سنة واحدة؛ صفحة Ayatie تذكر ضماناً رسمياً في مصر لمدة عام.",
+    "availability": "متوفر في المخزون لدى Ayatie وقت التحقق 2026-11-19 17:53 بتوقيت القاهرة؛ موعد التوصيل المعروض 23 نوفمبر 2026. التوفر خاص بهذا البائع.",
     "sourceUrl": "https://ayatie.com/product/tefal-tempo-flame-rectangular-oven-tray-set-30-35-220089989/",
-    "sourceType": "Unverified Market",
+    "sourceType": "Trusted Market",
     "verificationStatus": "Unverified",
     "published": true,
     "createdAt": "2026-11-15",
-    "updatedAt": "2026-11-17",
+    "updatedAt": "2026-11-19",
     "imageUrl": "https://cdn.supercommerce.io/zahran/uploads/r9MiZY-1672645860.png",
     "imageSourceUrl": "https://zahranstores.com/en/tefal-tempo-flame-rectangular-oven-tray-set-size-3035-220089989-1169",
     "imageVerifiedDate": "2026-11-18"
@@ -2182,6 +2199,7 @@ export const cairoSalesPrices: PriceRecord[] = [
     "sourceUrl": "",
     "priceDate": "2026-11-15",
     "verificationStatus": "Unverified",
+    "isHistorical": true,
     "createdAt": "2026-11-15T00:00:00Z"
   },
   {
@@ -2194,6 +2212,7 @@ export const cairoSalesPrices: PriceRecord[] = [
     "sourceUrl": "",
     "priceDate": "2026-11-15",
     "verificationStatus": "Unverified",
+    "isHistorical": true,
     "createdAt": "2026-11-15T00:00:00Z"
   },
   {
@@ -2326,6 +2345,7 @@ export const cairoSalesPrices: PriceRecord[] = [
     "sourceUrl": "",
     "priceDate": "2026-11-15",
     "verificationStatus": "Unverified",
+    "isHistorical": true,
     "createdAt": "2026-11-15T00:00:00Z"
   },
   {
@@ -2965,6 +2985,45 @@ export const cairoSalesPrices: PriceRecord[] = [
     "verificationStatus": "Unverified",
     "isHistorical": true,
     "createdAt": "2026-11-15T00:00:00Z"
+  },
+  {
+    "id": "cs-price-152",
+    "productId": "cs-022",
+    "price": 5300,
+    "currency": "EGP",
+    "priceType": "Official Price",
+    "source": "Arzum Egypt official local product page — exact SKU OK0026; current price EGP 5,300 versus listed regular price EGP 5,850; page shows In Stock and 1-Year Home warranty. VAT treatment is not stated. Product page specification has an internal 4-versus-5-cup capacity discrepancy, so the product remains Unverified. Checked 2026-11-19 17:53 Africa/Cairo.",
+    "sourceUrl": "https://arzumegypt.com/product/arzum-okka-rich-pro-2/",
+    "priceDate": "2026-11-19",
+    "verificationStatus": "Partially Verified",
+    "isHistorical": false,
+    "createdAt": "2026-11-19T17:53:16+02:00"
+  },
+  {
+    "id": "cs-price-153",
+    "productId": "cs-023",
+    "price": 5634,
+    "currency": "EGP",
+    "priceType": "Trusted Market Price",
+    "source": "Carrefour Egypt direct product page — exact Tornado TEO-48DGE(K); EGP 5,634 including VAT; Only 1 left; sold and delivered by Radio Talaat; free delivery shown for Maadi-Cairo on 21 Nov 2026. Radio Talaat's direct exact-model page states a 1-year local-agent warranty. Seller/area-specific observation; no same-seller historical baseline. Checked 2026-11-19 17:53 Africa/Cairo.",
+    "sourceUrl": "https://www.carrefouregypt.com/mafegy/en/oven/tornado-electric-oven-48-liter-1800-watt-grill-fan-black-teo-48dge-k-/p/622112705129",
+    "priceDate": "2026-11-19",
+    "verificationStatus": "Verified",
+    "isHistorical": false,
+    "createdAt": "2026-11-19T17:53:16+02:00"
+  },
+  {
+    "id": "cs-price-154",
+    "productId": "cs-034",
+    "price": 1419,
+    "currency": "EGP",
+    "priceType": "Trusted Market Price",
+    "source": "Ayatie Shopping direct product page — exact seller model 220089989 for Tefal Tempo Flame two-piece 30/35 cm tray set; EGP 1,419 including VAT; In Stock; delivery shown for 23 Nov 2026; 1-year official Egypt warranty. The product image was independently matched to the exact two red trays. Zahran's EGP 1,599 observation dated 18 Nov is a different seller, so this is not a same-seller price change. Checked 2026-11-19 17:53 Africa/Cairo.",
+    "sourceUrl": "https://ayatie.com/product/tefal-tempo-flame-rectangular-oven-tray-set-30-35-220089989/",
+    "priceDate": "2026-11-19",
+    "verificationStatus": "Verified",
+    "isHistorical": false,
+    "createdAt": "2026-11-19T17:53:16+02:00"
   },
 ];
 
