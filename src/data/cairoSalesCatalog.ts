@@ -1893,13 +1893,14 @@ export const cairoSalesProducts: Product[] = [
     "sku": "PBUM08053-EX",
     "description": "لمبة Panasonic PBUM08053-EX بقدرة 5 وات؛ صفحة Radio Talaat تطابق الموديل والقدرة والقاعدة E27 والضوء الدافئ 3000K، وتعرض نفاد المخزون وقت الرصد. لا يُستنتج من ذلك نفادها لدى جميع الموردين.",
     "specifications": {"الموديل":"PBUM08053-EX","القدرة":"5 وات","النوع":"لمبة LED","لون الإضاءة":"أصفر دافئ 3000K","القاعدة":"E27","الجهد":"140–275 فولت بحسب صفحة البائع","الحالة لدى البائع المصدر":"غير متاح وقت التحقق","السعر الأصلي بالقائمة":"419 EGP — غير معتمد"},
-    "availability": "غير متاح لدى Radio Talaat وقت التحقق؛ التوفر لدى الموردين الآخرين غير مؤكد",
+    "warranty": "سنة واحدة ضمان مصنع وفق صفحة Radio Talaat؛ احتفظ بالفاتورة وبطاقة الضمان.",
+    "availability": "غير متاح لدى Radio Talaat وقت التحقق 19 نوفمبر 2026؛ صفحة المنتج تعرض Out of stock. التوفر لدى الموردين الآخرين غير مؤكد.",
     "sourceUrl": "https://radiotalaat.com/ar/panasonic-led-bulb-5-w-e27-warm-white-3000k-pbum08053-ex-17059.html",
     "sourceType": "Unverified Market",
     "verificationStatus": "Unverified",
     "published": true,
     "createdAt": "2026-11-15",
-    "updatedAt": "2026-11-17",
+    "updatedAt": "2026-11-19",
     "imageUrl": "https://radiotalaat.com/media/catalog/product/cache/443536d826163ab0a24e7b4f10768263/2/7/279_qiv99ku0d0a1mkmx.jpg",
     "imageSourceUrl": "https://radiotalaat.com/ar/panasonic-led-bulb-5-w-e27-warm-white-3000k-pbum08053-ex-17059.html",
     "imageVerifiedDate": "2026-11-18"
@@ -2867,6 +2868,19 @@ export const cairoSalesPrices: PriceRecord[] = [
     "verificationStatus": "Unverified",
     "isHistorical": false,
     "createdAt": "2026-11-19T14:56:09Z"
+  },
+  {
+    "id": "cs-price-145",
+    "productId": "cs-065",
+    "price": 48,
+    "currency": "EGP",
+    "priceType": "Trusted Market Price",
+    "source": "Radio Talaat Egypt — exact PBUM08053-EX product page lists EGP 48; page explicitly shows Out of stock, 5W, E27, warm white 3000K, barcode 8903285083893 and one-year manufacturer warranty. VAT is not separately stated. Checked 2026-11-19 17:23 Africa/Cairo. Retained as historical/non-current because the seller has no stock.",
+    "sourceUrl": "https://radiotalaat.com/ar/panasonic-led-bulb-5-w-e27-warm-white-3000k-pbum08053-ex-17059.html",
+    "priceDate": "2026-11-19",
+    "verificationStatus": "Partially Verified",
+    "isHistorical": true,
+    "createdAt": "2026-11-19T17:23:47+02:00"
   },
 ];
 
