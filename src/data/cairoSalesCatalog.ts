@@ -1829,16 +1829,19 @@ export const cairoSalesProducts: Product[] = [
     "categoryId": "home",
     "model": "SF-6526A",
     "sku": "SF-6526A",
-    "description": "موزع روائح Sonifer SF-6526A؛ صفحة متجر مصري تعرض الموديل بالاسم، ومصادر بيع مباشرة أخرى تطابق سعة 560 مل والقدرة 15 وات. لا يوجد مصدر مصنع أولي في هذه الدورة؛ السعر والتوفر غير معتمدين.",
-    "specifications": {"الموديل":"SF-6526A","النوع":"موزع روائح/مرطب عطري","سعة الخزان":"560 مل","القدرة":"15 وات","الجهد":"100–240 فولت بحسب بيانات البائع","السعر الأصلي بالقائمة":"1,025 EGP — غير معتمد"},
-    "availability": "يحتاج تأكيد التوفر لدى المورد",
-    "sourceUrl": "https://www.totalstores-eg.com/store/department/Small-household-%20appliances",
+    "description": "موزع روائح Sonifer SF-6526A؛ صفحة Total Stores المصرية تطابق الموديل وتعرض قطعة واحدة متاحة وقت الرصد. لا تذكر الصفحة مدة الضمان أو معالجة ضريبة القيمة المضافة."
+    "specifications": {"الموديل":"SF-6526A","النوع":"موزع روائح/مرطب عطري","سعة الخزان":"560 مل","القدرة":"15 وات","الجهد":"100–240 فولت AC","المؤقت":"3 أو 6 ساعات","أنماط الرذاذ":"Jellyfish وFlame","إضافة الزيوت العطرية":"نعم","تقنية الرذاذ":"Nano-spray"},
+    "warranty": "مدة الضمان غير مذكورة في صفحة Total Stores؛ يلزم تأكيدها من البائع قبل الشراء.",
+    "availability": "متوفر لدى Total Stores وقت التحقق: قطعة واحدة (In Stock). لا يعمم هذا الرصد على موردين آخرين أو على ما بعد تاريخ الفحص.",
+    "sourceUrl": "https://www.totalstores-eg.com/product/407/scented-diffuser-sf-6526a",
     "sourceType": "Unverified Market",
     "verificationStatus": "Unverified",
     "published": true,
     "createdAt": "2026-11-15",
-    "updatedAt": "2026-11-17",
-    "imageUrl": ""
+    "updatedAt": "2026-11-19",
+    "imageUrl": "https://www.totalstores-eg.com/assets/img/products/1783516576_7WHPRttcSw.png",
+    "imageSourceUrl": "https://www.totalstores-eg.com/product/407/scented-diffuser-sf-6526a",
+    "imageVerifiedDate": "2026-11-19"
   },
   {
     "id": "cs-063",
@@ -2881,6 +2884,32 @@ export const cairoSalesPrices: PriceRecord[] = [
     "verificationStatus": "Partially Verified",
     "isHistorical": true,
     "createdAt": "2026-11-19T17:23:47+02:00"
+  },
+  {
+    "id": "cs-price-146",
+    "productId": "cs-062",
+    "price": 999,
+    "currency": "EGP",
+    "priceType": "Trusted Market Price",
+    "source": "Total Stores Egypt — exact SF-6526A product page lists EGP 999 and In Stock (1 unit); 560ml, 15W, 100–240V AC, 3/6-hour timer, Jellyfish/Flame modes. VAT and warranty are not stated. Checked 2026-11-19 17:23 Africa/Cairo.",
+    "sourceUrl": "https://www.totalstores-eg.com/product/407/scented-diffuser-sf-6526a",
+    "priceDate": "2026-11-19",
+    "verificationStatus": "Partially Verified",
+    "isHistorical": false,
+    "createdAt": "2026-11-19T17:23:47+02:00"
+  },
+  {
+    "id": "cs-price-147",
+    "productId": "cs-062",
+    "price": 1025,
+    "currency": "EGP",
+    "priceType": "Unverified Market Price",
+    "source": "Cairo Sales — original-list amount previously embedded in the product specifications; no direct seller page or tax/availability evidence. Preserved as an unverified historical reference, not a current price.",
+    "sourceUrl": "",
+    "priceDate": "2026-11-15",
+    "verificationStatus": "Unverified",
+    "isHistorical": true,
+    "createdAt": "2026-11-15T00:00:00Z"
   },
 ];
 
