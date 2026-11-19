@@ -1109,20 +1109,21 @@ export const cairoSalesProducts: Product[] = [
     "categoryId": "cookware",
     "model": "A1610",
     "sku": "A1610",
-    "description": "طقم Korkmaz Alfa Plus الموديل A1610؛ كتالوج Korkmaz الرسمي يطابق رمز A1610 ويعرض 11 قطعة ومقاسات الأواني وسعاتها. صفحة Korkmaz Egypt تعرض مجموعة Alfa Plus 11 قطعة محلياً، لكنها لا تعرض رمز A1610 نفسه؛ لذلك تبقى مطابقة SKU المحلي بحاجة تأكيد.",
+    "description": "طقم Korkmaz Alfa Plus موديل A1610، 11 قطعة. كتالوج Korkmaz الرسمي يربط A1610 بسلسلة Alfa Plus ومقاسات وسعات الأواني؛ صفحة Korkmaz Egypt تعرض Alfa Plus 11 pcs بالـSKU 8691607016109 وفي المخزون، لكنها لا تطبع رمز A1610 صراحةً، لذا يظل الربط جزئياً والمنتج Unverified.",
     "specifications": {"السعر الأصلي بالقائمة":"14,999 EGP — غير معتمد","الموديل":"A1610","السلسلة":"Alfa Plus","عدد القطع":"11 قطعة","الخامة":"18/10 Cr-Ni Stainless Steel بحسب كتالوج الشركة","الأحجام والسعات":"18×10 سم/2.5 لتر، 20×11/3.5 لتر، 24×12/4 لتر، 28×14/8.5 لتر، 26×8/4.2 لتر، مقلاة 24×6/2.7 لتر","القاعدة":"ثلاثية الطبقات وفق وصف السلسلة الرسمية"},
-    "availability": "يحتاج تأكيد التوفر لدى المورد",
+    "availability": "صفحة Korkmaz Egypt المفتوحة في 19 نوفمبر 2026 تعرض Alfa Plus Stainless Steel Cookware Set 11 Pcs بحالة In Stock وSKU 8691607016109؛ كتالوج Korkmaz الرسمي يربط A1610 بسلسلة Alfa Plus ذات 11 قطعة. صفحة المتجر لا تعرض رمز A1610 صراحةً، كما لا توضح VAT أو الضمان المحلي. المصدر: https://korkmazeg.com/product/korkmaz-alfa-plus-stainless-steel-cookware-set-11-pcs/",
+    "specifications": "السعر الأصلي بالقائمة: 14,999 جنيه تقريباً — مرجع مستورد غير معتمد، وليس سعراً حالياً."
     "sourceUrl": "https://www.korkmaz.com.tr/Global/Discovery/images/Korkmaz%20Collection%202020.pdf",
     "officialProductUrl": "https://korkmazeg.com/product/korkmaz-alfa-plus-stainless-steel-cookware-set-11-pcs/",
     "sourceType": "Official",
     "verificationStatus": "Unverified",
     "published": true,
     "createdAt": "2026-11-15",
-    "updatedAt": "2026-11-17",
-    "imageUrl": "https://f.nooncdn.com/p/pzsku/ZE8E1AF38E7996913AC16Z/45/1763039501/c2203814-552b-4f7b-8710-0e99e9854aa1.jpg",
+    "updatedAt": "2026-11-19",
+    "imageUrl": "https://korkmazeg.com/wp-content/uploads/A1610.jpg",
     "imageCandidateUrl": "https://korkmazeg.com/wp-content/uploads/A1610.jpg",
-    "imageSourceUrl": "https://www.noon.com/egypt-en/korkmaz-alpha-plus-11-piece-cookware-set-a1610-silver-stainless-steel-polished/ZE8E1AF38E7996913AC16Z/p/",
-    "imageVerifiedDate": "2026-11-18"
+    "imageSourceUrl": "https://korkmazeg.com/product/korkmaz-alfa-plus-stainless-steel-cookware-set-11-pcs/",
+    "imageVerifiedDate": "2026-11-19"
   },
   {
     "id": "cs-031",
@@ -1198,15 +1199,16 @@ export const cairoSalesProducts: Product[] = [
     "categoryId": "cookware",
     "model": "T-220089989",
     "sku": "T-220089989",
-    "description": "طقم Tefal Tempo Flame مستطيل قطعتين بمقاسي 30 و35 سم؛ صفحة بائع مصري تعرض رقم الموديل 220089989. يلزم مطابقة رمز الشركة الداخلي مع السجل cs-035 لاحتمال وجود سجل مكرر بالرمز التجاري 4300001046؛ السعر والتوفر غير معتمدين.",
+    "description": "طقم Tefal Tempo Flame مستطيل قطعتين بمقاسي 30 و35 سم. صفحة Zahran المباشرة تعرض موديل 220089989 ورمز SKU لدى البائع 4300001046؛ هذا يثبت ظهور الرمزين على صفحة واحدة، لكنه لا يبرر دمج سجل cs-035 أو حذف أي منهما قبل تأكيد الشركة.",
     "specifications": {"السعر الأصلي بالقائمة":"1,625 EGP","الصنف":"طقم صواني فرن مستطيلة","القطع":"2","المقاسات":"30 و35 سم","الخامة/الطلاء":"Titanium Non-Stick","رقم الموديل لدى البائع":"220089989"},
-    "availability": "يحتاج تأكيد التوفر لدى المورد",
+    "availability": "صفحة Zahran Stores المباشرة المفتوحة في 19 نوفمبر 2026 تعرض Tefal Tempo Flame 220089989 مع SKU لدى البائع 4300001046 وزر Add to Cart؛ السعر شامل VAT ولا يظهر عدد المخزون. المصدر: https://zahranstores.com/en/tefal-tempo-flame-rectangular-oven-tray-set-size-3035-220089989-1169",
+    "specifications": "السعر الأصلي بالقائمة: 1,625 جنيه تقريباً — مرجع غير موثق، وليس سعراً حالياً."
     "sourceUrl": "https://ayatie.com/product/tefal-tempo-flame-rectangular-oven-tray-set-30-35-220089989/",
     "sourceType": "Unverified Market",
     "verificationStatus": "Unverified",
     "published": true,
     "createdAt": "2026-11-15",
-    "updatedAt": "2026-11-17",
+    "updatedAt": "2026-11-19",
     "imageUrl": "https://cdn.supercommerce.io/zahran/uploads/r9MiZY-1672645860.png",
     "imageSourceUrl": "https://zahranstores.com/en/tefal-tempo-flame-rectangular-oven-tray-set-size-3035-220089989-1169",
     "imageVerifiedDate": "2026-11-18"
@@ -1811,14 +1813,18 @@ export const cairoSalesProducts: Product[] = [
     "sku": "8002524058255",
     "description": "منشر Metaltex Breva رقم المنتج 405825 003 والباركود 8002524058255؛ صفحة كتالوج Metaltex الرسمية تعرض رقم المنتج والباركود والمقاس وطلاء Epotherm وضمان المصنع 5 سنوات وبلد المنشأ إيطاليا. المصدر لا يثبت توفر المنتج أو الضمان المحلي في مصر.",
     "specifications": {"الموديل/رقم المنتج":"405825 003","EAN":"8002524058255","الاسم":"Breva Wing laundry dryer","طول التجفيف":"25 متراً","المقاس":"58 × 133 × 106 سم","الطلاء":"Epotherm","الضمان المعلن من المصنع":"5 سنوات","بلد المنشأ المعلن":"إيطاليا","السعر الأصلي بالقائمة":"2,612 EGP — غير معتمد"},
-    "availability": "يحتاج تأكيد التوفر لدى المورد",
+    "availability": "صفحة Metaltex الرسمية تؤكد Breva Item 405825 003 والباركود 8002524058255 والمواصفات وضمان المصنع؛ لا تعرض سعراً أو مخزوناً لمتجر مصري، لذلك التوفر المحلي غير مؤكد. المصدر: https://app.metaltex.com/INT-en/products/405825003/related",
+    "specifications": "السعر الأصلي بالقائمة: 2,612 جنيه تقريباً — مرجع مستورد غير معتمد، وليس سعراً حالياً."
+    "warranty": "ضمان مصنع Metaltex المعلن 5 سنوات؛ لا يثبت ذلك وجود ضمان محلي في مصر أو وكيل صيانة."
     "sourceUrl": "https://app.metaltex.com/INT-en/products/405825003/related",
     "sourceType": "Official",
     "verificationStatus": "Unverified",
     "published": true,
     "createdAt": "2026-11-15",
-    "updatedAt": "2026-11-17",
-    "imageUrl": ""
+    "updatedAt": "2026-11-19",
+    "imageUrl": "",
+    "imageCandidateUrl": "https://app.metaltex.com/inc/libraries/project/phpThumb/phpThumb.php?f=png&h=500&hash=f5421c24558f41e4af25b4ab3a16dacdff5d3acd528421dfd9701b66f3f76c2c&src=%2Fimg%2F405825003_PK-1.png&w=500",
+    "imageSourceUrl": "https://app.metaltex.com/INT-en/products/405825003/related",
   },
   {
     "id": "cs-062",
@@ -1851,13 +1857,13 @@ export const cairoSalesProducts: Product[] = [
     "sku": "PBUM15047-EX",
     "description": "لمبة Panasonic Candle LED PBUM15047-EX بقدرة 4 وات وضوء أبيض نهاري 6500K وقاعدة E14؛ كان الوصف الأصلي يجمع خيارَي الضوء الأبيض والأصفر؛ فُصلت النسخة الصفراء في سجل مستقل cs-090 مع الحفاظ على رقم هذا السجل للنسخة البيضاء.",
     "specifications": {"القدرة":"4 وات","نوع الإضاءة":"Candle LED","درجة اللون":"6500K أبيض نهاري","القاعدة":"E14"},
-    "availability": "يحتاج تأكيد التوفر لدى المورد",
+    "availability": "صفحة Elghazawy المباشرة المفتوحة في 19 نوفمبر 2026 تطابق PBUM15047-EX الأبيض بقدرة 4 وات وتعرض زر أضف للسلة؛ لا يظهر عدد المخزون أو تأكيد الشحن، لذلك التوفر الفعلي غير مؤكد. VAT غير مفصل. المصدر: https://elghazawy.com/ar/product/38074270232146/Panasonic%2BCandle%2BLED%2BAllows%2BLamp%2C%2B4%2BWatt%2C%2BWhite%2BLight%2C%2BPBUM15047-EX",
      "sourceUrl": "https://elghazawy.com/ar/product/38074270232146/Panasonic%2BCandle%2BLED%2BAllows%2BLamp%2C%2B4%2BWatt%2C%2BWhite%2BLight%2C%2BPBUM15047-EX",
     "sourceType": "Unverified Market",
     "verificationStatus": "Unverified",
     "published": true,
     "createdAt": "2026-11-15",
-    "updatedAt": "2026-11-18",
+    "updatedAt": "2026-11-19",
     "imageUrl": ""
   },
   {
@@ -2643,6 +2649,7 @@ export const cairoSalesPrices: PriceRecord[] = [
     "sourceUrl": "",
     "priceDate": "2026-11-15",
     "verificationStatus": "Unverified",
+    "isHistorical": true,
     "createdAt": "2026-11-15T00:00:00Z"
   },
   {
@@ -2865,6 +2872,33 @@ export const cairoSalesPrices: PriceRecord[] = [
     "sourceUrl": "https://eliraqi.com.eg/en/tornado-stainless-steel-kettle-17-liter-1850-2200-watt-stainless-tks-2217e",
     "priceDate": "2026-11-19",
     "verificationStatus": "Unverified",
+    "isHistorical": false,
+    "createdAt": "2026-11-19T14:56:09Z"
+  },
+
+  {
+    "id": "cs-price-145",
+    "productId": "cs-030",
+    "price": 10598,
+    "currency": "EGP",
+    "priceType": "Unverified Market Price",
+    "source": "Korkmaz Egypt direct page — Alfa Plus 11-piece set, SKU 8691607016109, In Stock. Official Korkmaz catalog maps model A1610 to Alfa Plus 11-piece set, but local page does not print A1610 explicitly; VAT and local warranty not stated; checked 2026-11-19 16:56 Africa/Cairo.",
+    "sourceUrl": "https://korkmazeg.com/product/korkmaz-alfa-plus-stainless-steel-cookware-set-11-pcs/",
+    "priceDate": "2026-11-19",
+    "verificationStatus": "Partially Verified",
+    "isHistorical": false,
+    "createdAt": "2026-11-19T14:56:09Z"
+  },
+  {
+    "id": "cs-price-146",
+    "productId": "cs-034",
+    "price": 1599,
+    "currency": "EGP",
+    "priceType": "Trusted Market Price",
+    "source": "Zahran Stores direct page — exact Tefal model 220089989, seller SKU 4300001046, Add to Cart shown, price includes VAT; quantity not displayed; checked 2026-11-19 16:56 Africa/Cairo.",
+    "sourceUrl": "https://zahranstores.com/en/tefal-tempo-flame-rectangular-oven-tray-set-size-3035-220089989-1169",
+    "priceDate": "2026-11-19",
+    "verificationStatus": "Verified",
     "isHistorical": false,
     "createdAt": "2026-11-19T14:56:09Z"
   },
@@ -3120,16 +3154,19 @@ export const cairoSalesCookwareProducts: Product[] = [
     "categoryId": "kitchen",
     "model": "6223011170331",
     "sku": "6223011170331",
-    "description": "جريل Cookin Aboud Bio Granite مقاس 28 سم؛ صفحة Shop Aboud تطابق رقم SKU/الباركود 6223011170331 وتعرض المنتج ضمن فئة Dark Stone. السعر الظاهر يحتاج تحققاً حديثاً من البائع ولا يعتمد كسعر حالي.",
+    "description": "جريل Cookin Aboud Bio Granite مقاس 28 سم، SKU/EAN 6223011170331. صفحة Shop Aboud المباشرة تطابق الرقم وتعرض السعر الترويجي وزر Add to Cart؛ عدد المخزون والضريبة والضمان غير معلنة.",
     "specifications": {"السعر الأصلي بالقائمة":"1,151 EGP — غير معتمد","العلامة":"Cookin Aboud","النوع":"Bio Granite Grill","المقاس":"28 سم","اللون":"أسود","SKU / EAN":"6223011170331","سعر المصدر الظاهر":"1,100 EGP — غير معتمد"},
-    "availability": "يحتاج تأكيد التوفر لدى المورد",
+    "availability": "صفحة Shop Aboud المباشرة المفتوحة في 19 نوفمبر 2026 تطابق SKU 6223011170331 وتعرض زر Add to Cart؛ لا تعرض كمية المخزون أو VAT أو الضمان، لذلك التوفر النهائي غير مؤكد. المصدر: https://shop-aboud.com/product/28-cm-grill-bio-granite/",
+    "specifications": "السعر الأصلي بالقائمة: 1,151 جنيه تقريباً — مرجع مستورد غير معتمد. سعر المصدر السابق: 1,100 جنيه تقريباً — ليس سعراً حالياً."
     "sourceUrl": "https://shop-aboud.com/product/28-cm-grill-bio-granite/",
     "sourceType": "Unverified Market",
     "verificationStatus": "Unverified",
     "published": true,
     "createdAt": "2026-11-15",
-    "updatedAt": "2026-11-17",
-    "imageUrl": ""
+    "updatedAt": "2026-11-19",
+    "imageUrl": "",
+    "imageCandidateUrl": "https://shop-aboud.com/wp-content/uploads/2025/12/Pot-18-S_0000-3-150x84.jpg",
+    "imageSourceUrl": "https://shop-aboud.com/product/28-cm-grill-bio-granite/",
   }
 ];
 
@@ -3278,6 +3315,20 @@ export const cairoSalesCookwarePrices: PriceRecord[] = [
     "verificationStatus": "Unverified",
     "createdAt": "2026-11-15T00:00:00Z"
   }
+,
+  {
+    "id": "cs-price-148",
+    "productId": "cs-077",
+    "price": 990,
+    "currency": "EGP",
+    "priceType": "Unverified Market Price",
+    "source": "Shop Aboud direct page — exact SKU 6223011170331, promotional price displayed and Add to Cart shown; stock quantity, VAT and warranty not stated; checked 2026-11-19 16:56 Africa/Cairo.",
+    "sourceUrl": "https://shop-aboud.com/product/28-cm-grill-bio-granite/",
+    "priceDate": "2026-11-19",
+    "verificationStatus": "Unverified",
+    "isHistorical": false,
+    "createdAt": "2026-11-19T14:56:09Z"
+  },
 ];
 
 
@@ -3431,15 +3482,15 @@ export const cairoSalesSmallApplianceProducts: Product[] = [
     "categoryId": "appliances",
     "model": "FAF-D1500B",
     "sku": "FAF-D1500B",
-    "description": "قلاية Fresh FAF-D1500B؛ تمت مطابقة الموديل والسعة والقدرة مع صفحة Carrefour Egypt. السعر والتوفر رُصدا في صفحة بائع ويحتاجان إعادة تحقق قبل العرض.",
+    "description": "قلاية Fresh FAF-D1500B سعة 5 لتر وقدرة 1500 وات. صفحة Carrefour تعرض Out of stock، وصفحة Raneen المفتوحة في 19 نوفمبر تعرض إشعار Subscribe to back in stock؛ صفحة 2B المباشرة تعذر فتحها (403)، لذلك لا يوجد تأكيد حالي للتوفر.",
     "specifications": {"الصنف الفرعي":"قلاية هوائية رقمية","السعة":"5 لتر","القدرة":"1500 وات","لوحة التحكم":"رقمية"},
-    "availability": "غير متوفر لدى Carrefour Egypt وقت التحقق 18 نوفمبر 2026؛ صفحة المنتج المطابقة للموديل FAF-D1500B تعرض Out of stock. التوفر لدى الموردين الآخرين غير مؤكد. رابط البائع: https://www.carrefouregypt.com/mafegy/en/air-fryer/fresh-a-f-faf-d1500b-5l-digital/p/668969",
+    "availability": "Carrefour Egypt أظهر Out of stock في صفحة FAF-D1500B، وصفحة Raneen المفتوحة في 19 نوفمبر 2026 تعرض Subscribe to back in stock notification؛ صفحة 2B المطابقة تعذر فتحها (403) رغم ظهور نتيجة بحث تشير إلى توفر. لا يوجد مخزون حالي مؤكد، وسعر Raneen محفوظ كسجل تاريخي غير متاح للشراء. Carrefour: https://www.carrefouregypt.com/mafegy/en/air-fryer/fresh-a-f-faf-d1500b-5l-digital/p/668969 — Raneen: https://www.raneen.com/en/fresh-air-fryer-digital-5-liter-1500-watt-black-fafd1500b",
     "sourceUrl": "https://www.carrefouregypt.com/mafegy/en/air-fryer/fresh-a-f-faf-d1500b-5l-digital/p/668969",
     "sourceType": "Unverified Market",
     "verificationStatus": "Unverified",
     "published": true,
     "createdAt": "2026-11-15",
-    "updatedAt": "2026-11-15",
+    "updatedAt": "2026-11-19",
     "imageUrl": "https://cdn.mafrservices.com/pim-content/EGY/media/product/668969/1766582689/668969_main.jpg",
     "imageSourceUrl": "https://www.carrefouregypt.com/mafegy/en/air-fryer/fresh-a-f-faf-d1500b-5l-digital/p/668969",
     "imageVerifiedDate": "2026-11-18"
@@ -3543,16 +3594,20 @@ export const cairoSalesSmallApplianceProducts: Product[] = [
     "categoryId": "appliances",
     "model": "HB111938A",
     "sku": "HB111938A",
-    "description": "خلاط يدوي Mienta Vitesse موديل HB111938A أبيض؛ صفحة Carrefour Egypt تطابق الموديل والقدرة 450 واط وكوب 600 مل وسرعة واحدة مع Turbo ومضرب خفق وعمود ستانلس مانع للتناثر. لا يُعتمد السعر أو التوفر دون إعادة تحقق مباشرة.",
+    "description": "خلاط يدوي Mienta Vitesse موديل HB111938A أبيض، 450 وات، كوب 600 مل، سرعة واحدة مع Turbo ومضرب خفق وعمود ستانلس. صفحة Carrefour تطابق الموديل وتعرض السعر شاملاً VAT وتوصي بالتوصيل في القاهرة؛ التوصيل إلى كفر الشيخ لم يتأكد.",
     "specifications": {"السعر الأصلي بالقائمة":"1,099 EGP — غير معتمد","الموديل":"HB111938A","السلسلة":"Vitesse","القدرة":"450 واط","السعة":"600 مل","السرعات":"سرعة واحدة + Turbo","الملحقات":"كوب مدرج ومضرب خفق","عمود الخلط":"ستانلس ستيل مانع للتناثر"},
-    "availability": "متاح لدى Carrefour Egypt وقت التحقق 18 نوفمبر 2026؛ صفحة الفئة الحالية تعرض الموديل HB111938A بكمية «قطعتان متبقيتان»، وسعر 899 جنيه شامل VAT وتوصيل مجاني غداً حسب المنطقة. صفحة المنتج: https://www.carrefouregypt.com/mafegy/en/blender/mienta-hand-blender-hb111938a-450w/p/674730",
+    "availability": "صفحة Carrefour Egypt المباشرة المفتوحة في 19 نوفمبر 2026 تطابق HB111938A وتعرض Add to Cart وتوصي بالتوصيل غداً إلى نطاق القاهرة/المعادى؛ لا تعرض عدد المخزون. التوصيل إلى كفر الشيخ غير مؤكد. السعر شامل VAT. المصدر: https://www.carrefouregypt.com/mafegy/en/blender/mienta-hand-blender-hb111938a-450w/p/674730",
+    "specifications": "السعر الأصلي بالقائمة: 1,099 جنيه تقريباً — مرجع مستورد غير معتمد، وليس سعراً حالياً."
+    "warranty": "غير محسوم: صفحة Raneen تعرض عبارتي No warranty وWarranty 2 Years في موضعين مختلفين، بينما صفحة Carrefour لا تحدد الضمان؛ لا تعتمد مدة قبل تأكيد كتابي."
     "sourceUrl": "https://www.carrefouregypt.com/mafegy/en/blender/mienta-hand-blender-hb111938a-450w/p/674730",
     "sourceType": "Unverified Market",
     "verificationStatus": "Unverified",
     "published": true,
     "createdAt": "2026-11-15",
-    "updatedAt": "2026-11-17",
-    "imageUrl": ""
+    "updatedAt": "2026-11-19",
+    "imageUrl": "",
+    "imageCandidateUrl": "https://cdn.mafrservices.com/pim-content/EGY/media/product/674730/1774875600/674730_main.jpg?im=Resize%3D58",
+    "imageSourceUrl": "https://www.carrefouregypt.com/mafegy/en/blender/mienta-hand-blender-hb111938a-450w/p/674730",
   },
   {
     "id": "cs-089",
@@ -4252,6 +4307,46 @@ export const cairoSalesSmallAppliancePrices: PriceRecord[] = [
     "priceDate": "2026-11-19",
     "verificationStatus": "Unverified",
     "isHistorical": false,
+    "createdAt": "2026-11-19T14:56:09Z"
+  },
+
+  {
+    "id": "cs-price-147",
+    "productId": "cs-063",
+    "price": 50,
+    "currency": "EGP",
+    "priceType": "Unverified Market Price",
+    "source": "Elghazawy direct product page — exact Panasonic PBUM15047-EX, 4W white candle LED, Add to Cart shown; stock count and VAT treatment not stated; checked 2026-11-19 16:56 Africa/Cairo.",
+    "sourceUrl": "https://elghazawy.com/ar/product/38074270232146/Panasonic%2BCandle%2BLED%2BAllows%2BLamp%2C%2B4%2BWatt%2C%2BWhite%2BLight%2C%2BPBUM15047-EX",
+    "priceDate": "2026-11-19",
+    "verificationStatus": "Unverified",
+    "isHistorical": false,
+    "createdAt": "2026-11-19T14:56:09Z"
+  },
+  {
+    "id": "cs-price-149",
+    "productId": "cs-088",
+    "price": 899,
+    "currency": "EGP",
+    "priceType": "Trusted Market Price",
+    "source": "Carrefour Egypt direct product page — exact Mienta HB111938A, 450W/600ml, price includes VAT, Add to Cart and next-day Cairo delivery shown; stock quantity not displayed and Kafr El-Sheikh delivery not confirmed; checked 2026-11-19 16:56 Africa/Cairo.",
+    "sourceUrl": "https://www.carrefouregypt.com/mafegy/en/blender/mienta-hand-blender-hb111938a-450w/p/674730",
+    "priceDate": "2026-11-19",
+    "verificationStatus": "Verified",
+    "isHistorical": false,
+    "createdAt": "2026-11-19T14:56:09Z"
+  },
+  {
+    "id": "cs-price-150",
+    "productId": "cs-083",
+    "price": 3089,
+    "currency": "EGP",
+    "priceType": "Unverified Market Price",
+    "source": "Raneen direct page — exact Fresh FAF-D1500B page shows Subscribe to back in stock notification; retained as an out-of-stock historical listing only, not a current selling price; VAT not stated; checked 2026-11-19 16:56 Africa/Cairo.",
+    "sourceUrl": "https://www.raneen.com/en/fresh-air-fryer-digital-5-liter-1500-watt-black-fafd1500b",
+    "priceDate": "2026-11-19",
+    "verificationStatus": "Unverified",
+    "isHistorical": true,
     "createdAt": "2026-11-19T14:56:09Z"
   },
 ];
