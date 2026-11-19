@@ -29,6 +29,8 @@ const readSeed = (block, key) => {
   return match?.[1] ?? '';
 };
 const priceBlocks = priceSections.flatMap(section => parseObjects(section.source));
+const priceIds = priceBlocks.map(block => read(block, 'id')).filter(Boolean);
+const duplicatePriceIds = [...new Set(priceIds.filter((id, index) => priceIds.indexOf(id) !== index))];
 const rows = [
   ...seedProductBlocks.map(block => ({
     id: readSeed(block, 'id'),
@@ -77,6 +79,8 @@ const summary = {
   generatedAt: new Date().toISOString(),
   products: rows.length,
   priceHistoryRecords: priceBlocks.length,
+  uniquePriceRecordIds: new Set(priceIds).size,
+  duplicatePriceIds,
   seedProductAudit: {
     total: seedProductBlocks.length,
     published: rows.filter(row => row.id.startsWith('prod-') && row.published).length,
