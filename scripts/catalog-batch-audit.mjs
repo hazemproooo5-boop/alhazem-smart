@@ -29,9 +29,9 @@ const readSeed = (block, key) => {
   return match?.[1] ?? '';
 };
 const catalogPriceBlocks = priceSections.flatMap(section => parseObjects(section.source));
-const seedPriceSection = seedSource.match(/export const prices: PriceRecord\\[\\] = \\[([\\s\\S]*?)\\n\\];/);
+const seedPriceSection = seedSource.match(/export const prices: PriceRecord\[\] = \[([\s\S]*?)\n\];/);
 if (!seedPriceSection) throw new Error('seed prices declaration not found');
-const seedPriceBlocks = [...seedPriceSection[1].matchAll(/\\{\\s*id:\\s*'price-[^']+'[\\s\\S]*?\\n  \\},/g)].map(match => match[0]);
+const seedPriceBlocks = [...seedPriceSection[1].matchAll(/\{\s*id:\s*'price-[^']+'[\s\S]*?\n  \},/g)].map(match => match[0]);
 const priceBlocks = [...seedPriceBlocks, ...catalogPriceBlocks];
 const priceIds = [
   ...seedPriceBlocks.map(block => readSeed(block, 'id')),
