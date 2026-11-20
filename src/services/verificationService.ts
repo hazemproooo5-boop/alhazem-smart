@@ -1,6 +1,7 @@
 import { products, prices } from '../data/seed';
 
 const PRICE_MAX_AGE_DAYS = 30;
+const hasText = (value?: string): boolean => Boolean(value?.trim());
 
 export const verificationService = {
   getDataQualitySummary: () => {
@@ -50,10 +51,20 @@ export const verificationService = {
 
     return {
       summary: {
-        missingImages: publishedProducts.filter((product) => !product.imageUrl).length,
-        missingSources: publishedProducts.filter((product) => !product.sourceUrl).length,
-        missingSpecs: publishedProducts.filter((product) => Object.keys(product.specifications).length === 0).length,
-        missingWarranty: publishedProducts.filter((product) => !product.warranty).length,
+        publishedProducts: publishedProducts.length,
+        missingModels: publishedProducts.filter((product) =>
+          !hasText(product.model) || /بدون كود موديل|غير محدد|غير متوفر|يلزم تأكيد|غير مؤكد/i.test(product.model),
+        ).length,
+        missingAvailability: publishedProducts.filter((product) =>
+          !hasText(product.availability) || /يحتاج تأكيد|غير محدد|غير متاح|غير مؤكد/i.test(product.availability),
+        ).length,
+        missingImages: publishedProducts.filter((product) => !hasText(product.imageUrl)).length,
+        missingSources: publishedProducts.filter((product) => !hasText(product.sourceUrl)).length,
+        missingSpecs: publishedProducts.filter((product) =>
+          Object.entries(product.specifications).length === 0
+          || Object.entries(product.specifications).some(([key, value]) => !hasText(key) || !hasText(value)),
+        ).length,
+        missingWarranty: publishedProducts.filter((product) => !hasText(product.warranty)).length,
         missingPrices,
         stalePrices,
         unverifiedPrices,
