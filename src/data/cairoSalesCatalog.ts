@@ -958,13 +958,13 @@ export const cairoSalesProducts: Product[] = [
       "الأبعاد": "30.8 × 27.5 × 37 سم",
       "الوزن": "5.7 كجم"
     },
-    "availability": "يحتاج تأكيد التوفر لدى المورد",
+    "availability": "صفحة Beko الرسمية للموديل FRL 2244 B تعرض حالياً رسالة تفيد بعدم وجود متاجر إلكترونية متاحة لهذا المنتج؛ لذلك لا يوجد توفر بيع إلكتروني مؤكد من الشركة وقت مراجعة 20 نوفمبر 2026. يلزم تأكيد المخزون لدى موزع محلي قبل عرض المنتج كمتاح.",
     "sourceUrl": "https://www.beko.com/eg-en/products/cookers-and-fryers/fryer-air-1500-w-frl-2244-b",
     "sourceType": "Official",
     "verificationStatus": "Unverified",
     "published": true,
     "createdAt": "2026-11-15",
-    "updatedAt": "2026-11-15",
+    "updatedAt": "2026-11-20",
     "imageUrl": "https://www.beko.com/content/dam/egypt-eg-aem/egypt-eg-aemProductCatalog/product-images/8916053200-FRL-2244-B/8916053200-MDM2-LOW-1.png/jcr%3Acontent/renditions/original",
     "imageSourceUrl": "https://www.beko.com/eg-en/products/cookers-and-fryers/fryer-air-1500-w-frl-2244-b",
     "imageVerifiedDate": "2026-11-18"
