@@ -84,6 +84,8 @@ function Layout({ children }: { children: ReactNode }) {
             <NavLink to="/smart-advisor">المستشار الذكي</NavLink>
             <NavLink to="/offers">العروض</NavLink>
             <NavLink to="/academy">أكاديمية الحازم</NavLink>
+            <NavLink to="/virtual-kitchen">المطبخ الافتراضي</NavLink>
+            <NavLink to="/articles">المقالات</NavLink>
             <NavLink to="/transparency">مركز الشفافية</NavLink>
             <NavLink to="/support">خدمة العملاء</NavLink>
             <NavLink to="/suppliers">الموردون</NavLink>
@@ -609,68 +611,40 @@ function BrandDetailPage() {
 }
 
 function CatalogCenterPage() {
+  const [term, setTerm] = useState('');
+  const [category, setCategory] = useState('all');
+  const categoryNames: Record<string, string> = { ac: 'التكييف', tv: 'التلفزيونات', audio: 'الصوتيات', cookware: 'أواني الطهي', kitchen: 'أجهزة المطبخ', home: 'المنزل', appliances: 'الأجهزة المنزلية', 'small-appliances': 'الأجهزة الصغيرة', lighting: 'الإضاءة' };
+  const categories = Array.from(new Set(catalogMonitoringProducts.map((p) => p.categoryId))).sort();
+  const filtered = catalogMonitoringProducts.filter((p) => {
+    const matchesCategory = category === 'all' || p.categoryId === category;
+    const query = term.trim().toLocaleLowerCase();
+    const matchesTerm = !query || [p.name, p.model, p.sku, brands.find((b) => b.id === p.brandId)?.name ?? ''].some((v) => String(v ?? '').toLocaleLowerCase().includes(query));
+    return matchesCategory && matchesTerm;
+  });
   return (
     <div className="container page-block">
-      <h1>مركز الكتالوج</h1>
-      <p>قسمان منفصلان: المنتجات التي اجتازت بوابة التوثيق، وسجلات المصدر التي ما زالت قيد المراجعة. لا تُعرض السجلات غير المكتملة كمنتجات موثقة ولا تظهر لها أسعار شراء أو أزرار مقارنة.</p>
-      <section className="section-block">
-        <h2>المنتجات الموثقة ({catalogProducts.length})</h2>
-        {catalogProducts.length === 0 ? <div className="result-box" role="status">لا توجد أجهزة مستوفية لجميع شروط التوثيق حالياً.</div> : null}
-        <div className="cards-grid">
-          {catalogProducts.map((product) => <ProductCard key={product.id} product={product} />)}
-        </div>
+      <div className="page-heading"><span className="eyebrow">دليل الحازم</span><h1>كتالوج الأجهزة والأصناف</h1><p>تصفح منظم حسب القسم، وابحث بالاسم أو الماركة أو رقم الموديل. السجلات غير المكتملة محفوظة بوضوح كبيانات قيد التحقق.</p></div>
+      <section className="category-tiles" aria-label="أقسام الأجهزة">
+        {categories.map((id) => <button type="button" key={id} className={category === id ? 'category-tile active' : 'category-tile'} onClick={() => setCategory(category === id ? 'all' : id)}><strong>{categoryNames[id] || id}</strong><span>{catalogMonitoringProducts.filter((p) => p.categoryId === id).length} صنف</span></button>)}
+      </section>
+      <section className="catalog-toolbar">
+        <label className="catalog-search"><span>بحث في جميع الأصناف</span><input value={term} onChange={(e) => setTerm(e.target.value)} placeholder="اسم الجهاز، الماركة، أو رقم الموديل..." /></label>
+        <label className="catalog-filter"><span>القسم</span><select value={category} onChange={(e) => setCategory(e.target.value)}><option value="all">كل الأقسام</option>{categories.map((id) => <option key={id} value={id}>{categoryNames[id] || id}</option>)}</select></label>
       </section>
       <section className="section-block">
-        <h2>سجلات قيد التحقق ({catalogMonitoringProducts.length})</h2>
-        <div className="result-box monitoring-notice" role="note">
-          <strong>تنبيه قبل الشراء:</strong>
-          <p>هذه سجلات أولية مستوردة من قوائم ومصادر مختلفة. لم تكتمل بعد مطابقة الصورة والموديل والمواصفات والتوفر والضمان المحلي؛ لذلك لا تمثل توصية شراء أو عرض سعر معتمداً.</p>
-        </div>
-        <div className="monitoring-table-wrap">
-          <table className="monitoring-table">
-            <thead>
-              <tr><th>المنتج والتفاصيل الأولية</th><th>الفئة</th><th>الموديل / SKU</th><th>العلامة</th><th>حالة السجل</th><th>المصادر</th></tr>
-            </thead>
-            <tbody>
-              {catalogMonitoringProducts.map((product) => (
-                <tr key={product.id}>
-                  <td className="monitoring-product-cell">
-                    <div className="monitoring-product">
-                      <ImageWithFallback src={product.imageUrl} alt={product.name} className="monitoring-product-image" />
-                      <div className="monitoring-product-info">
-                        <strong>{product.name}</strong>
-                        <details className="monitoring-details">
-                          <summary>عرض الوصف والمواصفات المسجلة</summary>
-                          {product.description && !/(سعر|price|جنيه|EGP|خصم|discount)/i.test(product.description) ? <p>{product.description}</p> : <p>الوصف الأولي غير معروض هنا لأنه قد يتضمن بيانات سعرية أو تفاصيل لم تكتمل مراجعتها.</p>}
-                          <dl className="monitoring-specs">
-                            <div><dt>التوفر المسجل</dt><dd>{product.availability || 'غير محدد'}</dd></div>
-                            {product.warranty ? <div><dt>الضمان المسجل</dt><dd>{product.warranty}</dd></div> : null}
-                            {product.energyInformation ? <div><dt>معلومات الطاقة</dt><dd>{product.energyInformation}</dd></div> : null}
-                            {Object.entries(product.specifications ?? {}).filter(([label, value]) => !/(سعر|price|خصم|discount|جنيه|EGP)/i.test(`${label} ${value}`)).map(([label, value]) => (
-                              <div key={label}><dt>{label}</dt><dd>{value}</dd></div>
-                            ))}
-                          </dl>
-                          <small>هذه بيانات أولية من المصدر المسجل، وليست مواصفات معتمدة أو توصية شراء.</small>
-                        </details>
-                      </div>
-                    </div>
-                  </td>
-                  <td>{({ tv: 'تلفزيونات', audio: 'صوتيات', cookware: 'أواني طهي', kitchen: 'مطبخ', home: 'منزل', appliances: 'أجهزة منزلية', 'small-appliances': 'أجهزة منزلية صغيرة' } as Record<string, string>)[product.categoryId] || product.categoryId}</td>
-                  <td dir="ltr">{product.model || product.sku || 'غير محدد'}</td>
-                  <td>{brands.find((brand) => brand.id === product.brandId)?.name || product.brandId}</td>
-                  <td><span className="badge">{product.verificationStatus}</span><small className="monitoring-status-note">لا يجتاز جميع شروط النشر بعد</small></td>
-                  <td className="monitoring-source-links">
-                    {product.sourceUrl ? <a href={product.sourceUrl} target="_blank" rel="noreferrer">فتح مصدر المنتج</a> : <span>لا يوجد مصدر منتج مطابق بعد</span>}
-                    {product.imageSourceUrl ? <a href={product.imageSourceUrl} target="_blank" rel="noreferrer">مصدر الصورة</a> : null}
-                    {product.sourceCandidateUrl ? <a href={product.sourceCandidateUrl} target="_blank" rel="noreferrer">مصدر مرشح غير معتمد</a> : null}
-                    {product.imageCandidateUrl ? <a href={product.imageCandidateUrl} target="_blank" rel="noreferrer">صورة مرشحة غير معتمدة</a> : null}
-                  </td>
-                </tr>
-              ))}
-            </tbody>
-          </table>
-        </div>
+        <div className="catalog-results-heading"><h2>الأصناف قيد المراجعة</h2><strong>{filtered.length} صنف</strong></div>
+        <div className="result-box monitoring-notice" role="note"><strong>شفافية التوثيق:</strong><p>هذه السجلات ليست عروضاً مؤكدة ولا منتجات موثقة بالكامل. لا يتم اختلاق سعر أو صورة أو مواصفة ناقصة، ولا تتحول إلى توصية شراء قبل استيفاء شروط النشر.</p></div>
+        {filtered.length ? <div className="catalog-product-grid">{filtered.map((product) => (
+          <article className="catalog-monitor-card" key={product.id}>
+            <ImageWithFallback src={product.imageUrl} alt={product.name} className="catalog-monitor-image" />
+            <div className="catalog-monitor-body"><span className="badge">{categoryNames[product.categoryId] || product.categoryId}</span><h3>{product.name}</h3><p className="catalog-model" dir="ltr">{product.model || product.sku || 'الموديل غير مسجل'}</p><p>{brands.find((b) => b.id === product.brandId)?.name || product.brandId}</p><small>الحالة: {product.verificationStatus} — قيد التحقق</small>
+              <details className="monitoring-details"><summary>تفاصيل السجل والمواصفات</summary><p>{product.description || 'لا يوجد وصف مسجل'}</p><dl className="monitoring-specs"><div><dt>التوفر</dt><dd>{product.availability || 'غير محدد'}</dd></div>{product.warranty ? <div><dt>الضمان</dt><dd>{product.warranty}</dd></div> : null}{Object.entries(product.specifications ?? {}).map(([k,v])=><div key={k}><dt>{k}</dt><dd>{v}</dd></div>)}</dl></details>
+              <div className="catalog-source-links">{product.sourceUrl ? <a href={product.sourceUrl} target="_blank" rel="noreferrer">مصدر المنتج</a> : <span>مصدر غير مكتمل</span>}{product.imageSourceUrl ? <a href={product.imageSourceUrl} target="_blank" rel="noreferrer">مصدر الصورة</a> : null}</div>
+            </div>
+          </article>
+        ))}</div> : <div className="result-box">لا توجد نتائج مطابقة. غيّر عبارة البحث أو اختر كل الأقسام.</div>}
       </section>
+      <section className="section-block"><h2>المنتجات المستوفية لشروط التوثيق ({catalogProducts.length})</h2>{catalogProducts.length ? <div className="cards-grid">{catalogProducts.filter((p) => category === 'all' || p.categoryId === category).map((p) => <ProductCard key={p.id} product={p} />)}</div> : <div className="result-box">لا توجد منتجات مستوفية لشروط التوثيق الكامل حالياً. نواصل مراجعة السجلات دون اعتماد غير مستحق.</div>}</section>
     </div>
   );
 }
@@ -880,6 +854,8 @@ function App() {
         <Route path="/admin" element={<AdminPage />} />
         <Route path="/offers" element={<OffersPage />} />
         <Route path="/academy" element={<AcademyPage />} />
+        <Route path="/virtual-kitchen" element={<VirtualKitchenPage />} />
+        <Route path="/articles" element={<ArticlesPage />} />
         <Route path="/transparency" element={<TransparencyPage />} />
         <Route path="/support" element={<SupportPage />} />
         <Route path="/suppliers" element={<SuppliersPage />} />
