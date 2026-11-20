@@ -339,18 +339,15 @@ function NeedAssessmentPage() {
 function SmartSearchPage() {
   const [searchParams] = useSearchParams();
   const [term, setTerm] = useState(searchParams.get('term') ?? '');
-  const results = searchService.search({ term });
-
+  const [category, setCategory] = useState('all');
+  const allResults = searchService.search({ term });
+  const results = allResults.filter((product) => category === 'all' || product.categoryId === category);
   return (
     <div className="container page-block">
-      <h1>البحث الذكي</h1>
-      <div className="search-box search-large">
-        <input value={term} onChange={(e) => setTerm(e.target.value)} placeholder="ابحث عن منتج أو ماركة أو موديل" />
-      </div>
-
-      <div className="cards-grid">
-        {results.length ? results.map((product) => <ProductCard key={product.id} product={product} />) : <div className="feature-card" role="status">لا توجد منتجات موثقة تطابق البحث حالياً. يمكنك التواصل مع خدمة العملاء للاستفسار عن التوفر والسعر الحالي. <Link to="/support">خدمة العملاء</Link></div>}
-      </div>
+      <div className="page-heading"><span className="eyebrow">ابحث وافهم الاختيارات</span><h1>البحث في المنتجات الموثقة</h1><p>يدعم البحث الحالي مطابقة كلمات عربية وموديلات وماركات مسجلة، مع فلترة حسب الفئة. البحث الدلالي الكامل ما زال ضمن مراحل التطوير.</p></div>
+      <div className="search-toolbar"><div className="search-box search-large"><input value={term} onChange={(e) => setTerm(e.target.value)} placeholder="مثال: غسالة سامسونج 9 كيلو أو مكيف AUX" aria-label="ابحث عن منتج أو ماركة أو موديل" /></div><label>الفئة<select value={category} onChange={(e) => setCategory(e.target.value)}><option value="all">كل الفئات</option>{categoryList.map((item) => <option key={item.id} value={item.id}>{item.label}</option>)}</select></label></div>
+      <div className="search-result-heading"><strong>{results.length} نتيجة موثقة</strong><span>السجلات غير الموثقة محفوظة في مركز الكتالوج للمراجعة ولا تدخل نتائج الشراء.</span></div>
+      <div className="cards-grid">{results.length ? results.map((product) => <ProductCard key={product.id} product={product} />) : <div className="feature-card" role="status">لا توجد منتجات موثقة تطابق البحث والفئة المحددة حالياً. يمكنك مراجعة السجلات قيد التحقق أو طلب مساعدة بشرية للتحقق من الموديل والتوفر.<p><Link to="/catalog-center">مركز الكتالوج</Link> · <Link to="/support">خدمة العملاء</Link></p></div>}</div>
     </div>
   );
 }
