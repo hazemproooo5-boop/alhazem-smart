@@ -2141,7 +2141,8 @@ export const cairoSalesPrices: PriceRecord[] = [
     "sourceUrl": "",
     "priceDate": "2026-11-15",
     "verificationStatus": "Unverified",
-    "createdAt": "2026-11-15T00:00:00Z",
+    "createdAt": "2026-11-15T00:00:00Z"
+  },
   {
     "id": "cs-price-017-review-20261117",
     "productId": "cs-017",
@@ -2153,7 +2154,6 @@ export const cairoSalesPrices: PriceRecord[] = [
     "priceDate": "2026-11-17",
     "verificationStatus": "Partially Verified",
     "createdAt": "2026-11-20T00:00:00Z"
-  }
   },
   {
     "id": "cs-price-018",
