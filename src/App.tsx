@@ -9,13 +9,14 @@ import { verificationService } from './services/verificationService';
 import { searchService } from './services/searchService';
 import { catalogMonitoringProducts, catalogProducts } from './services/catalogService';
 
-const categoryList = [
-  { id: 'ac', label: 'AC' },
-  { id: 'appliances', label: 'Appliances' },
-  { id: 'kitchen', label: 'Kitchen' },
-  { id: 'household', label: 'Household' },
-  { id: 'lighting', label: 'Lighting' },
-];
+const categoryLabels: Record<string, string> = {
+  ac: 'التكييف', appliances: 'الأجهزة المنزلية', kitchen: 'أجهزة المطبخ', household: 'أجهزة المنزل',
+  lighting: 'الإضاءة', cookware: 'أواني الطهي', 'small-appliances': 'الأجهزة المنزلية الصغيرة',
+  tv: 'التلفزيونات', audio: 'الصوتيات', water: 'تنقية المياه', heating: 'التدفئة',
+};
+const categoryIds = Array.from(new Set([...catalogProducts, ...catalogMonitoringProducts].map((product) => product.categoryId))).sort();
+const categoryList = categoryIds.map((id) => ({ id, label: categoryLabels[id] || id }));
+
 
 function ImageWithFallback({ src, alt, className }: { src?: string; alt: string; className: string }) {
   return (
