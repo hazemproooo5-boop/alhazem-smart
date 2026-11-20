@@ -3746,6 +3746,41 @@ export const cairoSalesSmallApplianceProducts: Product[] = [
     "imageUrl": "https://briva-haus.de/wp-content/uploads/2024/06/mixer-1.png",
     "imageSourceUrl": "https://briva-haus.de/en/product/briva-blender-pro-2000/",
     "imageVerifiedDate": "2026-11-18"
+  }
+  ,
+  {
+    "id": "cs-090",
+    "name": "لمبة ليد كاندل باناسونيك 4 وات ضوء أصفر دافئ 3000K",
+    "slug": "cairo-sales-cs-090-panasonic-pbum15043-ex",
+    "brandId": "panasonic",
+    "manufacturerId": "panasonic-manufacturer",
+    "categoryId": "home",
+    "model": "PBUM15043-EX",
+    "sku": "PBUM15043-EX",
+    "description": "لمبة Panasonic Candle LED PBUM15043-EX بقدرة 4 وات وضوء أصفر دافئ 3000K وقاعدة E14؛ سجل منفصل للنسخة الصفراء التي كانت مدمجة سابقاً في وصف cs-063؛ لا تُحذف بيانات السجل الأصلي.",
+    "specifications": {"القدرة":"4 وات","نوع الإضاءة":"Candle LED","درجة اللون":"3000K أصفر دافئ","القاعدة":"E14"},
+    "availability": "يحتاج تأكيد التوفر لدى المورد",
+    "sourceUrl": "https://elghazawy.com/ar/product/38074270232144/Panasonic%2BCandle%2BLED%2BAllows%2BLamp%2C%2B4%2BWatt%2C%2BYellow%2BLight%2C%2BPBUM15043-EX",
+    "sourceType": "Unverified Market",
+    "verificationStatus": "Unverified",
+    "published": true,
+    "createdAt": "2026-11-18",
+    "updatedAt": "2026-11-18",
+    "imageUrl": ""
+  }
+];
+export const cairoSalesSmallAppliancePrices: PriceRecord[] = [
+  {
+    "id": "cs-price-078",
+    "productId": "cs-078",
+    "price": 1549,
+    "currency": "EGP",
+    "priceType": "Unverified Market Price",
+    "source": "Carrefour Egypt — صفحة Mienta BL1291G؛ السعر المعروض شامل ضريبة القيمة المضافة وغير معتمد كسعر ثابت",
+    "sourceUrl": "https://www.carrefouregypt.com/mafegy/en/blender/mienta-blender-bl1291g-700w-bk/p/674732",
+    "priceDate": "2026-11-17",
+    "verificationStatus": "Unverified",
+    "createdAt": "2026-11-15T00:00:00Z"
   },
   {
     "id": "cs-price-079",
@@ -3877,8 +3912,8 @@ export const cairoSalesSmallApplianceProducts: Product[] = [
     "sourceUrl": "",
     "priceDate": "2026-11-15",
     "verificationStatus": "Unverified",
-    "isHistorical": true,
     "createdAt": "2026-11-15T00:00:00Z"
+    "isHistorical": true,
   },
   {
     "id": "cs-price-004-20261118",
@@ -4322,7 +4357,7 @@ export const cairoSalesSmallApplianceProducts: Product[] = [
     "sourceUrl": "https://www.carrefouregypt.com/mafegy/en/blender/mienta-blender-bl1291g-700w-bk/p/674732",
     "priceDate": "2026-11-19",
     "verificationStatus": "Partially Verified",
-    "isHistorical": true,
+    "isHistorical": false,
     "createdAt": "2026-11-19T14:56:09Z"
   },
   {
