@@ -9,13 +9,14 @@ import { verificationService } from './services/verificationService';
 import { searchService } from './services/searchService';
 import { catalogMonitoringProducts, catalogProducts } from './services/catalogService';
 
-const categoryList = [
-  { id: 'ac', label: 'AC' },
-  { id: 'appliances', label: 'Appliances' },
-  { id: 'kitchen', label: 'Kitchen' },
-  { id: 'household', label: 'Household' },
-  { id: 'lighting', label: 'Lighting' },
-];
+const categoryLabels: Record<string, string> = {
+  ac: 'التكييف', appliances: 'الأجهزة المنزلية', kitchen: 'أجهزة المطبخ', household: 'أجهزة المنزل',
+  lighting: 'الإضاءة', cookware: 'أواني الطهي', 'small-appliances': 'الأجهزة المنزلية الصغيرة',
+  tv: 'التلفزيونات', audio: 'الصوتيات', water: 'تنقية المياه', heating: 'التدفئة',
+};
+const categoryIds = Array.from(new Set([...catalogProducts, ...catalogMonitoringProducts].map((product) => product.categoryId))).sort();
+const categoryList = categoryIds.map((id) => ({ id, label: categoryLabels[id] || id }));
+
 
 function ImageWithFallback({ src, alt, className }: { src?: string; alt: string; className: string }) {
   return (
@@ -84,6 +85,8 @@ function Layout({ children }: { children: ReactNode }) {
             <NavLink to="/smart-advisor">المستشار الذكي</NavLink>
             <NavLink to="/offers">العروض</NavLink>
             <NavLink to="/academy">أكاديمية الحازم</NavLink>
+            <NavLink to="/virtual-kitchen">المطبخ الافتراضي</NavLink>
+            <NavLink to="/articles">المقالات</NavLink>
             <NavLink to="/transparency">مركز الشفافية</NavLink>
             <NavLink to="/support">خدمة العملاء</NavLink>
             <NavLink to="/suppliers">الموردون</NavLink>
@@ -219,15 +222,16 @@ function HomePage() {
       </section>
 
       <section className="section-block">
-        <h2>الأجهزة المنزلية</h2>
-        <div className="cards-grid">
-          {catalogProducts.filter((product) => product.published).map((product) => (
-            <ProductCard key={product.id} product={product} />
-          ))}
+        <div className="section-heading-row"><div><h2>تصفح حسب القسم</h2><p>اختر فئة الجهاز للوصول إلى الأصناف والمنتجات المتاحة.</p></div><Link to="/catalog-center" className="secondary-button small">كل الأصناف</Link></div>
+        <div className="home-category-grid">
+          {categoryList.map((category) => <Link key={category.id} to={`/catalog-center?category=${category.id}`} className="home-category-card"><strong>{({ac:'التكييف',appliances:'الأجهزة المنزلية',kitchen:'أجهزة المطبخ',household:'أجهزة المنزل',lighting:'الإضاءة'} as Record<string,string>)[category.id] || category.label}</strong><span>{catalogMonitoringProducts.filter((p) => p.categoryId === category.id).length + catalogProducts.filter((p) => p.categoryId === category.id).length} سجل في قاعدة الكتالوج</span></Link>)}
         </div>
-        {catalogProducts.filter((product) => product.published).length === 0 ? <div className="result-box" role="status">لا توجد منتجات اجتازت التوثيق الكامل حتى الآن. نحتفظ بالسجلات الناقصة للمراجعة ولا نعرضها كمنتجات موثقة أو نختلق صوراً ومواصفات لها. <Link to="/support">تواصل معنا للاستفسار عن المنتجات المتاحة.</Link></div> : null}
       </section>
-
+      <section className="section-block">
+        <div className="section-heading-row"><h2>منتجات اجتازت التوثيق</h2><Link to="/catalog-center" className="secondary-button small">استكشف الكتالوج</Link></div>
+        <div className="cards-grid">{catalogProducts.filter((product) => product.published).slice(0, 6).map((product) => <ProductCard key={product.id} product={product} />)}</div>
+        {catalogProducts.filter((product) => product.published).length === 0 ? <div className="result-box" role="status">لا توجد منتجات اجتازت التوثيق الكامل حتى الآن. نحتفظ بالسجلات الناقصة للمراجعة ولا نعرضها كمنتجات موثقة.</div> : null}
+      </section>
       <section className="section-block">
         <h2>التكييف</h2>
         <div className="cards-grid">
@@ -315,34 +319,20 @@ function HomePage() {
 }
 
 function NeedAssessmentPage() {
-  const [state, setState] = useState({ room: 'غرفة نوم', people: 3, need: 'تبريد', budget: 20000 });
-
+  const [profile, setProfile] = useState<NeedProfile>({ category: 'ac', budget: 20000, occupants: 3, climate: 'متوسط' });
+  const { products: recommendations, explanations } = advisorService.recommend(profile);
   return (
     <div className="container page-block">
-      <h1>تقييم الاحتياج</h1>
-      <form className="panel-form">
-        <label>
-          نوع الغرفة
-          <input value={state.room} onChange={(e) => setState({ ...state, room: e.target.value })} />
-        </label>
-        <label>
-          عدد السكان
-          <input type="number" value={state.people} onChange={(e) => setState({ ...state, people: Number(e.target.value) })} />
-        </label>
-        <label>
-          الاحتياج
-          <input value={state.need} onChange={(e) => setState({ ...state, need: e.target.value })} />
-        </label>
-        <label>
-          الميزانية (جنيه)
-          <input type="number" value={state.budget} onChange={(e) => setState({ ...state, budget: Number(e.target.value) })} />
-        </label>
+      <div className="page-heading"><span className="eyebrow">خطوة قبل الاختيار</span><h1>تقييم الاحتياج</h1><p>أدخل احتياجك لنطبق قواعد المطابقة على المنتجات الموثقة وأسعارها الحديثة فقط. النتيجة ليست بديلاً عن مراجعة التفاصيل والمصدر.</p></div>
+      <form className="panel-form assessment-form" onSubmit={(event) => event.preventDefault()}>
+        <label>فئة الجهاز<select value={profile.category} onChange={(e) => setProfile({ ...profile, category: e.target.value })}><option value="all">كل الفئات</option>{categoryList.map((category) => <option key={category.id} value={category.id}>{category.label}</option>)}</select></label>
+        <label>الميزانية القصوى بالجنيه<input type="number" min="0" value={profile.budget ?? 0} onChange={(e) => setProfile({ ...profile, budget: Math.max(0, Number(e.target.value) || 0) })} /></label>
+        <label>عدد المستخدمين<input type="number" min="1" max="30" value={profile.occupants ?? 1} onChange={(e) => setProfile({ ...profile, occupants: Math.max(1, Number(e.target.value) || 1) })} /></label>
+        <label>طبيعة المكان<select value={profile.climate ?? 'متوسط'} onChange={(e) => setProfile({ ...profile, climate: e.target.value })}><option>متوسط</option><option>حار</option><option>رطب</option><option>معتدل</option></select></label>
       </form>
-
-      <div className="result-box">
-        <h3>ملخص احتياجك</h3>
-        <p>{state.room} • {state.people} أشخاص • {state.need} • {state.budget} جنيه</p>
-      </div>
+      <section className="section-block"><h2>نتيجة المطابقة الحالية</h2><div className="result-box"><ul>{explanations.map((item) => <li key={item}>{item}</li>)}</ul><p>تم تسجيل عدد المستخدمين وطبيعة المكان في نموذج الاحتياج؛ محرك المطابقة الحالي يستخدم الفئة والميزانية فقط، ولا يدّعي أنه نموذج ذكاء اصطناعي أو حساب هندسي.</p></div>
+        {recommendations.length ? <div className="cards-grid">{recommendations.map((product) => <ProductCard key={product.id} product={product} />)}</div> : <div className="result-box" role="status"><strong>لا توجد مطابقة موثقة بهذه الشروط الآن.</strong><p>لم نستخدم منتجات غير موثقة أو أسعاراً قديمة لإجبار نتيجة. يمكن طلب مساعدة بشرية للتحقق من الموديلات والتوفر.</p><Link to="/support" className="primary-button small">اطلب مساعدة الحازم</Link></div>}
+      </section>
     </div>
   );
 }
@@ -350,18 +340,15 @@ function NeedAssessmentPage() {
 function SmartSearchPage() {
   const [searchParams] = useSearchParams();
   const [term, setTerm] = useState(searchParams.get('term') ?? '');
-  const results = searchService.search({ term });
-
+  const [category, setCategory] = useState('all');
+  const allResults = searchService.search({ term });
+  const results = allResults.filter((product) => category === 'all' || product.categoryId === category);
   return (
     <div className="container page-block">
-      <h1>البحث الذكي</h1>
-      <div className="search-box search-large">
-        <input value={term} onChange={(e) => setTerm(e.target.value)} placeholder="ابحث عن منتج أو ماركة أو موديل" />
-      </div>
-
-      <div className="cards-grid">
-        {results.length ? results.map((product) => <ProductCard key={product.id} product={product} />) : <div className="feature-card" role="status">لا توجد منتجات موثقة تطابق البحث حالياً. يمكنك التواصل مع خدمة العملاء للاستفسار عن التوفر والسعر الحالي. <Link to="/support">خدمة العملاء</Link></div>}
-      </div>
+      <div className="page-heading"><span className="eyebrow">ابحث وافهم الاختيارات</span><h1>البحث في المنتجات الموثقة</h1><p>يدعم البحث الحالي مطابقة كلمات عربية وموديلات وماركات مسجلة، مع فلترة حسب الفئة. البحث الدلالي الكامل ما زال ضمن مراحل التطوير.</p></div>
+      <div className="search-toolbar"><div className="search-box search-large"><input value={term} onChange={(e) => setTerm(e.target.value)} placeholder="مثال: غسالة سامسونج 9 كيلو أو مكيف AUX" aria-label="ابحث عن منتج أو ماركة أو موديل" /></div><label>الفئة<select value={category} onChange={(e) => setCategory(e.target.value)}><option value="all">كل الفئات</option>{categoryList.map((item) => <option key={item.id} value={item.id}>{item.label}</option>)}</select></label></div>
+      <div className="search-result-heading"><strong>{results.length} نتيجة موثقة</strong><span>السجلات غير الموثقة محفوظة في مركز الكتالوج للمراجعة ولا تدخل نتائج الشراء.</span></div>
+      <div className="cards-grid">{results.length ? results.map((product) => <ProductCard key={product.id} product={product} />) : <div className="feature-card" role="status">لا توجد منتجات موثقة تطابق البحث والفئة المحددة حالياً. يمكنك مراجعة السجلات قيد التحقق أو طلب مساعدة بشرية للتحقق من الموديل والتوفر.<p><Link to="/catalog-center">مركز الكتالوج</Link> · <Link to="/support">خدمة العملاء</Link></p></div>}</div>
     </div>
   );
 }
@@ -412,72 +399,31 @@ function ProductDetailPage() {
 function ComparePage() {
   const [left, setLeft] = useState(catalogProducts[0]?.id ?? '');
   const [right, setRight] = useState(catalogProducts[1]?.id ?? '');
-
   const productA = catalogProducts.find((item) => item.id === left);
   const productB = catalogProducts.find((item) => item.id === right);
-
+  const specKeys = Array.from(new Set([...(productA ? Object.keys(productA.specifications) : []), ...(productB ? Object.keys(productB.specifications) : [])])).sort();
+  const value = (product: Product, key: string) => product.specifications[key] || 'غير متوفر في البيانات الموثقة';
   return (
     <div className="container page-block">
-      <h1>مقارنة المنتجات</h1>
-      {catalogProducts.length < 2 ? (
-        <div className="result-box" role="status">
-          <strong>المقارنة غير متاحة حالياً</strong>
-          <p>{catalogProducts.length === 0
-            ? 'لا توجد منتجات موثقة متاحة للمقارنة حتى الآن.'
-            : 'يتوفر منتج موثق واحد فقط؛ نحتاج إلى منتجين موثقين على الأقل لإجراء مقارنة عادلة.'}</p>
-          <p>لن نعرض مقارنة ناقصة أو نستخدم بيانات غير متحققة لاستكمال الجدول.</p>
-          <Link to="/catalog-center" className="secondary-button small">عرض الكتالوج</Link>
-          <Link to="/support" className="primary-button small">اطلب المساعدة</Link>
+      <div className="page-heading"><span className="eyebrow">قرار مبني على البيانات</span><h1>المقارنة الذكية</h1><p>قارن البيانات المسجلة للمنتجين. نوضح المعلومات الناقصة بدلاً من تخمينها، ولا نعلن فائزاً مطلقاً.</p></div>
+      {catalogProducts.length < 2 ? <div className="result-box" role="status"><strong>المقارنة غير متاحة بعد</strong><p>يلزم وجود منتجين على الأقل اجتازا شروط التوثيق. لا نستخدم السجلات غير المكتملة لإجراء مقارنة مضللة.</p><Link to="/catalog-center" className="secondary-button small">عرض الكتالوج</Link></div> : <>
+        <div className="compare-controls">
+          <label>المنتج الأول<select value={left} onChange={(e) => setLeft(e.target.value)}>{catalogProducts.map((product) => <option key={product.id} value={product.id}>{product.name}</option>)}</select></label>
+          <label>المنتج الثاني<select value={right} onChange={(e) => setRight(e.target.value)}>{catalogProducts.map((product) => <option key={product.id} value={product.id}>{product.name}</option>)}</select></label>
         </div>
-      ) : (
-        <>
-          <div className="compare-controls">
-            <label>
-              المنتج الأول
-              <select aria-label="اختر المنتج الأول للمقارنة" value={left} onChange={(e) => setLeft(e.target.value)}>
-                {catalogProducts.map((product) => <option key={product.id} value={product.id}>{product.name}</option>)}
-              </select>
-            </label>
-            <label>
-              المنتج الثاني
-              <select aria-label="اختر المنتج الثاني للمقارنة" value={right} onChange={(e) => setRight(e.target.value)}>
-                {catalogProducts.map((product) => <option key={product.id} value={product.id}>{product.name}</option>)}
-              </select>
-            </label>
-          </div>
-
-          {productA && productB ? (
-            <table className="compare-table">
-              <thead>
-                <tr>
-                  <th>المعيار</th>
-                  <th>{productA.name}</th>
-                  <th>{productB.name}</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td>السعر وحالة التوثيق وتاريخ التسجيل</td>
-                  <td><PriceDisplay productId={productA.id} /></td>
-                  <td><PriceDisplay productId={productB.id} /></td>
-                </tr>
-                <tr>
-                  <td>استهلاك الطاقة</td>
-                  <td>{productA.energyInformation ?? 'غير متوفر في المصدر الموثق'}</td>
-                  <td>{productB.energyInformation ?? 'غير متوفر في المصدر الموثق'}</td>
-                </tr>
-                <tr>
-                  <td>الضمان</td>
-                  <td>{productA.warranty ?? 'غير متوفر في المصدر الموثق'}</td>
-                  <td>{productB.warranty ?? 'غير متوفر في المصدر الموثق'}</td>
-                </tr>
-              </tbody>
-            </table>
-          ) : (
-            <div className="result-box" role="status">اختر منتجين موثقين لإظهار المقارنة.</div>
-          )}
-        </>
-      )}
+        {productA && productB ? <div className="comparison-scroll"><table className="compare-table"><thead><tr><th>المعيار</th><th>{productA.name}</th><th>{productB.name}</th></tr></thead><tbody>
+          <tr><th>الماركة</th><td>{brands.find((b) => b.id === productA.brandId)?.name || 'غير محدد'}</td><td>{brands.find((b) => b.id === productB.brandId)?.name || 'غير محدد'}</td></tr>
+          <tr><th>الموديل</th><td>{productA.model}</td><td>{productB.model}</td></tr>
+          <tr><th>السعر وحالة التوثيق</th><td><PriceDisplay productId={productA.id} /></td><td><PriceDisplay productId={productB.id} /></td></tr>
+          <tr><th>السعة</th><td>{productA.capacity || 'غير متوفر في البيانات الموثقة'}</td><td>{productB.capacity || 'غير متوفر في البيانات الموثقة'}</td></tr>
+          <tr><th>الأبعاد</th><td>{productA.dimensions || 'غير متوفر في البيانات الموثقة'}</td><td>{productB.dimensions || 'غير متوفر في البيانات الموثقة'}</td></tr>
+          <tr><th>استهلاك الطاقة</th><td>{productA.energyInformation || 'غير متوفر في البيانات الموثقة'}</td><td>{productB.energyInformation || 'غير متوفر في البيانات الموثقة'}</td></tr>
+          <tr><th>الضمان</th><td>{productA.warranty || 'غير متوفر في البيانات الموثقة'}</td><td>{productB.warranty || 'غير متوفر في البيانات الموثقة'}</td></tr>
+          <tr><th>التوفر</th><td>{productA.availability}</td><td>{productB.availability}</td></tr>
+          {specKeys.map((key) => <tr key={key}><th>{key}</th><td>{value(productA,key)}</td><td>{value(productB,key)}</td></tr>)}
+        </tbody></table></div> : null}
+        <div className="result-box comparison-note"><strong>طريقة قراءة المقارنة</strong><p>البيانات غير المتاحة لا تعني أن المنتج أقل جودة. افحص احتياجك والضمان المحلي والخدمة وقطع الغيار، ثم راجع المصادر وتاريخ السعر قبل القرار.</p></div>
+      </>}
     </div>
   );
 }
@@ -609,68 +555,85 @@ function BrandDetailPage() {
 }
 
 function CatalogCenterPage() {
+  const [term, setTerm] = useState('');
+  const [catalogParams] = useSearchParams();
+  const [category, setCategory] = useState(catalogParams.get('category') ?? 'all');
+  const categoryNames: Record<string, string> = { ac: 'التكييف', tv: 'التلفزيونات', audio: 'الصوتيات', cookware: 'أواني الطهي', kitchen: 'أجهزة المطبخ', home: 'المنزل', appliances: 'الأجهزة المنزلية', 'small-appliances': 'الأجهزة الصغيرة', lighting: 'الإضاءة' };
+  const categories = Array.from(new Set(catalogMonitoringProducts.map((p) => p.categoryId))).sort();
+  const filtered = catalogMonitoringProducts.filter((p) => {
+    const matchesCategory = category === 'all' || p.categoryId === category;
+    const query = term.trim().toLocaleLowerCase();
+    const matchesTerm = !query || [p.name, p.model, p.sku, brands.find((b) => b.id === p.brandId)?.name ?? ''].some((v) => String(v ?? '').toLocaleLowerCase().includes(query));
+    return matchesCategory && matchesTerm;
+  });
   return (
     <div className="container page-block">
-      <h1>مركز الكتالوج</h1>
-      <p>قسمان منفصلان: المنتجات التي اجتازت بوابة التوثيق، وسجلات المصدر التي ما زالت قيد المراجعة. لا تُعرض السجلات غير المكتملة كمنتجات موثقة ولا تظهر لها أسعار شراء أو أزرار مقارنة.</p>
-      <section className="section-block">
-        <h2>المنتجات الموثقة ({catalogProducts.length})</h2>
-        {catalogProducts.length === 0 ? <div className="result-box" role="status">لا توجد أجهزة مستوفية لجميع شروط التوثيق حالياً.</div> : null}
-        <div className="cards-grid">
-          {catalogProducts.map((product) => <ProductCard key={product.id} product={product} />)}
-        </div>
+      <div className="page-heading"><span className="eyebrow">دليل الحازم</span><h1>كتالوج الأجهزة والأصناف</h1><p>تصفح منظم حسب القسم، وابحث بالاسم أو الماركة أو رقم الموديل. السجلات غير المكتملة محفوظة بوضوح كبيانات قيد التحقق.</p></div>
+      <section className="category-tiles" aria-label="أقسام الأجهزة">
+        {categories.map((id) => <button type="button" key={id} className={category === id ? 'category-tile active' : 'category-tile'} onClick={() => setCategory(category === id ? 'all' : id)}><strong>{categoryNames[id] || id}</strong><span>{catalogMonitoringProducts.filter((p) => p.categoryId === id).length} صنف</span></button>)}
+      </section>
+      <section className="catalog-toolbar">
+        <label className="catalog-search"><span>بحث في جميع الأصناف</span><input value={term} onChange={(e) => setTerm(e.target.value)} placeholder="اسم الجهاز، الماركة، أو رقم الموديل..." /></label>
+        <label className="catalog-filter"><span>القسم</span><select value={category} onChange={(e) => setCategory(e.target.value)}><option value="all">كل الأقسام</option>{categories.map((id) => <option key={id} value={id}>{categoryNames[id] || id}</option>)}</select></label>
       </section>
       <section className="section-block">
-        <h2>سجلات قيد التحقق ({catalogMonitoringProducts.length})</h2>
-        <div className="result-box monitoring-notice" role="note">
-          <strong>تنبيه قبل الشراء:</strong>
-          <p>هذه سجلات أولية مستوردة من قوائم ومصادر مختلفة. لم تكتمل بعد مطابقة الصورة والموديل والمواصفات والتوفر والضمان المحلي؛ لذلك لا تمثل توصية شراء أو عرض سعر معتمداً.</p>
-        </div>
-        <div className="monitoring-table-wrap">
-          <table className="monitoring-table">
-            <thead>
-              <tr><th>المنتج والتفاصيل الأولية</th><th>الفئة</th><th>الموديل / SKU</th><th>العلامة</th><th>حالة السجل</th><th>المصادر</th></tr>
-            </thead>
-            <tbody>
-              {catalogMonitoringProducts.map((product) => (
-                <tr key={product.id}>
-                  <td className="monitoring-product-cell">
-                    <div className="monitoring-product">
-                      <ImageWithFallback src={product.imageUrl} alt={product.name} className="monitoring-product-image" />
-                      <div className="monitoring-product-info">
-                        <strong>{product.name}</strong>
-                        <details className="monitoring-details">
-                          <summary>عرض الوصف والمواصفات المسجلة</summary>
-                          {product.description && !/(سعر|price|جنيه|EGP|خصم|discount)/i.test(product.description) ? <p>{product.description}</p> : <p>الوصف الأولي غير معروض هنا لأنه قد يتضمن بيانات سعرية أو تفاصيل لم تكتمل مراجعتها.</p>}
-                          <dl className="monitoring-specs">
-                            <div><dt>التوفر المسجل</dt><dd>{product.availability || 'غير محدد'}</dd></div>
-                            {product.warranty ? <div><dt>الضمان المسجل</dt><dd>{product.warranty}</dd></div> : null}
-                            {product.energyInformation ? <div><dt>معلومات الطاقة</dt><dd>{product.energyInformation}</dd></div> : null}
-                            {Object.entries(product.specifications ?? {}).filter(([label, value]) => !/(سعر|price|خصم|discount|جنيه|EGP)/i.test(`${label} ${value}`)).map(([label, value]) => (
-                              <div key={label}><dt>{label}</dt><dd>{value}</dd></div>
-                            ))}
-                          </dl>
-                          <small>هذه بيانات أولية من المصدر المسجل، وليست مواصفات معتمدة أو توصية شراء.</small>
-                        </details>
-                      </div>
-                    </div>
-                  </td>
-                  <td>{({ tv: 'تلفزيونات', audio: 'صوتيات', cookware: 'أواني طهي', kitchen: 'مطبخ', home: 'منزل', appliances: 'أجهزة منزلية', 'small-appliances': 'أجهزة منزلية صغيرة' } as Record<string, string>)[product.categoryId] || product.categoryId}</td>
-                  <td dir="ltr">{product.model || product.sku || 'غير محدد'}</td>
-                  <td>{brands.find((brand) => brand.id === product.brandId)?.name || product.brandId}</td>
-                  <td><span className="badge">{product.verificationStatus}</span><small className="monitoring-status-note">لا يجتاز جميع شروط النشر بعد</small></td>
-                  <td className="monitoring-source-links">
-                    {product.sourceUrl ? <a href={product.sourceUrl} target="_blank" rel="noreferrer">فتح مصدر المنتج</a> : <span>لا يوجد مصدر منتج مطابق بعد</span>}
-                    {product.imageSourceUrl ? <a href={product.imageSourceUrl} target="_blank" rel="noreferrer">مصدر الصورة</a> : null}
-                    {product.sourceCandidateUrl ? <a href={product.sourceCandidateUrl} target="_blank" rel="noreferrer">مصدر مرشح غير معتمد</a> : null}
-                    {product.imageCandidateUrl ? <a href={product.imageCandidateUrl} target="_blank" rel="noreferrer">صورة مرشحة غير معتمدة</a> : null}
-                  </td>
-                </tr>
-              ))}
-            </tbody>
-          </table>
-        </div>
+        <div className="catalog-results-heading"><h2>الأصناف قيد المراجعة</h2><strong>{filtered.length} صنف</strong></div>
+        <div className="result-box monitoring-notice" role="note"><strong>شفافية التوثيق:</strong><p>هذه السجلات ليست عروضاً مؤكدة ولا منتجات موثقة بالكامل. لا يتم اختلاق سعر أو صورة أو مواصفة ناقصة، ولا تتحول إلى توصية شراء قبل استيفاء شروط النشر.</p></div>
+        {filtered.length ? <div className="catalog-product-grid">{filtered.map((product) => (
+          <article className="catalog-monitor-card" key={product.id}>
+            <ImageWithFallback src={product.imageUrl} alt={product.name} className="catalog-monitor-image" />
+            <div className="catalog-monitor-body"><span className="badge">{categoryNames[product.categoryId] || product.categoryId}</span><h3>{product.name}</h3><p className="catalog-model" dir="ltr">{product.model || product.sku || 'الموديل غير مسجل'}</p><p>{brands.find((b) => b.id === product.brandId)?.name || product.brandId}</p><small>الحالة: {product.verificationStatus} — قيد التحقق</small>
+              <details className="monitoring-details"><summary>تفاصيل السجل والمواصفات</summary><p>{product.description || 'لا يوجد وصف مسجل'}</p><dl className="monitoring-specs"><div><dt>التوفر</dt><dd>{product.availability || 'غير محدد'}</dd></div>{product.warranty ? <div><dt>الضمان</dt><dd>{product.warranty}</dd></div> : null}{Object.entries(product.specifications ?? {}).map(([k,v])=><div key={k}><dt>{k}</dt><dd>{v}</dd></div>)}</dl></details>
+              <div className="catalog-source-links">{product.sourceUrl ? <a href={product.sourceUrl} target="_blank" rel="noreferrer">مصدر المنتج</a> : <span>مصدر غير مكتمل</span>}{product.imageSourceUrl ? <a href={product.imageSourceUrl} target="_blank" rel="noreferrer">مصدر الصورة</a> : null}</div>
+            </div>
+          </article>
+        ))}</div> : <div className="result-box">لا توجد نتائج مطابقة. غيّر عبارة البحث أو اختر كل الأقسام.</div>}
       </section>
+      <section className="section-block"><h2>المنتجات المستوفية لشروط التوثيق ({catalogProducts.length})</h2>{catalogProducts.length ? <div className="cards-grid">{catalogProducts.filter((p) => category === 'all' || p.categoryId === category).map((p) => <ProductCard key={p.id} product={p} />)}</div> : <div className="result-box">لا توجد منتجات مستوفية لشروط التوثيق الكامل حالياً. نواصل مراجعة السجلات دون اعتماد غير مستحق.</div>}</section>
+    </div>
+  );
+}
+
+
+function VirtualKitchenPage() {
+  const [width, setWidth] = useState(3.6);
+  const [depth, setDepth] = useState(2.4);
+  const [layout, setLayout] = useState('L');
+  const [selected, setSelected] = useState<string[]>(['ثلاجة', 'فرن', 'حوض', 'بوتاجاز']);
+  const items = [{ name: 'ثلاجة', w: 0.8 }, { name: 'فرن', w: 0.6 }, { name: 'بوتاجاز', w: 0.6 }, { name: 'حوض', w: 0.8 }, { name: 'غسالة أطباق', w: 0.6 }, { name: 'غسالة ملابس', w: 0.65 }, { name: 'وحدة تخزين', w: 0.9 }, { name: 'ميكروويف', w: 0.55 }];
+  const used = items.filter((item) => selected.includes(item.name)).reduce((sum, item) => sum + item.w, 0);
+  const run = layout === 'U' ? width + depth * 2 : layout === 'L' ? width + depth : width;
+  return (
+    <div className="container page-block">
+      <div className="page-heading"><span className="eyebrow">أداة تخطيط أولية</span><h1>المطبخ الافتراضي</h1><p>خطط توزيعاً مبدئياً للأجهزة والوحدات وفق أبعاد مطبخك. هذا تصور تخطيطي وليس رسماً هندسياً تنفيذياً.</p></div>
+      <div className="kitchen-planner">
+        <section className="kitchen-controls"><h2>الأبعاد والتوزيع</h2>
+          <label>عرض الجدار الرئيسي بالمتر<input type="number" min="1" max="20" step="0.1" value={width} onChange={(e) => setWidth(Math.max(1, Number(e.target.value) || 1))} /></label>
+          <label>طول الجدار الجانبي بالمتر<input type="number" min="1" max="20" step="0.1" value={depth} onChange={(e) => setDepth(Math.max(1, Number(e.target.value) || 1))} /></label>
+          <label>شكل المطبخ<select value={layout} onChange={(e) => setLayout(e.target.value)}><option value="I">خطي</option><option value="L">حرف L</option><option value="U">حرف U</option></select></label>
+          <h3>الأجهزة والوحدات</h3>
+          {items.map((item) => <label className="kitchen-option" key={item.name}><input type="checkbox" checked={selected.includes(item.name)} onChange={(e) => setSelected((prev) => e.target.checked ? [...prev, item.name] : prev.filter((name) => name !== item.name))} />{item.name}<small>{item.w.toFixed(2)} م</small></label>)}
+        </section>
+        <section className="kitchen-preview"><h2>معاينة التوزيع</h2>
+          <div className={'kitchen-plan layout-' + layout}><div className="kitchen-run"><span>الجدار الرئيسي · {width.toFixed(1)} م</span>{selected.map((name) => <b key={name}>{name}</b>)}</div>{layout !== 'I' ? <div className="kitchen-run side-run"><span>الجدار الجانبي · {depth.toFixed(1)} م</span><b>سطح عمل</b><b>وحدات تخزين</b></div> : null}{layout === 'U' ? <div className="kitchen-run third-run"><span>الضلع المقابل</span><b>سطح تحضير</b></div> : null}</div>
+          <div className="kitchen-stats"><div><strong>{(width * depth).toFixed(1)} م²</strong><span>مساحة الأرضية التقديرية</span></div><div><strong>{used.toFixed(2)} م</strong><span>عرض العناصر المختارة</span></div><div><strong>{Math.max(0, run - used).toFixed(2)} م</strong><span>طول توزيع متبقٍ تقديري</span></div></div>
+          <p className="kitchen-note">يجب مراجعة الأبعاد الفعلية وفتحات الأبواب والتهوية والكهرباء والمياه والصرف مع فني مختص قبل التنفيذ.</p>
+          <Link to="/support" className="primary-button">اطلب مساعدة في تخطيط مطبخك</Link>
+        </section>
+      </div>
+    </div>
+  );
+}
+
+function ArticlesPage() {
+  const [term, setTerm] = useState('');
+  const articles = [...news.map((item) => ({ id: item.id, title: item.title, summary: item.summary, date: item.date, source: item.source, status: item.verificationStatus })), ...tips.map((item) => ({ id: item.id, title: item.title, summary: item.body, date: item.date, source: item.source, status: item.verificationStatus }))].filter((item) => [item.title, item.summary, item.source].join(' ').toLocaleLowerCase().includes(term.trim().toLocaleLowerCase()));
+  return (
+    <div className="container page-block">
+      <div className="page-heading"><span className="eyebrow">المعرفة قبل الشراء</span><h1>مقالات ونصائح الحازم</h1><p>محتوى إرشادي من البيانات المسجلة بالمشروع، مع إظهار حالة التوثيق والمصدر دون تقديم المواد غير المتحققة كحقائق مؤكدة.</p></div>
+      <div className="search-box"><input value={term} onChange={(e) => setTerm(e.target.value)} placeholder="ابحث في المقالات والنصائح..." aria-label="البحث في المقالات" /></div>
+      <div className="article-grid">{articles.map((item) => <article className="article-card" key={item.id}><small>{item.date} · {item.status}</small><h2>{item.title}</h2><p>{item.summary}</p><footer>المصدر المسجل: {item.source || 'غير محدد'}</footer></article>)}</div>
+      {articles.length === 0 ? <div className="result-box" role="status">لا توجد مواد مطابقة لبحثك.</div> : null}
     </div>
   );
 }
@@ -758,18 +721,20 @@ function OffersPage() {
 }
 
 function AcademyPage() {
+  const lessons = [
+    { id: 'need', title: 'ابدأ بتحديد الاحتياج', level: 'أساسيات', summary: 'حوّل رغبتك في الشراء إلى مواصفات قابلة للمقارنة.', points: ['حدد الاستخدام الأساسي وعدد المستخدمين.', 'قِس المكان وتحقق من الأبعاد ومسارات الحركة.', 'ضع ميزانية تشمل التركيب والتشغيل والصيانة.', 'اكتب الخصائص الضرورية وافصلها عن الخصائص الإضافية.'] },
+    { id: 'model', title: 'افهم رقم الموديل والنسخة', level: 'أساسيات', summary: 'تعلم لماذا لا يكفي تشابه الاسم التجاري لمطابقة جهازين.', points: ['اقرأ رقم الموديل كاملاً بما في ذلك اللاحقة.', 'طابق النسخة الإقليمية والسوق المستهدف.', 'راجع لوحة بيانات الجهاز ورقم المنتج عند الشراء.', 'لا تنقل مواصفات نسخة أجنبية إلى نسخة محلية دون دليل.'] },
+    { id: 'energy', title: 'اقرأ بطاقة الطاقة والتشغيل', level: 'تقييم', summary: 'افهم بيانات الاستهلاك وفق البطاقة الرسمية الخاصة بالموديل.', points: ['تحقق من معيار القياس والفترة التي يغطيها.', 'قارن أجهزة من الفئة والسعة نفسيهما.', 'احسب تكلفة التشغيل وفق تعريفة الكهرباء واستخدامك الفعلي.', 'لا تعتمد على وصف تسويقي مثل موفر للطاقة دون أرقام موثقة.'] },
+    { id: 'compare', title: 'قارن دون الانخداع بالمواصفات', level: 'تقييم', summary: 'وازن بين السعر والملاءمة والخدمة والضمان وما لا نعرفه.', points: ['قارن السعر بتاريخ ومصدر واضحين.', 'افصل بين الضمان المحلي وضمان الأسواق الأخرى.', 'اسأل عن توافر قطع الغيار ومراكز الخدمة.', 'سجل المعلومات الناقصة ولا تعتبرها صفراً أو ميزة.'] },
+    { id: 'source', title: 'تحقق من البائع والمصدر', level: 'ثقة', summary: 'ميّز بين صفحة الشركة ومصدر البيع المباشر.', points: ['افتح رابط المنتج وتأكد من أنه للموديل نفسه.', 'تحقق من هوية البائع وسياسة الاستبدال والاسترجاع.', 'اطلب عرض سعر مكتوباً يوضح الضرائب والتركيب.', 'احتفظ بالفاتورة والضمان ورقم الموديل.'] },
+    { id: 'after', title: 'ما بعد الشراء', level: 'ثقة', summary: 'جهّز مستنداتك وتابع التركيب والتشغيل والصيانة.', points: ['راجع الجهاز عند الاستلام وسجل أي تلف ظاهر.', 'طابق بيانات الفاتورة مع لوحة الجهاز.', 'احتفظ بإثبات التركيب والضمان.', 'سجل الملاحظات والتجربة الفعلية بعد الاستخدام.'] },
+  ];
   return (
     <div className="container page-block">
-      <h1>أكاديمية الحازم</h1>
-      <p>محتوى إرشادي أولي لمساعدتك على فهم احتياجك قبل الشراء.</p>
-      <div className="cards-grid">
-        {academyItems.map((item) => (
-          <article key={item.id} className="feature-card">
-            <h2>{item.title}</h2>
-            <p>{item.summary}</p>
-          </article>
-        ))}
-      </div>
+      <div className="page-heading"><span className="eyebrow">تعلم قبل أن تقرر</span><h1>أكاديمية الحازم</h1><p>مسارات تعليمية عملية تساعدك على تحديد احتياجك وقراءة مواصفات الأجهزة والتحقق من المصادر واتخاذ قرار واعٍ. المحتوى التمهيدي لا يحل محل دليل الموديل أو تعليمات الشركة المصنعة.</p></div>
+      <div className="academy-path-grid">{lessons.map((lesson, index) => <article className="academy-lesson" key={lesson.id}><div className="academy-lesson-meta"><span>الدرس {index + 1}</span><span>{lesson.level}</span></div><h2>{lesson.title}</h2><p>{lesson.summary}</p><details><summary>ابدأ الدرس</summary><ul>{lesson.points.map((point) => <li key={point}>{point}</li>)}</ul></details></article>)}</div>
+      <section className="section-block"><h2>مواد الأكاديمية المسجلة</h2><div className="cards-grid">{academyItems.map((item) => <article key={item.id} className="feature-card"><h3>{item.title}</h3><p>{item.summary}</p><small>مادة أولية تحتاج استكمالاً ومراجعة تحريرية ومصدرية</small></article>)}</div></section>
+      <div className="result-box"><strong>قاعدة الأكاديمية:</strong><p>لا تعتمد على نصيحة عامة وحدها في قرار فني أو سلامة تركيب. ارجع إلى دليل الموديل وتعليمات المصنع وفني مؤهل.</p></div>
     </div>
   );
 }
@@ -880,6 +845,8 @@ function App() {
         <Route path="/admin" element={<AdminPage />} />
         <Route path="/offers" element={<OffersPage />} />
         <Route path="/academy" element={<AcademyPage />} />
+        <Route path="/virtual-kitchen" element={<VirtualKitchenPage />} />
+        <Route path="/articles" element={<ArticlesPage />} />
         <Route path="/transparency" element={<TransparencyPage />} />
         <Route path="/support" element={<SupportPage />} />
         <Route path="/suppliers" element={<SuppliersPage />} />
