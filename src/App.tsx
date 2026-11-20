@@ -700,6 +700,9 @@ function AdminPage() {
         <p>هذه المعاينة تقرأ بيانات محلية أولية فقط. لا توجد هنا مصادقة أو صلاحيات إدارة أو اتصال بقاعدة بيانات إنتاجية؛ لذلك لا تُدخل بيانات حساسة ولا تعتبر هذه الصفحة لوحة إدارة محمية.</p>
       </div>
       <div className="cards-grid">
+        <div className="feature-card"><strong>إجمالي المنتجات المنشورة</strong><p>{summary.publishedProducts}</p></div>
+        <div className="feature-card"><strong>موديلات تحتاج استكمالاً</strong><p>{summary.missingModels}</p></div>
+        <div className="feature-card"><strong>حالة توفر تحتاج تأكيداً</strong><p>{summary.missingAvailability}</p></div>
         <div className="feature-card"><strong>صور غير متوفرة</strong><p>{summary.missingImages}</p></div>
         <div className="feature-card"><strong>مصادر غير متوفرة</strong><p>{summary.missingSources}</p></div>
         <div className="feature-card"><strong>مواصفات غير مكتملة</strong><p>{summary.missingSpecs}</p></div>
