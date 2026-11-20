@@ -4,7 +4,7 @@ export type EditorialArticle = {
   summary: string;
   category: string;
   readingMinutes: number;
-  sections: { heading: string; body: string; checklist?: string[] }[];
+  sections: { heading: string; body?: string; checklist?: string[] }[];
 };
 
 export const editorialArticles: EditorialArticle[] = [
