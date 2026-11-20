@@ -3912,7 +3912,7 @@ export const cairoSalesSmallAppliancePrices: PriceRecord[] = [
     "sourceUrl": "",
     "priceDate": "2026-11-15",
     "verificationStatus": "Unverified",
-    "createdAt": "2026-11-15T00:00:00Z"
+    "createdAt": "2026-11-15T00:00:00Z",
     "isHistorical": true,
   },
   {
