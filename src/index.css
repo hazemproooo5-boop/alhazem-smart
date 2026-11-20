@@ -566,3 +566,13 @@ img {
  .hero-card { grid-template-columns:1fr; padding:24px; }
  .section-heading-row { align-items:flex-start; flex-direction:column; }
 }
+
+.assessment-form { display:grid; grid-template-columns:repeat(auto-fit,minmax(210px,1fr)); gap:16px; }
+.assessment-form label,.search-toolbar label { display:grid; gap:8px; font-weight:700; }
+.assessment-form input,.assessment-form select,.search-toolbar select { width:100%; border:1px solid var(--border); border-radius:10px; padding:12px; font:inherit; background:#fff; }
+.search-toolbar { display:grid; grid-template-columns:minmax(0,2fr) minmax(180px,1fr); gap:14px; align-items:end; }
+.search-result-heading { display:flex; justify-content:space-between; flex-wrap:wrap; gap:10px; color:var(--muted); margin:16px 0; font-size:.9rem; }
+.comparison-scroll { overflow-x:auto; border-radius:16px; }
+.comparison-scroll .compare-table { min-width:720px; width:100%; }
+.comparison-note { margin-top:18px; }
+@media(max-width:760px){.search-toolbar{grid-template-columns:1fr}.search-result-heading{flex-direction:column}}
