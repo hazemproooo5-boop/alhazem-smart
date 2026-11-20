@@ -18,7 +18,7 @@ export const priceService = {
     if (!Number.isFinite(priceTimestamp)) return undefined;
 
     const ageInDays = (Date.now() - priceTimestamp) / (1000 * 60 * 60 * 24);
-    return ageInDays >= 0 && ageInDays <= maxAgeDays ? latest : undefined;
+    const enforcedMaxAgeDays = Math.min(maxAgeDays, PRICE_MAX_AGE_DAYS);\n    return ageInDays >= 0 && ageInDays <= enforcedMaxAgeDays ? latest : undefined;
   },
 };
 
