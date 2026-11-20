@@ -690,7 +690,8 @@ function ACPage() {
 }
 
 function AdminPage() {
-  const summary = verificationService.getDataQualitySummary().summary;
+  const audit = verificationService.getDataQualitySummary();
+  const summary = audit.summary;
 
   return (
     <div className="container page-block">
@@ -711,6 +712,29 @@ function AdminPage() {
         <div className="feature-card"><strong>أسعار قديمة</strong><p>{summary.stalePrices}</p></div>
         <div className="feature-card"><strong>أسعار غير موثقة بالكامل</strong><p>{summary.unverifiedPrices}</p></div>
       </div>
+      <section className="section-block">
+        <h2>قائمة العمل حسب المنتج ({audit.products.length})</h2>
+        <p>كل صف يعرض الفجوات المسجلة للمنتج حتى يمكن إغلاقها واحدة تلو الأخرى. ظهور المنتج هنا لا يعني اعتماده، ولا تُرفع حالة التوثيق تلقائياً.</p>
+        <div className="monitoring-table-wrap">
+          <table className="monitoring-table">
+            <thead>
+              <tr><th>معرّف المنتج</th><th>المنتج / الموديل</th><th>حالة التوثيق</th><th>حالة السعر</th><th>الفجوات المطلوب إغلاقها</th><th>المصادر</th></tr>
+            </thead>
+            <tbody>
+              {audit.products.map((product) => (
+                <tr key={product.id}>
+                  <td dir="ltr">{product.id}</td>
+                  <td><strong>{product.name}</strong><small dir="ltr">{product.model}</small></td>
+                  <td>{product.verificationStatus}</td>
+                  <td>{product.priceState}{product.latestPriceDate ? <small>{product.latestPriceDate}</small> : null}</td>
+                  <td>{product.issues.length ? product.issues.map((issue) => <small key={issue}>• {issue}<br /></small>) : 'لا توجد فجوات مسجلة في الفحص الآلي؛ يلزم استمرار المراجعة المصدرية.'}</td>
+                  <td>{product.sourceUrl ? <a href={product.sourceUrl} target="_blank" rel="noreferrer">مصدر المنتج</a> : 'مصدر غير مسجل'}{product.latestPriceSourceUrl ? <><br /><a href={product.latestPriceSourceUrl} target="_blank" rel="noreferrer">مصدر السعر</a></> : null}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      </section>
     </div>
   );
 }

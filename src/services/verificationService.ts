@@ -2,6 +2,8 @@ import { products, prices } from '../data/seed';
 
 const PRICE_MAX_AGE_DAYS = 30;
 const hasText = (value?: string): boolean => Boolean(value?.trim());
+const isPlaceholder = (value?: string, pattern?: RegExp): boolean =>
+  !hasText(value) || Boolean(pattern?.test(value ?? ''));
 
 export const verificationService = {
   getDataQualitySummary: () => {
@@ -22,53 +24,101 @@ export const verificationService = {
       }
     }
 
-    let missingPrices = 0;
-    let stalePrices = 0;
-    let unverifiedPrices = 0;
-
-    for (const product of publishedProducts) {
+    const auditRows = publishedProducts.map((product) => {
       const latestPrice = latestPriceByProduct.get(product.id);
-      if (!latestPrice) {
-        missingPrices += 1;
-        continue;
+      const issues: string[] = [];
+      if (isPlaceholder(product.model, /بدون كود موديل|غير محدد|غير متوفر|يلزم تأكيد|غير مؤكد/i)) {
+        issues.push('الموديل يحتاج استكمالاً أو مطابقة');
+      }
+      if (isPlaceholder(product.availability, /يحتاج تأكيد|غير محدد|غير متاح|غير مؤكد/i)) {
+        issues.push('حالة التوفر تحتاج تحققاً حديثاً');
+      }
+      if (!hasText(product.imageUrl)) issues.push('صورة المنتج غير مسجلة');
+      if (!hasText(product.sourceUrl)) issues.push('مصدر المنتج غير مسجل');
+      if (
+        Object.entries(product.specifications).length === 0
+        || Object.entries(product.specifications).some(([key, value]) => !hasText(key) || !hasText(value))
+      ) {
+        issues.push('المواصفات ناقصة أو بها حقول فارغة');
+      }
+      if (isPlaceholder(product.warranty, /غير محدد|غير متوفر|يحتاج تأكيد|غير مؤكد/i)) {
+        issues.push('الضمان غير موثق');
+      }
+      if (product.verificationStatus !== 'Verified') {
+        issues.push(`حالة التوثيق الحالية: ${product.verificationStatus}`);
       }
 
-      if (latestPrice.isHistorical || latestPrice.verificationStatus !== 'Verified') {
-        unverifiedPrices += 1;
+      let priceState = 'لا يوجد سجل سعر';
+      if (latestPrice) {
+        const timestamp = new Date(latestPrice.priceDate).getTime();
+        const ageInDays = Number.isFinite(timestamp)
+          ? (Date.now() - timestamp) / (1000 * 60 * 60 * 24)
+          : Number.POSITIVE_INFINITY;
+        const isStale = !Number.isFinite(timestamp) || ageInDays < 0 || ageInDays > PRICE_MAX_AGE_DAYS;
+        const isUnverified = latestPrice.isHistorical || latestPrice.verificationStatus !== 'Verified';
+        priceState = [
+          latestPrice.isHistorical ? 'تاريخي' : '',
+          isUnverified ? 'غير موثق' : '',
+          isStale ? 'قديم أو تاريخ غير صالح' : '',
+        ].filter(Boolean).join('، ') || 'حديث وموثق';
+        if (isUnverified) issues.push('أحدث سعر غير موثق أو تاريخي');
+        if (isStale) issues.push('أحدث سعر تجاوز 30 يوماً أو تاريخه غير صالح');
+      } else {
+        issues.push('لا يوجد سجل سعر');
       }
 
-      const timestamp = new Date(latestPrice.priceDate).getTime();
-      if (!Number.isFinite(timestamp)) {
-        stalePrices += 1;
-        continue;
-      }
+      return {
+        id: product.id,
+        name: product.name,
+        model: product.model || product.sku || 'غير محدد',
+        brandId: product.brandId,
+        verificationStatus: product.verificationStatus,
+        sourceUrl: product.sourceUrl,
+        latestPriceDate: latestPrice?.priceDate ?? '',
+        latestPriceSourceUrl: latestPrice?.sourceUrl ?? '',
+        priceState,
+        issues,
+      };
+    });
 
-      const ageInDays = (Date.now() - timestamp) / (1000 * 60 * 60 * 24);
-      if (ageInDays < 0 || ageInDays > PRICE_MAX_AGE_DAYS) {
-        stalePrices += 1;
-      }
-    }
+    const countIssues = (predicate: (product: (typeof publishedProducts)[number]) => boolean) =>
+      publishedProducts.filter(predicate).length;
+    const latestPrices = publishedProducts.map((product) => latestPriceByProduct.get(product.id)).filter(Boolean);
+    const missingPrices = publishedProducts.length - latestPrices.length;
+    const stalePrices = latestPrices.filter((price) => {
+      const timestamp = new Date(price!.priceDate).getTime();
+      const ageInDays = Number.isFinite(timestamp)
+        ? (Date.now() - timestamp) / (1000 * 60 * 60 * 24)
+        : Number.POSITIVE_INFINITY;
+      return !Number.isFinite(timestamp) || ageInDays < 0 || ageInDays > PRICE_MAX_AGE_DAYS;
+    }).length;
+    const unverifiedPrices = latestPrices.filter((price) =>
+      price!.isHistorical || price!.verificationStatus !== 'Verified',
+    ).length;
 
     return {
       summary: {
         publishedProducts: publishedProducts.length,
-        missingModels: publishedProducts.filter((product) =>
-          !hasText(product.model) || /بدون كود موديل|غير محدد|غير متوفر|يلزم تأكيد|غير مؤكد/i.test(product.model),
-        ).length,
-        missingAvailability: publishedProducts.filter((product) =>
-          !hasText(product.availability) || /يحتاج تأكيد|غير محدد|غير متاح|غير مؤكد/i.test(product.availability),
-        ).length,
-        missingImages: publishedProducts.filter((product) => !hasText(product.imageUrl)).length,
-        missingSources: publishedProducts.filter((product) => !hasText(product.sourceUrl)).length,
-        missingSpecs: publishedProducts.filter((product) =>
+        missingModels: countIssues((product) =>
+          isPlaceholder(product.model, /بدون كود موديل|غير محدد|غير متوفر|يلزم تأكيد|غير مؤكد/i),
+        ),
+        missingAvailability: countIssues((product) =>
+          isPlaceholder(product.availability, /يحتاج تأكيد|غير محدد|غير متاح|غير مؤكد/i),
+        ),
+        missingImages: countIssues((product) => !hasText(product.imageUrl)),
+        missingSources: countIssues((product) => !hasText(product.sourceUrl)),
+        missingSpecs: countIssues((product) =>
           Object.entries(product.specifications).length === 0
           || Object.entries(product.specifications).some(([key, value]) => !hasText(key) || !hasText(value)),
-        ).length,
-        missingWarranty: publishedProducts.filter((product) => !hasText(product.warranty)).length,
+        ),
+        missingWarranty: countIssues((product) =>
+          isPlaceholder(product.warranty, /غير محدد|غير متوفر|يحتاج تأكيد|غير مؤكد/i),
+        ),
         missingPrices,
         stalePrices,
         unverifiedPrices,
       },
+      products: auditRows,
     };
   },
 };
