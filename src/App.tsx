@@ -649,6 +649,50 @@ function CatalogCenterPage() {
   );
 }
 
+
+function VirtualKitchenPage() {
+  const [width, setWidth] = useState(3.6);
+  const [depth, setDepth] = useState(2.4);
+  const [layout, setLayout] = useState('L');
+  const [selected, setSelected] = useState<string[]>(['ثلاجة', 'فرن', 'حوض', 'بوتاجاز']);
+  const items = [{ name: 'ثلاجة', w: 0.8 }, { name: 'فرن', w: 0.6 }, { name: 'بوتاجاز', w: 0.6 }, { name: 'حوض', w: 0.8 }, { name: 'غسالة أطباق', w: 0.6 }, { name: 'غسالة ملابس', w: 0.65 }, { name: 'وحدة تخزين', w: 0.9 }, { name: 'ميكروويف', w: 0.55 }];
+  const used = items.filter((item) => selected.includes(item.name)).reduce((sum, item) => sum + item.w, 0);
+  const run = layout === 'U' ? width + depth * 2 : layout === 'L' ? width + depth : width;
+  return (
+    <div className="container page-block">
+      <div className="page-heading"><span className="eyebrow">أداة تخطيط أولية</span><h1>المطبخ الافتراضي</h1><p>خطط توزيعاً مبدئياً للأجهزة والوحدات وفق أبعاد مطبخك. هذا تصور تخطيطي وليس رسماً هندسياً تنفيذياً.</p></div>
+      <div className="kitchen-planner">
+        <section className="kitchen-controls"><h2>الأبعاد والتوزيع</h2>
+          <label>عرض الجدار الرئيسي بالمتر<input type="number" min="1" max="20" step="0.1" value={width} onChange={(e) => setWidth(Math.max(1, Number(e.target.value) || 1))} /></label>
+          <label>طول الجدار الجانبي بالمتر<input type="number" min="1" max="20" step="0.1" value={depth} onChange={(e) => setDepth(Math.max(1, Number(e.target.value) || 1))} /></label>
+          <label>شكل المطبخ<select value={layout} onChange={(e) => setLayout(e.target.value)}><option value="I">خطي</option><option value="L">حرف L</option><option value="U">حرف U</option></select></label>
+          <h3>الأجهزة والوحدات</h3>
+          {items.map((item) => <label className="kitchen-option" key={item.name}><input type="checkbox" checked={selected.includes(item.name)} onChange={(e) => setSelected((prev) => e.target.checked ? [...prev, item.name] : prev.filter((name) => name !== item.name))} />{item.name}<small>{item.w.toFixed(2)} م</small></label>)}
+        </section>
+        <section className="kitchen-preview"><h2>معاينة التوزيع</h2>
+          <div className={'kitchen-plan layout-' + layout}><div className="kitchen-run"><span>الجدار الرئيسي · {width.toFixed(1)} م</span>{selected.map((name) => <b key={name}>{name}</b>)}</div>{layout !== 'I' ? <div className="kitchen-run side-run"><span>الجدار الجانبي · {depth.toFixed(1)} م</span><b>سطح عمل</b><b>وحدات تخزين</b></div> : null}{layout === 'U' ? <div className="kitchen-run third-run"><span>الضلع المقابل</span><b>سطح تحضير</b></div> : null}</div>
+          <div className="kitchen-stats"><div><strong>{(width * depth).toFixed(1)} م²</strong><span>مساحة الأرضية التقديرية</span></div><div><strong>{used.toFixed(2)} م</strong><span>عرض العناصر المختارة</span></div><div><strong>{Math.max(0, run - used).toFixed(2)} م</strong><span>طول توزيع متبقٍ تقديري</span></div></div>
+          <p className="kitchen-note">يجب مراجعة الأبعاد الفعلية وفتحات الأبواب والتهوية والكهرباء والمياه والصرف مع فني مختص قبل التنفيذ.</p>
+          <Link to="/support" className="primary-button">اطلب مساعدة في تخطيط مطبخك</Link>
+        </section>
+      </div>
+    </div>
+  );
+}
+
+function ArticlesPage() {
+  const [term, setTerm] = useState('');
+  const articles = [...news.map((item) => ({ id: item.id, title: item.title, summary: item.summary, date: item.date, source: item.source, status: item.verificationStatus })), ...tips.map((item) => ({ id: item.id, title: item.title, summary: item.body, date: item.date, source: item.source, status: item.verificationStatus }))].filter((item) => [item.title, item.summary, item.source].join(' ').toLocaleLowerCase().includes(term.trim().toLocaleLowerCase()));
+  return (
+    <div className="container page-block">
+      <div className="page-heading"><span className="eyebrow">المعرفة قبل الشراء</span><h1>مقالات ونصائح الحازم</h1><p>محتوى إرشادي من البيانات المسجلة بالمشروع، مع إظهار حالة التوثيق والمصدر دون تقديم المواد غير المتحققة كحقائق مؤكدة.</p></div>
+      <div className="search-box"><input value={term} onChange={(e) => setTerm(e.target.value)} placeholder="ابحث في المقالات والنصائح..." aria-label="البحث في المقالات" /></div>
+      <div className="article-grid">{articles.map((item) => <article className="article-card" key={item.id}><small>{item.date} · {item.status}</small><h2>{item.title}</h2><p>{item.summary}</p><footer>المصدر المسجل: {item.source || 'غير محدد'}</footer></article>)}</div>
+      {articles.length === 0 ? <div className="result-box" role="status">لا توجد مواد مطابقة لبحثك.</div> : null}
+    </div>
+  );
+}
+
 function ACPage() {
   const airConditioners = catalogProducts.filter((product) => product.categoryId === 'ac');
   return (
