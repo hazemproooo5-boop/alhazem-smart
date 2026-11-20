@@ -613,7 +613,8 @@ function BrandDetailPage() {
 
 function CatalogCenterPage() {
   const [term, setTerm] = useState('');
-  const [category, setCategory] = useState('all');
+  const [catalogParams] = useSearchParams();
+  const [category, setCategory] = useState(catalogParams.get('category') ?? 'all');
   const categoryNames: Record<string, string> = { ac: 'التكييف', tv: 'التلفزيونات', audio: 'الصوتيات', cookware: 'أواني الطهي', kitchen: 'أجهزة المطبخ', home: 'المنزل', appliances: 'الأجهزة المنزلية', 'small-appliances': 'الأجهزة الصغيرة', lighting: 'الإضاءة' };
   const categories = Array.from(new Set(catalogMonitoringProducts.map((p) => p.categoryId))).sort();
   const filtered = catalogMonitoringProducts.filter((p) => {
@@ -777,18 +778,20 @@ function OffersPage() {
 }
 
 function AcademyPage() {
+  const lessons = [
+    { id: 'need', title: 'ابدأ بتحديد الاحتياج', level: 'أساسيات', summary: 'حوّل رغبتك في الشراء إلى مواصفات قابلة للمقارنة.', points: ['حدد الاستخدام الأساسي وعدد المستخدمين.', 'قِس المكان وتحقق من الأبعاد ومسارات الحركة.', 'ضع ميزانية تشمل التركيب والتشغيل والصيانة.', 'اكتب الخصائص الضرورية وافصلها عن الخصائص الإضافية.'] },
+    { id: 'model', title: 'افهم رقم الموديل والنسخة', level: 'أساسيات', summary: 'تعلم لماذا لا يكفي تشابه الاسم التجاري لمطابقة جهازين.', points: ['اقرأ رقم الموديل كاملاً بما في ذلك اللاحقة.', 'طابق النسخة الإقليمية والسوق المستهدف.', 'راجع لوحة بيانات الجهاز ورقم المنتج عند الشراء.', 'لا تنقل مواصفات نسخة أجنبية إلى نسخة محلية دون دليل.'] },
+    { id: 'energy', title: 'اقرأ بطاقة الطاقة والتشغيل', level: 'تقييم', summary: 'افهم بيانات الاستهلاك وفق البطاقة الرسمية الخاصة بالموديل.', points: ['تحقق من معيار القياس والفترة التي يغطيها.', 'قارن أجهزة من الفئة والسعة نفسيهما.', 'احسب تكلفة التشغيل وفق تعريفة الكهرباء واستخدامك الفعلي.', 'لا تعتمد على وصف تسويقي مثل موفر للطاقة دون أرقام موثقة.'] },
+    { id: 'compare', title: 'قارن دون الانخداع بالمواصفات', level: 'تقييم', summary: 'وازن بين السعر والملاءمة والخدمة والضمان وما لا نعرفه.', points: ['قارن السعر بتاريخ ومصدر واضحين.', 'افصل بين الضمان المحلي وضمان الأسواق الأخرى.', 'اسأل عن توافر قطع الغيار ومراكز الخدمة.', 'سجل المعلومات الناقصة ولا تعتبرها صفراً أو ميزة.'] },
+    { id: 'source', title: 'تحقق من البائع والمصدر', level: 'ثقة', summary: 'ميّز بين صفحة الشركة ومصدر البيع المباشر.', points: ['افتح رابط المنتج وتأكد من أنه للموديل نفسه.', 'تحقق من هوية البائع وسياسة الاستبدال والاسترجاع.', 'اطلب عرض سعر مكتوباً يوضح الضرائب والتركيب.', 'احتفظ بالفاتورة والضمان ورقم الموديل.'] },
+    { id: 'after', title: 'ما بعد الشراء', level: 'ثقة', summary: 'جهّز مستنداتك وتابع التركيب والتشغيل والصيانة.', points: ['راجع الجهاز عند الاستلام وسجل أي تلف ظاهر.', 'طابق بيانات الفاتورة مع لوحة الجهاز.', 'احتفظ بإثبات التركيب والضمان.', 'سجل الملاحظات والتجربة الفعلية بعد الاستخدام.'] },
+  ];
   return (
     <div className="container page-block">
-      <h1>أكاديمية الحازم</h1>
-      <p>محتوى إرشادي أولي لمساعدتك على فهم احتياجك قبل الشراء.</p>
-      <div className="cards-grid">
-        {academyItems.map((item) => (
-          <article key={item.id} className="feature-card">
-            <h2>{item.title}</h2>
-            <p>{item.summary}</p>
-          </article>
-        ))}
-      </div>
+      <div className="page-heading"><span className="eyebrow">تعلم قبل أن تقرر</span><h1>أكاديمية الحازم</h1><p>مسارات تعليمية عملية تساعدك على تحديد احتياجك وقراءة مواصفات الأجهزة والتحقق من المصادر واتخاذ قرار واعٍ. المحتوى التمهيدي لا يحل محل دليل الموديل أو تعليمات الشركة المصنعة.</p></div>
+      <div className="academy-path-grid">{lessons.map((lesson, index) => <article className="academy-lesson" key={lesson.id}><div className="academy-lesson-meta"><span>الدرس {index + 1}</span><span>{lesson.level}</span></div><h2>{lesson.title}</h2><p>{lesson.summary}</p><details><summary>ابدأ الدرس</summary><ul>{lesson.points.map((point) => <li key={point}>{point}</li>)}</ul></details></article>)}</div>
+      <section className="section-block"><h2>مواد الأكاديمية المسجلة</h2><div className="cards-grid">{academyItems.map((item) => <article key={item.id} className="feature-card"><h3>{item.title}</h3><p>{item.summary}</p><small>مادة أولية تحتاج استكمالاً ومراجعة تحريرية ومصدرية</small></article>)}</div></section>
+      <div className="result-box"><strong>قاعدة الأكاديمية:</strong><p>لا تعتمد على نصيحة عامة وحدها في قرار فني أو سلامة تركيب. ارجع إلى دليل الموديل وتعليمات المصنع وفني مؤهل.</p></div>
     </div>
   );
 }
