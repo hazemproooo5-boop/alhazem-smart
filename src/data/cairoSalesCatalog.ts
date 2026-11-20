@@ -3547,7 +3547,7 @@ export const cairoSalesSmallApplianceProducts: Product[] = [
     "categoryId": "appliances",
     "model": "TCG4104",
     "sku": "TCG4104",
-    "description": "شواية Bosch TCG4104؛ تمت مطابقة الموديل والمواصفات مع صفحة Bosch Egypt الرسمية. الصفحة المفتوحة في 19 نوفمبر تعرضه متاحاً للطلب مع VAT وضمان سنتين؛ تأكيد السعر والمخزون النهائي عند checkout مطلوب لأن الصفحة مفهرسة منذ أسبوع تقريباً.",
+    "description": "شواية Bosch TCG4104؛ تمت مطابقة الموديل والمواصفات والضمان مع صفحة Bosch Egypt الرسمية. صفحة المتجر الرسمية المفهرسة تعرض Out Of Stock، لذلك لا يُذكر توفر حالي حتى إعادة التحقق المباشر من المتجر أو مورد آخر.",
     "specifications": {
       "الصنف الفرعي": "شوايات",
       "القدرة": "2000 وات",
@@ -3557,7 +3557,7 @@ export const cairoSalesSmallApplianceProducts: Product[] = [
       "إعدادات الحرارة": "5",
       "الضمان": "سنتان"
     },
-    "availability": "صفحة Bosch Egypt الرسمية المفتوحة وقت التحقق 19 نوفمبر 2026 تعرض TCG4104 متاحاً للطلب، مع VAT، وتوصيل تقديري 5–7 أيام وضمان شامل سنتين. ملاحظة: الصفحة كانت مفهرسة قبل نحو أسبوع، لذا يلزم تأكيد السعر والمخزون عند إتمام الطلب. المصدر: https://www.bosch-home.com/eg/en/product/cookingandbaking/contactgrill/TCG4104",
+    "availability": "صفحة Bosch Egypt الرسمية المفهرسة تعرض TCG4104 بسعر 5,499 جنيه شاملاً VAT لكنها تعرض Out Of Stock. نتيجة الفهرسة قديمة نسبياً (نحو شهرين)، لذا لا تُعد إثباتاً للمخزون الحالي؛ يلزم فحص مباشر عند الشراء. توفر الموردين الآخرين غير مؤكد.",
     "warranty": "سنتان ضمان شامل وفق صفحة Bosch Egypt الرسمية.",
     "officialProductUrl": "https://www.bosch-home.com/eg/ar/product/cookingandbaking/contactgrill/TCG4104",
     "sourceUrl": "https://www.bosch-home.com/eg/ar/product/cookingandbaking/contactgrill/TCG4104",
@@ -3581,8 +3581,9 @@ export const cairoSalesSmallApplianceProducts: Product[] = [
     "sku": "TCG4215",
     "description": "شواية Bosch TCG4215؛ تمت مطابقة الموديل والمواصفات مع صفحة Bosch Egypt الرسمية. المتجر الرسمي يعرضها غير متاحة وقت آخر رصد، والسعر يحتاج إعادة تحقق.",
     "specifications": {"الصنف الفرعي":"شواية تلامسية","القدرة":"2000 وات","الجهد":"220–240 فولت","الأبعاد":"115 × 400 × 330 مم","سطح الشواء":"328 × 238 مم","ألواح الشواء":"لوحان معدنيان من الألومنيوم المصبوب","إعدادات الحرارة":"3 و5 درجات مع تحكم إضافي للوح العلوي","الضمان":"سنتان"},
-    "availability": "غير متاح بمتجر Bosch Egypt الإلكتروني وقت آخر رصد؛ توفر الموردين الآخرين غير مؤكد",
+    "availability": "صفحة Bosch Egypt الرسمية المفهرسة تعرض TCG4215 بحالة Out Of Stock وسعر 6,199 جنيه شامل VAT؛ اللقطة قديمة نسبياً (نحو شهرين) ولا تثبت المخزون الحالي. توفر الموردين الآخرين غير مؤكد.",
     "officialProductUrl": "https://www.bosch-home.com/eg/ar/product/cookingandbaking/contactgrill/TCG4215",
+    "warranty": "سنتان ضمان شامل وفق صفحة Bosch Egypt الرسمية.",
     "sourceUrl": "https://www.bosch-home.com/eg/ar/product/cookingandbaking/contactgrill/TCG4215",
     "sourceType": "Official",
     "verificationStatus": "Unverified",
