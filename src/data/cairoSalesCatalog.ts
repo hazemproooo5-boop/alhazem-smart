@@ -380,7 +380,7 @@ export const cairoSalesProducts: Product[] = [
     "categoryId": "tv",
     "model": "OLED65B66LA",
     "sku": "OLED65B66LA",
-    "description": "تلفزيون LG OLED AI B6 موديل OLED65B66LA؛ الموديل والمواصفات الأساسية مطابقة لصفحة LG مصر الرسمية وصفحة Aghezty المباشرة. Aghezty يعرض وحدة متاحة وسعراً شاملاً لضريبة القيمة المضافة؛ مدة الضمان غير محددة في صفحة البائع.",
+    "description": "تلفزيون LG OLED AI B6 موديل OLED65B66LA؛ الموديل والمواصفات الأساسية مطابقة لصفحة LG مصر الرسمية. صفحة Aghezty المباشرة تعرض الموديل نفسه، لكن بيانات السعر والمخزون ظهرت بقيم متباينة في صفحات المتجر المفهرسة، لذلك لا نعتمدها كسعر أو توفر حالي قبل إعادة الفحص المباشر.",
     "specifications": {
       "نوع الشاشة": "OLED",
       "المقاس": "65 بوصة",
@@ -393,10 +393,11 @@ export const cairoSalesProducts: Product[] = [
       "منافذ HDMI": "3",
       "منافذ USB": "1"
     },
-    "warranty": "ضمان من الوكيل الرسمي بحسب صفحة Aghezty؛ مدة الضمان غير محددة في صفحة البائع.",
-    "availability": "متوفر لدى Aghezty وقت التحقق: In stock – ships now. الصفحة تذكر التوصيل إلى جميع المحافظات؛ الكمية غير معلنة.",
+    "warranty": "مدة الضمان وشروط الوكيل غير محددة بوضوح في صفحة المنتج المتاحة؛ يلزم تأكيدها من البائع والوكيل قبل الشراء.",
+    "availability": "حالة المخزون الحالية غير مؤكدة؛ ظهرت صفحات Aghezty المفهرسة للموديل نفسه ببيانات متباينة، ويلزم التحقق المباشر من البائع قبل عرض التوفر كحقيقة حالية.",
     "officialProductUrl": "https://www.lg.com/eg_ar/tv-soundbars/oled/oled65b66la/",
     "sourceUrl": "https://www.lg.com/eg_ar/tv-soundbars/oled/oled65b66la/",
+    "sourceCandidateUrl": "https://mail.aghezty.com/en/products/TVs/LG-65-Inch-4K-UHD-AI-B6-Smart-TVMagic-RemoteBuilt-In-Receiver-OLED65B66LA-29871/",
     "sourceType": "Official",
     "verificationStatus": "Unverified",
     "published": true,
