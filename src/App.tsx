@@ -221,15 +221,16 @@ function HomePage() {
       </section>
 
       <section className="section-block">
-        <h2>الأجهزة المنزلية</h2>
-        <div className="cards-grid">
-          {catalogProducts.filter((product) => product.published).map((product) => (
-            <ProductCard key={product.id} product={product} />
-          ))}
+        <div className="section-heading-row"><div><h2>تصفح حسب القسم</h2><p>اختر فئة الجهاز للوصول إلى الأصناف والمنتجات المتاحة.</p></div><Link to="/catalog-center" className="secondary-button small">كل الأصناف</Link></div>
+        <div className="home-category-grid">
+          {categoryList.map((category) => <Link key={category.id} to={`/catalog-center?category=${category.id}`} className="home-category-card"><strong>{({ac:'التكييف',appliances:'الأجهزة المنزلية',kitchen:'أجهزة المطبخ',household:'أجهزة المنزل',lighting:'الإضاءة'} as Record<string,string>)[category.id] || category.label}</strong><span>{catalogMonitoringProducts.filter((p) => p.categoryId === category.id).length + catalogProducts.filter((p) => p.categoryId === category.id).length} سجل في قاعدة الكتالوج</span></Link>)}
         </div>
-        {catalogProducts.filter((product) => product.published).length === 0 ? <div className="result-box" role="status">لا توجد منتجات اجتازت التوثيق الكامل حتى الآن. نحتفظ بالسجلات الناقصة للمراجعة ولا نعرضها كمنتجات موثقة أو نختلق صوراً ومواصفات لها. <Link to="/support">تواصل معنا للاستفسار عن المنتجات المتاحة.</Link></div> : null}
       </section>
-
+      <section className="section-block">
+        <div className="section-heading-row"><h2>منتجات اجتازت التوثيق</h2><Link to="/catalog-center" className="secondary-button small">استكشف الكتالوج</Link></div>
+        <div className="cards-grid">{catalogProducts.filter((product) => product.published).slice(0, 6).map((product) => <ProductCard key={product.id} product={product} />)}</div>
+        {catalogProducts.filter((product) => product.published).length === 0 ? <div className="result-box" role="status">لا توجد منتجات اجتازت التوثيق الكامل حتى الآن. نحتفظ بالسجلات الناقصة للمراجعة ولا نعرضها كمنتجات موثقة.</div> : null}
+      </section>
       <section className="section-block">
         <h2>التكييف</h2>
         <div className="cards-grid">
