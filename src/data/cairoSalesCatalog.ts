@@ -753,9 +753,10 @@ export const cairoSalesProducts: Product[] = [
     "sku": "98U9000H",
     "description": "تلفزيون Samsung Crystal UHD U9000H مقاس 98 بوصة؛ تمت مطابقة الموديل والمقاس والمواصفات الأساسية مع صفحة Samsung Egypt الرسمية. لا يعتمد السعر الظاهر خارج مصر كسعر محلي.",
     "specifications": {"نوع الشاشة":"Crystal UHD LED","المقاس":"98 بوصة","الدقة":"3840 × 2160 (4K)","معدل التحديث":"144Hz مع VRR","المعالج":"NQ4 AI Gen2","النظام":"Tizen","الصوت":"OTS Lite وQ-Symphony","السلسلة":"U9000H 2026"},
-    "availability": "متاح لدى Carrefour Egypt وقت التحقق 18 نوفمبر 2026؛ صفحة المنتج المطابقة لـ98U9000H تعرض وحدتين متبقيتين والسعر الحالي 104,666 جنيه شامل VAT. رابط البائع: https://www.carrefouregypt.com/mafegy/en/lifestyle-tv/samsung-led-tv98-98u9000h-sm-uhd-rc/p/687963",
+    "availability": "صفحة Carrefour Egypt للموديل المطابق 98U9000H تعرض سعراً 104,666 جنيه شاملاً VAT. لقطات الصفحة المفهرسة اختلفت في المخزون بين وحدة ووحدتين متبقيتين؛ لذلك يظل العدد والتوفر النهائي بحاجة إلى تأكيد عند إتمام الطلب. آخر رصد موثق للصفحة 17 نوفمبر 2026.",
     "officialProductUrl": "https://www.samsung.com/eg/tvs/uhd-4k-tv/u9000h-98-inch-crystal-uhd-4k-smart-tv-ua98u9000huxeg/",
     "sourceUrl": "https://www.samsung.com/eg/tvs/uhd-4k-tv/u9000h-98-inch-crystal-uhd-4k-smart-tv-ua98u9000huxeg/",
+    "sourceCandidateUrl": "https://www.carrefouregypt.com/mafegy/ar/lifestyle-tv/samsung-led-tv98-98u9000h-sm-uhd-rc/p/687963",
     "sourceType": "Official",
     "verificationStatus": "Unverified",
     "published": true,
@@ -2141,6 +2142,18 @@ export const cairoSalesPrices: PriceRecord[] = [
     "priceDate": "2026-11-15",
     "verificationStatus": "Unverified",
     "createdAt": "2026-11-15T00:00:00Z"
+  },
+  {
+    "id": "cs-price-017-review-20261117",
+    "productId": "cs-017",
+    "price": 104666,
+    "currency": "EGP",
+    "priceType": "Trusted Market Price",
+    "source": "Carrefour Egypt — صفحة المنتج المباشرة للموديل 98U9000H؛ السعر شامل ضريبة القيمة المضافة. رصد الصفحة المفهرس 17 نوفمبر 2026، ويحتاج إعادة تأكيد قبل الشراء.",
+    "sourceUrl": "https://www.carrefouregypt.com/mafegy/ar/lifestyle-tv/samsung-led-tv98-98u9000h-sm-uhd-rc/p/687963",
+    "priceDate": "2026-11-17",
+    "verificationStatus": "Partially Verified",
+    "createdAt": "2026-11-20T00:00:00Z"
   },
   {
     "id": "cs-price-018",
