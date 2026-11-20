@@ -1,7 +1,7 @@
 import { PriceRecord } from '../types';
 import { prices } from '../data/seed';
 
-const PRICE_MAX_AGE_DAYS = 30;
+const PRICE_MAX_AGE_DAYS = 2;
 
 export const priceService = {
   getLatest: (productId: string): PriceRecord | undefined => {
