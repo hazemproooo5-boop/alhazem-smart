@@ -318,34 +318,20 @@ function HomePage() {
 }
 
 function NeedAssessmentPage() {
-  const [state, setState] = useState({ room: 'غرفة نوم', people: 3, need: 'تبريد', budget: 20000 });
-
+  const [profile, setProfile] = useState<NeedProfile>({ category: 'ac', budget: 20000, occupants: 3, climate: 'متوسط' });
+  const { products: recommendations, explanations } = advisorService.recommend(profile);
   return (
     <div className="container page-block">
-      <h1>تقييم الاحتياج</h1>
-      <form className="panel-form">
-        <label>
-          نوع الغرفة
-          <input value={state.room} onChange={(e) => setState({ ...state, room: e.target.value })} />
-        </label>
-        <label>
-          عدد السكان
-          <input type="number" value={state.people} onChange={(e) => setState({ ...state, people: Number(e.target.value) })} />
-        </label>
-        <label>
-          الاحتياج
-          <input value={state.need} onChange={(e) => setState({ ...state, need: e.target.value })} />
-        </label>
-        <label>
-          الميزانية (جنيه)
-          <input type="number" value={state.budget} onChange={(e) => setState({ ...state, budget: Number(e.target.value) })} />
-        </label>
+      <div className="page-heading"><span className="eyebrow">خطوة قبل الاختيار</span><h1>تقييم الاحتياج</h1><p>أدخل احتياجك لنطبق قواعد المطابقة على المنتجات الموثقة وأسعارها الحديثة فقط. النتيجة ليست بديلاً عن مراجعة التفاصيل والمصدر.</p></div>
+      <form className="panel-form assessment-form" onSubmit={(event) => event.preventDefault()}>
+        <label>فئة الجهاز<select value={profile.category} onChange={(e) => setProfile({ ...profile, category: e.target.value })}><option value="all">كل الفئات</option>{categoryList.map((category) => <option key={category.id} value={category.id}>{category.label}</option>)}</select></label>
+        <label>الميزانية القصوى بالجنيه<input type="number" min="0" value={profile.budget ?? 0} onChange={(e) => setProfile({ ...profile, budget: Math.max(0, Number(e.target.value) || 0) })} /></label>
+        <label>عدد المستخدمين<input type="number" min="1" max="30" value={profile.occupants ?? 1} onChange={(e) => setProfile({ ...profile, occupants: Math.max(1, Number(e.target.value) || 1) })} /></label>
+        <label>طبيعة المكان<select value={profile.climate ?? 'متوسط'} onChange={(e) => setProfile({ ...profile, climate: e.target.value })}><option>متوسط</option><option>حار</option><option>رطب</option><option>معتدل</option></select></label>
       </form>
-
-      <div className="result-box">
-        <h3>ملخص احتياجك</h3>
-        <p>{state.room} • {state.people} أشخاص • {state.need} • {state.budget} جنيه</p>
-      </div>
+      <section className="section-block"><h2>نتيجة المطابقة الحالية</h2><div className="result-box"><ul>{explanations.map((item) => <li key={item}>{item}</li>)}</ul><p>تم تسجيل عدد المستخدمين وطبيعة المكان في نموذج الاحتياج؛ محرك المطابقة الحالي يستخدم الفئة والميزانية فقط، ولا يدّعي أنه نموذج ذكاء اصطناعي أو حساب هندسي.</p></div>
+        {recommendations.length ? <div className="cards-grid">{recommendations.map((product) => <ProductCard key={product.id} product={product} />)}</div> : <div className="result-box" role="status"><strong>لا توجد مطابقة موثقة بهذه الشروط الآن.</strong><p>لم نستخدم منتجات غير موثقة أو أسعاراً قديمة لإجبار نتيجة. يمكن طلب مساعدة بشرية للتحقق من الموديلات والتوفر.</p><Link to="/support" className="primary-button small">اطلب مساعدة الحازم</Link></div>}
+      </section>
     </div>
   );
 }
@@ -415,72 +401,31 @@ function ProductDetailPage() {
 function ComparePage() {
   const [left, setLeft] = useState(catalogProducts[0]?.id ?? '');
   const [right, setRight] = useState(catalogProducts[1]?.id ?? '');
-
   const productA = catalogProducts.find((item) => item.id === left);
   const productB = catalogProducts.find((item) => item.id === right);
-
+  const specKeys = Array.from(new Set([...(productA ? Object.keys(productA.specifications) : []), ...(productB ? Object.keys(productB.specifications) : [])])).sort();
+  const value = (product: Product, key: string) => product.specifications[key] || 'غير متوفر في البيانات الموثقة';
   return (
     <div className="container page-block">
-      <h1>مقارنة المنتجات</h1>
-      {catalogProducts.length < 2 ? (
-        <div className="result-box" role="status">
-          <strong>المقارنة غير متاحة حالياً</strong>
-          <p>{catalogProducts.length === 0
-            ? 'لا توجد منتجات موثقة متاحة للمقارنة حتى الآن.'
-            : 'يتوفر منتج موثق واحد فقط؛ نحتاج إلى منتجين موثقين على الأقل لإجراء مقارنة عادلة.'}</p>
-          <p>لن نعرض مقارنة ناقصة أو نستخدم بيانات غير متحققة لاستكمال الجدول.</p>
-          <Link to="/catalog-center" className="secondary-button small">عرض الكتالوج</Link>
-          <Link to="/support" className="primary-button small">اطلب المساعدة</Link>
+      <div className="page-heading"><span className="eyebrow">قرار مبني على البيانات</span><h1>المقارنة الذكية</h1><p>قارن البيانات المسجلة للمنتجين. نوضح المعلومات الناقصة بدلاً من تخمينها، ولا نعلن فائزاً مطلقاً.</p></div>
+      {catalogProducts.length < 2 ? <div className="result-box" role="status"><strong>المقارنة غير متاحة بعد</strong><p>يلزم وجود منتجين على الأقل اجتازا شروط التوثيق. لا نستخدم السجلات غير المكتملة لإجراء مقارنة مضللة.</p><Link to="/catalog-center" className="secondary-button small">عرض الكتالوج</Link></div> : <>
+        <div className="compare-controls">
+          <label>المنتج الأول<select value={left} onChange={(e) => setLeft(e.target.value)}>{catalogProducts.map((product) => <option key={product.id} value={product.id}>{product.name}</option>)}</select></label>
+          <label>المنتج الثاني<select value={right} onChange={(e) => setRight(e.target.value)}>{catalogProducts.map((product) => <option key={product.id} value={product.id}>{product.name}</option>)}</select></label>
         </div>
-      ) : (
-        <>
-          <div className="compare-controls">
-            <label>
-              المنتج الأول
-              <select aria-label="اختر المنتج الأول للمقارنة" value={left} onChange={(e) => setLeft(e.target.value)}>
-                {catalogProducts.map((product) => <option key={product.id} value={product.id}>{product.name}</option>)}
-              </select>
-            </label>
-            <label>
-              المنتج الثاني
-              <select aria-label="اختر المنتج الثاني للمقارنة" value={right} onChange={(e) => setRight(e.target.value)}>
-                {catalogProducts.map((product) => <option key={product.id} value={product.id}>{product.name}</option>)}
-              </select>
-            </label>
-          </div>
-
-          {productA && productB ? (
-            <table className="compare-table">
-              <thead>
-                <tr>
-                  <th>المعيار</th>
-                  <th>{productA.name}</th>
-                  <th>{productB.name}</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td>السعر وحالة التوثيق وتاريخ التسجيل</td>
-                  <td><PriceDisplay productId={productA.id} /></td>
-                  <td><PriceDisplay productId={productB.id} /></td>
-                </tr>
-                <tr>
-                  <td>استهلاك الطاقة</td>
-                  <td>{productA.energyInformation ?? 'غير متوفر في المصدر الموثق'}</td>
-                  <td>{productB.energyInformation ?? 'غير متوفر في المصدر الموثق'}</td>
-                </tr>
-                <tr>
-                  <td>الضمان</td>
-                  <td>{productA.warranty ?? 'غير متوفر في المصدر الموثق'}</td>
-                  <td>{productB.warranty ?? 'غير متوفر في المصدر الموثق'}</td>
-                </tr>
-              </tbody>
-            </table>
-          ) : (
-            <div className="result-box" role="status">اختر منتجين موثقين لإظهار المقارنة.</div>
-          )}
-        </>
-      )}
+        {productA && productB ? <div className="comparison-scroll"><table className="compare-table"><thead><tr><th>المعيار</th><th>{productA.name}</th><th>{productB.name}</th></tr></thead><tbody>
+          <tr><th>الماركة</th><td>{brands.find((b) => b.id === productA.brandId)?.name || 'غير محدد'}</td><td>{brands.find((b) => b.id === productB.brandId)?.name || 'غير محدد'}</td></tr>
+          <tr><th>الموديل</th><td>{productA.model}</td><td>{productB.model}</td></tr>
+          <tr><th>السعر وحالة التوثيق</th><td><PriceDisplay productId={productA.id} /></td><td><PriceDisplay productId={productB.id} /></td></tr>
+          <tr><th>السعة</th><td>{productA.capacity || 'غير متوفر في البيانات الموثقة'}</td><td>{productB.capacity || 'غير متوفر في البيانات الموثقة'}</td></tr>
+          <tr><th>الأبعاد</th><td>{productA.dimensions || 'غير متوفر في البيانات الموثقة'}</td><td>{productB.dimensions || 'غير متوفر في البيانات الموثقة'}</td></tr>
+          <tr><th>استهلاك الطاقة</th><td>{productA.energyInformation || 'غير متوفر في البيانات الموثقة'}</td><td>{productB.energyInformation || 'غير متوفر في البيانات الموثقة'}</td></tr>
+          <tr><th>الضمان</th><td>{productA.warranty || 'غير متوفر في البيانات الموثقة'}</td><td>{productB.warranty || 'غير متوفر في البيانات الموثقة'}</td></tr>
+          <tr><th>التوفر</th><td>{productA.availability}</td><td>{productB.availability}</td></tr>
+          {specKeys.map((key) => <tr key={key}><th>{key}</th><td>{value(productA,key)}</td><td>{value(productB,key)}</td></tr>)}
+        </tbody></table></div> : null}
+        <div className="result-box comparison-note"><strong>طريقة قراءة المقارنة</strong><p>البيانات غير المتاحة لا تعني أن المنتج أقل جودة. افحص احتياجك والضمان المحلي والخدمة وقطع الغيار، ثم راجع المصادر وتاريخ السعر قبل القرار.</p></div>
+      </>}
     </div>
   );
 }
