@@ -485,3 +485,52 @@ img {
 .monitoring-status-note { display: block; margin-top: 5px; color: var(--muted); max-width: 150px; }
 .monitoring-source-links { display: flex; flex-direction: column; gap: 7px; min-width: 140px; }
 .monitoring-source-links span { color: var(--muted); font-size: .85rem; }
+
+/* Platform information architecture and responsive catalog */
+.page-heading { margin-bottom: 28px; }
+.page-heading h1 { margin: 4px 0 10px; font-size: clamp(2rem,4vw,3rem); color: var(--navy); }
+.page-heading p { color: var(--muted); line-height: 1.9; max-width: 850px; }
+.category-tiles { display:grid; grid-template-columns:repeat(auto-fit,minmax(150px,1fr)); gap:12px; margin:28px 0; }
+.category-tile { display:grid; gap:8px; text-align:right; padding:18px; border:1px solid var(--border); border-radius:16px; background:#fff; cursor:pointer; color:var(--navy); font:inherit; }
+.category-tile span { color:var(--muted); font-size:.85rem; }
+.category-tile.active { border-color:var(--gold); background:#fff9e9; box-shadow:0 0 0 2px rgba(199,149,41,.12); }
+.catalog-toolbar { display:grid; grid-template-columns:2fr 1fr; gap:14px; padding:18px; background:#fff; border:1px solid var(--border); border-radius:18px; }
+.catalog-toolbar label { display:grid; gap:8px; font-weight:700; }
+.catalog-toolbar input,.catalog-toolbar select,.kitchen-controls input,.kitchen-controls select { width:100%; border:1px solid var(--border); border-radius:10px; padding:12px; font:inherit; background:#fff; }
+.catalog-results-heading { display:flex; align-items:center; justify-content:space-between; gap:12px; }
+.catalog-results-heading strong { color:var(--muted); }
+.catalog-product-grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(265px,1fr)); gap:16px; }
+.catalog-monitor-card { background:#fff; border:1px solid var(--border); border-radius:18px; overflow:hidden; box-shadow:0 10px 24px var(--shadow); }
+.catalog-monitor-image { height:175px; width:100%; background:#f0f1f3; }
+.catalog-monitor-body { padding:16px; }
+.catalog-monitor-body h3 { margin:4px 0 8px; line-height:1.55; }
+.catalog-monitor-body p { color:var(--muted); line-height:1.65; }
+.catalog-model { direction:ltr; text-align:right; font-size:.88rem; }
+.catalog-monitor-body details { margin-top:12px; }
+.catalog-source-links { display:flex; gap:14px; flex-wrap:wrap; margin-top:14px; }
+.catalog-source-links a { color:#8a641b; text-decoration:underline; font-weight:700; }
+.catalog-source-links span { color:var(--muted); font-size:.85rem; }
+.kitchen-planner { display:grid; grid-template-columns:minmax(260px,.8fr) minmax(0,1.6fr); gap:20px; align-items:start; }
+.kitchen-controls,.kitchen-preview { background:#fff; border:1px solid var(--border); border-radius:18px; padding:20px; }
+.kitchen-controls { display:grid; gap:14px; }
+.kitchen-controls label { display:grid; gap:7px; font-weight:700; }
+.kitchen-option { display:flex!important; grid-template-columns:auto 1fr auto; align-items:center; gap:10px!important; font-weight:500!important; }
+.kitchen-option input { width:auto; }
+.kitchen-option small { color:var(--muted); }
+.kitchen-plan { position:relative; min-height:300px; margin:18px 0; padding:18px; border:2px dashed #d5d9e0; border-radius:16px; background:#f7f7f4; display:flex; flex-direction:column; justify-content:flex-start; gap:10px; }
+.kitchen-run { display:flex; flex-wrap:wrap; gap:8px; padding:14px; background:#e9e2d3; border:2px solid #bcae94; border-radius:10px; min-height:78px; align-items:center; }
+.kitchen-run span { width:100%; font-size:.8rem; color:#655a48; }
+.kitchen-run b { background:#fff; border:1px solid #d9d3c7; border-radius:8px; padding:9px 12px; font-size:.85rem; }
+.layout-L .side-run { width:58%; align-self:flex-end; }
+.layout-U .side-run { width:100%; }
+.layout-U .third-run { width:58%; }
+.kitchen-stats { display:grid; grid-template-columns:repeat(3,1fr); gap:10px; }
+.kitchen-stats div { background:#f7f5ef; border-radius:12px; padding:14px; display:grid; gap:6px; }
+.kitchen-stats strong { color:var(--navy); font-size:1.25rem; }
+.kitchen-stats span,.kitchen-note { color:var(--muted); font-size:.85rem; line-height:1.7; }
+.article-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(260px,1fr)); gap:16px; margin-top:22px; }
+.article-card { background:#fff; border:1px solid var(--border); border-radius:18px; padding:20px; box-shadow:0 10px 24px var(--shadow); }
+.article-card h2 { font-size:1.2rem; line-height:1.6; }
+.article-card p { line-height:1.8; color:var(--muted); }
+.article-card footer { border-top:1px solid var(--border); padding-top:12px; font-size:.82rem; color:var(--muted); }
+@media(max-width:760px){.catalog-toolbar,.kitchen-planner{grid-template-columns:1fr}.kitchen-stats{grid-template-columns:1fr}.category-tiles{grid-template-columns:repeat(2,minmax(0,1fr))}}
