@@ -1113,7 +1113,7 @@ export const cairoSalesProducts: Product[] = [
             "الملحقات": "مقشر ثوم وقرص خفق",
             "الضمان الوارد في صفحة البائع": "سنتان"
         },
-        "availability": "متاح لدى Carrefour Egypt وقت التحقق 18 نوفمبر 2026؛ قائمة Mienta المباشرة تعرض موديل CH23838A بسعر 999 جنيه شامل VAT وتذكر بقاء وحدتين. قد يتغير المخزون عند إتمام الطلب.",
+        "availability": "لقطة Carrefour Egypt المفهرسة بتاريخ 20 نوفمبر 2026 تعرض الموديل CH23838A بسعر 999 جنيه تقريباً شامل ضريبة القيمة المضافة، مع إشارة إلى بقاء وحدتين. ظهرت أيضاً لقطة صفحة المنتج بحالة نفاد المخزون؛ لذلك حالة المخزون متضاربة بين اللقطات ولا يُؤكد التوفر الحالي قبل إتمام الطلب. صفحة البائع تذكر ضمان سنتين.",
         "sourceUrl": "https://www.carrefouregypt.com/mafegy/en/chopper/mienta-chopper-ch23838a-450w-1-5l/p/601775",
         "sourceType": "Unverified Market",
         "verificationStatus": "Unverified",
