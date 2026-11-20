@@ -576,3 +576,15 @@ img {
 .comparison-scroll .compare-table { min-width:720px; width:100%; }
 .comparison-note { margin-top:18px; }
 @media(max-width:760px){.search-toolbar{grid-template-columns:1fr}.search-result-heading{flex-direction:column}}
+
+.article-library-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(290px,1fr)); gap:18px; margin-top:20px; }
+.article-card { display:flex; flex-direction:column; gap:10px; padding:22px; border:1px solid var(--border); border-radius:18px; background:#fff; box-shadow:0 10px 24px var(--shadow); }
+.article-card h2 { font-size:1.2rem; line-height:1.65; margin:0; }
+.article-card p { line-height:1.9; color:var(--muted); }
+.article-meta { display:flex; justify-content:space-between; flex-wrap:wrap; gap:8px; color:#8a641b; font-size:.82rem; font-weight:700; }
+.article-reader { border-top:1px solid var(--border); padding-top:12px; }
+.article-reader summary { cursor:pointer; font-weight:700; color:var(--navy); }
+.article-reader section { padding-top:10px; }
+.article-reader h3 { font-size:1rem; margin:8px 0; }
+.article-reader li { margin:7px 0; line-height:1.7; color:var(--muted); }
+.article-card footer { margin-top:auto; padding-top:10px; border-top:1px solid var(--border); color:var(--muted); font-size:.82rem; }
