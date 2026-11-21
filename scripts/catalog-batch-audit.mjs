@@ -38,8 +38,6 @@ const priceIds = [
   ...catalogPriceBlocks.map(block => read(block, 'id')),
 ].filter(Boolean);
 const duplicatePriceIds = [...new Set(priceIds.filter((id, index) => priceIds.indexOf(id) !== index))];
-const productIds = rows.map(row => row.id).filter(Boolean);
-const duplicateProductIds = [...new Set(productIds.filter((id, index) => productIds.indexOf(id) !== index))];
 const rows = [
   ...seedProductBlocks.map(block => ({
     id: readSeed(block, 'id'),
@@ -68,6 +66,8 @@ const rows = [
   hasSpecifications: /"specifications"\s*:\s*\{\s*"/.test(block),
   })),
 ];
+const productIds = rows.map(row => row.id).filter(Boolean);
+const duplicateProductIds = [...new Set(productIds.filter((id, index) => productIds.indexOf(id) !== index))];
 const brandSection = brandSource.match(/export const brandDirectoryNames: string\[\] = \[([\s\S]*?)\];/);
 if (!brandSection) throw new Error('brandDirectoryNames declaration not found');
 const brandNames = [...brandSection[1].matchAll(/^\s*"([^"]+)",?\s*$/gm)].map(match => match[1]);
