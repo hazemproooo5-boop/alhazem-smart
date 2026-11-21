@@ -30,7 +30,7 @@ export const verificationService = {
       if (isPlaceholder(product.model, /بدون كود موديل|غير محدد|غير متوفر|يلزم تأكيد|غير مؤكد/i)) {
         issues.push('الموديل يحتاج استكمالاً أو مطابقة');
       }
-      if (isPlaceholder(product.availability, /يحتاج تأكيد|غير محدد|غير متاح|غير مؤكد/i)) {
+      if (isPlaceholder(product.availability, /يحتاج تأكيد|غير محدد|غير متاح|غير متوفر|غير مؤكد/i)) {
         issues.push('حالة التوفر تحتاج تحققاً حديثاً');
       }
       if (!hasText(product.imageUrl)) issues.push('صورة المنتج غير مسجلة');
@@ -103,7 +103,7 @@ export const verificationService = {
           isPlaceholder(product.model, /بدون كود موديل|غير محدد|غير متوفر|يلزم تأكيد|غير مؤكد/i),
         ),
         missingAvailability: countIssues((product) =>
-          isPlaceholder(product.availability, /يحتاج تأكيد|غير محدد|غير متاح|غير مؤكد/i),
+          isPlaceholder(product.availability, /يحتاج تأكيد|غير محدد|غير متاح|غير متوفر|غير مؤكد/i),
         ),
         missingImages: countIssues((product) => !hasText(product.imageUrl)),
         missingSources: countIssues((product) => !hasText(product.sourceUrl)),
