@@ -38,6 +38,8 @@ const priceIds = [
   ...catalogPriceBlocks.map(block => read(block, 'id')),
 ].filter(Boolean);
 const duplicatePriceIds = [...new Set(priceIds.filter((id, index) => priceIds.indexOf(id) !== index))];
+const productIds = rows.map(row => row.id).filter(Boolean);
+const duplicateProductIds = [...new Set(productIds.filter((id, index) => productIds.indexOf(id) !== index))];
 const rows = [
   ...seedProductBlocks.map(block => ({
     id: readSeed(block, 'id'),
@@ -88,6 +90,7 @@ const summary = {
   priceHistoryRecords: priceBlocks.length,
   uniquePriceRecordIds: new Set(priceIds).size,
   duplicatePriceIds,
+  duplicateProductIds,
   seedProductAudit: {
     total: seedProductBlocks.length,
     published: rows.filter(row => row.id.startsWith('prod-') && row.published).length,
@@ -130,3 +133,6 @@ const columns = ['id','name','brandId','categoryId','model','verificationStatus'
 const csv = [columns.join(','), ...rows.map(row => columns.map(key => '"' + String(row[key] ?? '').replaceAll('"','""') + '"').join(','))].join('\n');
 fs.writeFileSync(path.join(outDir, 'catalog-audit.csv'), csv + '\n');
 console.log(JSON.stringify(summary, null, 2));
+if (duplicatePriceIds.length || duplicateProductIds.length) {
+  throw new Error(`Catalog integrity failure: duplicate price IDs (${duplicatePriceIds.join(', ')}) or product IDs (${duplicateProductIds.join(', ')})`);
+}
