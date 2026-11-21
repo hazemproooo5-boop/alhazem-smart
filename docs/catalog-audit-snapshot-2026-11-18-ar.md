@@ -1,6 +1,6 @@
 # لقطة تدقيق الكتالوج — تحديث 21 نوفمبر 2026
 
-مصدر الأرقام: تشغيل `npm run audit:catalog` على main SHA `d2548dd32c561e97381c08dd25713cde927f1ca6`، Verify workflow #44199445948. تم تحسين محلل Audit لعد سجلات الأسعار حتى عندما يكون كائن السجل في سطر واحد.
+مصدر الأرقام: تشغيل `npm run audit:catalog` في Verify workflow #919 على main SHA `085e61975ffe1e1a25cefbea326a0a878961ec61` (21 نوفمبر 2026)، وفحص artifact summary JSON وCSV.
 
 ## العدادات الحالية
 
