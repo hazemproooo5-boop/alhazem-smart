@@ -602,7 +602,11 @@ function VirtualKitchenPage() {
   const [layout, setLayout] = useState('L');
   const [selected, setSelected] = useState<string[]>(['ثلاجة', 'فرن', 'حوض', 'بوتاجاز']);
   const items = [{ name: 'ثلاجة', w: 0.8 }, { name: 'فرن', w: 0.6 }, { name: 'بوتاجاز', w: 0.6 }, { name: 'حوض', w: 0.8 }, { name: 'غسالة أطباق', w: 0.6 }, { name: 'غسالة ملابس', w: 0.65 }, { name: 'وحدة تخزين', w: 0.9 }, { name: 'ميكروويف', w: 0.55 }];
-  const used = items.filter((item) => selected.includes(item.name)).reduce((sum, item) => sum + item.w, 0);
+  const selectedItems = items.filter((item) => selected.includes(item.name));
+  const used = selectedItems.reduce((sum, item) => sum + item.w, 0);
+  const over = used > width;
+  const [notes, setNotes] = useState('');
+  const summaryText = 'تخطيط مطبخ مبدئي\\nالأبعاد: ' + width + ' × ' + depth + ' م\\nالشكل: ' + layout + '\\nالعناصر: ' + selected.join('، ') + '\\nعرض العناصر: ' + used.toFixed(2) + ' م\\nالملاحظات: ' + notes;
   const run = layout === 'U' ? width + depth * 2 : layout === 'L' ? width + depth : width;
   return (
     <div className="container page-block">
@@ -612,13 +616,13 @@ function VirtualKitchenPage() {
           <label>عرض الجدار الرئيسي بالمتر<input type="number" min="1" max="20" step="0.1" value={width} onChange={(e) => setWidth(Math.max(1, Number(e.target.value) || 1))} /></label>
           <label>طول الجدار الجانبي بالمتر<input type="number" min="1" max="20" step="0.1" value={depth} onChange={(e) => setDepth(Math.max(1, Number(e.target.value) || 1))} /></label>
           <label>شكل المطبخ<select value={layout} onChange={(e) => setLayout(e.target.value)}><option value="I">خطي</option><option value="L">حرف L</option><option value="U">حرف U</option></select></label>
-          <h3>الأجهزة والوحدات</h3>
+          <h3>الأجهزة والوحدات</h3><p>اختر العناصر لتقدير مجموع عروضها.</p>
           {items.map((item) => <label className="kitchen-option" key={item.name}><input type="checkbox" checked={selected.includes(item.name)} onChange={(e) => setSelected((prev) => e.target.checked ? [...prev, item.name] : prev.filter((name) => name !== item.name))} />{item.name}<small>{item.w.toFixed(2)} م</small></label>)}
         </section>
         <section className="kitchen-preview"><h2>معاينة التوزيع</h2>
           <div className={'kitchen-plan layout-' + layout}><div className="kitchen-run"><span>الجدار الرئيسي · {width.toFixed(1)} م</span>{selected.map((name) => <b key={name}>{name}</b>)}</div>{layout !== 'I' ? <div className="kitchen-run side-run"><span>الجدار الجانبي · {depth.toFixed(1)} م</span><b>سطح عمل</b><b>وحدات تخزين</b></div> : null}{layout === 'U' ? <div className="kitchen-run third-run"><span>الضلع المقابل</span><b>سطح تحضير</b></div> : null}</div>
-          <div className="kitchen-stats"><div><strong>{(width * depth).toFixed(1)} م²</strong><span>مساحة الأرضية التقديرية</span></div><div><strong>{used.toFixed(2)} م</strong><span>عرض العناصر المختارة</span></div><div><strong>{Math.max(0, run - used).toFixed(2)} م</strong><span>طول توزيع متبقٍ تقديري</span></div></div>
-          <p className="kitchen-note">يجب مراجعة الأبعاد الفعلية وفتحات الأبواب والتهوية والكهرباء والمياه والصرف مع فني مختص قبل التنفيذ.</p>
+          {over ? <div className="result-box" role="alert">مجموع عروض العناصر المختارة ({used.toFixed(2)} م) أكبر من عرض الجدار الرئيسي ({width.toFixed(2)} م). عدّل الاختيار أو الأبعاد. هذه الحسابات تقريبية.</div> : null}<div className="kitchen-stats"><div><strong>{(width * depth).toFixed(1)} م²</strong><span>مساحة الأرضية التقديرية</span></div><div><strong>{used.toFixed(2)} م</strong><span>عرض العناصر المختارة</span></div><div><strong>{Math.max(0, run - used).toFixed(2)} م</strong><span>طول توزيع متبقٍ تقديري</span></div></div>
+          <label className="kitchen-notes">ملاحظات إضافية<textarea value={notes} onChange={(e) => setNotes(e.target.value)} placeholder="النوافذ، الأعمدة، نقاط المياه والكهرباء، اتجاه فتح الأبواب..." /></label><button type="button" className="secondary-button" onClick={() => navigator.clipboard.writeText(summaryText)}>نسخ ملخص المخطط</button><p className="kitchen-note">يجب مراجعة الأبعاد الفعلية وفتحات الأبواب والتهوية والكهرباء والمياه والصرف مع فني مختص قبل التنفيذ.</p>
           <Link to="/support" className="primary-button">اطلب مساعدة في تخطيط مطبخك</Link>
         </section>
       </div>
@@ -753,10 +757,14 @@ function AcademyPage() {
     { id: 'source', title: 'تحقق من البائع والمصدر', level: 'ثقة', summary: 'ميّز بين صفحة الشركة ومصدر البيع المباشر.', points: ['افتح رابط المنتج وتأكد من أنه للموديل نفسه.', 'تحقق من هوية البائع وسياسة الاستبدال والاسترجاع.', 'اطلب عرض سعر مكتوباً يوضح الضرائب والتركيب.', 'احتفظ بالفاتورة والضمان ورقم الموديل.'] },
     { id: 'after', title: 'ما بعد الشراء', level: 'ثقة', summary: 'جهّز مستنداتك وتابع التركيب والتشغيل والصيانة.', points: ['راجع الجهاز عند الاستلام وسجل أي تلف ظاهر.', 'طابق بيانات الفاتورة مع لوحة الجهاز.', 'احتفظ بإثبات التركيب والضمان.', 'سجل الملاحظات والتجربة الفعلية بعد الاستخدام.'] },
   ];
+  const [query, setQuery] = useState('');
+  const [done, setDone] = useState<string[]>([]);
+  const visible = lessons.filter((lesson) => [lesson.title, lesson.summary, lesson.level, ...lesson.points].join(' ').toLowerCase().includes(query.trim().toLowerCase()));
   return (
     <div className="container page-block">
       <div className="page-heading"><span className="eyebrow">تعلم قبل أن تقرر</span><h1>أكاديمية الحازم</h1><p>مسارات تعليمية عملية تساعدك على تحديد احتياجك وقراءة مواصفات الأجهزة والتحقق من المصادر واتخاذ قرار واعٍ. المحتوى التمهيدي لا يحل محل دليل الموديل أو تعليمات الشركة المصنعة.</p></div>
-      <div className="academy-path-grid">{lessons.map((lesson, index) => <article className="academy-lesson" key={lesson.id}><div className="academy-lesson-meta"><span>الدرس {index + 1}</span><span>{lesson.level}</span></div><h2>{lesson.title}</h2><p>{lesson.summary}</p><details><summary>ابدأ الدرس</summary><ul>{lesson.points.map((point) => <li key={point}>{point}</li>)}</ul></details></article>)}</div>
+      <div className="academy-tools"><input value={query} onChange={(e) => setQuery(e.target.value)} placeholder="ابحث في الدروس..." aria-label="بحث في دروس الأكاديمية"/><div className="academy-progress"><strong>{done.length} / {lessons.length}</strong><span>دروس marked مكتملة</span><button type="button" className="secondary-button small" onClick={() => setDone([])}>إعادة ضبط التقدم</button></div></div>
+      <div className="academy-path-grid">{visible.map((lesson, index) => <article className="academy-lesson" key={lesson.id}><div className="academy-lesson-meta"><span>الدرس {lessons.findIndex((x) => x.id === lesson.id) + 1}</span><span>{lesson.level}</span></div><h2>{lesson.title}</h2><p>{lesson.summary}</p><details><summary>ابدأ الدرس</summary><ul>{lesson.points.map((point) => <li key={point}>{point}</li>)}</ul></details><label className="academy-completion"><input type="checkbox" checked={done.includes(lesson.id)} onChange={(e) => setDone((prev) => e.target.checked ? [...prev, lesson.id] : prev.filter((x) => x !== lesson.id))}/>أكملت هذا الدرس</label></article>)}</div>
       <section className="section-block"><h2>مواد الأكاديمية المسجلة</h2><div className="cards-grid">{academyItems.map((item) => <article key={item.id} className="feature-card"><h3>{item.title}</h3><p>{item.summary}</p><small>مادة أولية تحتاج استكمالاً ومراجعة تحريرية ومصدرية</small></article>)}</div></section>
       <div className="result-box"><strong>قاعدة الأكاديمية:</strong><p>لا تعتمد على نصيحة عامة وحدها في قرار فني أو سلامة تركيب. ارجع إلى دليل الموديل وتعليمات المصنع وفني مؤهل.</p></div>
     </div>

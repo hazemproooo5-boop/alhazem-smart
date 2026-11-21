@@ -588,3 +588,11 @@ img {
 .article-reader h3 { font-size:1rem; margin:8px 0; }
 .article-reader li { margin:7px 0; line-height:1.7; color:var(--muted); }
 .article-card footer { margin-top:auto; padding-top:10px; border-top:1px solid var(--border); color:var(--muted); font-size:.82rem; }
+
+.academy-tools { display:flex; align-items:center; justify-content:space-between; gap:16px; flex-wrap:wrap; margin-bottom:20px; }
+.academy-tools>input { flex:1; min-width:220px; border:1px solid var(--border); border-radius:12px; padding:12px; font:inherit; }
+.academy-progress { display:flex; align-items:center; gap:12px; flex-wrap:wrap; }
+.academy-completion { display:flex; align-items:center; gap:10px; padding-top:12px; margin-top:12px; border-top:1px solid var(--border); cursor:pointer; font-weight:700; }
+.academy-completion input { width:18px; height:18px; }
+.kitchen-notes { display:grid; gap:8px; margin:16px 0; }
+.kitchen-notes textarea { min-height:100px; padding:12px; font:inherit; border:1px solid var(--border); border-radius:12px; }
