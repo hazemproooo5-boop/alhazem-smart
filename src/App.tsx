@@ -1,4 +1,4 @@
-import { FormEvent, ReactNode, useState } from 'react';
+import { FormEvent, ReactNode, useEffect, useState } from 'react';
 import { Link, NavLink, Route, Routes, useNavigate, useParams, useSearchParams } from 'react-router-dom';
 import { academyItems, auditLog, brands, competitions, news, offers, siteSettings, suppliers, tips } from './data/seed';
 import { editorialArticles } from './data/editorial';
@@ -758,7 +758,22 @@ function AcademyPage() {
     { id: 'after', title: 'ما بعد الشراء', level: 'ثقة', summary: 'جهّز مستنداتك وتابع التركيب والتشغيل والصيانة.', points: ['راجع الجهاز عند الاستلام وسجل أي تلف ظاهر.', 'طابق بيانات الفاتورة مع لوحة الجهاز.', 'احتفظ بإثبات التركيب والضمان.', 'سجل الملاحظات والتجربة الفعلية بعد الاستخدام.'] },
   ];
   const [query, setQuery] = useState('');
-  const [done, setDone] = useState<string[]>([]);
+  const [done, setDone] = useState<string[]>(() => {
+    try {
+      const saved = localStorage.getItem('alhazem-academy-progress');
+      const parsed: unknown = saved ? JSON.parse(saved) : [];
+      return Array.isArray(parsed) ? parsed.filter((value): value is string => typeof value === 'string') : [];
+    } catch {
+      return [];
+    }
+  });
+  useEffect(() => {
+    try {
+      localStorage.setItem('alhazem-academy-progress', JSON.stringify(done));
+    } catch {
+      // Progress remains usable for this session if browser storage is unavailable.
+    }
+  }, [done]);
   const visible = lessons.filter((lesson) => [lesson.title, lesson.summary, lesson.level, ...lesson.points].join(' ').toLowerCase().includes(query.trim().toLowerCase()));
   return (
     <div className="container page-block">
