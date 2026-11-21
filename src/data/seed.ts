@@ -39,7 +39,7 @@ export const siteSettings: SiteSettings = {
   },
 };
 
-export const brands: Brand[] = [
+const brandRecords: Brand[] = [
   {
     id: 'samsung',
     name: 'Samsung',
@@ -113,6 +113,12 @@ export const brands: Brand[] = [
   ...cairoSalesBrands,
   ...additionalDirectoryBrands,
 ];
+
+// Keep one canonical record per brand ID. Earlier core records take precedence
+// over imported directory rows with the same ID, preserving their verified metadata.
+export const brands: Brand[] = brandRecords.filter(
+  (brand, index, all) => all.findIndex((candidate) => candidate.id === brand.id) === index,
+);
 
 export const products: Product[] = [
   {
