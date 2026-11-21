@@ -559,12 +559,12 @@ function BrandDetailPage() {
 const normalizeCatalogTerm = (value: string): string => value
   .toLocaleLowerCase('ar')
   .normalize('NFD')
-  .replace(/[\\u064B-\\u065F\\u0670]/g, '')
+  .replace(/[\u064B-\u065F\u0670]/g, '')
   .replace(/[أإآٱ]/g, 'ا')
   .replace(/ى/g, 'ي')
   .replace(/ة/g, 'ه')
   .replace(/ـ/g, '')
-  .replace(/[^\\p{L}\\p{N}]+/gu, ' ')
+  .replace(/[^\p{L}\p{N}]+/gu, ' ')
   .trim();
 
 function CatalogCenterPage() {
