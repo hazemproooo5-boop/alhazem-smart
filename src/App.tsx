@@ -1,6 +1,7 @@
 import { FormEvent, ReactNode, useState } from 'react';
 import { Link, NavLink, Route, Routes, useNavigate, useParams, useSearchParams } from 'react-router-dom';
 import { academyItems, auditLog, brands, competitions, news, offers, siteSettings, suppliers, tips } from './data/seed';
+import { editorialArticles } from './data/editorial';
 import { companyDirectory, wholesaleMarketDirectory } from './data/companyDirectory';
 import { NeedProfile, Product } from './types';
 import { advisorService } from './services/advisorService';
@@ -74,23 +75,23 @@ function Layout({ children }: { children: ReactNode }) {
           </button>
 
           <nav className={`nav ${menuOpen ? 'open' : ''}`}>
-            <NavLink to="/">الرئيسية</NavLink>
-            <NavLink to="/need-assessment">تقييم الاحتياج</NavLink>
-            <NavLink to="/smart-search">البحث الذكي</NavLink>
-            <NavLink to="/compare">المقارنة</NavLink>
-            <NavLink to="/brands">مركز الماركات</NavLink>
-            <NavLink to="/companies">الشركات والمصانع</NavLink>
-            <NavLink to="/catalog-center">كتالوج المنتجات</NavLink>
-            <NavLink to="/ac">التكييف</NavLink>
-            <NavLink to="/smart-advisor">المستشار الذكي</NavLink>
-            <NavLink to="/offers">العروض</NavLink>
-            <NavLink to="/academy">أكاديمية الحازم</NavLink>
-            <NavLink to="/virtual-kitchen">المطبخ الافتراضي</NavLink>
-            <NavLink to="/articles">المقالات</NavLink>
-            <NavLink to="/transparency">مركز الشفافية</NavLink>
-            <NavLink to="/support">خدمة العملاء</NavLink>
-            <NavLink to="/suppliers">الموردون</NavLink>
-            <NavLink to="/admin">الإدارة</NavLink>
+            <NavLink onClick={() => setMenuOpen(false)} to="/">الرئيسية</NavLink>
+            <NavLink onClick={() => setMenuOpen(false)} to="/need-assessment">تقييم الاحتياج</NavLink>
+            <NavLink onClick={() => setMenuOpen(false)} to="/smart-search">البحث الذكي</NavLink>
+            <NavLink onClick={() => setMenuOpen(false)} to="/compare">المقارنة</NavLink>
+            <NavLink onClick={() => setMenuOpen(false)} to="/brands">مركز الماركات</NavLink>
+            <NavLink onClick={() => setMenuOpen(false)} to="/companies">الشركات والمصانع</NavLink>
+            <NavLink onClick={() => setMenuOpen(false)} to="/catalog-center">كتالوج المنتجات</NavLink>
+            <NavLink onClick={() => setMenuOpen(false)} to="/ac">التكييف</NavLink>
+            <NavLink onClick={() => setMenuOpen(false)} to="/smart-advisor">المستشار الذكي</NavLink>
+            <NavLink onClick={() => setMenuOpen(false)} to="/offers">العروض</NavLink>
+            <NavLink onClick={() => setMenuOpen(false)} to="/academy">أكاديمية الحازم</NavLink>
+            <NavLink onClick={() => setMenuOpen(false)} to="/virtual-kitchen">المطبخ الافتراضي</NavLink>
+            <NavLink onClick={() => setMenuOpen(false)} to="/articles">المقالات</NavLink>
+            <NavLink onClick={() => setMenuOpen(false)} to="/transparency">مركز الشفافية</NavLink>
+            <NavLink onClick={() => setMenuOpen(false)} to="/support">خدمة العملاء</NavLink>
+            <NavLink onClick={() => setMenuOpen(false)} to="/suppliers">الموردون</NavLink>
+            <NavLink onClick={() => setMenuOpen(false)} to="/admin">الإدارة</NavLink>
           </nav>
         </div>
       </header>
@@ -627,13 +628,36 @@ function VirtualKitchenPage() {
 
 function ArticlesPage() {
   const [term, setTerm] = useState('');
-  const articles = [...news.map((item) => ({ id: item.id, title: item.title, summary: item.summary, date: item.date, source: item.source, status: item.verificationStatus })), ...tips.map((item) => ({ id: item.id, title: item.title, summary: item.body, date: item.date, source: item.source, status: item.verificationStatus }))].filter((item) => [item.title, item.summary, item.source].join(' ').toLocaleLowerCase().includes(term.trim().toLocaleLowerCase()));
+  const editorial = editorialArticles.map((item) => ({
+    id: item.id, title: item.title, summary: item.summary, category: item.category,
+    source: 'إعداد تحريري من الحازم سمارت — إرشاد عام', status: 'محتوى تحريري',
+    readingMinutes: item.readingMinutes, sections: item.sections,
+  }));
+  const recorded = [
+    ...news.filter((item) => item.published !== false).map((item) => ({
+      id: item.id, title: item.title, summary: item.summary, category: item.category,
+      source: item.source, status: item.verificationStatus, readingMinutes: 1, sections: [],
+    })),
+    ...tips.filter((item) => item.published !== false).map((item) => ({
+      id: item.id, title: item.title, summary: item.body, category: item.category,
+      source: item.source, status: item.verificationStatus, readingMinutes: 1, sections: [],
+    })),
+  ];
+  const articles = [...editorial, ...recorded].filter((item) =>
+    [item.title, item.summary, item.category, item.source].join(' ').toLocaleLowerCase().includes(term.trim().toLocaleLowerCase())
+  );
   return (
     <div className="container page-block">
-      <div className="page-heading"><span className="eyebrow">المعرفة قبل الشراء</span><h1>مقالات ونصائح الحازم</h1><p>محتوى إرشادي من البيانات المسجلة بالمشروع، مع إظهار حالة التوثيق والمصدر دون تقديم المواد غير المتحققة كحقائق مؤكدة.</p></div>
-      <div className="search-box"><input value={term} onChange={(e) => setTerm(e.target.value)} placeholder="ابحث في المقالات والنصائح..." aria-label="البحث في المقالات" /></div>
-      <div className="article-grid">{articles.map((item) => <article className="article-card" key={item.id}><small>{item.date} · {item.status}</small><h2>{item.title}</h2><p>{item.summary}</p><footer>المصدر المسجل: {item.source || 'غير محدد'}</footer></article>)}</div>
+      <div className="page-heading"><span className="eyebrow">المعرفة قبل الشراء</span><h1>مكتبة مقالات الحازم</h1><p>أدلة عملية للشراء والتحقق والمقارنة وما بعد الشراء. نميز بوضوح بين المحتوى التحريري العام والمعلومات ذات المصدر والتحقق المسجل.</p></div>
+      <div className="search-box"><input value={term} onChange={(e) => setTerm(e.target.value)} placeholder="ابحث في الأدلة والمقالات..." aria-label="البحث في المقالات" /></div>
+      <div className="article-library-grid">{articles.map((item) => <article className="article-card" key={item.id}>
+        <div className="article-meta"><span>{item.category}</span><span>{item.readingMinutes} دقائق قراءة</span></div>
+        <small>{item.status}</small><h2>{item.title}</h2><p>{item.summary}</p>
+        {item.sections.length ? <details className="article-reader"><summary>اقرأ الدليل كاملاً</summary>{item.sections.map((section) => <section key={section.heading}><h3>{section.heading}</h3>{section.body ? <p>{section.body}</p> : null}{section.checklist ? <ul>{section.checklist.map((point) => <li key={point}>{point}</li>)}</ul> : null}</section>)}</details> : null}
+        <footer>المصدر: {item.source || 'غير محدد'}</footer>
+      </article>)}</div>
       {articles.length === 0 ? <div className="result-box" role="status">لا توجد مواد مطابقة لبحثك.</div> : null}
+      <div className="result-box"><strong>تنبيه تحريري:</strong><p>الأدلة العامة لا تستبدل دليل التشغيل والتركيب الخاص برقم الموديل، ولا تمثل توصية فنية أو ضماناً من الشركة المصنعة. راجع المصدر الرسمي أو مختصاً عند مسائل السلامة والتركيب.</p></div>
     </div>
   );
 }
