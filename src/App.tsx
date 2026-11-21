@@ -269,7 +269,7 @@ function HomePage() {
             <article key={item.id} className="news-card">
               <h3>{item.title}</h3>
               <p>{item.summary}</p>
-              <small>{item.source}</small>
+              <small>حالة التحقق: {item.verificationStatus === 'Verified' ? 'موثق' : 'غير موثق — محتوى أولي يحتاج مراجعة'} · المصدر المسجل: {item.source || 'غير محدد'}</small>
             </article>
           ))}
         </div>
@@ -282,6 +282,7 @@ function HomePage() {
             <article key={tip.id} className="news-card">
               <h3>{tip.title}</h3>
               <p>{tip.body}</p>
+              <small>حالة التحقق: {tip.verificationStatus === 'Verified' ? 'موثق' : 'غير موثق — نصيحة عامة تحتاج مراجعة مصدرية'}</small>
             </article>
           ))}
         </div>
