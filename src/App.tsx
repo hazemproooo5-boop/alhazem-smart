@@ -42,7 +42,7 @@ function PriceDisplay({ productId }: { productId: string }) {
   if (latestPrice && !latestPrice.isHistorical && latestPrice.verificationStatus !== 'Verified') {
     const timestamp = new Date(latestPrice.priceDate).getTime();
     const ageInDays = (Date.now() - timestamp) / (1000 * 60 * 60 * 24);
-    if (Number.isFinite(timestamp) && ageInDays >= 0 && ageInDays <= 30) {
+    if (Number.isFinite(timestamp) && ageInDays >= 0 && ageInDays <= 2) {
       return (
         <span className="price-estimate">
           <strong>السعر التقريبي: {latestPrice.price.toLocaleString()} جنيه تقريباً</strong>
@@ -573,7 +573,7 @@ function CatalogCenterPage() {
     <div className="container page-block">
       <div className="page-heading"><span className="eyebrow">دليل الحازم</span><h1>كتالوج الأجهزة والأصناف</h1><p>تصفح منظم حسب القسم، وابحث بالاسم أو الماركة أو رقم الموديل. السجلات غير المكتملة محفوظة بوضوح كبيانات قيد التحقق.</p></div>
       <section className="category-tiles" aria-label="أقسام الأجهزة">
-        {categories.map((id) => <button type="button" key={id} className={category === id ? 'category-tile active' : 'category-tile'} onClick={() => setCategory(category === id ? 'all' : id)}><strong>{categoryNames[id] || id}</strong><span>{catalogMonitoringProducts.filter((p) => p.categoryId === id).length} صنف</span></button>)}
+        {categories.map((id) => <button type="button" key={id} className={category === id ? 'category-tile active' : 'category-tile'} onClick={() => setCategory(category === id ? 'all' : id)}><strong>{categoryNames[id] || id}</strong><span>{[...catalogMonitoringProducts, ...catalogProducts].filter((p) => p.categoryId === id).length} صنف</span></button>)}
       </section>
       <section className="catalog-toolbar">
         <label className="catalog-search"><span>بحث في جميع الأصناف</span><input value={term} onChange={(e) => setTerm(e.target.value)} placeholder="اسم الجهاز، الماركة، أو رقم الموديل..." /></label>
