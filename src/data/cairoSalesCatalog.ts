@@ -3562,7 +3562,7 @@ export const cairoSalesSmallApplianceProducts: Product[] = [
     "categoryId": "appliances",
     "model": "TCG4104",
     "sku": "TCG4104",
-    "description": "شواية Bosch TCG4104؛ تمت مطابقة الموديل والمواصفات والضمان مع صفحة Bosch Egypt الرسمية. صفحة المتجر الرسمية المفهرسة تعرض Out Of Stock، لذلك لا يُذكر توفر حالي حتى إعادة التحقق المباشر من المتجر أو مورد آخر.",
+    "description": "شواية Bosch TCG4104؛ تمت مطابقة الموديل والمواصفات والصورة والضمان مع صفحة Bosch Egypt الرسمية. صفحة Bosch Egypt المباشرة تعرض 5,599 جنيه شاملاً VAT، Available for order، وتوصيل 5–7 أيام وضمان سنتين؛ تحقق مباشر 21 نوفمبر 2026.",
     "specifications": {
       "الصنف الفرعي": "شوايات",
       "القدرة": "2000 وات",
@@ -3572,15 +3572,16 @@ export const cairoSalesSmallApplianceProducts: Product[] = [
       "إعدادات الحرارة": "5",
       "الضمان": "سنتان"
     },
-    "availability": "صفحة Bosch Egypt الرسمية المفهرسة تعرض TCG4104 بسعر 5,499 جنيه شاملاً VAT لكنها تعرض Out Of Stock. نتيجة الفهرسة قديمة نسبياً (نحو شهرين)، لذا لا تُعد إثباتاً للمخزون الحالي؛ يلزم فحص مباشر عند الشراء. توفر الموردين الآخرين غير مؤكد.",
+    "availability": "متاح للطلب من متجر Bosch Egypt وقت التحقق المباشر 21 نوفمبر 2026؛ صفحة TCG4104 تعرض 5,599 جنيه شاملاً VAT، وتوصيل 5–7 أيام وضمان سنتين. المصدر: https://www.bosch-home.com/eg/en/product/cookingandbaking/contactgrill/TCG4104",
     "warranty": "سنتان ضمان شامل وفق صفحة Bosch Egypt الرسمية.",
     "officialProductUrl": "https://www.bosch-home.com/eg/ar/product/cookingandbaking/contactgrill/TCG4104",
-    "sourceUrl": "https://www.bosch-home.com/eg/ar/product/cookingandbaking/contactgrill/TCG4104",
+    "sourceUrl": "https://www.bosch-home.com/eg/en/product/cookingandbaking/contactgrill/TCG4104",
     "sourceType": "Official",
-    "verificationStatus": "Unverified",
+    "verificationStatus": "Verified",
+    "verifiedDate": "2026-11-21",
     "published": true,
     "createdAt": "2026-11-15",
-    "updatedAt": "2026-11-19",
+    "updatedAt": "2026-11-21",
     "imageUrl": "https://media3.bsh-group.com/Product_Shots/14860303_Product_Shot_TCG4104_STP_def.webp",
     "imageSourceUrl": "https://www.bosch-home.com/eg/ar/product/cookingandbaking/contactgrill/TCG4104",
     "imageVerifiedDate": "2026-11-18"
@@ -4454,5 +4455,18 @@ export const cairoSalesSmallAppliancePrices: PriceRecord[] = [
     "verificationStatus": "Unverified",
     "isHistorical": false,
     "createdAt": "2026-11-19T14:56:09Z"
+  },
+  {
+    "id": "cs-price-155",
+    "productId": "cs-081",
+    "price": 5599,
+    "currency": "EGP",
+    "priceType": "Official Price",
+    "source": "Bosch Egypt official direct page — exact TCG4104, EGP 5,599 including VAT, Available for order, delivery 5–7 days and 2-year warranty; price unchanged from 19 Nov; directly checked 2026-11-21 16:38 Africa/Cairo.",
+    "sourceUrl": "https://www.bosch-home.com/eg/en/product/cookingandbaking/contactgrill/TCG4104",
+    "priceDate": "2026-11-21",
+    "verificationStatus": "Verified",
+    "isHistorical": false,
+    "createdAt": "2026-11-21T14:38:28Z"
   },
 ];
