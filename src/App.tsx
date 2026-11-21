@@ -624,10 +624,10 @@ function VirtualKitchenPage() {
   const items = [{ name: 'ثلاجة', w: 0.8 }, { name: 'فرن', w: 0.6 }, { name: 'بوتاجاز', w: 0.6 }, { name: 'حوض', w: 0.8 }, { name: 'غسالة أطباق', w: 0.6 }, { name: 'غسالة ملابس', w: 0.65 }, { name: 'وحدة تخزين', w: 0.9 }, { name: 'ميكروويف', w: 0.55 }];
   const selectedItems = items.filter((item) => selected.includes(item.name));
   const used = selectedItems.reduce((sum, item) => sum + item.w, 0);
-  const over = used > width;
-  const [notes, setNotes] = useState('');
-  const summaryText = 'تخطيط مطبخ مبدئي\\nالأبعاد: ' + width + ' × ' + depth + ' م\\nالشكل: ' + layout + '\\nالعناصر: ' + selected.join('، ') + '\\nعرض العناصر: ' + used.toFixed(2) + ' م\\nالملاحظات: ' + notes;
   const run = layout === 'U' ? width + depth * 2 : layout === 'L' ? width + depth : width;
+  const over = used > run;
+  const [notes, setNotes] = useState('');
+  const summaryText = 'تخطيط مطبخ مبدئي\\nالأبعاد: ' + width + ' × ' + depth + ' م\\nالشكل: ' + layout + '\\nالعناصر: ' + selected.join('، ') + '\\nعرض العناصر: ' + used.toFixed(2) + ' م\\nالطول التقديري المتاح: ' + run.toFixed(2) + ' م\\nالملاحظات: ' + notes;
   return (
     <div className="container page-block">
       <div className="page-heading"><span className="eyebrow">أداة تخطيط أولية</span><h1>المطبخ الافتراضي</h1><p>خطط توزيعاً مبدئياً للأجهزة والوحدات وفق أبعاد مطبخك. هذا تصور تخطيطي وليس رسماً هندسياً تنفيذياً.</p></div>
