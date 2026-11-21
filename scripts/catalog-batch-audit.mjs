@@ -119,7 +119,7 @@ const summary = {
     missingModel: rows.filter(row => !row.model || /بدون كود موديل|غير محدد|غير متوفر|يلزم/i.test(row.model)).map(({ id, name, model }) => ({ id, name, model })),
     missingSource: rows.filter(row => !row.sourceUrl).map(({ id, name, model }) => ({ id, name, model })),
     missingImage: rows.filter(row => !row.imageUrl).map(({ id, name, model }) => ({ id, name, model })),
-    missingAvailability: rows.filter(row => !row.availability || /يحتاج تأكيد|غير مؤكد|غير محدد/i.test(row.availability)).map(({ id, name, model, availability }) => ({ id, name, model, availability })),
+    missingAvailability: rows.filter(row => !row.availability || /يحتاج تأكيد|غير متوفر|غير متاح|غير مؤكد|غير محدد/i.test(row.availability)).map(({ id, name, model, availability }) => ({ id, name, model, availability })),
     missingSpecifications: rows.filter(row => !row.hasSpecifications).map(({ id, name, model }) => ({ id, name, model })),
   },
 };
