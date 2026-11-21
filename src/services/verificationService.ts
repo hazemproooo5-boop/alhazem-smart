@@ -1,6 +1,6 @@
 import { products, prices } from '../data/seed';
 
-const PRICE_MAX_AGE_DAYS = 30;
+const PRICE_MAX_AGE_DAYS = 2;
 const hasText = (value?: string): boolean => Boolean(value?.trim());
 const isPlaceholder = (value?: string, pattern?: RegExp): boolean =>
   !hasText(value) || Boolean(pattern?.test(value ?? ''));
@@ -62,7 +62,7 @@ export const verificationService = {
           isStale ? 'قديم أو تاريخ غير صالح' : '',
         ].filter(Boolean).join('، ') || 'حديث وموثق';
         if (isUnverified) issues.push('أحدث سعر غير موثق أو تاريخي');
-        if (isStale) issues.push('أحدث سعر تجاوز 30 يوماً أو تاريخه غير صالح');
+        if (isStale) issues.push('أحدث سعر تجاوز يومين أو تاريخه غير صالح');
       } else {
         issues.push('لا يوجد سجل سعر');
       }
