@@ -23,10 +23,10 @@
 | القسم | المنتجات | سجلات الأسعار |
 |---|---:|---:|
 | seed.products | 3 | — |
-| cairoSalesProducts | 65 | 72 |
+| cairoSalesProducts | 65 | 90 |
 | cairoSalesCookwareProducts | 12 | 12 |
-| cairoSalesSmallApplianceProducts | 13 | 37 |
-| **الإجمالي** | **93** | **120** |
+| cairoSalesSmallApplianceProducts | 13 | 43 |
+| **الإجمالي** | **93** | **148** |
 
 ## فجوات التوثيق المفتوحة
 
