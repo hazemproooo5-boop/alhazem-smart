@@ -4107,7 +4107,7 @@ export const cairoSalesSmallAppliancePrices: PriceRecord[] = [
     "createdAt": "2026-11-18T00:00:00+02:00"
   },
 {
-    "id": "cs-price-108",
+    "id": "cs-price-156",
     "productId": "cs-020",
     "price": 31499,
     "currency": "EGP",
