@@ -556,16 +556,33 @@ function BrandDetailPage() {
   );
 }
 
+const normalizeCatalogTerm = (value: string): string => value
+  .toLocaleLowerCase('ar')
+  .normalize('NFD')
+  .replace(/[\\u064B-\\u065F\\u0670]/g, '')
+  .replace(/[أإآٱ]/g, 'ا')
+  .replace(/ى/g, 'ي')
+  .replace(/ة/g, 'ه')
+  .replace(/ـ/g, '')
+  .replace(/[^\\p{L}\\p{N}]+/gu, ' ')
+  .trim();
+
 function CatalogCenterPage() {
   const [term, setTerm] = useState('');
   const [catalogParams] = useSearchParams();
   const [category, setCategory] = useState(catalogParams.get('category') ?? 'all');
   const categoryNames: Record<string, string> = { ac: 'التكييف', tv: 'التلفزيونات', audio: 'الصوتيات', cookware: 'أواني الطهي', kitchen: 'أجهزة المطبخ', home: 'المنزل', appliances: 'الأجهزة المنزلية', 'small-appliances': 'الأجهزة الصغيرة', lighting: 'الإضاءة' };
   const categories = Array.from(new Set([...catalogMonitoringProducts, ...catalogProducts].map((p) => p.categoryId))).sort();
+  const normalizedQuery = normalizeCatalogTerm(term);
+  const queryTerms = normalizedQuery.split(/\\s+/).filter(Boolean);
   const matchesProduct = (p: Product) => {
     const matchesCategory = category === 'all' || p.categoryId === category;
-    const query = term.trim().toLocaleLowerCase();
-    const matchesTerm = !query || [p.name, p.model, p.sku, brands.find((b) => b.id === p.brandId)?.name ?? ''].some((v) => String(v ?? '').toLocaleLowerCase().includes(query));
+    const brand = brands.find((b) => b.id === p.brandId);
+    const searchableText = normalizeCatalogTerm([
+      p.name, p.model, p.sku, p.description, p.categoryId, p.brandId,
+      p.manufacturerId, brand?.name ?? '',
+    ].join(' '));
+    const matchesTerm = queryTerms.length === 0 || queryTerms.every((word) => searchableText.includes(word));
     return matchesCategory && matchesTerm;
   };
   const filtered = catalogMonitoringProducts.filter(matchesProduct);
