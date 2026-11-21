@@ -34,8 +34,8 @@ export const siteSettings: SiteSettings = {
   },
   socialLinks: {
     whatsapp: 'https://wa.me/201050509779',
-    facebook: '#',
-    instagram: '#',
+    facebook: '',
+    instagram: '',
   },
 };
 
@@ -291,8 +291,8 @@ export const suppliers: Supplier[] = [
 ];
 
 export const offers = [
-  { id: 'o-1', title: 'خصم الصيف على مكيفات AUX', description: 'خصم حتى 12% على وحدات 1.5-2 طن', status: 'Active' },
-  { id: 'o-2', title: 'عرض تجهيز مطبخ', description: 'خصم على الثلاجات والغسالات مع تركيب', status: 'Active' },
+  { id: 'o-1', title: 'خصم الصيف على مكيفات AUX', description: 'خصم حتى 12% على وحدات 1.5-2 طن', status: 'Unverified' },
+  { id: 'o-2', title: 'عرض تجهيز مطبخ', description: 'خصم على الثلاجات والغسالات مع تركيب', status: 'Unverified' },
 ];
 
 export const academyItems = [
