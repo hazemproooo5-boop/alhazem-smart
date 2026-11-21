@@ -560,13 +560,15 @@ function CatalogCenterPage() {
   const [catalogParams] = useSearchParams();
   const [category, setCategory] = useState(catalogParams.get('category') ?? 'all');
   const categoryNames: Record<string, string> = { ac: 'التكييف', tv: 'التلفزيونات', audio: 'الصوتيات', cookware: 'أواني الطهي', kitchen: 'أجهزة المطبخ', home: 'المنزل', appliances: 'الأجهزة المنزلية', 'small-appliances': 'الأجهزة الصغيرة', lighting: 'الإضاءة' };
-  const categories = Array.from(new Set(catalogMonitoringProducts.map((p) => p.categoryId))).sort();
-  const filtered = catalogMonitoringProducts.filter((p) => {
+  const categories = Array.from(new Set([...catalogMonitoringProducts, ...catalogProducts].map((p) => p.categoryId))).sort();
+  const matchesProduct = (p: Product) => {
     const matchesCategory = category === 'all' || p.categoryId === category;
     const query = term.trim().toLocaleLowerCase();
     const matchesTerm = !query || [p.name, p.model, p.sku, brands.find((b) => b.id === p.brandId)?.name ?? ''].some((v) => String(v ?? '').toLocaleLowerCase().includes(query));
     return matchesCategory && matchesTerm;
-  });
+  };
+  const filtered = catalogMonitoringProducts.filter(matchesProduct);
+  const verifiedFiltered = catalogProducts.filter(matchesProduct);
   return (
     <div className="container page-block">
       <div className="page-heading"><span className="eyebrow">دليل الحازم</span><h1>كتالوج الأجهزة والأصناف</h1><p>تصفح منظم حسب القسم، وابحث بالاسم أو الماركة أو رقم الموديل. السجلات غير المكتملة محفوظة بوضوح كبيانات قيد التحقق.</p></div>
@@ -590,7 +592,7 @@ function CatalogCenterPage() {
           </article>
         ))}</div> : <div className="result-box">لا توجد نتائج مطابقة. غيّر عبارة البحث أو اختر كل الأقسام.</div>}
       </section>
-      <section className="section-block"><h2>المنتجات المستوفية لشروط التوثيق ({catalogProducts.length})</h2>{catalogProducts.length ? <div className="cards-grid">{catalogProducts.filter((p) => category === 'all' || p.categoryId === category).map((p) => <ProductCard key={p.id} product={p} />)}</div> : <div className="result-box">لا توجد منتجات مستوفية لشروط التوثيق الكامل حالياً. نواصل مراجعة السجلات دون اعتماد غير مستحق.</div>}</section>
+      <section className="section-block"><h2>المنتجات المستوفية لشروط التوثيق ({verifiedFiltered.length})</h2>{verifiedFiltered.length ? <div className="cards-grid">{verifiedFiltered.map((p) => <ProductCard key={p.id} product={p} />)}</div> : <div className="result-box">لا توجد منتجات موثقة تطابق البحث والقسم الحالي.</div>}</section>
     </div>
   );
 }
