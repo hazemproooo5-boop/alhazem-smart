@@ -15,7 +15,7 @@ export const isCatalogReady = (product: Product): boolean => {
     && Object.keys(product.specifications).length > 0
     && Boolean(product.verifiedDate)
     && Boolean(availability)
-    && !/يحتاج تأكيد|غير محدد|غير متاح|غير مؤكد/i.test(availability);
+    && !/يحتاج تأكيد|غير محدد|غير متاح|غير متوفر|غير مؤكد/i.test(availability);
 };
 
 export const catalogProducts = products.filter(isCatalogReady);
