@@ -68,6 +68,11 @@ const rows = [
 ];
 const productIds = rows.map(row => row.id).filter(Boolean);
 const duplicateProductIds = [...new Set(productIds.filter((id, index) => productIds.indexOf(id) !== index))];
+const priceProductIds = [
+  ...seedPriceBlocks.map(block => readSeed(block, 'productId')),
+  ...catalogPriceBlocks.map(block => read(block, 'productId')),
+].filter(Boolean);
+const orphanPriceProductIds = [...new Set(priceProductIds.filter(id => !productIds.includes(id)))];
 const brandSection = brandSource.match(/export const brandDirectoryNames: string\[\] = \[([\s\S]*?)\];/);
 if (!brandSection) throw new Error('brandDirectoryNames declaration not found');
 const brandNames = [...brandSection[1].matchAll(/^\s*"([^"]+)",?\s*$/gm)].map(match => match[1]);
@@ -91,6 +96,7 @@ const summary = {
   uniquePriceRecordIds: new Set(priceIds).size,
   duplicatePriceIds,
   duplicateProductIds,
+  orphanPriceProductIds,
   seedProductAudit: {
     total: seedProductBlocks.length,
     published: rows.filter(row => row.id.startsWith('prod-') && row.published).length,
@@ -133,6 +139,6 @@ const columns = ['id','name','brandId','categoryId','model','verificationStatus'
 const csv = [columns.join(','), ...rows.map(row => columns.map(key => '"' + String(row[key] ?? '').replaceAll('"','""') + '"').join(','))].join('\n');
 fs.writeFileSync(path.join(outDir, 'catalog-audit.csv'), csv + '\n');
 console.log(JSON.stringify(summary, null, 2));
-if (duplicatePriceIds.length || duplicateProductIds.length) {
+if (duplicatePriceIds.length || duplicateProductIds.length || orphanPriceProductIds.length) {
   throw new Error(`Catalog integrity failure: duplicate price IDs (${duplicatePriceIds.join(', ')}) or product IDs (${duplicateProductIds.join(', ')})`);
 }
