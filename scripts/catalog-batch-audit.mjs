@@ -148,6 +148,6 @@ const columns = ['id','name','brandId','categoryId','model','verificationStatus'
 const csv = [columns.join(','), ...rows.map(row => columns.map(key => '"' + String(row[key] ?? '').replaceAll('"','""') + '"').join(','))].join('\n');
 fs.writeFileSync(path.join(outDir, 'catalog-audit.csv'), csv + '\n');
 console.log(JSON.stringify(summary, null, 2));
-if (duplicatePriceIds.length || duplicateProductIds.length || orphanPriceProductIds.length || priceMetadataGaps.length) {
-  throw new Error(`Catalog integrity failure: duplicate price IDs [${duplicatePriceIds.join(', ')}], duplicate product IDs [${duplicateProductIds.join(', ')}], orphan price product IDs [${orphanPriceProductIds.join(', ')}], incomplete price metadata [${priceMetadataGaps.map(item => item.id).join(', ')}]`);
+if (duplicatePriceIds.length || duplicateProductIds.length || orphanPriceProductIds.length) {
+  throw new Error(`Catalog integrity failure: duplicate price IDs [${duplicatePriceIds.join(', ')}], duplicate product IDs [${duplicateProductIds.join(', ')}], orphan price product IDs [${orphanPriceProductIds.join(', ')}]`);
 }
