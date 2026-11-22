@@ -82,10 +82,9 @@ const importedBrandIds = [...brandIdSection[1].matchAll(/"id"\s*:\s*"([^"]+)"/g)
 const coreBrandSection = seedSource.match(/const brandRecords: Brand\[\] = \[([\s\S]*?)\n  \.\.\.cairoSalesBrands/);
 if (!coreBrandSection) throw new Error('core brand records declaration not found');
 const coreBrandIds = [...coreBrandSection[1].matchAll(/\bid:\s*'([^']+)'/g)].map(match => match[1]);
-const directoryBrandIds = brandNames.map(name => name.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '')).filter(Boolean);
-const knownBrandIds = new Set([...coreBrandIds, ...importedBrandIds, ...directoryBrandIds]);
+const knownBrandIds = new Set([...coreBrandIds, ...importedBrandIds]);
 const missingBrandReferences = rows
-  .filter(row => row.brandId && !knownBrandIds.has(row.brandId))
+  .filter(row => !row.brandId || !knownBrandIds.has(row.brandId))
   .map(({ id, name, brandId }) => ({ id, name, brandId }));
 const companyStart = companySource.indexOf('export const companyDirectory');
 const marketStart = companySource.indexOf('export const wholesaleMarketDirectory');
