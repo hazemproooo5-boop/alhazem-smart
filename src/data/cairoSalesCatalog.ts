@@ -394,7 +394,7 @@ export const cairoSalesProducts: Product[] = [
       "منافذ USB": "1"
     },
     "warranty": "مدة الضمان وشروط الوكيل غير محددة بوضوح في صفحة المنتج المتاحة؛ يلزم تأكيدها من البائع والوكيل قبل الشراء.",
-    "availability": "حالة المخزون الحالية غير مؤكدة؛ ظهرت صفحات Aghezty المفهرسة للموديل نفسه ببيانات متباينة، ويلزم التحقق المباشر من البائع قبل عرض التوفر كحقيقة حالية.",
+     "availability": "تم التحقق المباشر 2026-11-22 لدى Aghezty: OLED65B66LA بسعر 73,999 جنيه شامل VAT، متوفر ويشحن الآن؛ الضمان من الوكيل الرسمي دون مدة محددة في الصفحة. السعر لدى هذا البائع فقط.",
     "officialProductUrl": "https://www.lg.com/eg_ar/tv-soundbars/oled/oled65b66la/",
     "sourceUrl": "https://www.lg.com/eg_ar/tv-soundbars/oled/oled65b66la/",
     "sourceCandidateUrl": "https://mail.aghezty.com/en/products/TVs/LG-65-Inch-4K-UHD-AI-B6-Smart-TVMagic-RemoteBuilt-In-Receiver-OLED65B66LA-29871/",
@@ -1237,7 +1237,7 @@ export const cairoSalesProducts: Product[] = [
       "الضمان": "سنة واحدة وفق صفحة Ayatie"
     },
     "warranty": "سنة واحدة؛ صفحة Ayatie تذكر ضماناً رسمياً في مصر لمدة عام.",
-    "availability": "متوفر في المخزون لدى Ayatie وقت التحقق 2026-11-19 17:53 بتوقيت القاهرة؛ موعد التوصيل المعروض 23 نوفمبر 2026. التوفر خاص بهذا البائع.",
+     "availability": "تم التحقق المباشر 2026-11-22 لدى Ayatie: طقم Tefal Tempo Flame برمز 220089989، متوفر، 1,419 جنيه شامل VAT، ضمان سنة؛ موعد التوصيل المعروض 25 نوفمبر. السعر والتوفر خاصان بالبائع.",
     "sourceUrl": "https://ayatie.com/product/tefal-tempo-flame-rectangular-oven-tray-set-30-35-220089989/",
     "sourceType": "Trusted Market",
     "verificationStatus": "Unverified",
@@ -3054,6 +3054,32 @@ export const cairoSalesPrices: PriceRecord[] = [
     "isHistorical": false,
     "createdAt": "2026-11-19T17:53:16+02:00"
   },
+  {
+    "id": "cs-price-158",
+    "productId": "cs-002",
+    "price": 73999,
+    "currency": "EGP",
+    "priceType": "Trusted Market Price",
+    "source": "Aghezty Egypt direct product page — exact OLED65B66LA; EGP 73,999 including VAT, In stock - ships now; genuine warranty from official agent but duration not stated. Checked 2026-11-22.",
+    "sourceUrl": "https://aghezty.com/en/products/TVs/LG-65-Inch-4K-UHD-AI-B6-Smart-TVMagic-RemoteBuilt-In-Receiver-OLED65B66LA-29871/",
+    "priceDate": "2026-11-22",
+    "verificationStatus": "Verified",
+    "isHistorical": false,
+    "createdAt": "2026-11-22T00:00:00Z"
+  },
+  {
+    "id": "cs-price-159",
+    "productId": "cs-034",
+    "price": 1419,
+    "currency": "EGP",
+    "priceType": "Trusted Market Price",
+    "source": "Ayatie Shopping direct product page — exact code 220089989, Tefal Tempo Flame 30/35 cm set; EGP 1,419 including VAT, In Stock, 1-year warranty and delivery shown 25 Nov. Checked 2026-11-22.",
+    "sourceUrl": "https://ayatie.com/product/tefal-tempo-flame-rectangular-oven-tray-set-30-35-220089989/",
+    "priceDate": "2026-11-22",
+    "verificationStatus": "Verified",
+    "isHistorical": false,
+    "createdAt": "2026-11-22T00:00:00Z"
+  },
 ];
 
 
@@ -3488,7 +3514,7 @@ export const cairoSalesSmallApplianceProducts: Product[] = [
       "السرعات": "سرعة واحدة مع Pulse",
       "السعر الأصلي بالقائمة": "السعر الأصلي بالقائمة: 1,646 جنيه تقريباً — مرجع غير معتمد كسعر حالي."
     },
-    "availability": "متاح لدى Carrefour Egypt وقت التحقق 19 نوفمبر 2026؛ صفحة المنتج المباشرة تعرض BL1291G وتذكر بقاء وحدتين؛ السعر شامل VAT، والضمان المعروض سنتان. المصدر: https://www.carrefouregypt.com/mafegy/en/blender/mienta-blender-bl1291g-700w-bk/p/674732",
+     "availability": "تم التحقق المباشر 2026-11-22 لدى Carrefour Egypt: Mienta BL1291G، السعر 1,549 جنيه شامل VAT، وحدتان متبقيتان، ضمان سنتين، موعد التسليم المعروض 23–25 نوفمبر. السعر والتوفر خاصان بالبائع.",
     "warranty": "سنتان وفق صفحة Carrefour Egypt؛ تحقق من شروط الضمان عند الشراء.",
     "sourceUrl": "https://www.carrefouregypt.com/mafegy/en/blender/mienta-blender-bl1291g-700w-bk/p/674732",
     "sourceType": "Unverified Market",
@@ -3517,7 +3543,7 @@ export const cairoSalesSmallApplianceProducts: Product[] = [
       "الضمان الخارجي": "سنة",
       "الضمان الداخلي": "سنة"
     },
-    "availability": "متاح على صفحة Fresh Egypt الرسمية وقت التحقق 19 نوفمبر 2026؛ صفحة CH-700 تعرض بقاء وحدة واحدة. السعر المعروض قبل اختلاف إجمالي الدفع حسب طريقة السداد، والضمان سنة داخلياً وسنة خارجياً. المصدر: https://fresh.com.eg/ar/products/fresh-chopper-ch-700-2-liters-700-w",
+     "availability": "تم التحقق المباشر 2026-11-22 لدى Fresh Egypt الرسمي: CH-700 (كود 500017241)، السعر المعروض 1,398.31 جنيه، لكن الصفحة تعرض غير متوفر؛ ضمان داخلي سنة وخارجي سنة. السعر تاريخي فقط وليس سعر شراء حالياً.",
     "warranty": "سنة ضمان داخلي وسنة ضمان خارجي وفق صفحة Fresh Egypt الرسمية.",
     "officialProductUrl": "https://fresh.com.eg/ar/products/fresh-chopper-ch-700-2-liters-700-w",
     "sourceUrl": "https://fresh.com.eg/ar/products/fresh-chopper-ch-700-2-liters-700-w",
@@ -3572,7 +3598,7 @@ export const cairoSalesSmallApplianceProducts: Product[] = [
       "إعدادات الحرارة": "5",
       "الضمان": "سنتان"
     },
-    "availability": "متاح للطلب من متجر Bosch Egypt وقت التحقق المباشر 21 نوفمبر 2026؛ صفحة TCG4104 تعرض 5,599 جنيه شاملاً VAT، وتوصيل 5–7 أيام وضمان سنتين. المصدر: https://www.bosch-home.com/eg/en/product/cookingandbaking/contactgrill/TCG4104",
+     "availability": "تم التحقق المباشر 2026-11-22 لدى Bosch Egypt: TCG4104 بسعر 5,599 جنيه شامل VAT، مخزون محدود، وتقديرات توصيل 3–5/5–7 أيام بحسب الصفحة، ضمان سنتين. السعر والتوفر خاصان بصفحة الشركة.",
     "warranty": "سنتان ضمان شامل وفق صفحة Bosch Egypt الرسمية.",
     "officialProductUrl": "https://www.bosch-home.com/eg/ar/product/cookingandbaking/contactgrill/TCG4104",
     "sourceUrl": "https://www.bosch-home.com/eg/en/product/cookingandbaking/contactgrill/TCG4104",
@@ -3766,7 +3792,7 @@ export const cairoSalesSmallApplianceProducts: Product[] = [
       "الضمان": "مدة الضمان غير ظاهرة على صفحة المنتج المباشرة؛ لا يعتمد ضمان سنتين دون تأكيد مباشر من الوكيل"
     },
     "warranty": "مدة الضمان غير مذكورة في صفحة المنتج المباشرة. صفحة EL-ALFY تثبت البيع والخدمة في مصر بواسطة الوكيل المعتمد، لكنها لا تحدد مدة ضمان هذا الموديل.",
-    "availability": "صفحة المنتج المباشرة لدى EL-ALFY تعرض «غير متوفر» مع سعر مدرج 15,000 جنيه؛ لا يوجد موعد عودة للمخزون ولا بيان VAT. التوفر لدى بائعين آخرين غير معلوم. تحقق 2026-11-19 18:15 بتوقيت القاهرة.",
+     "availability": "تم التحقق المباشر 2026-11-22 لدى EL-ALFY: BRIVA Blender Pro 2000، SKU 87854، سعر مدرج 15,000 جنيه والصفحة تعرض غير متوفر؛ لا يظهر VAT أو مدة ضمان. السعر تاريخي فقط وليس سعر شراء حالياً.",
     "sourceUrl": "https://briva-haus.de/en/product/briva-blender-pro-2000/",
     "sourceType": "Official",
     "officialProductUrl": "https://briva-haus.de/en/product/briva-blender-pro-2000/",
@@ -4468,5 +4494,57 @@ export const cairoSalesSmallAppliancePrices: PriceRecord[] = [
     "verificationStatus": "Verified",
     "isHistorical": false,
     "createdAt": "2026-11-21T14:38:28Z"
+  },
+  {
+    "id": "cs-price-156",
+    "productId": "cs-079",
+    "price": 1398.31,
+    "currency": "EGP",
+    "priceType": "Official Price",
+    "source": "Fresh Egypt official direct page — exact CH-700/code 500017241; EGP 1,398.31 listed, but page explicitly marks Out of Stock; internal/external one-year warranty. Checked 2026-11-22. Historical listing only, not a current sellable price.",
+    "sourceUrl": "https://fresh.com.eg/ar/products/fresh-chopper-ch-700-2-liters-700-w",
+    "priceDate": "2026-11-22",
+    "verificationStatus": "Partially Verified",
+    "isHistorical": true,
+    "createdAt": "2026-11-22T00:00:00Z"
+  },
+  {
+    "id": "cs-price-157",
+    "productId": "cs-078",
+    "price": 1549,
+    "currency": "EGP",
+    "priceType": "Trusted Market Price",
+    "source": "Carrefour Egypt direct product page — exact Mienta BL1291G; EGP 1,549 including VAT, 2 units left, 2-year warranty; delivery shown 23–25 Nov. Checked 2026-11-22.",
+    "sourceUrl": "https://www.carrefouregypt.com/mafegy/en/blender/mienta-blender-bl1291g-700w-bk/p/674732",
+    "priceDate": "2026-11-22",
+    "verificationStatus": "Verified",
+    "isHistorical": false,
+    "createdAt": "2026-11-22T00:00:00Z"
+  },
+  {
+    "id": "cs-price-160",
+    "productId": "cs-081",
+    "price": 5599,
+    "currency": "EGP",
+    "priceType": "Official Price",
+    "source": "Bosch Egypt official direct product page — exact TCG4104; EGP 5,599 including VAT, limited stock, delivery estimates 3–5 and 5–7 days, overall 2-year warranty. Checked 2026-11-22.",
+    "sourceUrl": "https://www.bosch-home.com/eg/en/product/cookingandbaking/contactgrill/TCG4104",
+    "priceDate": "2026-11-22",
+    "verificationStatus": "Verified",
+    "isHistorical": false,
+    "createdAt": "2026-11-22T00:00:00Z"
+  },
+  {
+    "id": "cs-price-161",
+    "productId": "cs-089",
+    "price": 15000,
+    "currency": "EGP",
+    "priceType": "Unverified Market Price",
+    "source": "EL-ALFY direct page — exact BRIVA Blender Pro 2000/SKU 87854, EGP 15,000 listed but explicitly Out of Stock; VAT and warranty duration unstated. Checked 2026-11-22. Historical listing only, not a current sellable price.",
+    "sourceUrl": "https://elalfyeg.com/ar/product/blender-pro-2000/",
+    "priceDate": "2026-11-22",
+    "verificationStatus": "Partially Verified",
+    "isHistorical": true,
+    "createdAt": "2026-11-22T00:00:00Z"
   },
 ];
