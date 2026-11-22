@@ -89,6 +89,14 @@ const counts = key => rows.reduce((acc, row) => {
   acc[value] = (acc[value] || 0) + 1;
   return acc;
 }, {});
+
+const priceMetadataGaps = priceBlocks.map(block => ({
+  id: readSeed(block, 'id') || read(block, 'id'),
+  source: readSeed(block, 'source') || read(block, 'source'),
+  sourceUrl: readSeed(block, 'sourceUrl') || read(block, 'sourceUrl'),
+  priceDate: readSeed(block, 'priceDate') || read(block, 'priceDate'),
+})).filter(item => !item.source || !item.sourceUrl || !item.priceDate);
+
 const summary = {
   generatedAt: new Date().toISOString(),
   products: rows.length,
@@ -97,6 +105,7 @@ const summary = {
   duplicatePriceIds,
   duplicateProductIds,
   orphanPriceProductIds,
+  priceMetadataGaps,
   seedProductAudit: {
     total: seedProductBlocks.length,
     published: rows.filter(row => row.id.startsWith('prod-') && row.published).length,
@@ -139,6 +148,6 @@ const columns = ['id','name','brandId','categoryId','model','verificationStatus'
 const csv = [columns.join(','), ...rows.map(row => columns.map(key => '"' + String(row[key] ?? '').replaceAll('"','""') + '"').join(','))].join('\n');
 fs.writeFileSync(path.join(outDir, 'catalog-audit.csv'), csv + '\n');
 console.log(JSON.stringify(summary, null, 2));
-if (duplicatePriceIds.length || duplicateProductIds.length || orphanPriceProductIds.length) {
-  throw new Error(`Catalog integrity failure: duplicate price IDs (${duplicatePriceIds.join(', ')}) or product IDs (${duplicateProductIds.join(', ')})`);
+if (duplicatePriceIds.length || duplicateProductIds.length || orphanPriceProductIds.length || priceMetadataGaps.length) {
+  throw new Error(`Catalog integrity failure: duplicate price IDs [${duplicatePriceIds.join(', ')}], duplicate product IDs [${duplicateProductIds.join(', ')}], orphan price product IDs [${orphanPriceProductIds.join(', ')}], incomplete price metadata [${priceMetadataGaps.map(item => item.id).join(', ')}]`);
 }
