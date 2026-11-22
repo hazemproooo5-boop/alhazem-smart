@@ -76,12 +76,12 @@ const orphanPriceProductIds = [...new Set(priceProductIds.filter(id => !productI
 const brandSection = brandSource.match(/export const brandDirectoryNames: string\[\] = \[([\s\S]*?)\];/);
 if (!brandSection) throw new Error('brandDirectoryNames declaration not found');
 const brandNames = [...brandSection[1].matchAll(/^\s*"([^"]+)",?\s*$/gm)].map(match => match[1]);
-const brandIdSection = catalog.match(/export const cairoSalesBrands: Brand\\[\\] = \\[([\\s\\S]*?)\\n\\];/);
+const brandIdSection = catalog.match(/export const cairoSalesBrands: Brand\[\] = \[([\s\S]*?)\n\];/);
 if (!brandIdSection) throw new Error('cairoSalesBrands declaration not found');
-const importedBrandIds = [...brandIdSection[1].matchAll(/"id"\\s*:\\s*"([^"]+)"/g)].map(match => match[1]);
-const coreBrandSection = seedSource.match(/const brandRecords: Brand\\[\\] = \\[([\\s\\S]*?)\\n  \.\.\.cairoSalesBrands/);
+const importedBrandIds = [...brandIdSection[1].matchAll(/"id"\s*:\s*"([^"]+)"/g)].map(match => match[1]);
+const coreBrandSection = seedSource.match(/const brandRecords: Brand\[\] = \[([\s\S]*?)\n  \.\.\.cairoSalesBrands/);
 if (!coreBrandSection) throw new Error('core brand records declaration not found');
-const coreBrandIds = [...coreBrandSection[1].matchAll(/\\bid:\\s*'([^']+)'/g)].map(match => match[1]);
+const coreBrandIds = [...coreBrandSection[1].matchAll(/\bid:\s*'([^']+)'/g)].map(match => match[1]);
 const directoryBrandIds = brandNames.map(name => name.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '')).filter(Boolean);
 const knownBrandIds = new Set([...coreBrandIds, ...importedBrandIds, ...directoryBrandIds]);
 const missingBrandReferences = rows
