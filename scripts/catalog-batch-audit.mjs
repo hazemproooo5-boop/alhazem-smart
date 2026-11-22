@@ -107,6 +107,17 @@ const priceMetadataGaps = priceBlocks.map(block => ({
   priceDate: readSeed(block, 'priceDate') || read(block, 'priceDate'),
 })).filter(item => !item.source || !item.sourceUrl || !item.priceDate);
 
+const datedPriceRecords = priceBlocks.map(block => ({
+  id: readSeed(block, 'id') || read(block, 'id'),
+  priceDate: readSeed(block, 'priceDate') || read(block, 'priceDate'),
+})).filter(item => item.priceDate);
+const invalidPriceDates = datedPriceRecords
+  .filter(item => Number.isNaN(Date.parse(item.priceDate)))
+  .map(item => ({ ...item, issue: 'invalid-date' }));
+const futurePriceDates = datedPriceRecords
+  .filter(item => !Number.isNaN(Date.parse(item.priceDate)) && Date.parse(item.priceDate) > Date.now())
+  .map(item => ({ ...item, issue: 'future-date' }));
+
 const summary = {
   generatedAt: new Date().toISOString(),
   products: rows.length,
@@ -117,6 +128,8 @@ const summary = {
   orphanPriceProductIds,
   missingBrandReferences,
   priceMetadataGaps,
+  invalidPriceDates,
+  futurePriceDates,
   seedProductAudit: {
     total: seedProductBlocks.length,
     published: rows.filter(row => row.id.startsWith('prod-') && row.published).length,
