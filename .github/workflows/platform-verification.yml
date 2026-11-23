@@ -25,7 +25,19 @@ jobs:
         uses: actions/setup-node@v4
       - name: Install dependencies
         run: npm install --no-audit --no-fund
+      - name: Audit catalog coverage
+        run: npm run audit:catalog
       - name: Type check
         run: npm run lint
       - name: Build
         run: npm run build
+      - name: Upload catalog audit artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: catalog-audit-${{ github.sha }}
+          path: |
+            reports/catalog-audit-summary.json
+            reports/catalog-audit.csv
+          retention-days: 30
+          if-no-files-found: warn
