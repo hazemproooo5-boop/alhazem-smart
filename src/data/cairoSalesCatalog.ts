@@ -3535,6 +3535,19 @@ export const cairoSalesPrices: PriceRecord[] = [
     "verificationStatus": "Verified",
     "isHistorical": false,
     "createdAt": "2026-11-24T08:59:00+02:00",
+  },
+  {
+    "id": "cs-price-199",
+    "productId": "cs-088",
+    "price": 899,
+    "currency": "EGP",
+    "priceType": "Trusted Market Price",
+    "source": "Carrefour Egypt direct product page — exact Mienta HB111938A, 450W, 600ml; EGP 899 including VAT; delivery today 8–11 PM; checked 24 Nov 2026.",
+    "sourceUrl": "https://www.carrefouregypt.com/mafegy/en/blender/mienta-hand-blender-hb111938a-450w/p/674730",
+    "priceDate": "2026-11-24",
+    "verificationStatus": "Verified",
+    "isHistorical": false,
+    "createdAt": "2026-11-24T08:55:00+02:00",
   }
 ];
 
@@ -4229,13 +4242,13 @@ export const cairoSalesSmallApplianceProducts: Product[] = [
     "sku": "HB111938A",
     "description": "خلاط يدوي Mienta Vitesse موديل HB111938A أبيض؛ صفحة Carrefour Egypt تطابق الموديل والقدرة 450 واط وكوب 600 مل وسرعة واحدة مع Turbo ومضرب خفق وعمود ستانلس مانع للتناثر. لا يُعتمد السعر أو التوفر دون إعادة تحقق مباشرة.",
     "specifications": {"السعر الأصلي بالقائمة":"1,099 EGP — غير معتمد","الموديل":"HB111938A","السلسلة":"Vitesse","القدرة":"450 واط","السعة":"600 مل","السرعات":"سرعة واحدة + Turbo","الملحقات":"كوب مدرج ومضرب خفق","عمود الخلط":"ستانلس ستيل مانع للتناثر"},
-    "availability": "متاح لدى Carrefour Egypt وقت التحقق 18 نوفمبر 2026؛ صفحة الفئة الحالية تعرض الموديل HB111938A بكمية «قطعتان متبقيتان»، وسعر 899 جنيه شامل VAT وتوصيل مجاني غداً حسب المنطقة. صفحة المنتج: https://www.carrefouregypt.com/mafegy/en/blender/mienta-hand-blender-hb111938a-450w/p/674730",
+    "availability": "تم التحقق المباشر 24 نوفمبر 2026 لدى Carrefour Egypt: Mienta HB111938A، 899 جنيه شامل VAT، توصيل اليوم 8–11 مساءً. صفحة المنتج تطابق الموديل والقدرة 450 وات.",
     "sourceUrl": "https://www.carrefouregypt.com/mafegy/en/blender/mienta-hand-blender-hb111938a-450w/p/674730",
     "sourceType": "Unverified Market",
     "verificationStatus": "Unverified",
     "published": true,
     "createdAt": "2026-11-15",
-    "updatedAt": "2026-11-17",
+    "updatedAt": "2026-11-24",
     "imageUrl": ""
   },
   {
@@ -4262,14 +4275,14 @@ export const cairoSalesSmallApplianceProducts: Product[] = [
       "الضمان": "مدة الضمان غير ظاهرة على صفحة المنتج المباشرة؛ لا يعتمد ضمان سنتين دون تأكيد مباشر من الوكيل"
     },
     "warranty": "مدة الضمان غير مذكورة في صفحة المنتج المباشرة. صفحة EL-ALFY تثبت البيع والخدمة في مصر بواسطة الوكيل المعتمد، لكنها لا تحدد مدة ضمان هذا الموديل.",
-     "availability": "تم التحقق المباشر 2026-11-22 لدى EL-ALFY: BRIVA Blender Pro 2000، SKU 87854، سعر مدرج 15,000 جنيه والصفحة تعرض غير متوفر؛ لا يظهر VAT أو مدة ضمان. السعر تاريخي فقط وليس سعر شراء حالياً.",
-    "sourceUrl": "https://briva-haus.de/en/product/briva-blender-pro-2000/",
+     "availability": "تم التحقق المباشر 24 نوفمبر 2026 لدى EL-ALFY: BRIVA Blender Pro 2000، SKU 87854، السعر المدرج 15,000 جنيه والصفحة تعرض Out of Stock. السعر تاريخي فقط ولا يمثل سعر شراء حالي.",
+    "sourceUrl": "https://elalfyeg.com/ar/product/blender-pro-2000/",
     "sourceType": "Official",
     "officialProductUrl": "https://briva-haus.de/en/product/briva-blender-pro-2000/",
     "verificationStatus": "Unverified",
     "published": true,
     "createdAt": "2026-11-15",
-    "updatedAt": "2026-11-19",
+    "updatedAt": "2026-11-24",
     "imageUrl": "https://briva-haus.de/wp-content/uploads/2024/06/mixer-1.png",
     "imageSourceUrl": "https://briva-haus.de/en/product/briva-blender-pro-2000/",
     "imageVerifiedDate": "2026-11-18"
@@ -4286,13 +4299,13 @@ export const cairoSalesSmallApplianceProducts: Product[] = [
     "sku": "PBUM15043-EX",
     "description": "لمبة Panasonic Candle LED PBUM15043-EX بقدرة 4 وات وضوء أصفر دافئ 3000K وقاعدة E14؛ سجل منفصل للنسخة الصفراء التي كانت مدمجة سابقاً في وصف cs-063؛ لا تُحذف بيانات السجل الأصلي.",
     "specifications": {"القدرة":"4 وات","نوع الإضاءة":"Candle LED","درجة اللون":"3000K أصفر دافئ","القاعدة":"E14"},
-    "availability": "يحتاج تأكيد التوفر لدى المورد",
+    "availability": "لا يوجد رصد مباشر جديد اليوم 24 نوفمبر 2026. آخر سعر مباشر محفوظ لدى Elghazawy بتاريخ 18 نوفمبر هو 50 جنيه لنسخة PBUM15043-EX الصفراء؛ خارج نافذة يومين ولا يعرض كسعر حالي.",
     "sourceUrl": "https://elghazawy.com/ar/product/38074270232144/Panasonic%2BCandle%2BLED%2BAllows%2BLamp%2C%2B4%2BWatt%2C%2BYellow%2BLight%2C%2BPBUM15043-EX",
     "sourceType": "Unverified Market",
     "verificationStatus": "Unverified",
     "published": true,
     "createdAt": "2026-11-18",
-    "updatedAt": "2026-11-18",
+    "updatedAt": "2026-11-24",
     "imageUrl": ""
   }
 ];
