@@ -11,9 +11,52 @@ const sections = declarations.map((match, index) => ({
   name: match[1],
   source: catalog.slice(match.index, declarations[index + 1]?.index ?? catalog.length),
 }));
-const parseObjects = source => source
-  .split(/(?=  \{\s*"id": ")/)
-  .filter(part => /^  \{\s*"id": "/.test(part));
+const parseObjects = source => {
+  const assignment = source.indexOf('=');
+  const arrayStart = source.indexOf('[', assignment);
+  if (arrayStart < 0) return [];
+
+  const objects = [];
+  let depth = 0;
+  let objectStart = -1;
+  let inString = false;
+  let escaped = false;
+
+  for (let index = arrayStart + 1; index < source.length; index += 1) {
+    const character = source[index];
+
+    if (inString) {
+      if (escaped) escaped = false;
+      else if (character === '\\') escaped = true;
+      else if (character === '"') inString = false;
+      continue;
+    }
+
+    if (character === '"') {
+      inString = true;
+      continue;
+    }
+
+    if (character === '{') {
+      if (depth === 0) objectStart = index;
+      depth += 1;
+      continue;
+    }
+
+    if (character === '}') {
+      depth -= 1;
+      if (depth === 0 && objectStart >= 0) {
+        objects.push(source.slice(objectStart, index + 1));
+        objectStart = -1;
+      }
+      continue;
+    }
+
+    if (character === ']' && depth === 0) break;
+  }
+
+  return objects;
+};
 const read = (block, key) => {
   const match = block.match(new RegExp('"' + key + '"\\s*:\\s*"([^"]*)"'));
   return match?.[1] ?? '';
