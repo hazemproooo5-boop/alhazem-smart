@@ -1765,14 +1765,14 @@ export const cairoSalesProducts: Product[] = [
     "sku": "E-5710",
     "description": "شواية فحم Weber Original Kettle E-5710 مقاس 57 سم؛ صفحة Weber الرسمية تطابق الموديل وتعرض نظام One-Touch للتنظيف وميزان حرارة في الغطاء والضمان حسب المكونات. لا يثبت المصدر التوفر أو الضمان المحلي في مصر.",
     "specifications": {"السعر الأصلي بالقائمة":"19,999 EGP — غير معتمد","الموديل":"E-5710 / رقم القطعة 14101004","نوع الوقود":"فحم","قطر الشواية":"57 سم","مساحة الطهي":"2342 سم²","الوزن":"16.329 كجم","الأبعاد عند إغلاق الغطاء":"107 × 65 × 67 سم","الضمان الرسمي":"10 سنوات للوعاء والغطاء، 5 سنوات لنظام One-Touch، وسنتان لبقية الأجزاء"},
-    "availability": "يحتاج تأكيد التوفر لدى المورد",
+    "availability": "متوفر لدى Khamato وقت التحقق 24 نوفمبر 2026؛ صفحة المنتج تطابق Weber E-5710 / كود 14101004، وتعرض السعر 19,999 جنيه مع إضافة للسلة وتوصيل لكل أنحاء مصر. الضمان Manufacturer؛ ضريبة القيمة المضافة غير موضحة في الصفحة. الرصد خاص ببائع Khamato ولا يثبت التوفر لدى مورد آخر.",
     "sourceUrl": "https://www.weber.com/GB/en/charcoal-barbecues/original-kettle/original-kettle-e-5710-charcoal-barbecue-57-cm/14101004.html",
     "officialProductUrl": "https://www.weber.com/GB/en/charcoal-barbecues/original-kettle/original-kettle-e-5710-charcoal-barbecue-57-cm/14101004.html",
     "sourceType": "Official",
     "verificationStatus": "Unverified",
     "published": true,
     "createdAt": "2026-11-15",
-    "updatedAt": "2026-11-17",
+    "updatedAt": "2026-11-24",
     "imageUrl": "https://cdn.meingartencenter24.de/item/images/4108150/full/4108150-14101004-Weber-Original-Kettle-E-5710----57cm-Holzkohlegrill-Black_3.png",
     "imageSourceUrl": "https://www.meingartencenter24.de/weber-world-grill-shop/holzkohlegrills/original-kettle/weber-original-kettle-e-5710-holzkohlegrill-57cm-black_4108150_45782",
     "imageVerifiedDate": "2026-11-18"
@@ -3183,6 +3183,201 @@ export const cairoSalesPrices: PriceRecord[] = [
     "verificationStatus": "Verified",
     "isHistorical": false,
     "createdAt": "2026-11-23T17:33:52+02:00"
+  },
+  {
+    "id": "cs-price-170",
+    "productId": "cs-006",
+    "price": 39994,
+    "currency": "EGP",
+    "priceType": "Trusted Market Price",
+    "source": "Carrefour Egypt direct page, Electro Zone, exact 65QNED84B6T; EGP 39,994 including VAT; only 1 left; free delivery 26 Nov; 2-year warranty; checked 23 Nov 2026 18:01 Cairo; no same-seller baseline.",
+    "sourceUrl": "https://www.carrefouregypt.com/mafegy/en/qled-qned-tv/lg-qned-tv-65qned84b6t-4k-sm-rc/p/679640",
+    "priceDate": "2026-11-23",
+    "verificationStatus": "Verified",
+    "isHistorical": false,
+    "createdAt": "2026-11-23T00:00:00+02:00"
+  },
+  {
+    "id": "cs-price-171",
+    "productId": "cs-010",
+    "price": 24699,
+    "currency": "EGP",
+    "priceType": "Trusted Market Price",
+    "source": "Hyper Techno direct product page, exact regional SKU 50QNED72B6T.AFU; special EGP 24,699, regular 26,199; 2-year warranty, country of origin Egypt; VAT not stated; page allows add-to-cart, stock count not stated; checked 23 Nov 2026 18:01 Cairo; no same-seller baseline.",
+    "sourceUrl": "https://hyper-techno.com/en/lg-tv-50-inch-smart-4k-with-a-built-in-receiver-and-mini-led-technology-50qned72b6t-afu.html",
+    "priceDate": "2026-11-23",
+    "verificationStatus": "Partially Verified",
+    "isHistorical": false,
+    "createdAt": "2026-11-23T00:00:00+02:00"
+  },
+  {
+    "id": "cs-price-172",
+    "productId": "cs-014",
+    "price": 199499,
+    "currency": "EGP",
+    "priceType": "Trusted Market Price",
+    "source": "Azmyco direct page, exact 83S85H; EGP 199,499; in stock; delivery 24 Nov; free delivery; agent warranty (duration not stated); VAT not stated; checked 23 Nov 2026 18:01 Cairo; no same-seller baseline.",
+    "sourceUrl": "https://azmyco.com/en/products/TVs/SAMSUNG-83-Inch-OLED-Smart-TV-3840x2160-83S85H2075/",
+    "priceDate": "2026-11-23",
+    "verificationStatus": "Partially Verified",
+    "isHistorical": false,
+    "createdAt": "2026-11-23T00:00:00+02:00"
+  },
+  {
+    "id": "cs-price-173",
+    "productId": "cs-015",
+    "price": 199999,
+    "currency": "EGP",
+    "priceType": "Trusted Market Price",
+    "source": "Raya Distribution direct page, exact UA100M90H; EGP 199,999; add-to-cart available; free shipping; warranty 5 years; delivery 3–5 business days Cairo/Giza and 5–7 outside; VAT not stated; checked 23 Nov 2026 18:01 Cairo; no same-seller baseline.",
+    "sourceUrl": "https://www.rayashop.com/en/samsung-m90h-100-inch-4k-uhd-smart-led-tv-with-built-in-receiver-ua100m90h-2-4f99f04f",
+    "priceDate": "2026-11-23",
+    "verificationStatus": "Partially Verified",
+    "isHistorical": false,
+    "createdAt": "2026-11-23T00:00:00+02:00"
+  },
+  {
+    "id": "cs-price-174",
+    "productId": "cs-016",
+    "price": 164999,
+    "currency": "EGP",
+    "priceType": "Trusted Market Price",
+    "source": "Azmyco direct page, exact 65S95H; EGP 164,999; in stock; agent warranty; free delivery; page delivery date 22 Nov 2026; VAT not stated; checked 23 Nov 2026 18:01 Cairo; no same-seller baseline.",
+    "sourceUrl": "https://azmyco.com/en/products/TVs/Samsung-654K-Vision-AI-Smart-TV-65S95H2074/",
+    "priceDate": "2026-11-23",
+    "verificationStatus": "Partially Verified",
+    "isHistorical": false,
+    "createdAt": "2026-11-23T00:00:00+02:00"
+  },
+  {
+    "id": "cs-price-175",
+    "productId": "cs-018",
+    "price": 82999,
+    "currency": "EGP",
+    "priceType": "Trusted Market Price",
+    "source": "Raya Distribution direct page, exact QA75LS03H; EGP 82,999; add-to-cart available; warranty 5 years; free shipping; delivery 3–5 business days Cairo/Giza and 5–7 outside; VAT not stated; checked 23 Nov 2026 18:01 Cairo; no same-seller baseline.",
+    "sourceUrl": "https://www.rayashop.com/en/samsung-ls03h-the-frame-75-inch-4k-uhd-smart-qled-tv-with-built-in-receiver-qa75ls03h-6-57566679",
+    "priceDate": "2026-11-23",
+    "verificationStatus": "Partially Verified",
+    "isHistorical": false,
+    "createdAt": "2026-11-23T00:00:00+02:00"
+  },
+  {
+    "id": "cs-price-176",
+    "productId": "cs-019",
+    "price": 47999,
+    "currency": "EGP",
+    "priceType": "Trusted Market Price",
+    "source": "Raya Distribution direct page for exact QA55LS03H; listed EGP 47,999 but Sold Out; 5-year warranty; no VAT statement; checked 23 Nov 2026; historical listing, not current sale.",
+    "sourceUrl": "https://www.rayashop.com/en/samsung-ls03h-the-frame-55-inch-4k-uhd-smart-qled-tv-with-built-in-receiver-qa55ls03h-5-aaec3eac",
+    "priceDate": "2026-11-23",
+    "verificationStatus": "Partially Verified",
+    "isHistorical": true,
+    "createdAt": "2026-11-23T00:00:00+02:00"
+  },
+  {
+    "id": "cs-price-179",
+    "productId": "cs-042",
+    "price": 61575,
+    "currency": "EGP",
+    "priceType": "Trusted Market Price",
+    "source": "AudioTech direct page; exact HT-A9000; EGP 61,575; email me when available; no current stock; VAT not stated; checked 23 Nov 2026; historical listing only.",
+    "sourceUrl": "https://audiotecheg.myshopify.com/products/sony-ht-a9000-bravia-theatre-bar-9",
+    "priceDate": "2026-11-23",
+    "verificationStatus": "Partially Verified",
+    "isHistorical": true,
+    "createdAt": "2026-11-23T00:00:00+02:00"
+  },
+  {
+    "id": "cs-price-180",
+    "productId": "cs-045",
+    "price": 18555,
+    "currency": "EGP",
+    "priceType": "Trusted Market Price",
+    "source": "Sony World Egypt official distributor page; exact HT-S40R; EGP 18,555; taxes included; Available Soon, not currently purchasable; checked 23 Nov 2026; historical listing only.",
+    "sourceUrl": "https://sonyworld.eg/products/sony-5-1ch-home-cinema-with-wireless-rear-speakers-ht-s40r",
+    "priceDate": "2026-11-23",
+    "verificationStatus": "Partially Verified",
+    "isHistorical": true,
+    "createdAt": "2026-11-23T00:00:00+02:00"
+  },
+  {
+    "id": "cs-price-181",
+    "productId": "cs-047",
+    "price": 4999.56,
+    "currency": "EGP",
+    "priceType": "Trusted Market Price",
+    "source": "AudioTech direct page; exact WF-C710N/B Black option; EGP 4,999.56; add-to-cart; Merghany pickup available but online stock ambiguous; VAT not stated; checked 23 Nov 2026.",
+    "sourceUrl": "https://audioteceg.com/products/sony-wf-c700n",
+    "priceDate": "2026-11-23",
+    "verificationStatus": "Partially Verified",
+    "isHistorical": false,
+    "createdAt": "2026-11-23T00:00:00+02:00"
+  },
+  {
+    "id": "cs-price-182",
+    "productId": "cs-048",
+    "price": 2132,
+    "currency": "EGP",
+    "priceType": "Trusted Market Price",
+    "source": "Radio Talaat direct page; WF-C510 black variant; EGP 2,132; one item shown; add-to-cart; VAT/warranty not stated; checked 23 Nov 2026.",
+    "sourceUrl": "https://radiotalaat.com/en/sony-tws-earbuds-wf-c510.html",
+    "priceDate": "2026-11-23",
+    "verificationStatus": "Partially Verified",
+    "isHistorical": false,
+    "createdAt": "2026-11-23T00:00:00+02:00"
+  },
+  {
+    "id": "cs-price-183",
+    "productId": "cs-050",
+    "price": 34999,
+    "currency": "EGP",
+    "priceType": "Trusted Market Price",
+    "source": "Sharaf DG direct page; exact JBLPB330BLKUK; EGP 34,999; VAT included; add-to-cart; delivery 24 Nov 2026; warranty not stated; checked 23 Nov 2026.",
+    "sourceUrl": "https://egypt.sharafdg.com/product/jbl-partybox-330-portable-bluetooth-speaker-black-jblpb330blkuk/",
+    "priceDate": "2026-11-23",
+    "verificationStatus": "Partially Verified",
+    "isHistorical": false,
+    "createdAt": "2026-11-23T00:00:00+02:00"
+  },
+  {
+    "id": "cs-price-184",
+    "productId": "cs-051",
+    "price": 31499,
+    "currency": "EGP",
+    "priceType": "Trusted Market Price",
+    "source": "Noon direct page; exact JBLBOOMBOX4BLUUK; EGP 31,499; three items shown, but delivery date July is past and page crawl 4 months; historical listing only.",
+    "sourceUrl": "https://www.noon.com/egypt-en/boombox-4-blue-jblboombox4bluuk-blue/N70307032V/p/",
+    "priceDate": "2026-11-23",
+    "verificationStatus": "Partially Verified",
+    "isHistorical": true,
+    "createdAt": "2026-11-23T00:00:00+02:00"
+  },
+  {
+    "id": "cs-price-185",
+    "productId": "cs-052",
+    "price": 25555,
+    "currency": "EGP",
+    "priceType": "Trusted Market Price",
+    "source": "EG-Tech direct page; exact SKU JBLPB130BLKUK; EGP 25,555 including VAT; in stock; delivery 2–3 days; checked 23 Nov 2026; warranty not stated.",
+    "sourceUrl": "https://shop.itegy.com.eg/product/jbl-partybox-130-portable-party-speaker-black/",
+    "priceDate": "2026-11-23",
+    "verificationStatus": "Partially Verified",
+    "isHistorical": false,
+    "createdAt": "2026-11-23T00:00:00+02:00"
+  },
+  {
+    "id": "cs-price-186",
+    "productId": "cs-057",
+    "price": 19999,
+    "currency": "EGP",
+    "priceType": "Trusted Market Price",
+    "source": "Khamato Egypt direct product page; exact Weber E-5710 product code 14101004; EGP 19,999; page states available, add-to-cart and delivery throughout Egypt; manufacturer warranty; VAT not stated; checked 24 Nov 2026 08:23 Cairo.",
+    "sourceUrl": "https://khamato.com/ar/products/weber-14101004",
+    "priceDate": "2026-11-24",
+    "verificationStatus": "Verified",
+    "isHistorical": false,
+    "createdAt": "2026-11-24T08:23:12+02:00"
   }
 
 ];
@@ -3594,7 +3789,21 @@ export const cairoSalesCookwarePrices: PriceRecord[] = [
     "priceDate": "2026-11-15",
     "verificationStatus": "Unverified",
     "createdAt": "2026-11-15T00:00:00Z"
+  },
+  {
+    "id": "cs-price-178",
+    "productId": "cs-036",
+    "price": 1495,
+    "currency": "EGP",
+    "priceType": "Trusted Market Price",
+    "source": "Cairo Sales direct page, exact reference 4300001043; EGP 1,495; last items in stock; no VAT or warranty statement; checked 23 Nov 2026; no same-seller baseline.",
+    "sourceUrl": "https://cairosales.com/en/cookware-tableware/tefal-tempo-set-2-pieces-oven-trays-2630-cm-4300001043.html?utm_source=qarenly",
+    "priceDate": "2026-11-23",
+    "verificationStatus": "Partially Verified",
+    "isHistorical": false,
+    "createdAt": "2026-11-23T00:00:00+02:00"
   }
+
 ];
 
 
@@ -4238,7 +4447,7 @@ export const cairoSalesSmallAppliancePrices: PriceRecord[] = [
     "createdAt": "2026-11-18T00:00:00+02:00"
   },
 {
-    "id": "cs-price-156",
+    "id": "cs-price-156-cs020",
     "productId": "cs-020",
     "price": 31499,
     "currency": "EGP",
@@ -4652,4 +4861,18 @@ export const cairoSalesSmallAppliancePrices: PriceRecord[] = [
     "isHistorical": true,
     "createdAt": "2026-11-22T00:00:00Z"
   },
+  {
+    "id": "cs-price-177",
+    "productId": "cs-024",
+    "price": 3549,
+    "currency": "EGP",
+    "priceType": "Trusted Market Price",
+    "source": "Technology Valley direct page, exact FRL 2244 B; EGP 3,549; 1 unit shown and add-to-cart available; 2-year warranty; VAT not stated; checked 23 Nov 2026; no same-seller baseline.",
+    "sourceUrl": "https://tv-it.com/ar/products/beko-air-fryer-39-liter-1500-watt-digital-black-frl-2244-b",
+    "priceDate": "2026-11-23",
+    "verificationStatus": "Partially Verified",
+    "isHistorical": false,
+    "createdAt": "2026-11-23T00:00:00+02:00"
+  }
+
 ];
