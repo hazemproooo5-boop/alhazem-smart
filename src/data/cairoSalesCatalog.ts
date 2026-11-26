@@ -3548,7 +3548,7 @@ export const cairoSalesPrices: PriceRecord[] = [
     "verificationStatus": "Verified",
     "isHistorical": false,
     "createdAt": "2026-11-24T08:55:00+02:00",
-  }
+  },
   {
     "id": "cs-price-200",
     "productId": "cs-063",
@@ -5068,7 +5068,7 @@ export const cairoSalesSmallAppliancePrices: PriceRecord[] = [
     "verificationStatus": "Partially Verified",
     "isHistorical": false,
     "createdAt": "2026-11-23T00:00:00+02:00"
-  }
+  },
   {
     "id": "cs-price-202",
     "productId": "cs-078",
