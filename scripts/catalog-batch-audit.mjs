@@ -249,13 +249,16 @@ const writeCsv = (filename, columns, data) => {
   const body = [columns.join(','), ...data.map(row => columns.map(key => {
     const value = row[key] && typeof row[key] === 'object' ? JSON.stringify(row[key]) : row[key] ?? '';
     return '"' + String(value).replaceAll('"', '""') + '"';
-  }).join(','))].join('\\n');
-  fs.writeFileSync(path.join(outDir, filename), body + '\\n');
+  }).join(','))].join('\n');
+  fs.writeFileSync(path.join(outDir, filename), body + '\n');
 };
 writeCsv('catalog-model-collisions.csv', ['brandId','model','products'], duplicateBrandModelPairs);
 writeCsv('catalog-brand-reference-gaps.csv', ['id','name','officialUrl','logo','sourceStatus'], brandsWithoutOfficialReference);
 writeCsv('catalog-category-coverage.csv', ['categoryId','productCount'], categoryCoverage);
 writeCsv('catalog-missing-core-fields.csv', ['id','name','brandId','categoryId'], productsMissingCoreFields);
+writeCsv('catalog-missing-brand-references.csv', ['id','name','brandId'], missingBrandReferences);
+writeCsv('catalog-price-metadata-gaps.csv', ['id','source','sourceUrl','priceDate'], priceMetadataGaps);
+writeCsv('catalog-invalid-price-dates.csv', ['id','priceDate','issue'], [...invalidPriceDates, ...futurePriceDates]);
 console.log(JSON.stringify(summary, null, 2));
 if (duplicatePriceIds.length || duplicateProductIds.length || orphanPriceProductIds.length || productsMissingCoreFields.length) {
   throw new Error(`Catalog integrity failure: duplicate price IDs [${duplicatePriceIds.join(', ')}], duplicate product IDs [${duplicateProductIds.join(', ')}], orphan price product IDs [${orphanPriceProductIds.join(', ')}], missing core fields [${productsMissingCoreFields.map(row => row.id).join(', ')}]`);
