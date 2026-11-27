@@ -39,5 +39,9 @@ jobs:
           path: |
             reports/catalog-audit-summary.json
             reports/catalog-audit.csv
+            reports/catalog-model-collisions.csv
+            reports/catalog-brand-reference-gaps.csv
+            reports/catalog-category-coverage.csv
+            reports/catalog-missing-core-fields.csv
           retention-days: 30
           if-no-files-found: warn
