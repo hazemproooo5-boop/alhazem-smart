@@ -161,6 +161,32 @@ const futurePriceDates = datedPriceRecords
   .filter(item => !Number.isNaN(Date.parse(item.priceDate)) && Date.parse(item.priceDate) > Date.now())
   .map(item => ({ ...item, issue: 'future-date' }));
 
+
+const normalizeKey = value => String(value || '').normalize('NFKC').trim().toLocaleLowerCase().replace(/[\\s\\-_]+/g, '');
+const groupBy = (items, keyFn) => {
+  const groups = new Map();
+  for (const item of items) {
+    const key = keyFn(item);
+    if (!key) continue;
+    if (!groups.has(key)) groups.set(key, []);
+    groups.get(key).push(item);
+  }
+  return [...groups.entries()].filter(([, group]) => group.length > 1);
+};
+const duplicateBrandNames = groupBy(brandNames, normalizeKey).map(([normalized, names]) => ({ normalized, names }));
+const productModelGroups = groupBy(rows, row => row.model && !/بدون كود موديل|غير محدد|غير متوفر|يلزم/i.test(row.model)
+  ? `${normalizeKey(row.brandId)}::${normalizeKey(row.model)}` : '');
+const duplicateBrandModelPairs = productModelGroups.map(([key, products]) => ({
+  key, brandId: products[0].brandId, model: products[0].model,
+  products: products.map(({ id, name, categoryId }) => ({ id, name, categoryId })),
+}));
+const brandsWithoutOfficialReference = parseObjects(brandIdSection[1]).map(block => ({
+  id: read(block, 'id'), name: read(block, 'name'), officialUrl: read(block, 'officialUrl'),
+  logo: read(block, 'logo'), sourceStatus: read(block, 'sourceStatus'),
+})).filter(brand => !brand.officialUrl || !brand.logo);
+const productsMissingCoreFields = rows.filter(row => !row.name || !row.brandId || !row.categoryId);
+const categoryCoverage = Object.entries(counts('categoryId')).map(([categoryId, productCount]) => ({ categoryId, productCount }));
+
 const summary = {
   generatedAt: new Date().toISOString(),
   products: rows.length,
@@ -168,6 +194,11 @@ const summary = {
   uniquePriceRecordIds: new Set(priceIds).size,
   duplicatePriceIds,
   duplicateProductIds,
+  duplicateBrandNames,
+  duplicateBrandModelPairs,
+  brandsWithoutOfficialReference,
+  productsMissingCoreFields,
+  categoryCoverage,
   orphanPriceProductIds,
   missingBrandReferences,
   priceMetadataGaps,
@@ -214,7 +245,18 @@ fs.writeFileSync(path.join(outDir, 'catalog-audit-summary.json'), JSON.stringify
 const columns = ['id','name','brandId','categoryId','model','verificationStatus','sourceUrl','imageUrl','availability','published','hasSpecifications'];
 const csv = [columns.join(','), ...rows.map(row => columns.map(key => '"' + String(row[key] ?? '').replaceAll('"','""') + '"').join(','))].join('\n');
 fs.writeFileSync(path.join(outDir, 'catalog-audit.csv'), csv + '\n');
+const writeCsv = (filename, columns, data) => {
+  const body = [columns.join(','), ...data.map(row => columns.map(key => {
+    const value = row[key] && typeof row[key] === 'object' ? JSON.stringify(row[key]) : row[key] ?? '';
+    return '"' + String(value).replaceAll('"', '""') + '"';
+  }).join(','))].join('\\n');
+  fs.writeFileSync(path.join(outDir, filename), body + '\\n');
+};
+writeCsv('catalog-model-collisions.csv', ['brandId','model','products'], duplicateBrandModelPairs);
+writeCsv('catalog-brand-reference-gaps.csv', ['id','name','officialUrl','logo','sourceStatus'], brandsWithoutOfficialReference);
+writeCsv('catalog-category-coverage.csv', ['categoryId','productCount'], categoryCoverage);
+writeCsv('catalog-missing-core-fields.csv', ['id','name','brandId','categoryId'], productsMissingCoreFields);
 console.log(JSON.stringify(summary, null, 2));
-if (duplicatePriceIds.length || duplicateProductIds.length || orphanPriceProductIds.length) {
-  throw new Error(`Catalog integrity failure: duplicate price IDs [${duplicatePriceIds.join(', ')}], duplicate product IDs [${duplicateProductIds.join(', ')}], orphan price product IDs [${orphanPriceProductIds.join(', ')}]`);
+if (duplicatePriceIds.length || duplicateProductIds.length || orphanPriceProductIds.length || productsMissingCoreFields.length) {
+  throw new Error(`Catalog integrity failure: duplicate price IDs [${duplicatePriceIds.join(', ')}], duplicate product IDs [${duplicateProductIds.join(', ')}], orphan price product IDs [${orphanPriceProductIds.join(', ')}], missing core fields [${productsMissingCoreFields.map(row => row.id).join(', ')}]`);
 }
