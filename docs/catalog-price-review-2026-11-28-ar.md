@@ -4,7 +4,7 @@
 - المستودع: `hazemproooo5-boop/alhazem-smart`، الفرع `main` (اقتراح التغييرات على فرع مستقل).
 - أضيفت 7 سجلات أسعار جديدة، من `cs-price-209` إلى `cs-price-215`؛ لا حذف أو استبدال للسجلات السابقة.
 - 5 أسعار Verified، و2 Partially Verified محفوظة تاريخياً/غير قابلة للعرض كسعر حالي.
-- لا تغيير في حالة التوثيق على مستوى المنتجات: 1 Verified و92 Unverified، وفق آخر لقطة Audit بتاريخ 26 نوفمبر.
+- حالة المنتج: 1 Verified (cs-081 / TCG4104) و92 Unverified. المنتج Verified على مستوى الموديل والمواصفات؛ سعره 5,499 جنيه بتاريخ 25 نوفمبر Out of Stock ويظل تاريخياً.
 - مصدر مباشر مطابق، تاريخ الرصد 28 نوفمبر 2026؛ الأسعار المذكورة في التقرير مضافة مع وصف المصدر، ولا يُعرض السعر إلا وفق سياسة freshness.
 
 ## أسعار تم التحقق منها
@@ -36,7 +36,11 @@
 - أسعار Verified الجديدة: `catalog-price-review-verified-prices-2026-11-28.csv`
 - الأسعار غير الموثقة/الجزئية/التاريخية: `catalog-price-review-unverified-prices-2026-11-28.csv`
 - المنتجات غير الموثقة: `catalog-price-review-unverified-products-2026-11-28.csv`
-- المنتجات Verified: `catalog-price-review-verified-products-2026-11-28.csv`
+- المنتجات Verified (حالة المنتج لا سجل السعر): `catalog-price-review-verified-products-2026-11-28.csv`
+- سجلات الأسعار Verified عند رصدها (4 من 25 نوفمبر تاريخية + 5 من 28 نوفمبر): `catalog-price-review-verified-price-records-2026-11-28.csv`
+
+## توضيح ملفات Verified
+الملف السابق المؤرخ 26 نوفمبر كان يسرد سجلات أسعار Verified، لا المنتجات Verified. تم الحفاظ على هذه السجلات في ملف مستقل، وتصحيح ملف المنتجات Verified ليحتوي على المنتج الوحيد cs-081. الأسعار القديمة خارج نافذة يومين لا تُعرض كحالية.
 
 ## حدود الدورة
 هذه مراجعة سعرية دفعة من 7 سجلات، وليست إعادة تحقق مباشرة لجميع 218 سجل سعر أو لجميع 93 منتجاً. التحقق من Audit، Type check، Build والنشر ينتظر نجاح مسارات GitHub Actions بعد PR والدمج.
