@@ -3838,6 +3838,84 @@ export const cairoSalesCookwareProducts: Product[] = [
     "updatedAt": "2026-11-17",
     "imageUrl": ""
   }
+  {
+    "id": "cs-price-209",
+    "productId": "cs-025",
+    "price": 2999,
+    "currency": "EGP",
+    "priceType": "Trusted Market Price",
+    "source": "Raya Shop direct product page — exact Toshiba F-ASE60EG(K); EGP 2,999, Add to Cart, 5-year warranty, delivery 3–5 days inside Cairo/Giza; checked 2026-11-28. VAT not stated.",
+    "sourceUrl": "https://www.rayashop.com/en/toshiba-stand-fan-with-remote-control-18-inch-black-f-ase60eg-k",
+    "priceDate": "2026-11-28",
+    "verificationStatus": "Verified",
+    "isHistorical": false,
+    "createdAt": "2026-11-28T00:00:00Z"
+  },
+  {
+    "id": "cs-price-210",
+    "productId": "cs-026",
+    "price": 2799,
+    "currency": "EGP",
+    "priceType": "Trusted Market Price",
+    "source": "Raya Shop direct product page — exact Toshiba F-ASE50EG(K); EGP 2,799, Add to Cart, free shipping, 2-year warranty; checked 2026-11-28. VAT not stated.",
+    "sourceUrl": "https://www.rayashop.com/en/toshiba-stand-fan-18-inch-black-f-ase50eg-k",
+    "priceDate": "2026-11-28",
+    "verificationStatus": "Verified",
+    "isHistorical": false,
+    "createdAt": "2026-11-28T00:00:00Z"
+  },
+  {
+    "id": "cs-price-211",
+    "productId": "cs-080",
+    "price": 1299,
+    "currency": "EGP",
+    "priceType": "Trusted Market Price",
+    "source": "Carrefour Egypt direct product page — exact Mienta HM13729A; EGP 1,299 including VAT, delivery today 8–11 PM; checked 2026-11-28.",
+    "sourceUrl": "https://www.carrefouregypt.com/mafegy/en/blender/mienta-hand-mixer-hm13729a-500w/p/654377",
+    "priceDate": "2026-11-28",
+    "verificationStatus": "Verified",
+    "isHistorical": false,
+    "createdAt": "2026-11-28T00:00:00Z"
+  },
+  {
+    "id": "cs-price-212",
+    "productId": "cs-010",
+    "price": 29999,
+    "currency": "EGP",
+    "priceType": "Trusted Market Price",
+    "source": "Aghezty direct product page — exact LG 50QNED72B6T, EGP 29,999 and Add to Cart shown; source page has no fresh seller timestamp and indexed snapshot is older, so historical/partial only; checked 2026-11-28.",
+    "sourceUrl": "https://www.aghezty.com/en/products/TVs/LG-50-Inch-QNED-AI-Mini-LED-Smart-TVBuilt-In-Receiver-50QNED72B6T-29547/",
+    "priceDate": "2026-11-28",
+    "verificationStatus": "Partially Verified",
+    "isHistorical": true,
+    "createdAt": "2026-11-28T00:00:00Z"
+  },
+  {
+    "id": "cs-price-213",
+    "productId": "cs-015",
+    "price": 187999,
+    "currency": "EGP",
+    "priceType": "Trusted Market Price",
+    "source": "Azmy Co Egypt direct product page — exact Samsung 100M90H; EGP 187,999, in stock, Add to Cart, free delivery and delivery shown 29 Nov; checked 2026-11-28.",
+    "sourceUrl": "https://azmyco.com/en/products/TVs/SAMSUNG-MINI-LED-4K-M90H-100-INCH-SMART-100M90H-2514/",
+    "priceDate": "2026-11-28",
+    "verificationStatus": "Verified",
+    "isHistorical": false,
+    "createdAt": "2026-11-28T00:00:00Z"
+  },
+  {
+    "id": "cs-price-215",
+    "productId": "cs-006",
+    "price": 38150,
+    "currency": "EGP",
+    "priceType": "Trusted Market Price",
+    "source": "Elghazawy direct product page — exact LG 65QNED84B6T; EGP 38,150 shown but quantity unavailable; historical listing only, not a current sellable price; checked 2026-11-28.",
+    "sourceUrl": "https://elghazawy.com/en/product/38074270308829/LG%2B65-Inch%2BSmart%2B4K%2BUHD%2BQNED%2BMini%2BLED%2BAI%2BFrameless%2BTV%2B65QNED84B6T%2B-%2BBuilt-in%2BReceiver%2B%28Magic%2BRemote%29",
+    "priceDate": "2026-11-28",
+    "verificationStatus": "Partially Verified",
+    "isHistorical": true,
+    "createdAt": "2026-11-28T00:00:00Z"
+  },
 ];
 
 export const cairoSalesCookwarePrices: PriceRecord[] = [
@@ -5159,5 +5237,18 @@ export const cairoSalesSmallAppliancePrices: PriceRecord[] = [
     "verificationStatus": "Partially Verified",
     "isHistorical": false,
     "createdAt": "2026-11-26T00:00:00Z"
+  },
+  {
+    "id": "cs-price-214",
+    "productId": "cs-088",
+    "price": 899,
+    "currency": "EGP",
+    "priceType": "Trusted Market Price",
+    "source": "Carrefour Egypt direct product page — exact Mienta HB111938A, EGP 899 including VAT, delivery shown tomorrow; checked 2026-11-28.",
+    "sourceUrl": "https://www.carrefouregypt.com/mafegy/ar/blender/mienta-hand-blender-hb111938a-450w/p/674730",
+    "priceDate": "2026-11-28",
+    "verificationStatus": "Verified",
+    "isHistorical": false,
+    "createdAt": "2026-11-28T00:00:00Z"
   },
 ];
